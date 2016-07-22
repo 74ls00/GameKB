@@ -16,7 +16,7 @@
 22		txl	col5
 
 25		d4	col6
-26		d12 col7
+26		d12 		col7
 27		d6	col8
 28		d8	col9
 

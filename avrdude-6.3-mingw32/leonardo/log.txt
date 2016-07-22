@@ -1,0 +1,162 @@
+
+T:\Devel\avrdude-6.3-mingw32>set dir=leonardo
+
+T:\Devel\avrdude-6.3-mingw32>set port=com2
+
+T:\Devel\avrdude-6.3-mingw32>avrdude.exe -P com2 -c stk500v2 -p m32u4 -v F
+
+avrdude.exe: Version 6.3, compiled on Feb 17 2016 at 09:25:53
+             Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+             Copyright (c) 2007-2014 Joerg Wunsch
+
+             System wide configuration file is "T:\Devel\avrdude-6.3-mingw32\avrdude.conf"
+
+             Using Port                    : com2
+             Using Programmer              : stk500v2
+             AVR Part                      : ATmega32U4
+             Chip Erase delay              : 9000 us
+             PAGEL                         : PD7
+             BS2                           : PA0
+             RESET disposition             : dedicated
+             RETRY pulse                   : SCK
+             serial program mode           : yes
+             parallel program mode         : yes
+             Timeout                       : 200
+             StabDelay                     : 100
+             CmdexeDelay                   : 25
+             SyncLoops                     : 32
+             ByteDelay                     : 0
+             PollIndex                     : 3
+             PollValue                     : 0x53
+             Memory Detail                 :
+
+                                      Block Poll               Page                       Polled
+               Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+               ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+               eeprom        65    20     4    0 no       1024    4      0  9000  9000 0x00 0x00
+               flash         65     6   128    0 yes     32768  128    256  4500  4500 0x00 0x00
+               lfuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+               hfuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+               efuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+               lock           0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+               calibration    0     0     0    0 no          1    0      0     0     0 0x00 0x00
+               signature      0     0     0    0 no          3    0      0     0     0 0x00 0x00
+
+             Programmer Type : STK500V2
+             Description     : Atmel STK500 Version 2.x firmware
+             Programmer Model: STK500
+             Hardware Version: 2
+             Firmware Version Master : 2.10
+             Topcard         : Unknown
+             Vtarget         : 5.0 V
+             SCK period      : 0.5 us
+             Varef           : 5.0 V
+             Oscillator      : 3.686 MHz
+
+avrdude.exe: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude.exe: Device signature = 0x1e9587 (probably m32u4)
+avrdude.exe: safemode: hfuse reads as D8
+avrdude.exe: safemode: efuse reads as CB
+
+avrdude.exe: safemode: hfuse reads as D8
+avrdude.exe: safemode: efuse reads as CB
+avrdude.exe: safemode: Fuses OK (E:CB, H:D8, L:FF)
+
+avrdude.exe done.  Thank you.
+
+
+T:\Devel\avrdude-6.3-mingw32>avrdude.exe -P com2 -c stk500v2 -p m32u4 -U flash:r:"leonardo\flash.hex":r
+
+avrdude.exe: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude.exe: Device signature = 0x1e9587 (probably m32u4)
+avrdude.exe: reading flash memory:
+
+Reading | ################################################## | 100% 4.20s
+
+avrdude.exe: writing output file "leonardo\flash.hex"
+
+avrdude.exe: safemode: Fuses OK (E:CB, H:D8, L:FF)
+
+avrdude.exe done.  Thank you.
+
+
+T:\Devel\avrdude-6.3-mingw32>avrdude.exe -P com2 -c stk500v2 -p m32u4 -U eeprom:r:"leonardo\eeprom.hex":r
+
+avrdude.exe: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude.exe: Device signature = 0x1e9587 (probably m32u4)
+avrdude.exe: reading eeprom memory:
+
+Reading | ################################################## | 100% 1.44s
+
+avrdude.exe: writing output file "leonardo\eeprom.hex"
+
+avrdude.exe: safemode: Fuses OK (E:CB, H:D8, L:FF)
+
+avrdude.exe done.  Thank you.
+
+
+T:\Devel\avrdude-6.3-mingw32>avrdude.exe -P com2 -c stk500v2 -p m32u4 -U hfuse:r:"leonardo\hfuse.hex":h
+
+avrdude.exe: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude.exe: Device signature = 0x1e9587 (probably m32u4)
+avrdude.exe: reading hfuse memory:
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude.exe: writing output file "leonardo\hfuse.hex"
+
+avrdude.exe: safemode: Fuses OK (E:CB, H:D8, L:FF)
+
+avrdude.exe done.  Thank you.
+
+
+T:\Devel\avrdude-6.3-mingw32>avrdude.exe -P com2 -c stk500v2 -p m32u4 -U lfuse:r:"leonardo\lfuse.hex":h
+
+avrdude.exe: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude.exe: Device signature = 0x1e9587 (probably m32u4)
+avrdude.exe: reading lfuse memory:
+
+Reading | ################################################## | 100% 0.01s
+
+avrdude.exe: writing output file "leonardo\lfuse.hex"
+
+avrdude.exe: safemode: Fuses OK (E:CB, H:D8, L:FF)
+
+avrdude.exe done.  Thank you.
+
+
+T:\Devel\avrdude-6.3-mingw32>avrdude.exe -P com2 -c stk500v2 -p m32u4 -U efuse:r:"leonardo\efuse.hex":h
+
+avrdude.exe: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude.exe: Device signature = 0x1e9587 (probably m32u4)
+avrdude.exe: reading efuse memory:
+
+Reading | ################################################## | 100% 0.01s
+
+avrdude.exe: writing output file "leonardo\efuse.hex"
+
+avrdude.exe: safemode: Fuses OK (E:CB, H:D8, L:FF)
+
+avrdude.exe done.  Thank you.
+
+
+T:\Devel\avrdude-6.3-mingw32>pause
+Для продолжения нажмите любую клавишу . . .
