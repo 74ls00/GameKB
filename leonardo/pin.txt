@@ -1,13 +1,13 @@
-32u4	leo	num
+32u4	leo	num		мой
 
-1		d7		*
+1		d7	*
 
-8		rxl		*
+8		rxl	*
 9		sck	rowc8
 10		mo	rowb4
 11		mi	rowa1
 
-12		d11	col11
+12		d11	col11	led num
 
 18		d3	col14
 19		d2	col13
@@ -16,19 +16,19 @@
 22		txl	col5
 
 25		d4	col6
-26		d12 		col7
+26		d12 	 col7
 27		d6	col8
 28		d8	col9
 
-29		d9	led caps
-30		d10	led scr
+29		d9		led caps
+30		d10		led scr
 
 31		d5	col10
 32		d13	col12
 
 36		a0	col1
-37		a1	col16
+37		a1	col16	
 38		a2	col15
-39		a3	col2
-40		a4	col18
-41		a5	col17
+39		a3	col2	+
+40		a4	col18	+
+41		a5	col17	+

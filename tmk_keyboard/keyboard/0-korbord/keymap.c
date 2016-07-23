@@ -33,6 +33,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Convert physical keyboard layout to matrix array.
 // This is a macro to define keymap easily in keyboard layout form.
+// Матрица с номерами кнопок по схеме
 #define KEYMAP( \
     KG1, KH7, KJ7, KJ6, KJ1, KO5, KL1, KA6, KA7, KD7, KD5, KD1, KD2,      KB5, KB3, KO3, \
     KG7, KG5, KH5, KJ5, KI5, KI7, KK7, KK5, KL5, KA5, KC5, KC7, KL7, KD6, KQ7, KN7, KM7, \
@@ -95,6 +96,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #include "keymap_iso.h"
 #elif defined(LAYOUT_ANSI)
     #include "keymap_ansi.h"
+	
+#elif defined(LAYOUT_KORBORD)
+    #include "keymap_korbord.h"	
+	
 #else
     #include "keymap_ansi.h"
 #endif

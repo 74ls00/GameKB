@@ -136,3 +136,6 @@ custom: all
 
 alaricljs: OPT_DEFS += -DLAYOUT_ALARICLJS
 alaricljs: all
+
+korbord: OPT_DEFS += -DLAYOUT_KORBORD
+korbord: all
