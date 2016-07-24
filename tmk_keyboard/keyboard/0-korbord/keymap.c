@@ -67,36 +67,36 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *`-------------------------------------'  `-------------------------------'  `---------------'
  */
 #define KEYMAP( \
-KP0, \
-KP1,KR0,KQ0,KQ4,\
-KP7,KR1,KQ1,KQ6,\
-KP4,KR7,KQ7,KQ2,\
-KP6,KR4,KR2,KQ5,\
-KP2,KR6,KR5,KQ3,\
-KP5,KP3,KR3\
+			    KP10,\
+KP7, KR5, KQ5,  KQ1, \
+KP9, KR7, KQ4,  KQ6, \
+KP11,KR9, KQ7,  KQ2, \
+KP12,KR1, KR2,  KQ3, \
+KP13,KR6, KR14, KQ0, \
+KP4, KP0, KR15\
 ){ \
-/* 				P - PORT, AP - ArduinoPort
+/* 				P - PORT, AP - ArduinoPort ; pin11 miso - pin1 138 , pin10 mosi - pin2 138, pin9 sck - pin3 138
 	P	AP
-					0         1         2         3         4         5         6         7     
-74pin				15		  7			13		  10		14						   */ \
-/* A 		*/   { KC_NO,       KC_NO,   KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO  }, \
-/* B 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* C 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* D 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* E		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* F		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* G 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* H 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* I		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* J 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* K 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* P 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* M 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* N 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* O 		*/   { KC_NO ,      KC_NO ,  KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO ,   KC_NO  }, \
-/* P 	A2	*/   { KC_##KP0, KC_##KP1, KC_##KP2  , KC_##KP3, KC_##KP4, KC_##KP5, KC_##KP6, KC_##KP7 }, \
-/* Q 	A1	*/   { KC_##KQ0, KC_##KQ1, KC_##KQ2, KC_##KQ3,  KC_##KQ4 ,  KC_##KQ5 ,  KC_##KQ6 , KC_##KQ7 }, \
-/* R 	A0	*/   { KC_##KR0 , KC_##KR1 , KC_##KR2  , KC_##KR3  , KC_##KR4, KC_##KR5 , KC_##KR6   , KC_##KR7    }  \
+					0         1         2             3         4         5         6         7     
+74138pin			15		  11		13	     	  9 		14		  10		12                  */ \
+/* A 		*/   { KC_NO,     KC_NO,     KC_NO,      KC_NO,    KC_NO,    KC_NO,     KC_NO,     KC_NO  }, \
+/* B 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* C 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* D 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* E		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* F		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* G 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* H 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* I		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* J 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* K 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* P 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* M 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* N 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* O 		*/   { KC_NO ,    KC_NO ,    KC_NO ,     KC_NO ,   KC_NO ,   KC_NO ,    KC_NO ,    KC_NO  }, \
+/* P 	A2	*/   { KC_##KP0,  KC_##KP11, KC_##KP13, KC_##KP9, KC_##KP4,  KC_##KP10, KC_##KP12, KC_##KP7 }, \
+/* Q 	A1	*/   { KC_##KQ0,  KC_##KQ1,  KC_##KQ2,  KC_##KQ3, KC_##KQ4,  KC_##KQ5,  KC_##KQ6,  KC_##KQ7 }, \
+/* R 	A0	*/   { KC_##KR15, KC_##KR1,  KC_##KR2,  KC_##KR9, KC_##KR14, KC_##KR5,  KC_##KR6,  KC_##KR7 }  \
 }
 
 
@@ -109,22 +109,6 @@ KP5,KP3,KR3\
  * and Z, and the ANSI \ key above Return/Enter is used for the additional ISO
  * switch in the ASD row next to enter.  Use NUBS as keycode for the first and
  * NUHS as the keycode for the second.
- *
- * ,---.   ,---------------. ,---------------. ,---------------. ,-----------.
- * |Esc|   |F1 |F2 |F3 |F4 | |F5 |F6 |F7 |F8 | |F9 |F10|F11|F12| |PrS|ScL|Pau|
- * `---'   `---------------' `---------------' `---------------' `-----------'
- * ,-----------------------------------------------------------. ,-----------.
- * |~  |  1|  2|  3|  4|  5|  6|  7|  8|  9|  0|  -|  =|Backsp | |Ins|Hom|PgU|
- * |-----------------------------------------------------------| |-----------|
- * |Tab  |  Q|  W|  E|  R|  T|  Y|  U|  I|  O|  P|  [|  ]|    \| |Del|End|PgD|
- * |-----------------------------------------------------------| `-----------'
- * |Caps  |  A|  S|  D|  F|  G|  H|  J|  K|  L|  ;|  '|Return  |              
- * |-----------------------------------------------------------|     ,---.    
- * |Shft|ISO|  Z|  X|  C|  V|  B|  N|  M|  ,|  .|  /|Shift     |     |Up |    
- * |-----------------------------------------------------------| ,-----------.
- * |Ctl|Gui|Alt|          Space                |Alt|Gui|App|Ctl| |Lef|Dow|Rig|
- * `-----------------------------------------------------------' `-----------'
- */
 
 /*
  * Add different layouts. If no layout is defined the default layout will be set to ANSI.

@@ -31,4 +31,4 @@ rem avrdude.exe -P %port% -c stk500v2 -p m32u4 -v F
 avrdude.exe -P %port% -c stk500v2 -p m32u4 -U flash:w:"hid_liber_lufa.hex:a
 
 
-pause
+rem pause
