@@ -38,7 +38,7 @@ void led_set(uint8_t usb_led)
         PORTB |= (1<<6);
 	
 	if (usb_led & (1<<USB_LED_NUM_LOCK))
-        PORTB &= ~(1<<7);//port b7 12
+		PORTB |= (1<<7);
     else
-        PORTB |= (1<<7);
+        PORTB &= ~(1<<7);//port b7 12
 }

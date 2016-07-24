@@ -69,9 +69,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define KEYMAP( \
 			    KP10,\
 KP7, KR5, KQ5,  KQ1, \
-KP9, KR7, KQ4,  KQ6, \
-KP11,KR9, KQ7,  KQ2, \
-KP12,KR1, KR2,  KQ3, \
+KP9, KR7, KQ7,  KQ6, \
+KP11,KR9, KQ3,  KQ2, \
+KP12,KR1, KR2,  KQ4, \
 KP13,KR6, KR14, KQ0, \
 KP4, KP0, KR15\
 ){ \
