@@ -8,34 +8,34 @@
 </settings>
 <grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,17 +53,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -161,28 +161,14 @@
 <pad name="SW2" x="2.54" y="5.08" drill="1.5" diameter="3.81"/>
 <pad name="P$3" x="-5.08" y="0" drill="1.7144" diameter="1.9304"/>
 <pad name="P$4" x="5.08" y="0" drill="1.7144" diameter="1.9304"/>
-<hole x="0" y="0" drill="4.0004"/>
+<hole x="0" y="0" drill="1"/>
 <pad name="D1" x="-3.81" y="-5.08" drill="1.016" diameter="2.1844" shape="long" rot="R90"/>
 <pad name="D2" x="3.81" y="-5.08" drill="1.016" diameter="2.1844" shape="long" rot="R90"/>
 <pad name="LED1" x="-1.27" y="-5.08" drill="1.016" diameter="2.1844" shape="long" rot="R90"/>
 <pad name="LED2" x="1.27" y="-5.08" drill="1.016" diameter="2.1844" shape="long" rot="R90"/>
 <text x="-6.35" y="6.0325" size="1.27" layer="25">&gt;NAME</text>
 <text x="-6.35" y="4.445" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="CHERRY-MX">
-<description>Cherry MX Keyswitch footprint</description>
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="21"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.127" layer="21"/>
-<pad name="SW1" x="-3.81" y="2.54" drill="1.5" diameter="3.81"/>
-<pad name="SW2" x="2.54" y="5.08" drill="1.5" diameter="3.81"/>
-<pad name="P$3" x="-5.08" y="0" drill="1.7144" diameter="1.9304"/>
-<pad name="P$4" x="5.08" y="0" drill="1.7144" diameter="1.9304"/>
-<hole x="0" y="0" drill="4.0004"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="P$1" x="0" y="0" drill="0.8"/>
+<pad name="P$1" x="0" y="0" drill="1" diameter="3"/>
 </package>
 </packages>
 <symbols>
@@ -260,23 +246,6 @@
 <connect gate="_D" pin="D2" pad="D2"/>
 <connect gate="_L" pin="LED1" pad="LED1"/>
 <connect gate="_L" pin="LED2" pad="LED2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CHERRY-MX">
-<description>Cherry MX series keyswitch</description>
-<gates>
-<gate name="G$1" symbol="CHERRY-MX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CHERRY-MX">
-<connects>
-<connect gate="G$1" pin="PIN-1" pad="SW1"/>
-<connect gate="G$1" pin="PIN-2" pad="SW2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -386,10 +355,10 @@ wave soldering</description>
 <wire x1="-10.16" y1="2.921" x2="-10.16" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="-10.16" y1="-2.921" x2="-10.16" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="-10.16" y1="1.016" x2="-10.16" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-8.89" y="-3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
+<pad name="1" x="-8.89" y="-3.81" drill="0.8128" diameter="2.1" rot="R90"/>
 <pad name="2" x="-6.35" y="-3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="7" x="6.35" y="-3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
-<pad name="8" x="8.89" y="-3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
+<pad name="8" x="8.89" y="-3.81" drill="0.8128" diameter="2.1" rot="R90"/>
 <pad name="3" x="-3.81" y="-3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="4" x="-1.27" y="-3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="6" x="3.81" y="-3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
@@ -655,8 +624,8 @@ wave soldering</description>
 <wire x1="3.429" y1="-0.508" x2="3.429" y2="0" width="0.1524" layer="21"/>
 <pad name="1" x="-2.2606" y="-1.2446" drill="1.016" diameter="2.1" shape="octagon"/>
 <pad name="2" x="2.2606" y="-1.2446" drill="1.016" diameter="2.1" shape="octagon"/>
-<pad name="3" x="-3.5052" y="1.2446" drill="1.4986" diameter="2.5"/>
-<pad name="4" x="3.5052" y="1.2446" drill="1.4986" diameter="2.5"/>
+<pad name="3" x="-3.5052" y="1.2446" drill="1.4986" diameter="2.5" shape="offset"/>
+<pad name="4" x="3.5052" y="1.2446" drill="1.4986" diameter="2.5" shape="square"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.683" y="-5.969" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -8432,7 +8401,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="S108" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="0"/>
 <part name="S109" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="00"/>
 <part name="S110" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="."/>
-<part name="S107B" library="cherrymx" deviceset="CHERRY-MX" device="" value="NumEnter"/>
+<part name="S107B" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="NumEnter"/>
 <part name="JA88" library="detali" deviceset="SJ" device=""/>
 <part name="JB88" library="detali" deviceset="SJ" device=""/>
 <part name="D88" library="detali" deviceset="LL4148" device=""/>

@@ -98,7 +98,7 @@
 <wire x1="420.37" y1="104.14" x2="420.37" y2="8.89" width="0.2" layer="20"/>
 <dimension x1="12.7" y1="151.13" x2="195.58" y2="142.24" x3="104.14" y3="157.48" layer="1" dtype="horizontal"/>
 <dimension x1="7.62" y1="139.7" x2="6.35" y2="8.89" x3="1.27" y3="74.295" layer="1" dtype="vertical"/>
-<dimension x1="234.95" y1="151.13" x2="397.51" y2="144.78" x3="316.23" y3="160.02" layer="1" dtype="horizontal"/>
+<dimension x1="227.33" y1="135.255" x2="231.14" y2="135.89" x3="229.235" y3="160.02" layer="1" dtype="horizontal"/>
 <dimension x1="405.13" y1="135.89" x2="505.46" y2="134.62" x3="455.295" y3="144.78" layer="1" dtype="horizontal"/>
 <dimension x1="513.08" y1="130.81" x2="511.81" y2="8.89" x3="518.16" y3="69.85" layer="1" dtype="vertical"/>
 <dimension x1="8.89" y1="157.48" x2="-2.54" y2="139.7" x3="-6.35" y3="148.59" layer="1" dtype="vertical"/>
