@@ -793,8 +793,8 @@ wave soldering</description>
 <wire x1="10.414" y1="0.762" x2="9.906" y2="0.762" width="0.1524" layer="51"/>
 <pad name="1" x="-10.16" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="2" x="-7.62" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
-<pad name="3" x="-5.08" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
-<pad name="4" x="-2.54" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
+<pad name="3" x="-5.08" y="0" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
+<pad name="4" x="-2.54" y="0" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="5" x="0" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="6" x="2.54" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="7" x="5.08" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>

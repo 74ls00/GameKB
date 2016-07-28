@@ -13,6 +13,16 @@ src/
 
 ~ob_NumPad-MUSB
 
+avrdude-6.3-mingw32
+
+~bad
+~std
+
+
+
+
+
+
 *.gpi
 *.xln
 
