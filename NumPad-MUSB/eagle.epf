@@ -7,7 +7,6 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/74xx-eu.lbr"
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/atmel.lbr"
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/con-lsta.lbr"
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/con-lstb.lbr"
@@ -17,18 +16,26 @@ UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/rcl.lbr"
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/supply1.lbr"
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/switch-omron.lbr"
 UsedLibrary="G:/home/Documents/Projects/EAGLE/Keyboard/cherrymx.lbr"
-UsedLibrary="G:/home/Documents/Projects/EAGLE/Keyboard/kbmx.lbr"
-UsedLibrary="G:/home/Documents/Projects/EAGLE/Keyboard/detali.lbr"
 UsedLibrary="G:/home/Documents/Projects/EAGLE/Keyboard/led.lbr"
 UsedLibrary="G:/home/Documents/Projects/EAGLE/KeyCopy/lbr/keycopy.lbr"
+UsedLibrary="G:/home/Documents/Projects/EAGLE/Keyboard/lbr/kbmxco.lbr"
+UsedLibrary="G:/home/Documents/Projects/EAGLE/Keyboard/lbr/detali.lbr"
 
 [Win_1]
+Type="CAM Processor"
+Loc="114 117 1066 693"
+State=0
+Number=3
+File="NumPad.brd"
+Job="G:/home/Documents/Projects/EAGLE/Keyboard/ExportGerber2.cam"
+
+[Win_2]
 Type="Schematic Editor"
 Loc="332 293 931 692"
 State=3
 Number=1
 File="NumPad.sch"
-View="33.6852 56.8554 279.807 138.339"
+View="22.9982 75.7518 193.916 132.338"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -60,65 +67,17 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 33.6852 56.8554 279.807 138.339"
+Views=" 1: 22.9982 75.7518 193.916 132.338"
 Sheet=1
 
-[Win_2]
-Type="CAM Processor"
-Loc="332 293 931 728"
-State=2
-Number=3
-File="NumPad.brd"
-Job="G:/home/Documents/Projects/EAGLE/Keyboard/ExportGerber.cam"
-
 [Win_3]
-Type="Library Editor"
-Loc="332 293 931 692"
-State=0
-Number=4
-File="G:/home/Documents/Projects/EAGLE/Keyboard/detali.lbr"
-View="-47.0285 -17.1223 53.4555 32.4019"
-WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.127"
-PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
-ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
-PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
-PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
-SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
-WireBend=0
-WireBendSet=0
-WireCap=1
-MiterStyle=0
-PadShape=0
-ViaShape=0
-PolygonPour=0
-PolygonRank=0
-PolygonThermals=1
-PolygonOrphans=0
-TextRatio=8
-PinDirection=3
-PinFunction=0
-PinLength=2
-PinVisible=3
-SwapLevel=0
-ArcDirection=0
-AddLevel=2
-PadsSameType=0
-Layer=21
-Package="DIL16"
-
-[Win_4]
 Type="Board Editor"
 Loc="361 243 960 642"
 State=1
 Number=2
 File="NumPad.brd"
-View="15.0948 96.8699 206.664 158.266"
-WireWidths=" 0 0.254 0.3048 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.8128 0.4064 0.6096"
+View="7.18601 167.412 60.6497 184.547"
+WireWidths=" 0 0.3048 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.8128 0.4064 0.2 0.6096"
 PadDiameters=" 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0 5"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0 5"
@@ -150,9 +109,49 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
+[Win_4]
+Type="Library Editor"
+Loc="579 341 1178 740"
+State=1
+Number=4
+File="G:/home/Documents/Projects/EAGLE/Keyboard/lbr/detali.lbr"
+View="-2.08189 -1.90381 18.2364 3.96641"
+WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.127"
+PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
+ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
+PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
+PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
+SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
+WireBend=0
+WireBendSet=0
+WireCap=1
+MiterStyle=0
+PadShape=0
+ViaShape=0
+PolygonPour=0
+PolygonRank=0
+PolygonThermals=1
+PolygonOrphans=0
+TextRatio=8
+PinDirection=3
+PinFunction=0
+PinLength=2
+PinVisible=3
+SwapLevel=0
+ArcDirection=0
+AddLevel=2
+PadsSameType=0
+Layer=21
+Package="FE09"
+
 [Win_5]
 Type="Control Panel"
-Loc="593 369 1192 768"
+Loc="80 389 679 788"
 State=2
 Number=0
 

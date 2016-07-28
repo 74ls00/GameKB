@@ -11,9 +11,10 @@ local/
 old/
 src/
 
+~ob_NumPad-MUSB
 
-
-
+*.gpi
+*.xln
 
 *.bak
 *.lnk
