@@ -11,9 +11,9 @@ local/
 old/
 src/
 
-~ob_NumPad-MUSB
+~ob_NumPad-MUSB/
 
-avrdude-6.3-mingw32
+avrdude-6.3-mingw32/
 
 ~bad
 ~std
