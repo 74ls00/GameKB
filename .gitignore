@@ -29,6 +29,7 @@ avrdude-6.3-mingw32/
 *.bak
 *.lnk
 *.log
+*.b##
 *.b#1
 *.b#2
 *.b#3
@@ -38,6 +39,7 @@ avrdude-6.3-mingw32/
 *.b#7
 *.b#8
 *.b#9
+*.s##
 *.s#1
 *.s#2
 *.s#3
