@@ -21,7 +21,7 @@ avrdude-6.3-mingw32/
 
 
 
-
+*.7z
 
 *.gpi
 *.xln
