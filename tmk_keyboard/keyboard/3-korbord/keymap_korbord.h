@@ -45,7 +45,7 @@ static const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  P7, P8, P9, PMNS, \
  P4, P5, P6, PPLS, \
  P1, P2, P3, PENT, \
- P0, SLSH,   PDOT  ), 
+ P0, PDOT ,SLSH     ), //временно поменял местами точки
  
  
  

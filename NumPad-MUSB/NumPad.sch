@@ -8590,9 +8590,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="S1" library="detali" deviceset="31-XX" device="" value="NumLock"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206W"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206W"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206W"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206W" value="10k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206W" value="10k"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206W" value="10k"/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
