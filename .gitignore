@@ -12,6 +12,7 @@ old/
 src/
 
 ~ob_NumPad-MUSB/
+NumPad-M168
 
 avrdude-6.3-mingw32/
 
