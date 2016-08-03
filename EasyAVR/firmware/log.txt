@@ -1,6 +1,0 @@
-
-The following files were specified on the command line:
-
-	autobuild.cproj
-
-These files could not be found and will not be loaded.

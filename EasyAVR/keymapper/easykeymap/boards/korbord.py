@@ -106,11 +106,11 @@ KMAC_key = None
 
 keyboard_definition = [
 	[
-	 ((4, 4), (3, 1), 'HID_KEYBOARD_SC_SCROLL_LOCK'),
-	 ((4, 4), (1, 6), 'HID_KEYBOARD_SC_ESCAPE'),
+	 ((4, 4), (1, 1), 'HID_KEYBOARD_SC_SCROLL_LOCK'),
+	 ((4, 4), (1, 2), 'HID_KEYBOARD_SC_ESCAPE'),
 (4, None, '0'),
-     ((4, 4), (7, 7), 'HID_KEYBOARD_SC_F1'),
-     ((4, 4), (7, 9), 'HID_KEYBOARD_SC_F2'),
+     ((4, 4), (1, 3), 'HID_KEYBOARD_SC_F1'),
+     ((4, 4), (1, 4), 'HID_KEYBOARD_SC_F2'),
      ((4, 4), (6, 9), 'HID_KEYBOARD_SC_F3'),
      ((4, 4), (1, 9), 'HID_KEYBOARD_SC_F4'),
      (2, None, '0'),
@@ -242,7 +242,7 @@ keyboard_definition = [
 	 ((4, 4), (6, 7), 'HID_KEYBOARD_SC_CAPS_LOCK'),#7,
 	 ((5, 4), (6, 4), 'HID_KEYBOARD_SC_LEFT_GUI'),
      ((5, 4), (1, 1), 'HID_KEYBOARD_SC_LEFT_ALT'),
-	 ((11, 4), (1, 15), 'HID_KEYBOARD_SC_SPACE'),#25,
+	 ((11, 4), (1, 18), 'HID_KEYBOARD_SC_SPACE'),#25,
 	 (2, None, '0'), 
 	 ((11, 4), (1, 15), 'HID_KEYBOARD_SC_SPACE'),
 	 ((4, 4), (4, 17), 'HID_KEYBOARD_SC_RIGHT_GUI'),#5,
