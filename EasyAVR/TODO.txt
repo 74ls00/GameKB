@@ -1,0 +1,11 @@
+
+Development
+-----------
+
+* Write documentation for developers
+
+Bugs
+----
+
+* fix NKRO not working with BIOS
+* Still need to speed up the matrix scanning.  8MHz boards are getting schedule overruns
