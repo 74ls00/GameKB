@@ -40,8 +40,8 @@ static const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  /*только нумпад*/
   KEYMAP(\
              NLCK, \
- D,  E,  F,  PSLS, \
- A,  B,  C,  PAST, \
+  C, D,  E, F,   \
+ A,  B,  PSLS,  PAST,\
  P7, P8, P9, PMNS, \
  P4, P5, P6, PPLS, \
  P1, P2, P3, PENT, \

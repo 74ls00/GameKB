@@ -126,7 +126,7 @@ KP4, KP0, KR15\
 	
 #elif defined(LAYOUT_KORBORD)
 */
-    #include "keymap_korbord.h"	
+    #include "keymap_k.h"	
 /*	
 #else
     #include "keymap_ansi.h"
