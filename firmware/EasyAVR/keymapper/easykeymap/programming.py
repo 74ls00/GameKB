@@ -194,22 +194,24 @@ class FlipWindows(ProgrammingTask):
 class AvrdudePosix(ProgrammingTask):
 
     description = "Upload to USB AVR with AVRdude"
-    windows = False
+    windows = True
     posix = True
     teensy = False
 
     loader_tools = [
-	'avrdude.exe',
-	'avrdude',
-	'avrdude.bat',
+'G:\\home\\Documents\\Projects\\EAGLE\\Keyboard\\EasyAVR\\avrdude\\avrdude.bat'
     ]
-
+#        self.logger("Not implemented.")
     def run(self):
-        self.logger("Not implemented.")
-		
-		
-		
-#import os
+        if self.info.binformat:
+            raise ProgrammingException("Avrdude requires a build in HEX format.")
+        if self.tool_path is None:
+            raise ProgrammingException("Can't find Avrdude executable.")
+        self.bootmsg(self.logger)
+        cmd = ('"%s" %s') % (
+            self.tool_path, self.info.device.lower(), self.info.filename)
+        self.execute(cmd)
+
 #os.system('notepad.exe')
 
 
