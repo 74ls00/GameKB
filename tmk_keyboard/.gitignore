@@ -18,7 +18,7 @@ teensy_lc_onekey
 *.o
 *.eep
 *.elf
-*.hex
+
 *.lss
 *.lst
 *.map
