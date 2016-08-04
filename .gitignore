@@ -17,6 +17,10 @@ NumPad-M168
 avrdude-6.3-mingw32/
 
 dfu-programmer
+dfu-programmer_g
+dfu-programmer-win-0.7.2
+
+
 
 ~bad
 ~std
