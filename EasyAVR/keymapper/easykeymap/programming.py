@@ -199,10 +199,18 @@ class AvrdudePosix(ProgrammingTask):
     teensy = False
 
     loader_tools = [
+	'avrdude.exe',
+	'avrdude',
+	'avrdude.bat',
     ]
 
     def run(self):
         self.logger("Not implemented.")
+		
+		
+		
+#import os
+#os.system('notepad.exe')
 
 
 class DfuProgrammer(ProgrammingTask):
