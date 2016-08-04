@@ -9,7 +9,7 @@ backup/
 
 local/
 old/
-src/
+
 
 ~ob_NumPad-MUSB/
 NumPad-M168
@@ -20,7 +20,8 @@ dfu-programmer
 dfu-programmer_g
 dfu-programmer-win-0.7.2
 
-
+GameKB
+~GameKB
 
 ~bad
 ~std
