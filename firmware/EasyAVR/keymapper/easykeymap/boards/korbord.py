@@ -24,7 +24,7 @@ unique_id = "AKKBHID"
 cfg_name = "korbord"
 
 teensy = False
-hw_boot_key = False
+hw_boot_key = True
 
 display_height = int(6.5*4)
 display_width = int(20.25*4)
