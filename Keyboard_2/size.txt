@@ -1,0 +1,15 @@
+23	ctrl alt win nowin fn
+28	tab \
+33	caps
+37	bspace
+42	lshift	enter
+52	rshift	
+
+
+без корпуса
+22	зад
+19	перед
+
+клава
+41
+22
