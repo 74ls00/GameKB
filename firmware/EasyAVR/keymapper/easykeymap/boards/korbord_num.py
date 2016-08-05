@@ -22,7 +22,7 @@
 import easykeymap.templates.ATmega32U4_16MHz_COSTAR as firmware
 from easykeymap.ioports import *
 
-description = "Korbord NumPad"
+description = "Korbord только NumPad"
 unique_id = "AKKBHIDN"
 cfg_name = "korbord"
 
