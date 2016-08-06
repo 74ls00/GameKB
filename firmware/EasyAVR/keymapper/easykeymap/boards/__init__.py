@@ -15,8 +15,8 @@
 # with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 __all__ = [
-'korbord_num',
-'korbord',
+'_korbord_num',
+'_korbord',
 'atomic',
 'atreus',
 'epsilon',
