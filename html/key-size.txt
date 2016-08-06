@@ -1,0 +1,22 @@
+стандартные клавиши
+r4 1x1	esc	f1-f12 3sys ~ 1-9 - = ins-pgup num / * - верхние ряды
+r3 1x1	q-p [ ] del-pgdn n7-n9 первый знаковый ряд
+r2 1x1	a-d g h k l ; ' n4 n6 второй знаковый ряд без метки
+   line f j второй знаковый ряд с меткой
+   dot	num5 второй знаковый ряд с меткой уентр нумпада
+r1 1x1	z-m , . / cursor n1-n3 nd третий знаковый ряд, курсор и точка нумпада
+
+r1 1x1.25	ctrl win alt нижниий функциональный ряд
+r3 1x1.5	tab \ крайние знаки первого ряда
+r2 1x1.75	caps 
+r4 1x2		backspace
+r1 1x2 		num0
+r2 1x2.25	enter
+r1 1x2.25	Lshift
+r1 1x2.75	Rshift
+
+idso enter	
+r3 2x1		num+
+r1 2x1		num_enter
+r1 1x6.25	space
+

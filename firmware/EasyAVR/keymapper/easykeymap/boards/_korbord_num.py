@@ -138,9 +138,9 @@ keyboard_definition = [
 ((4, 4), (5, 16), 'HID_KEYBOARD_SC_E'),                        #OK
 ((4, 4), (5, 15), 'HID_KEYBOARD_SC_F'),                        #OK
 ((4, 4), (1, 15), 'HID_KEYBOARD_SC_KEYPAD_SLASH')              #OK
-	 ],
-	 #2,
-	 [
+     ],
+     #2,
+     [
    
 (4, None, '0'),		 
 ((4, 4), (3, 14), 'HID_KEYBOARD_SC_A'),                        #OK

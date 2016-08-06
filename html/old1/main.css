@@ -1,0 +1,65 @@
+body{
+background-color:#FFB237;
+}
+
+
+*{margin:0px;padding:0px;}
+.block{
+float:left;
+margin:10px;
+}
+
+/*labels keys*/
+.l1 {
+text-align:center;
+}
+
+
+/*end labels keys*/
+.nc{background-color:transparent !important;}
+.nc50{background-color:transparent;
+width:14px;
+height:15px;
+float:left;
+}
+.clear{clear:both;}
+.cleart{clear:top;}
+
+/*keys size*/
+.key {
+width:40px;
+height:40px;
+color:#fff;
+font-size:0.9em;
+background-color:#000;
+margin:2px;/*внешний отступ*/
+float:left;
+}
+
+.key1 {width:64px;}
+.key2 {width:84px;}
+.space{width:348px;}/*260.1*/
+.ent{padding-bottom:4px;margin-bottom:-4px;}/*соединение enter*/
+
+.key div
+{
+width:50%;
+height:50%;
+float:left;
+
+}
+.key50{
+width:100%;
+text-align:center;
+}
+
+.keyv{
+height:84px;
+}
+.coff{color:#8E8F90;}
+.con{color:#12FEFE;}
+.koff{background:#FF5565;}
+
+
+/*end keys size*/
+
