@@ -92,16 +92,16 @@ num_ind = 3
 num_bl_enab = 2
 
 led_definition = [
-	('Caps LED', 'Caps Lock'),
+    ('Caps LED', 'Caps Lock'),
     ('Scroll LED', 'Scroll Lock'),
-	('Num LED', 'Num Lock')
+    ('Num LED', 'Num Lock')
 ]
 
 led_hardware = [
 #       Port    Pin    Direction
     ( REF_PORTB, 5, LED_DRIVER_PULLDOWN ),
     ( REF_PORTB, 6, LED_DRIVER_PULLDOWN ),
-	( REF_PORTB, 7, LED_DRIVER_PULLDOWN )
+    ( REF_PORTB, 7, LED_DRIVER_PULLDOWN )
 ]
 
 backlighting = False
