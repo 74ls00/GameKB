@@ -9632,6 +9632,76 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-4.0051" y="6.065" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.9751" y="-7.5601" size="1.778" layer="27">&gt;VALUE</text>
 </package>
+<package name="DIL14">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="2.921" x2="-8.89" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-2.921" x2="-8.89" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="1.016" x2="-8.89" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-7.62" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-5.08" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="7.62" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-2.54" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="0" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="5.08" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="2.54" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="5.08" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="2.54" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="0" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="-2.54" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="-5.08" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="-7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SO14">
+<description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
+<wire x1="4.064" y1="1.9558" x2="-4.064" y2="1.9558" width="0.1524" layer="51"/>
+<wire x1="4.064" y1="-1.9558" x2="4.445" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.445" y1="1.5748" x2="-4.064" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
+<wire x1="4.064" y1="1.9558" x2="4.445" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.445" y1="-1.5748" x2="-4.064" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.064" y1="-1.9558" x2="4.064" y2="-1.9558" width="0.1524" layer="51"/>
+<wire x1="4.445" y1="-1.5748" x2="4.445" y2="1.5748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.5748" x2="-4.445" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-0.508" x2="-4.445" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.445" y1="-1.6002" x2="4.445" y2="-1.6002" width="0.0508" layer="21"/>
+<smd name="1" x="-3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="-3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="-2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="-1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="0" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="0" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-3.175" y="-0.762" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.826" y="-1.905" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-0.254" y1="1.9558" x2="0.254" y2="3.0988" layer="51"/>
+<rectangle x1="-4.064" y1="-3.0988" x2="-3.556" y2="-1.9558" layer="51"/>
+<rectangle x1="-2.794" y1="-3.0988" x2="-2.286" y2="-1.9558" layer="51"/>
+<rectangle x1="-1.524" y1="-3.0734" x2="-1.016" y2="-1.9304" layer="51"/>
+<rectangle x1="-0.254" y1="-3.0988" x2="0.254" y2="-1.9558" layer="51"/>
+<rectangle x1="-1.524" y1="1.9558" x2="-1.016" y2="3.0988" layer="51"/>
+<rectangle x1="-2.794" y1="1.9558" x2="-2.286" y2="3.0988" layer="51"/>
+<rectangle x1="-4.064" y1="1.9558" x2="-3.556" y2="3.0988" layer="51"/>
+<rectangle x1="1.016" y1="1.9558" x2="1.524" y2="3.0988" layer="51"/>
+<rectangle x1="2.286" y1="1.9558" x2="2.794" y2="3.0988" layer="51"/>
+<rectangle x1="3.556" y1="1.9558" x2="4.064" y2="3.0988" layer="51"/>
+<rectangle x1="1.016" y1="-3.0988" x2="1.524" y2="-1.9558" layer="51"/>
+<rectangle x1="2.286" y1="-3.0988" x2="2.794" y2="-1.9558" layer="51"/>
+<rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="74138">
@@ -9662,6 +9732,15 @@ Source: AVX .. aphvc.pdf</description>
 <text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">VCC</text>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+</symbol>
+<symbol name="7404">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
+<text x="2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="I" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
+<pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9748,6 +9827,105 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="P" pin="VCC" pad="20"/>
 </connects>
 <technologies>
+<technology name="AC"/>
+<technology name="ACT"/>
+<technology name="HC"/>
+<technology name="HCT"/>
+<technology name="LS"/>
+<technology name="S"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*04" prefix="IC">
+<description>Hex &lt;b&gt;INVERTER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="7404" x="17.78" y="0" swaplevel="1"/>
+<gate name="B" symbol="7404" x="17.78" y="-12.7" swaplevel="1"/>
+<gate name="C" symbol="7404" x="17.78" y="-25.4" swaplevel="1"/>
+<gate name="D" symbol="7404" x="45.72" y="0" swaplevel="1"/>
+<gate name="E" symbol="7404" x="45.72" y="-12.7" swaplevel="1"/>
+<gate name="F" symbol="7404" x="45.72" y="-25.4" swaplevel="1"/>
+<gate name="P" symbol="PWRN" x="-5.08" y="-10.16" addlevel="request"/>
+</gates>
+<devices>
+<device name="N" package="DIL14">
+<connects>
+<connect gate="A" pin="I" pad="1"/>
+<connect gate="A" pin="O" pad="2"/>
+<connect gate="B" pin="I" pad="3"/>
+<connect gate="B" pin="O" pad="4"/>
+<connect gate="C" pin="I" pad="5"/>
+<connect gate="C" pin="O" pad="6"/>
+<connect gate="D" pin="I" pad="9"/>
+<connect gate="D" pin="O" pad="8"/>
+<connect gate="E" pin="I" pad="11"/>
+<connect gate="E" pin="O" pad="10"/>
+<connect gate="F" pin="I" pad="13"/>
+<connect gate="F" pin="O" pad="12"/>
+<connect gate="P" pin="GND" pad="7"/>
+<connect gate="P" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="AC"/>
+<technology name="ACT"/>
+<technology name="ALS"/>
+<technology name="AS"/>
+<technology name="HC"/>
+<technology name="HCT"/>
+<technology name="LS"/>
+<technology name="S"/>
+</technologies>
+</device>
+<device name="D" package="SO14">
+<connects>
+<connect gate="A" pin="I" pad="1"/>
+<connect gate="A" pin="O" pad="2"/>
+<connect gate="B" pin="I" pad="3"/>
+<connect gate="B" pin="O" pad="4"/>
+<connect gate="C" pin="I" pad="5"/>
+<connect gate="C" pin="O" pad="6"/>
+<connect gate="D" pin="I" pad="9"/>
+<connect gate="D" pin="O" pad="8"/>
+<connect gate="E" pin="I" pad="11"/>
+<connect gate="E" pin="O" pad="10"/>
+<connect gate="F" pin="I" pad="13"/>
+<connect gate="F" pin="O" pad="12"/>
+<connect gate="P" pin="GND" pad="7"/>
+<connect gate="P" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="AC"/>
+<technology name="ACT"/>
+<technology name="ALS"/>
+<technology name="AS"/>
+<technology name="HC"/>
+<technology name="HCT"/>
+<technology name="LS"/>
+<technology name="S"/>
+</technologies>
+</device>
+<device name="FK" package="LCC20">
+<connects>
+<connect gate="A" pin="I" pad="2"/>
+<connect gate="A" pin="O" pad="3"/>
+<connect gate="B" pin="I" pad="4"/>
+<connect gate="B" pin="O" pad="6"/>
+<connect gate="C" pin="I" pad="8"/>
+<connect gate="C" pin="O" pad="9"/>
+<connect gate="D" pin="I" pad="13"/>
+<connect gate="D" pin="O" pad="12"/>
+<connect gate="E" pin="I" pad="16"/>
+<connect gate="E" pin="O" pad="14"/>
+<connect gate="F" pin="I" pad="19"/>
+<connect gate="F" pin="O" pad="18"/>
+<connect gate="P" pin="GND" pad="10"/>
+<connect gate="P" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
 <technology name="AC"/>
 <technology name="ACT"/>
 <technology name="HC"/>
@@ -10295,7 +10473,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="JA67B" library="detali" deviceset="SJ" device=""/>
 <part name="JB67B" library="detali" deviceset="SJ" device=""/>
 <part name="U$88" library="cherrymx" deviceset="CHERRY-MX" device=""/>
-<part name="S67C1" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="|"/>
+<part name="S67C1" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="FN2"/>
+<part name="IC1" library="detali2" deviceset="74*04" device="N" technology="ALS"/>
+<part name="S67C2" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="FN1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10679,6 +10859,8 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="JB67B" gate="1" x="464.82" y="27.94"/>
 <instance part="U$88" gate="G$1" x="480.06" y="-7.62"/>
 <instance part="S67C1" gate="G$1" x="414.02" y="-2.54" rot="MR0"/>
+<instance part="IC1" gate="A" x="322.58" y="-73.66"/>
+<instance part="S67C2" gate="G$1" x="363.22" y="-5.08" rot="MR0"/>
 </instances>
 <busses>
 <bus name="A[1..8],B[0..17],LED_NUM,LED_CAPS,LED_SCR,+5V_K1,GND_K1">
