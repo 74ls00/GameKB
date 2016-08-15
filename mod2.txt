@@ -1,0 +1,15 @@
+почемуб не поднять enter выше
+
+
+
+куски 
+хаб		fe1.1s
+1 клава		32u4
+2 програм	m8
+3 диск		gl834	m8
+4 свет		m168
+>3 триггер защиты от записи
+
+? GL823 
+
+http://we.easyelectronics.ru/AVR/obzor-programmatora-avrisp-mkii.html

@@ -1,0 +1,135 @@
+Partlist
+
+Exported from NumPad.sch at 11.08.2016 8:09:16
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device       Package      Library  Sheet
+
+3D1      74HC138N       74HC138N     DIL16        detali   1
+3D2      Ê155ÈÄ4        74HC10N      DIL14        detali   1
+C1                      C-EUC1206    C1206        rcl      1
+C2                      C-EUC1206    C1206        rcl      1
+D1       LL4148         LL4148       SOD80C       detali   1
+D2       LL4148         LL4148       SOD80C       detali   1
+D87      LL4148         LL4148       SOD80C       detali   1
+D88      LL4148         LL4148       SOD80C       detali   1
+D89      LL4148         LL4148       SOD80C       detali   1
+D90      LL4148         LL4148       SOD80C       detali   1
+D91      LL4148         LL4148       SOD80C       detali   1
+D92      LL4148         LL4148       SOD80C       detali   1
+D93      LL4148         LL4148       SOD80C       detali   1
+D94      LL4148         LL4148       SOD80C       detali   1
+D95      LL4148         LL4148       SOD80C       detali   1
+D96      LL4148         LL4148       SOD80C       detali   1
+D97      LL4148         LL4148       SOD80C       detali   1
+D98      LL4148         LL4148       SOD80C       detali   1
+D99      LL4148         LL4148       SOD80C       detali   1
+D100     LL4148         LL4148       SOD80C       detali   1
+D101     LL4148         LL4148       SOD80C       detali   1
+D102     LL4148         LL4148       SOD80C       detali   1
+D103     LL4148         LL4148       SOD80C       detali   1
+D104     LL4148         LL4148       SOD80C       detali   1
+D105     LL4148         LL4148       SOD80C       detali   1
+D106     LL4148         LL4148       SOD80C       detali   1
+D107     LL4148         LL4148       SOD80C       detali   1
+D108     LL4148         LL4148       SOD80C       detali   1
+D109     LL4148         LL4148       SOD80C       detali   1
+D110     LL4148         LL4148       SOD80C       detali   1
+J1       J              J            R1206W       detali   1
+J2       J              J            R1206W       detali   1
+J3       J              J            R1206W       detali   1
+J4       J              J            R1206W       detali   1
+J5       J              J            R1206W       detali   1
+J6       J              J            R1206W       detali   1
+J7       J              J            R1206W       detali   1
+J8       J              J            R1206W       detali   1
+J9       J              J            R1206W       detali   1
+J10      J              J            R1206W       detali   1
+J11      J              J            R1206W       detali   1
+J12      J              J            R1206W       detali   1
+J13      J              J            R1206W       detali   1
+J14      J              J            R1206W       detali   1
+J15      J              J            R1206W       detali   1
+J16      J              J            R1206W       detali   1
+J17      J              J            R1206W       detali   1
+JA88                    SJ           SJ           detali   1
+JA89                    SJ           SJ           detali   1
+JA90                    SJ           SJ           detali   1
+JA91                    SJ           SJ           detali   1
+JA92                    SJ           SJ           detali   1
+JA93                    SJ           SJ           detali   1
+JA94                    SJ           SJ           detali   1
+JA95                    SJ           SJ           detali   1
+JA96                    SJ           SJ           detali   1
+JA97                    SJ           SJ           detali   1
+JA98                    SJ           SJ           detali   1
+JA99                    SJ           SJ           detali   1
+JA100                   SJ           SJ           detali   1
+JA101                   SJ           SJ           detali   1
+JA102                   SJ           SJ           detali   1
+JA103                   SJ           SJ           detali   1
+JA104                   SJ           SJ           detali   1
+JA105                   SJ           SJ           detali   1
+JA106                   SJ           SJ           detali   1
+JA107                   SJ           SJ           detali   1
+JA108                   SJ           SJ           detali   1
+JA109                   SJ           SJ           detali   1
+JA110                   SJ           SJ           detali   1
+JB88                    SJ           SJ           detali   1
+JB89                    SJ           SJ           detali   1
+JB90                    SJ           SJ           detali   1
+JB91                    SJ           SJ           detali   1
+JB92                    SJ           SJ           detali   1
+JB93                    SJ           SJ           detali   1
+JB94                    SJ           SJ           detali   1
+JB95                    SJ           SJ           detali   1
+JB96                    SJ           SJ           detali   1
+JB97                    SJ           SJ           detali   1
+JB98                    SJ           SJ           detali   1
+JB99                    SJ           SJ           detali   1
+JB100                   SJ           SJ           detali   1
+JB101                   SJ           SJ           detali   1
+JB102                   SJ           SJ           detali   1
+JB103                   SJ           SJ           detali   1
+JB104                   SJ           SJ           detali   1
+JB105                   SJ           SJ           detali   1
+JB106                   SJ           SJ           detali   1
+JB107                   SJ           SJ           detali   1
+JB108                   SJ           SJ           detali   1
+JB109                   SJ           SJ           detali   1
+JB110                   SJ           SJ           detali   1
+LED1                    LED5MM       LED5MM       detali   1
+R1       10k            R-EU_R1206W  R1206W       rcl      1
+R2       10k            R-EU_R1206W  R1206W       rcl      1
+R3       10k            R-EU_R1206W  R1206W       rcl      1
+R4                      R-EU_R1206W  R1206W       rcl      1
+R5                      R-EU_R1206W  R1206W       rcl      1
+S1       NumLock        31-XX        B3F-31XX     detali   1
+S88      D              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S89      E              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S90      F              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S91      /              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S92      A              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S93      B              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S94      C              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S95      *              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S96      7              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S97      8              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S98      9              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S99      -              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S100     4              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S101     5              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S102     6              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S103     +              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S104     1              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S105     2              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S106     3              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S107     NumEnter       CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S107B    NumEnter       CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S108     0              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S109     00             CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S110     .              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+SV1                     FE09-1       FE09         detali   1

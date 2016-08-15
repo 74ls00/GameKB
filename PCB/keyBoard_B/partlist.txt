@@ -1,0 +1,242 @@
+Partlist
+
+Exported from keyBoard_B.sch at 14.08.2016 12:26:25
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device       Package      Library  Sheet
+
+2D1      74HC138N       74AC138N     DIL16        detali2  1
+2D2      74ALS04N       74ALS04N     DIL14        detali2  1
+C1       100n           C-EUC0805    C0805        rcl      1
+C2       100n           C-EUC1206    C1206        rcl      1
+D1       LL4148         LL4148       SOD80C       detali   1
+D2       LL4148         LL4148       SOD80C       detali   1
+D47      LL4148         LL4148       SOD80C       detali   1
+D48      LL4148         LL4148       SOD80C       detali   1
+D49      LL4148         LL4148       SOD80C       detali   1
+D50      LL4148         LL4148       SOD80C       detali   1
+D51      LL4148         LL4148       SOD80C       detali   1
+D52      LL4148         LL4148       SOD80C       detali   1
+D53      LL4148         LL4148       SOD80C       detali   1
+D54      LL4148         LL4148       SOD80C       detali   1
+D55      LL4148         LL4148       SOD80C       detali   1
+D56      LL4148         LL4148       SOD80C       detali   1
+D57      LL4148         LL4148       SOD80C       detali   1
+D58      LL4148         LL4148       SOD80C       detali   1
+D59      LL4148         LL4148       SOD80C       detali   1
+D60      LL4148         LL4148       SOD80C       detali   1
+D61      LL4148         LL4148       SOD80C       detali   1
+D62      LL4148         LL4148       SOD80C       detali   1
+D63      LL4148         LL4148       SOD80C       detali   1
+D64      LL4148         LL4148       SOD80C       detali   1
+D64B     LL4148         LL4148       SOD80C       detali   1
+D65      LL4148         LL4148       SOD80C       detali   1
+D66      LL4148         LL4148       SOD80C       detali   1
+D67      LL4148         LL4148       SOD80C       detali   1
+D67B     LL4148         LL4148       SOD80C       detali   1
+D68      LL4148         LL4148       SOD80C       detali   1
+D69      LL4148         LL4148       SOD80C       detali   1
+D70      LL4148         LL4148       SOD80C       detali   1
+D71      LL4148         LL4148       SOD80C       detali   1
+D72      LL4148         LL4148       SOD80C       detali   1
+D73      LL4148         LL4148       SOD80C       detali   1
+D74      LL4148         LL4148       SOD80C       detali   1
+D75      LL4148         LL4148       SOD80C       detali   1
+D76      LL4148         LL4148       SOD80C       detali   1
+D77      LL4148         LL4148       SOD80C       detali   1
+D78      LL4148         LL4148       SOD80C       detali   1
+D79      LL4148         LL4148       SOD80C       detali   1
+D80      LL4148         LL4148       SOD80C       detali   1
+D81      LL4148         LL4148       SOD80C       detali   1
+D82      LL4148         LL4148       SOD80C       detali   1
+D83      LL4148         LL4148       SOD80C       detali   1
+D84      LL4148         LL4148       SOD80C       detali   1
+D85      LL4148         LL4148       SOD80C       detali   1
+D86      LL4148         LL4148       SOD80C       detali   1
+D87      LL4148         LL4148       SOD80C       detali   1
+J1                      J            R1206W       detali2  1
+J2                      J            R1206W       detali2  1
+J3                      J            R1206W       detali2  1
+J4                      J            R1206W       detali2  1
+J5                      J            R1206W       detali2  1
+J6                      J            R1206W       detali2  1
+J7                      J            R1206W       detali2  1
+J8                      J            R1206W       detali2  1
+J9                      J            R1206W       detali2  1
+J10                     J            R1206W       detali2  1
+J11                     J            R1206W       detali2  1
+J12                     J            R1206W       detali2  1
+J14                     J            R1206W       detali2  1
+J15                     J            R1206W       detali2  1
+J16                     J            R1206W       detali2  1
+J17                     J            R1206W       detali2  1
+J18                     J            R1206W       detali2  1
+J19                     J            R1206W       detali2  1
+J21                     J            R1206W       detali2  1
+J22                     J            R1206W       detali2  1
+J23                     J            R1206W       detali2  1
+J24                     J            R1206W       detali2  1
+J25                     J            R1206W       detali2  1
+J26                     J            R1206W       detali2  1
+J27                     J            R1206W       detali2  1
+J28                     J            R1206W       detali2  1
+J29                     J            R1206W       detali2  1
+J30                     J            R1206W       detali2  1
+J31                     J            R1206W       detali2  1
+J32                     J            R1206W       detali2  1
+J33                     J            R1206W       detali2  1
+J34                     J            R1206W       detali2  1
+J35                     J            R1206W       detali2  1
+J36                     J            R1206W       detali2  1
+J37                     J            R1206W       detali2  1
+J38                     J            R1206W       detali2  1
+J39                     J            R1206W       detali2  1
+J40                     J            R1206W       detali2  1
+J41                     J            R1206W       detali2  1
+J42                     J            R1206W       detali2  1
+J43                     J            R1206W       detali2  1
+J44                     J            R1206W       detali2  1
+J46                     J            R1206W       detali2  1
+J48                     J            R1206W       detali2  1
+J49                     J            R1206W       detali2  1
+J50                     J            R1206W       detali2  1
+J51                     J            R1206W       detali2  1
+J52                     J            R1206W       detali2  1
+J53                     J            R1206W       detali2  1
+JA47                    SJ           SJ           detali   1
+JA48                    SJ           SJ           detali   1
+JA49                    SJ           SJ           detali   1
+JA50                    SJ           SJ           detali   1
+JA51                    SJ           SJ           detali   1
+JA52                    SJ           SJ           detali   1
+JA53                    SJ           SJ           detali   1
+JA54                    SJ           SJ           detali   1
+JA55                    SJ           SJ           detali   1
+JA56                    SJ           SJ           detali   1
+JA57                    SJ           SJ           detali   1
+JA58                    SJ           SJ           detali   1
+JA59                    SJ           SJ           detali   1
+JA60                    SJ           SJ           detali   1
+JA61                    SJ           SJ           detali   1
+JA62                    SJ           SJ           detali   1
+JA63                    SJ           SJ           detali   1
+JA64                    SJ           SJ           detali   1
+JA65                    SJ           SJ           detali   1
+JA66                    SJ           SJ           detali   1
+JA67                    SJ           SJ           detali   1
+JA67B                   SJ           SJ           detali   1
+JA67B1                  SJ           SJ           detali   1
+JA68                    SJ           SJ           detali   1
+JA69                    SJ           SJ           detali   1
+JA70                    SJ           SJ           detali   1
+JA71                    SJ           SJ           detali   1
+JA72                    SJ           SJ           detali   1
+JA73                    SJ           SJ           detali   1
+JA74                    SJ           SJ           detali   1
+JA74B                   SJ           SJ           detali   1
+JA75                    SJ           SJ           detali   1
+JA76                    SJ           SJ           detali   1
+JA77                    SJ           SJ           detali   1
+JA78                    SJ           SJ           detali   1
+JA79                    SJ           SJ           detali   1
+JA80                    SJ           SJ           detali   1
+JA81                    SJ           SJ           detali   1
+JA82                    SJ           SJ           detali   1
+JA83                    SJ           SJ           detali   1
+JA84                    SJ           SJ           detali   1
+JA85                    SJ           SJ           detali   1
+JA86                    SJ           SJ           detali   1
+JA87                    SJ           SJ           detali   1
+JB47                    SJ           SJ           detali   1
+JB48                    SJ           SJ           detali   1
+JB49                    SJ           SJ           detali   1
+JB50                    SJ           SJ           detali   1
+JB51                    SJ           SJ           detali   1
+JB52                    SJ           SJ           detali   1
+JB53                    SJ           SJ           detali   1
+JB54                    SJ           SJ           detali   1
+JB55                    SJ           SJ           detali   1
+JB56                    SJ           SJ           detali   1
+JB57                    SJ           SJ           detali   1
+JB58                    SJ           SJ           detali   1
+JB59                    SJ           SJ           detali   1
+JB60                    SJ           SJ           detali   1
+JB61                    SJ           SJ           detali   1
+JB62                    SJ           SJ           detali   1
+JB63                    SJ           SJ           detali   1
+JB64                    SJ           SJ           detali   1
+JB65                    SJ           SJ           detali   1
+JB66                    SJ           SJ           detali   1
+JB67                    SJ           SJ           detali   1
+JB67B1                  SJ           SJ           detali   1
+JB68                    SJ           SJ           detali   1
+JB69                    SJ           SJ           detali   1
+JB70                    SJ           SJ           detali   1
+JB71                    SJ           SJ           detali   1
+JB72                    SJ           SJ           detali   1
+JB73                    SJ           SJ           detali   1
+JB74                    SJ           SJ           detali   1
+JB74B                   SJ           SJ           detali   1
+JB75                    SJ           SJ           detali   1
+JB76                    SJ           SJ           detali   1
+JB77                    SJ           SJ           detali   1
+JB78                    SJ           SJ           detali   1
+JB79                    SJ           SJ           detali   1
+JB80                    SJ           SJ           detali   1
+JB81                    SJ           SJ           detali   1
+JB82                    SJ           SJ           detali   1
+JB83                    SJ           SJ           detali   1
+JB84                    SJ           SJ           detali   1
+JB85                    SJ           SJ           detali   1
+JB86                    SJ           SJ           detali   1
+JB87                    SJ           SJ           detali   1
+R3       1k             R-EU_R0805   R0805        rcl      1
+S47      F7             CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S48      F8             CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S49      F9             CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S50      F10            CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S51      F11            CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S52      F12            CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S53      7              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S54      8              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S55      9              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S56      0              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S57      -              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S58      =              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S59      BS             CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S60      Y              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S61      U              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S62      I              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S63      O              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S64      P              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S65      [              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S66      ]              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S67      |d             CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S67B     |u             CHERRY-MX    CHERRY-MX    cherrymx 1
+S67C     |              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S67C1    FN2            CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S68      H              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S69      J              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S70      K              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S71      L              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S72      :              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S73      "              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S74      Del            CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S74A     Enter          CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S74B     Enter          CHERRY-MX    CHERRY-MX    cherrymx 1
+S75      N              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S76      M              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S77      <              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S78      >              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S79      ~              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S80      ?              CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S81      R Shift        CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S82      Space          CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S83      FN3            CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S84      R_Alt          CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S85      RCtrl          CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+S86      PrtScr         CHERRY-MX-4P CHERRY-MX-4P cherrymx 1
+SV1      CON_KB_B       FE12-1       FE12         detali2  1
