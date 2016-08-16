@@ -2147,7 +2147,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="21.2725" y="138.1125" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R2" library="rcl" package="R1206W" value="10k" x="28.8925" y="140.97" smashed="yes" rot="MR0">
-<attribute name="NAME" x="33.3375" y="140.0175" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="33.9725" y="140.0175" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="30.7975" y="138.43" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R3" library="rcl" package="R1206W" value="10k" x="38.1" y="149.38375" smashed="yes" rot="MR180">
@@ -2208,7 +2208,10 @@ design rules under a new name.</description>
 </element>
 <element name="LED1" library="detali" package="LED5MM" value="" x="53.0225" y="138.43" rot="R180"/>
 <element name="R5" library="rcl" package="R1206W" value="" x="58.1025" y="138.7475" rot="MR0"/>
-<element name="J14" library="detali" package="R1206W" value="J" x="36.195" y="141.605" rot="MR225"/>
+<element name="J14" library="detali" package="R1206W" value="J" x="35.8775" y="141.2875" smashed="yes" rot="MR225">
+<attribute name="NAME" x="38.0774375" y="143.0065125" size="1.27" layer="26" rot="MR225"/>
+<attribute name="VALUE" x="36.326515625" y="144.4305875" size="1.27" layer="28" rot="MR225"/>
+</element>
 <element name="J15" library="detali" package="R1206W" value="J" x="58.1025" y="136.525" smashed="yes" rot="MR180">
 <attribute name="NAME" x="52.07" y="136.8425" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="56.1975" y="139.065" size="1.27" layer="28" rot="MR180"/>
@@ -2222,8 +2225,14 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="60.0075" y="141.605" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C1" library="rcl" package="C1206" value="" x="79.6925" y="139.065" rot="MR75"/>
-<element name="D1" library="detali" package="SOD80C" value="LL4148" x="23.8125" y="145.415" rot="R270"/>
-<element name="D2" library="detali" package="SOD80C" value="LL4148" x="27.94" y="148.9075" rot="R180"/>
+<element name="D1" library="detali" package="SOD80C" value="LL4148" x="23.8125" y="145.415" smashed="yes" rot="R270">
+<attribute name="NAME" x="21.1455" y="144.2085" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="21.3995" y="142.621" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D2" library="detali" package="SOD80C" value="LL4148" x="27.94" y="148.9075" smashed="yes" rot="R180">
+<attribute name="NAME" x="26.416" y="151.5745" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="25.146" y="151.3205" size="1.27" layer="28" rot="MR180"/>
+</element>
 <element name="C2" library="rcl" package="C1206" value="" x="31.4325" y="149.5425"/>
 <element name="U$1" library="kbmx" package="18X18" value="" x="89.8525" y="31.115" smashed="yes"/>
 <element name="U$3" library="kbmxco" package="KEY" value="" x="74.6125" y="48.895"/>
@@ -3266,7 +3275,7 @@ design rules under a new name.</description>
 <contactref element="3D2" pad="10"/>
 <contactref element="J14" pad="1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="35.13505" y1="142.66495" x2="33.9725" y2="145.0975" width="1.016" layer="16"/>
+<wire x1="34.81755" y1="142.34745" x2="33.9725" y2="145.0975" width="1.016" layer="16"/>
 <wire x1="33.9725" y1="145.0975" x2="36.5125" y2="145.0975" width="1.016" layer="16"/>
 <wire x1="36.5125" y1="145.0975" x2="39.0525" y2="145.0975" width="1.016" layer="16"/>
 <wire x1="36.5125" y1="145.0975" x2="36.5125" y2="149.29525" width="1.016" layer="16"/>
@@ -3366,7 +3375,7 @@ design rules under a new name.</description>
 <wire x1="51.7525" y1="140.335" x2="49.8475" y2="139.7" width="0.4064" layer="16"/>
 <wire x1="49.8475" y1="139.7" x2="46.0375" y2="139.7" width="1.016" layer="16"/>
 <wire x1="46.0375" y1="139.7" x2="43.287453125" y2="140.862546875" width="1.016" layer="16"/>
-<wire x1="43.287453125" y1="140.862546875" x2="37.254953125" y2="140.545046875" width="0.8128" layer="16"/>
+<wire x1="43.287453125" y1="140.862546875" x2="36.937453125" y2="140.227546875" width="0.8128" layer="16"/>
 <wire x1="67.31" y1="143.51" x2="69.215" y2="141.605" width="0.8128" layer="16"/>
 <wire x1="65.9765" y1="135.2935" x2="67.9835" y2="135.2935" width="0.8128" layer="16"/>
 <wire x1="67.9835" y1="135.2935" x2="69.215" y2="136.525" width="0.8128" layer="16"/>
