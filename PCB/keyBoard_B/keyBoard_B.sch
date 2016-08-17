@@ -7155,7 +7155,6 @@ wave soldering</description>
 <part name="S67C" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="|"/>
 <part name="2D1" library="detali2" deviceset="74*138" device="N" technology="AC" value="74HC138N"/>
 <part name="JA67B" library="detali" deviceset="SJ" device=""/>
-<part name="S74B" library="cherrymx" deviceset="CHERRY-MX" device="" value="Enter"/>
 <part name="S87" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="FN2"/>
 <part name="2D2" library="detali2" deviceset="74*04" device="N" technology="ALS" value="74HC04N"/>
 <part name="S67B" library="cherrymx" deviceset="CHERRY-MX" device="" value="|u"/>
@@ -7233,6 +7232,7 @@ wave soldering</description>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="J13" library="detali2" deviceset="J" device="" value=""/>
+<part name="S81A" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="R Shift"/>
 </parts>
 <sheets>
 <sheet>
@@ -7421,7 +7421,6 @@ wave soldering</description>
 <attribute name="VALUE" x="71.12" y="187.96" size="1.778" layer="96"/>
 </instance>
 <instance part="JA67B" gate="1" x="203.2" y="73.66"/>
-<instance part="S74B" gate="G$1" x="187.96" y="40.64" rot="MR0"/>
 <instance part="S87" gate="G$1" x="45.72" y="10.16" rot="MR0"/>
 <instance part="2D2" gate="C" x="154.94" y="254"/>
 <instance part="S67B" gate="G$1" x="190.5" y="63.5" smashed="yes">
@@ -7614,6 +7613,7 @@ wave soldering</description>
 <instance part="J13" gate="G$1" x="175.26" y="73.66" smashed="yes">
 <attribute name="NAME" x="175.895" y="74.295" size="1.27" layer="95"/>
 </instance>
+<instance part="S81A" gate="G$1" x="187.96" y="38.1" rot="MR0"/>
 </instances>
 <busses>
 <bus name="1,2,3,4,5,6,7,8,3J,4J,5J,6J,7J,8J,4J2,5J2,6J2,6J3,8J2,2I,2J,G[1..6],D[1..3]">
@@ -7652,26 +7652,16 @@ wave soldering</description>
 </net>
 <net name="N$94" class="0">
 <segment>
-<wire x1="195.58" y1="40.64" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="S74A" gate="G$1" pin="PIN-1"/>
-<wire x1="195.58" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="JB74" gate="1" pin="2"/>
-<wire x1="198.12" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
-<junction x="195.58" y="50.8"/>
-<wire x1="195.58" y1="40.64" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="S74B" gate="G$1" pin="PIN-1"/>
+<wire x1="198.12" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$97" class="0">
 <segment>
-<wire x1="180.34" y1="40.64" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="S74A" gate="G$1" pin="PIN-2"/>
-<wire x1="180.34" y1="50.8" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="JA74" gate="1" pin="1"/>
-<wire x1="177.8" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
-<junction x="180.34" y="50.8"/>
-<wire x1="182.88" y1="40.64" x2="180.34" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="S74B" gate="G$1" pin="PIN-2"/>
+<wire x1="177.8" y1="50.8" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$112" class="0">
@@ -8323,14 +8313,22 @@ wave soldering</description>
 <segment>
 <pinref part="JB81" gate="1" pin="2"/>
 <pinref part="S81" gate="G$1" pin="PIN-2"/>
-<wire x1="177.8" y1="30.48" x2="182.88" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="S81A" gate="G$1" pin="PIN-2"/>
+<wire x1="180.34" y1="30.48" x2="182.88" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="38.1" x2="180.34" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="38.1" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$263" class="0">
 <segment>
 <pinref part="S81" gate="G$1" pin="PIN-1"/>
 <pinref part="JA81" gate="1" pin="1"/>
-<wire x1="193.04" y1="30.48" x2="198.12" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="30.48" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="S81A" gate="G$1" pin="PIN-1"/>
+<wire x1="195.58" y1="30.48" x2="198.12" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="38.1" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="38.1" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$183" class="0">
