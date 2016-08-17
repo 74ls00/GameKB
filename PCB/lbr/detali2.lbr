@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -116,6 +116,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>for keyBoard_B</description>
 <packages>
 <package name="SOD80C">
 <description>&lt;B&gt;DIODE&lt;/B&gt;</description>
@@ -226,12 +227,12 @@ wave soldering</description>
 <pad name="1" x="-8.89" y="-3.81" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="2" x="-6.35" y="-3.81" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="7" x="6.35" y="-3.81" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
-<pad name="8" x="8.89" y="-3.81" drill="0.8128" diameter="2.1" shape="offset" rot="R270"/>
+<pad name="8" x="8.89" y="-3.81" drill="0.8128" diameter="2.1" shape="square" rot="R270"/>
 <pad name="3" x="-3.81" y="-3.81" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="4" x="-1.27" y="-3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="6" x="3.81" y="-3.81" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="5" x="1.27" y="-3.81" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
-<pad name="9" x="8.89" y="3.81" drill="0.8128" diameter="2.1" shape="offset"/>
+<pad name="9" x="8.89" y="3.81" drill="0.8128" diameter="2.1" shape="square"/>
 <pad name="10" x="6.35" y="3.81" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="11" x="3.81" y="3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="12" x="1.27" y="3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
