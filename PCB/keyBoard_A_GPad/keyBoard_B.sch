@@ -151,21 +151,6 @@
 <library name="cherrymx">
 <description>Cherry MX Keyswitch PCB footprints</description>
 <packages>
-<package name="CHERRY-MX">
-<description>Cherry MX Keyswitch footprint</description>
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="21"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.127" layer="21"/>
-<pad name="SW1" x="-3.81" y="2.54" drill="1.5" diameter="3.81"/>
-<pad name="SW2" x="2.54" y="5.08" drill="1.5" diameter="3.81"/>
-<pad name="P$3" x="-5.08" y="0" drill="1.7144" diameter="1.9304"/>
-<pad name="P$4" x="5.08" y="0" drill="1.7144" diameter="1.9304"/>
-<hole x="0" y="0" drill="4.0004"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="P$1" x="0" y="0" drill="0.8"/>
-</package>
 <package name="CHERRY-MX-4P">
 <description>Cherry MX Series Keyswitch footprint with holes for diode or wire bridge</description>
 <wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="21"/>
@@ -261,23 +246,6 @@
 <connect gate="_D" pin="D2" pad="D2"/>
 <connect gate="_L" pin="LED1" pad="LED1"/>
 <connect gate="_L" pin="LED2" pad="LED2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CHERRY-MX">
-<description>Cherry MX series keyswitch</description>
-<gates>
-<gate name="G$1" symbol="CHERRY-MX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CHERRY-MX">
-<connects>
-<connect gate="G$1" pin="PIN-1" pad="SW1"/>
-<connect gate="G$1" pin="PIN-2" pad="SW2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -26919,15 +26887,15 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <part name="S34" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="D"/>
 <part name="S35" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="F"/>
 <part name="S36" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="G"/>
-<part name="S37" library="cherrymx" deviceset="CHERRY-MX" device="" value="L Shift"/>
+<part name="S37" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="L Shift"/>
 <part name="S38" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="Z"/>
 <part name="S39" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="X"/>
 <part name="S40" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="C"/>
 <part name="S41" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="V"/>
 <part name="S42" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="B"/>
 <part name="S43" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="Caps Lock"/>
-<part name="S44" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="Alt"/>
-<part name="S45" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="F1"/>
+<part name="S44" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="F1"/>
+<part name="S45" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="L_Alt"/>
 <part name="S46" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="Space"/>
 <part name="JB1" library="detali" deviceset="SJ" device=""/>
 <part name="JB2" library="jumper" deviceset="SJ" device=""/>
@@ -27066,8 +27034,6 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <part name="D44" library="detali" deviceset="LL4148" device=""/>
 <part name="D45" library="detali" deviceset="LL4148" device=""/>
 <part name="D46" library="detali" deviceset="LL4148" device=""/>
-<part name="S37A" library="cherrymx" deviceset="CHERRY-MX" device="" value="L Shift"/>
-<part name="S37B" library="cherrymx" deviceset="CHERRY-MX" device="" value="L Shift"/>
 <part name="ICSP" library="SmartPrj" deviceset="PINHD-2X3" device="" value="ICSP"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device="" value="3x2M_NM"/>
@@ -27215,6 +27181,13 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R1206W"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R1206W"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="M0805"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="M0805"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="M0805"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="M0805"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="M0805"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="M0805"/>
+<part name="P+13" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27437,8 +27410,6 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <instance part="D44" gate="G$1" x="165.1" y="152.4"/>
 <instance part="D45" gate="G$1" x="165.1" y="142.24"/>
 <instance part="D46" gate="G$1" x="165.1" y="132.08"/>
-<instance part="S37A" gate="G$1" x="124.46" y="195.58"/>
-<instance part="S37B" gate="G$1" x="124.46" y="203.2"/>
 <instance part="1D0" gate="G$1" x="538.48" y="314.96"/>
 <instance part="1D1" gate="A" x="101.6" y="320.04"/>
 <instance part="SV2" gate="G$1" x="551.18" y="200.66" smashed="yes" rot="MR0">
@@ -27616,6 +27587,15 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 </instance>
 <instance part="R3" gate="G$1" x="297.18" y="198.12"/>
 <instance part="R9" gate="G$1" x="297.18" y="187.96"/>
+<instance part="R10" gate="G$1" x="254" y="332.74"/>
+<instance part="R11" gate="G$1" x="254" y="322.58"/>
+<instance part="R12" gate="G$1" x="254" y="309.88"/>
+<instance part="R13" gate="G$1" x="254" y="297.18"/>
+<instance part="R14" gate="G$1" x="254" y="284.48"/>
+<instance part="R15" gate="G$1" x="254" y="271.78"/>
+<instance part="P+13" gate="1" x="246.38" y="337.82" smashed="yes">
+<attribute name="VALUE" x="248.92" y="340.36" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 <bus name="L[1..6],1,2,3,4,5,6,7,8,1J,2J,3J,4J,5J,6J,7J,1J2,1J3,2J2,2J3,3J2,3J3,4J2,4J3,5J2,5J3,6J2,6J3,7J2,7J3,7J4">
@@ -28533,24 +28513,6 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <wire x1="134.62" y1="182.88" x2="137.16" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$107" class="0">
-<segment>
-<pinref part="S37B" gate="G$1" pin="PIN-1"/>
-<wire x1="119.38" y1="203.2" x2="116.84" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="203.2" x2="116.84" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="S37A" gate="G$1" pin="PIN-1"/>
-<wire x1="116.84" y1="195.58" x2="119.38" y2="195.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$274" class="0">
-<segment>
-<pinref part="S37A" gate="G$1" pin="PIN-2"/>
-<wire x1="129.54" y1="195.58" x2="132.08" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="195.58" x2="132.08" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="S37B" gate="G$1" pin="PIN-2"/>
-<wire x1="132.08" y1="203.2" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$62" class="0">
 <segment>
 <pinref part="JB37" gate="1" pin="2"/>
@@ -28632,6 +28594,32 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <wire x1="281.94" y1="187.96" x2="279.4" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="187.96" x2="279.4" y2="198.12" width="0.1524" layer="91"/>
 <junction x="279.4" y="198.12"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="332.74" x2="246.38" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="332.74" x2="246.38" y2="322.58" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="322.58" x2="248.92" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="322.58" x2="246.38" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="309.88" x2="248.92" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="309.88" x2="246.38" y2="297.18" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="297.18" x2="248.92" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="297.18" x2="246.38" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="284.48" x2="248.92" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="284.48" x2="246.38" y2="271.78" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="271.78" x2="248.92" y2="271.78" width="0.1524" layer="91"/>
+<pinref part="P+13" gate="1" pin="+5V"/>
+<wire x1="246.38" y1="335.28" x2="246.38" y2="332.74" width="0.1524" layer="91"/>
+<junction x="246.38" y="332.74"/>
+<junction x="246.38" y="322.58"/>
+<junction x="246.38" y="309.88"/>
+<junction x="246.38" y="297.18"/>
+<junction x="246.38" y="284.48"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -29424,6 +29412,11 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <wire x1="266.7" y1="335.28" x2="292.1" y2="335.28" width="0.1524" layer="91"/>
 <label x="266.7" y="335.28" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="332.74" x2="259.08" y2="332.74" width="0.1524" layer="91"/>
+<label x="261.62" y="332.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="L2" class="0">
 <segment>
@@ -29548,6 +29541,11 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <wire x1="266.7" y1="297.18" x2="292.1" y2="297.18" width="0.1524" layer="91"/>
 <label x="269.24" y="297.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="297.18" x2="259.08" y2="297.18" width="0.1524" layer="91"/>
+<label x="261.62" y="297.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="L5" class="0">
 <segment>
@@ -29580,6 +29578,11 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <pinref part="IC1" gate="B" pin="I"/>
 <wire x1="266.7" y1="284.48" x2="292.1" y2="284.48" width="0.1524" layer="91"/>
 <label x="269.24" y="284.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="284.48" x2="259.08" y2="284.48" width="0.1524" layer="91"/>
+<label x="261.62" y="284.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="L6" class="0">
@@ -29622,6 +29625,11 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <pinref part="IC1" gate="A" pin="I"/>
 <wire x1="266.7" y1="271.78" x2="292.1" y2="271.78" width="0.1524" layer="91"/>
 <label x="269.24" y="271.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="271.78" x2="259.08" y2="271.78" width="0.1524" layer="91"/>
+<label x="261.62" y="271.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -29852,12 +29860,22 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <pinref part="J44" gate="G$1" pin="P$2"/>
 <wire x1="279.4" y1="322.58" x2="281.94" y2="322.58" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="322.58" x2="259.08" y2="322.58" width="0.1524" layer="91"/>
+<label x="261.62" y="322.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$193" class="0">
 <segment>
 <pinref part="J45" gate="G$1" pin="P$1"/>
 <pinref part="IC1" gate="E" pin="I"/>
 <wire x1="281.94" y1="309.88" x2="292.1" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="309.88" x2="259.08" y2="309.88" width="0.1524" layer="91"/>
+<label x="261.62" y="309.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$194" class="0">
