@@ -27291,10 +27291,10 @@ http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20%28Rev.%201.0%29.pdf</de
 <pad name="5" x="-3.81" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="6" x="-1.27" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="7" x="1.27" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
-<pad name="8" x="3.81" y="0" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
+<pad name="8" x="3.81" y="0" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="9" x="6.35" y="0" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="10" x="8.89" y="0" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
-<pad name="11" x="11.43" y="0" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
+<pad name="11" x="11.43" y="0" drill="0.8128" diameter="2.1" rot="R90"/>
 <text x="-11.43" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-14.478" y="1.524" size="1.27" layer="21" ratio="10">1</text>
 <text x="-15.24" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
@@ -28168,8 +28168,6 @@ wave soldering</description>
 <part name="JA67B" library="detali" deviceset="SJ" device=""/>
 <part name="S87" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="FN2"/>
 <part name="2D2" library="detali2" deviceset="74*04" device="N" technology="ALS" value="74HC04N"/>
-<part name="S67B" library="cherrymx" deviceset="CHERRY-MX" device="" value="|u"/>
-<part name="JA67B1" library="detali" deviceset="SJ" device=""/>
 <part name="SV4" library="detali2" deviceset="FE12-1" device="" value="CON_KB_B"/>
 <part name="JB67B" library="detali" deviceset="SJ" device=""/>
 <part name="D67B" library="detali" deviceset="LL4148" device=""/>
@@ -31977,11 +31975,6 @@ wave soldering</description>
 <instance part="JA67B" gate="1" x="203.2" y="73.66"/>
 <instance part="S87" gate="G$1" x="53.34" y="10.16" rot="MR0"/>
 <instance part="2D2" gate="C" x="154.94" y="254"/>
-<instance part="S67B" gate="G$1" x="190.5" y="63.5" smashed="yes">
-<attribute name="PART" x="185.42" y="60.96" size="1.27" layer="95"/>
-<attribute name="VALUE" x="185.42" y="58.42" size="1.27" layer="96"/>
-</instance>
-<instance part="JA67B1" gate="1" x="203.2" y="63.5"/>
 <instance part="SV4" gate="G$1" x="193.04" y="233.68" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="194.31" y="205.74" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="194.31" y="209.042" size="1.778" layer="95" rot="MR0"/>
