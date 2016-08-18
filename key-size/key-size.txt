@@ -17,7 +17,7 @@ r2 1x2.25	enter
 r1 1x2.25	Lshift
 r1 1x2.75	Rshift
 
-idso enter	
+iso enter	
 r3 2x1		num+
 r1 2x1		num_enter
 r1 1x6.25	space

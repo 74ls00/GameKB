@@ -28163,7 +28163,7 @@ wave soldering</description>
 <part name="JB74B" library="detali" deviceset="SJ" device=""/>
 <part name="JA74B" library="detali" deviceset="SJ" device=""/>
 <part name="D64B" library="detali" deviceset="LL4148" device=""/>
-<part name="S67C" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="|"/>
+<part name="S67C" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="|u"/>
 <part name="2D1" library="detali2" deviceset="74*138" device="N" technology="AC" value="74HC138N"/>
 <part name="JA67B" library="detali" deviceset="SJ" device=""/>
 <part name="S87" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="FN2"/>
@@ -28242,7 +28242,6 @@ wave soldering</description>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R1206W" value="10k"/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="J96" library="detali2" deviceset="J" device="" value=""/>
 <part name="1D2" library="detali_main" deviceset="SMARTPRJ_ATMEGA32U4-XU" device="AU" value="ATMEGA32U4"/>
 <part name="SV5" library="detali_main" deviceset="FE09-1" device="" value="CON_KB_N"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="M0805"/>
@@ -28262,7 +28261,7 @@ wave soldering</description>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="P+19" library="supply1" deviceset="+5V" device=""/>
 <part name="S44A" library="cherrymx" deviceset="CHERRY-MX" device="" value="Fn1"/>
-<part name="U$81" library="cherrymx" deviceset="CHERRY-MX" device=""/>
+<part name="S82A" library="cherrymx" deviceset="CHERRY-MX" device="" value="space"/>
 </parts>
 <sheets>
 <sheet>
@@ -32161,10 +32160,7 @@ wave soldering</description>
 <attribute name="NAME" x="102.87" y="222.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="110.49" y="224.282" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J96" gate="G$1" x="175.26" y="73.66" smashed="yes">
-<attribute name="NAME" x="175.895" y="74.295" size="1.27" layer="95"/>
-</instance>
-<instance part="U$81" gate="G$1" x="53.34" y="96.52" rot="MR0"/>
+<instance part="S82A" gate="G$1" x="53.34" y="96.52" rot="MR0"/>
 </instances>
 <busses>
 <bus name="1,2,3,4,5,6,7,8,3J,4J,5J,6J,7J,8J,4J2,5J2,6J2,6J3,8J2,2I,2J,G[1..6],D[1..3]">
@@ -32255,7 +32251,7 @@ wave soldering</description>
 <pinref part="S82" gate="G$1" pin="PIN-1"/>
 <pinref part="JB82" gate="1" pin="2"/>
 <wire x1="45.72" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U$81" gate="G$1" pin="PIN-2"/>
+<pinref part="S82A" gate="G$1" pin="PIN-2"/>
 <wire x1="48.26" y1="96.52" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -32642,7 +32638,7 @@ wave soldering</description>
 <pinref part="S82" gate="G$1" pin="PIN-2"/>
 <pinref part="JA82" gate="1" pin="1"/>
 <wire x1="60.96" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U$81" gate="G$1" pin="PIN-1"/>
+<pinref part="S82A" gate="G$1" pin="PIN-1"/>
 <wire x1="58.42" y1="96.52" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -32829,13 +32825,6 @@ wave soldering</description>
 <pinref part="D64B" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$310" class="0">
-<segment>
-<pinref part="S67B" gate="G$1" pin="PIN-2"/>
-<wire x1="195.58" y1="63.5" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="JA67B1" gate="1" pin="1"/>
-</segment>
-</net>
 <net name="N$311" class="0">
 <segment>
 <pinref part="JA67B" gate="1" pin="1"/>
@@ -32918,18 +32907,6 @@ wave soldering</description>
 <pinref part="S74" gate="G$1" pin="PIN-1"/>
 <pinref part="JA74B" gate="1" pin="1"/>
 <wire x1="190.5" y1="104.14" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$323" class="0">
-<segment>
-<pinref part="S67B" gate="G$1" pin="PIN-1"/>
-<pinref part="S67C" gate="G$1" pin="PIN-2"/>
-<wire x1="182.88" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="63.5" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="J96" gate="G$1" pin="P$1"/>
-<wire x1="180.34" y1="73.66" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
-<junction x="182.88" y="73.66"/>
 </segment>
 </net>
 <net name="N$324" class="0">
@@ -34217,8 +34194,11 @@ wave soldering</description>
 <wire x1="177.8" y1="63.5" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="71.12" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="71.12" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="J96" gate="G$1" pin="P$2"/>
-<wire x1="170.18" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="S67C" gate="G$1" pin="PIN-2"/>
+<wire x1="182.88" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="63.5" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
+<junction x="182.88" y="73.66"/>
+<wire x1="170.18" y1="73.66" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B3J" class="0">
