@@ -373,6 +373,8 @@
 <wire x1="4.28625" y1="-231.14" x2="1.11125" y2="-234.315" width="0.2" layer="20" curve="90"/>
 <wire x1="1.11125" y1="-362.585" x2="4.28625" y2="-365.76" width="0.2" layer="20" curve="90"/>
 <wire x1="1.11125" y1="-234.315" x2="1.11125" y2="-362.585" width="0.2" layer="20"/>
+<dimension x1="189.23" y1="-342.265" x2="208.28" y2="-369.2525" x3="198.755" y3="-379.4125" layer="21" dtype="horizontal"/>
+<dimension x1="188.595" y1="-354.965" x2="169.545" y2="-362.9025" x3="179.07" y3="-379.4125" layer="21" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="cherrymx">
