@@ -236,8 +236,8 @@ wave soldering</description>
 <pad name="10" x="6.35" y="3.81" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
 <pad name="11" x="3.81" y="3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="12" x="1.27" y="3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
-<pad name="13" x="-1.27" y="3.81" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
-<pad name="14" x="-3.81" y="3.81" drill="0.8128" diameter="2.1" shape="long" rot="R90"/>
+<pad name="13" x="-1.27" y="3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
+<pad name="14" x="-3.81" y="3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="15" x="-6.35" y="3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <pad name="16" x="-8.89" y="3.81" drill="0.8128" diameter="2.1" shape="square" rot="R90"/>
 <text x="-10.541" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
