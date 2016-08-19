@@ -7220,7 +7220,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J81" library="detali2" deviceset="J" device="" value=""/>
 <part name="J82" library="detali2" deviceset="J" device="" value=""/>
 <part name="J87" library="detali2" deviceset="J" device="" value=""/>
-<part name="J88" library="detali2" deviceset="J" device="" value=""/>
 <part name="J89" library="detali2" deviceset="J" device="" value=""/>
 <part name="J90" library="detali2" deviceset="J" device="" value=""/>
 <part name="J91" library="detali2" deviceset="J" device="" value=""/>
@@ -7429,7 +7428,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="JB74B" gate="1" x="167.64" y="104.14"/>
 <instance part="JA74B" gate="1" x="198.12" y="104.14"/>
 <instance part="D64B" gate="G$1" x="157.48" y="104.14"/>
-<instance part="S67C" gate="G$1" x="180.34" y="60.96" rot="MR0"/>
+<instance part="S67C" gate="G$1" x="185.42" y="60.96" rot="MR0"/>
 <instance part="2D1" gate="A" x="76.2" y="213.36" smashed="yes">
 <attribute name="NAME" x="66.04" y="224.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.04" y="198.12" size="1.778" layer="96"/>
@@ -7441,8 +7440,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="189.23" y="215.9" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="189.23" y="219.202" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="JB67B" gate="1" x="167.64" y="60.96"/>
-<instance part="D67B" gate="G$1" x="154.94" y="60.96"/>
+<instance part="JB67B" gate="1" x="172.72" y="60.96"/>
+<instance part="D67B" gate="G$1" x="162.56" y="60.96"/>
 <instance part="JA87" gate="1" x="60.96" y="20.32"/>
 <instance part="JB87" gate="1" x="35.56" y="20.32"/>
 <instance part="D89" gate="G$1" x="25.4" y="20.32"/>
@@ -7550,9 +7549,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="J87" gate="G$1" x="190.5" y="127" smashed="yes">
 <attribute name="NAME" x="188.595" y="127.635" size="1.27" layer="95"/>
-</instance>
-<instance part="J88" gate="G$1" x="104.14" y="203.2" smashed="yes">
-<attribute name="NAME" x="102.235" y="203.835" size="1.27" layer="95"/>
 </instance>
 <instance part="J89" gate="G$1" x="104.14" y="208.28" smashed="yes">
 <attribute name="NAME" x="102.235" y="208.915" size="1.27" layer="95"/>
@@ -8288,7 +8284,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="JA67B" gate="1" pin="1"/>
 <pinref part="S67C" gate="G$1" pin="PIN-1"/>
-<wire x1="185.42" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$312" class="0">
@@ -8433,7 +8429,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="D67B" gate="G$1" pin="A"/>
 <pinref part="JB67B" gate="1" pin="1"/>
-<wire x1="157.48" y1="60.96" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B1" class="0">
@@ -9563,7 +9559,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="JB67B" gate="1" pin="2"/>
 <pinref part="S67C" gate="G$1" pin="PIN-2"/>
-<wire x1="175.26" y1="60.96" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B3J" class="0">
@@ -9579,13 +9575,13 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="D67B" gate="G$1" pin="C"/>
-<wire x1="152.4" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
 <label x="147.32" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J88" gate="G$1" pin="P$1"/>
-<wire x1="109.22" y1="203.2" x2="114.3" y2="203.2" width="0.1524" layer="91"/>
 <label x="109.22" y="203.2" size="1.778" layer="95"/>
+<pinref part="J83" gate="G$1" pin="P$1"/>
+<wire x1="99.06" y1="203.2" x2="114.3" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$117" class="0">
@@ -9593,13 +9589,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="2D1" gate="A" pin="Y7"/>
 <pinref part="J83" gate="G$1" pin="P$2"/>
 <wire x1="88.9" y1="203.2" x2="91.44" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$197" class="0">
-<segment>
-<pinref part="J83" gate="G$1" pin="P$1"/>
-<pinref part="J88" gate="G$1" pin="P$2"/>
-<wire x1="99.06" y1="203.2" x2="101.6" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$310" class="0">

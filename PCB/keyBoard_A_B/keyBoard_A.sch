@@ -28260,6 +28260,7 @@ wave soldering</description>
 <part name="J84" library="detali2" deviceset="J" device="" value=""/>
 <part name="J85" library="detali2" deviceset="J" device="" value=""/>
 <part name="J86" library="detali2" deviceset="J" device="" value=""/>
+<part name="S88" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="~Ё"/>
 </parts>
 <sheets>
 <sheet>
@@ -28610,6 +28611,7 @@ wave soldering</description>
 <attribute name="VALUE" x="248.92" y="340.36" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="S44A" gate="G$1" x="238.76" y="152.4"/>
+<instance part="S88" gate="G$1" x="127" y="205.74"/>
 </instances>
 <busses>
 <bus name="L[1..6],1,2,3,4,5,6,7,8,1J,2J,3J,4J,5J,6J,7J,1J2,1J3,2J2,2J3,3J2,3J3,4J2,4J3,5J2,5J3,6J2,6J3,7J2,7J3,7J4">
