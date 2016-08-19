@@ -31994,8 +31994,8 @@ wave soldering</description>
 <instance part="R16" gate="G$1" x="58.42" y="198.12"/>
 <instance part="P+14" gate="1" x="30.48" y="195.58" rot="R90"/>
 <instance part="C19" gate="G$1" x="50.8" y="193.04" smashed="yes" rot="MR270">
-<attribute name="NAME" x="49.276" y="190.881" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="44.196" y="190.881" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="41.656" y="190.881" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="49.276" y="190.881" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="2D1" gate="P" x="45.72" y="236.22" smashed="yes" rot="MR90">
 <attribute name="NAME" x="43.18" y="240.03" size="1.778" layer="95" rot="MR180"/>
