@@ -1,6 +1,6 @@
 set avrdude=avrdude
 set dir=leonardo
-set port=com2
+set port=com20
 rem flash=
 set fw=EasyAVR\keymapper\def.hex
 

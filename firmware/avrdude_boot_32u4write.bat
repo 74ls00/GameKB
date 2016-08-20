@@ -1,6 +1,6 @@
 set avrdude=avrdude
 set dir=leonardo
-set port=com2
+set port=com20
 rem flash=
 
 rem avrdude.exe -P %port% -c stk500v2 -p m32u4 -v F
