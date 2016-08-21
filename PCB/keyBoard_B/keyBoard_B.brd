@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -1970,9 +1970,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.35625" y="133.0325" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="60.6425" y="132.55625" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U$53" library="kbmx" package="18X18" value="" x="39.21125" y="135.89"/>
-<element name="U$54" library="kbmx" package="18X18" value="" x="58.26125" y="135.89"/>
-<element name="U$55" library="kbmx" package="18X18" value="" x="123.03125" y="135.89"/>
+<element name="U$53" library="kbmx" package="18X18" value="" x="39.21125" y="135.89" smashed="yes"/>
+<element name="U$54" library="kbmx" package="18X18" value="" x="58.26125" y="135.89" smashed="yes"/>
+<element name="U$55" library="kbmx" package="18X18" value="" x="123.03125" y="135.89" smashed="yes"/>
 <element name="S49" library="cherrymx" package="CHERRY-MX-4P" value="F9" x="86.20125" y="134.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="90.64625" y="137.16" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="87.47125" y="132.08" size="1.27" layer="27" rot="R180"/>
@@ -1989,45 +1989,45 @@ design rules under a new name.</description>
 <attribute name="NAME" x="139.22375" y="132.715" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="144.62125" y="132.715" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U$56" library="kbmx" package="18X18" value="" x="84.93125" y="135.89"/>
-<element name="U$57" library="kbmx" package="18X18" value="" x="103.98125" y="135.89"/>
-<element name="U$58" library="kbmx" package="18X18" value="" x="142.08125" y="135.89"/>
-<element name="U$59" library="kbmx" package="18X18" value="" x="39.21125" y="109.22"/>
-<element name="U$60" library="kbmx" package="18X18" value="" x="58.26125" y="109.22"/>
-<element name="U$61" library="kbmx" package="18X18" value="" x="77.31125" y="109.22"/>
-<element name="U$62" library="kbmx" package="18X18" value="" x="96.36125" y="109.22"/>
-<element name="U$63" library="kbmx" package="18X18" value="" x="115.41125" y="109.22"/>
-<element name="U$64" library="kbmx" package="18X18" value="" x="134.46125" y="109.22"/>
-<element name="U$65" library="kbmx" package="18X18" value="" x="39.21125" y="90.17"/>
-<element name="U$66" library="kbmx" package="18X18" value="" x="58.26125" y="90.17"/>
-<element name="U$67" library="kbmx" package="18X18" value="" x="77.31125" y="90.17"/>
-<element name="U$68" library="kbmx" package="18X18" value="" x="96.36125" y="90.17"/>
-<element name="U$69" library="kbmx" package="18X18" value="" x="115.41125" y="90.17"/>
-<element name="U$70" library="kbmx" package="18X18" value="" x="134.46125" y="90.17"/>
-<element name="U$71" library="kbmx" package="18X18" value="" x="153.51125" y="90.17"/>
-<element name="U$72" library="kbmx" package="18X18" value="" x="177.64125" y="52.07"/>
-<element name="U$73" library="kbmx" package="18X18" value="" x="39.21125" y="71.12"/>
-<element name="U$74" library="kbmx" package="18X18" value="" x="58.26125" y="71.12"/>
-<element name="U$75" library="kbmx" package="18X18" value="" x="77.31125" y="71.12"/>
-<element name="U$76" library="kbmx" package="18X18" value="" x="96.36125" y="71.12"/>
-<element name="U$77" library="kbmx" package="18X18" value="" x="115.41125" y="71.12"/>
-<element name="U$78" library="kbmx" package="18X18" value="" x="134.46125" y="71.12"/>
-<element name="U$79" library="kbmx" package="18X18" value="" x="39.21125" y="52.07"/>
-<element name="U$80" library="kbmx" package="18X18" value="" x="58.26125" y="52.07"/>
-<element name="U$83" library="kbmx" package="18X18" value="" x="77.31125" y="52.07"/>
-<element name="U$84" library="kbmx" package="18X18" value="" x="96.36125" y="52.07"/>
-<element name="U$85" library="kbmx" package="18X18" value="" x="115.41125" y="52.07"/>
-<element name="U$86" library="kbmx" package="18X18" value="" x="134.46125" y="52.07"/>
-<element name="U$87" library="kbmx" package="18X52" value="" x="51.59375" y="31.75"/>
-<element name="U$89" library="kbmx" package="18X18" value="" x="177.64125" y="33.02"/>
-<element name="U$90" library="kbmx" package="18X23" value="" x="156.05125" y="33.02"/>
-<element name="U$92" library="kbmx" package="18X23" value="" x="131.92125" y="33.02"/>
+<element name="U$56" library="kbmx" package="18X18" value="" x="84.93125" y="135.89" smashed="yes"/>
+<element name="U$57" library="kbmx" package="18X18" value="" x="103.98125" y="135.89" smashed="yes"/>
+<element name="U$58" library="kbmx" package="18X18" value="" x="142.08125" y="135.89" smashed="yes"/>
+<element name="U$59" library="kbmx" package="18X18" value="" x="39.21125" y="109.22" smashed="yes"/>
+<element name="U$60" library="kbmx" package="18X18" value="" x="58.26125" y="109.22" smashed="yes"/>
+<element name="U$61" library="kbmx" package="18X18" value="" x="77.31125" y="109.22" smashed="yes"/>
+<element name="U$62" library="kbmx" package="18X18" value="" x="96.36125" y="109.22" smashed="yes"/>
+<element name="U$63" library="kbmx" package="18X18" value="" x="115.41125" y="109.22" smashed="yes"/>
+<element name="U$64" library="kbmx" package="18X18" value="" x="134.46125" y="109.22" smashed="yes"/>
+<element name="U$65" library="kbmx" package="18X18" value="" x="39.21125" y="90.17" smashed="yes"/>
+<element name="U$66" library="kbmx" package="18X18" value="" x="58.26125" y="90.17" smashed="yes"/>
+<element name="U$67" library="kbmx" package="18X18" value="" x="77.31125" y="90.17" smashed="yes"/>
+<element name="U$68" library="kbmx" package="18X18" value="" x="96.36125" y="90.17" smashed="yes"/>
+<element name="U$69" library="kbmx" package="18X18" value="" x="115.41125" y="90.17" smashed="yes"/>
+<element name="U$70" library="kbmx" package="18X18" value="" x="134.46125" y="90.17" smashed="yes"/>
+<element name="U$71" library="kbmx" package="18X18" value="" x="153.51125" y="90.17" smashed="yes"/>
+<element name="U$72" library="kbmx" package="18X18" value="" x="177.64125" y="52.07" smashed="yes"/>
+<element name="U$73" library="kbmx" package="18X18" value="" x="39.21125" y="71.12" smashed="yes"/>
+<element name="U$74" library="kbmx" package="18X18" value="" x="58.26125" y="71.12" smashed="yes"/>
+<element name="U$75" library="kbmx" package="18X18" value="" x="77.31125" y="71.12" smashed="yes"/>
+<element name="U$76" library="kbmx" package="18X18" value="" x="96.36125" y="71.12" smashed="yes"/>
+<element name="U$77" library="kbmx" package="18X18" value="" x="115.41125" y="71.12" smashed="yes"/>
+<element name="U$78" library="kbmx" package="18X18" value="" x="134.46125" y="71.12" smashed="yes"/>
+<element name="U$79" library="kbmx" package="18X18" value="" x="39.21125" y="52.07" smashed="yes"/>
+<element name="U$80" library="kbmx" package="18X18" value="" x="58.26125" y="52.07" smashed="yes"/>
+<element name="U$83" library="kbmx" package="18X18" value="" x="77.31125" y="52.07" smashed="yes"/>
+<element name="U$84" library="kbmx" package="18X18" value="" x="96.36125" y="52.07" smashed="yes"/>
+<element name="U$85" library="kbmx" package="18X18" value="" x="115.41125" y="52.07" smashed="yes"/>
+<element name="U$86" library="kbmx" package="18X18" value="" x="134.46125" y="52.07" smashed="yes"/>
+<element name="U$87" library="kbmx" package="18X52" value="" x="51.59375" y="31.75" smashed="yes"/>
+<element name="U$89" library="kbmx" package="18X18" value="" x="177.64125" y="33.02" smashed="yes"/>
+<element name="U$90" library="kbmx" package="18X23" value="" x="156.05125" y="33.02" smashed="yes"/>
+<element name="U$92" library="kbmx" package="18X23" value="" x="131.92125" y="33.02" smashed="yes"/>
 <element name="S53" library="cherrymx" package="CHERRY-MX-4P" value="7" x="40.48125" y="107.95" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.62375" y="106.3625" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="41.43375" y="105.41" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="S54" library="cherrymx" package="CHERRY-MX-4P" value="8" x="59.53125" y="107.95" smashed="yes" rot="R180">
-<attribute name="NAME" x="55.72125" y="106.3625" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="54.13375" y="111.28375" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="59.84875" y="106.045" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="S55" library="cherrymx" package="CHERRY-MX-4P" value="9" x="78.58125" y="107.95" smashed="yes" rot="R180">
@@ -2035,7 +2035,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="79.21625" y="105.7275" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="S56" library="cherrymx" package="CHERRY-MX-4P" value="0" x="97.63125" y="107.95" smashed="yes" rot="R180">
-<attribute name="NAME" x="96.04375" y="106.68" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="96.2025" y="107.315" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="97.94875" y="105.7275" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="S57" library="cherrymx" package="CHERRY-MX-4P" value="-" x="116.68125" y="107.95" smashed="yes" rot="R180">
@@ -2062,7 +2062,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="76.67625" y="87.3125" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="79.53375" y="86.36" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="S63" library="cherrymx" package="CHERRY-MX-4P" value="O" x="97.63125" y="88.9" rot="R180"/>
+<element name="S63" library="cherrymx" package="CHERRY-MX-4P" value="O" x="97.63125" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="103.98125" y="82.8675" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="103.98125" y="84.455" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="S64" library="cherrymx" package="CHERRY-MX-4P" value="P" x="116.68125" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="113.18875" y="91.7575" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="117.31625" y="86.6775" size="1.27" layer="27" rot="R180"/>
@@ -2155,133 +2158,502 @@ design rules under a new name.</description>
 <attribute name="NAME" x="185.57875" y="34.6075" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="180.18125" y="30.1625" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="JB47" library="detali" package="SJ" value="" x="41.43375" y="128.5875" rot="R270"/>
-<element name="JA47" library="detali" package="SJ" value="" x="34.13125" y="129.54"/>
-<element name="D49" library="detali" package="SOD80C" value="LL4148" x="51.27625" y="93.345"/>
-<element name="JB48" library="detali" package="SJ" value="" x="67.46875" y="136.525" rot="R90"/>
-<element name="JB49" library="detali" package="SJ" value="" x="92.55125" y="129.54"/>
-<element name="JB50" library="detali" package="SJ" value="" x="99.53625" y="131.445" rot="R180"/>
-<element name="JB51" library="detali" package="SJ" value="" x="126.20625" y="128.905" rot="R270"/>
-<element name="JB52" library="detali" package="SJ" value="" x="151.28875" y="134.3025" rot="R90"/>
-<element name="JB53" library="detali" package="SJ" value="" x="43.18" y="101.6" rot="R270"/>
-<element name="JB54" library="detali" package="SJ" value="" x="63.02375" y="102.235" rot="R180"/>
-<element name="JB55" library="detali" package="SJ" value="" x="87.15375" y="108.585"/>
-<element name="JB56" library="detali" package="SJ" value="" x="105.56875" y="105.41"/>
-<element name="JB57" library="detali" package="SJ" value="" x="110.96625" y="105.25125" rot="R180"/>
-<element name="JB58" library="detali" package="SJ" value="" x="129.38125" y="104.775" rot="R180"/>
-<element name="JB59" library="detali" package="SJ" value="" x="157.95625" y="101.2825" rot="R180"/>
-<element name="JB60" library="detali" package="SJ" value="" x="44.29125" y="82.55" rot="R270"/>
-<element name="JB61" library="detali" package="SJ" value="" x="61.11875" y="83.185" rot="R270"/>
-<element name="JB62" library="detali" package="SJ" value="" x="72.23125" y="83.5025" rot="R270"/>
-<element name="JB63" library="detali" package="SJ" value="" x="105.25125" y="86.36"/>
-<element name="JB64" library="detali" package="SJ" value="" x="110.33125" y="85.725" rot="R180"/>
-<element name="JB65" library="detali" package="SJ" value="" x="129.38125" y="85.725" rot="R180"/>
-<element name="JB66" library="detali" package="SJ" value="" x="156.36875" y="82.8675" rot="R180"/>
-<element name="JB67" library="detali" package="SJ" value="" x="172.87875" y="47.78375" rot="R180"/>
-<element name="JB68" library="detali" package="SJ" value="" x="44.29125" y="63.5" rot="R270"/>
-<element name="JB69" library="detali" package="SJ" value="" x="68.42125" y="70.485"/>
-<element name="JB70" library="detali" package="SJ" value="" x="82.07375" y="63.8175" rot="R180"/>
-<element name="JB71" library="detali" package="SJ" value="" x="105.25125" y="67.31"/>
-<element name="JB72" library="detali" package="SJ" value="" x="110.33125" y="65.7225" rot="R270"/>
-<element name="JB73" library="detali" package="SJ" value="" x="129.38125" y="67.31" rot="R180"/>
-<element name="JB74" library="detali" package="SJ" value="" x="168.43375" y="63.8175" rot="R270"/>
-<element name="JB75" library="detali" package="SJ" value="" x="42.06875" y="44.45" rot="R270"/>
-<element name="JB76" library="detali" package="SJ" value="" x="61.11875" y="44.7675"/>
-<element name="JB77" library="detali" package="SJ" value="" x="79.53375" y="45.72" rot="R270"/>
-<element name="JB78" library="detali" package="SJ" value="" x="97.94875" y="42.545" rot="R270"/>
-<element name="JB79" library="detali" package="SJ" value="" x="117.7925" y="45.24375"/>
-<element name="JB80" library="detali" package="SJ" value="" x="135.41375" y="42.8625"/>
-<element name="JB81" library="detali" package="SJ" value="" x="151.28875" y="47.9425" rot="R180"/>
-<element name="JB82" library="detali" package="SJ" value="" x="58.26125" y="25.7175"/>
-<element name="JB83" library="detali" package="SJ" value="" x="103.02875" y="28.8925" rot="R180"/>
-<element name="JB84" library="detali" package="SJ" value="" x="127.15875" y="28.8925" rot="R180"/>
-<element name="JB85" library="detali" package="SJ" value="" x="151.60625" y="27.305" rot="R180"/>
-<element name="JB86" library="detali" package="SJ" value="" x="180.18125" y="26.035" rot="R270"/>
-<element name="D50" library="detali" package="SOD80C" value="LL4148" x="67.15125" y="140.97" rot="R90"/>
-<element name="D51" library="detali" package="SOD80C" value="LL4148" x="94.13875" y="137.4775"/>
-<element name="D52" library="detali" package="SOD80C" value="LL4148" x="98.26625" y="138.43" rot="R90"/>
-<element name="D53" library="detali" package="SOD80C" value="LL4148" x="127.47625" y="125.73"/>
-<element name="D54" library="detali" package="SOD80C" value="LL4148" x="150.01875" y="139.065" rot="R90"/>
-<element name="D55" library="detali" package="SOD80C" value="LL4148" x="56.67375" y="79.6925"/>
-<element name="D56" library="detali" package="SOD80C" value="LL4148" x="60.16625" y="99.3775" rot="R270"/>
-<element name="D57" library="detali" package="SOD80C" value="LL4148" x="88.42375" y="105.0925" rot="R270"/>
-<element name="D58" library="detali" package="SOD80C" value="LL4148" x="105.88625" y="110.1725" rot="R90"/>
-<element name="D59" library="detali" package="SOD80C" value="LL4148" x="113.50625" y="99.06"/>
-<element name="D60" library="detali" package="SOD80C" value="LL4148" x="127.47625" y="108.2675" rot="R90"/>
-<element name="D61" library="detali" package="SOD80C" value="LL4148" x="144.4625" y="110.49" rot="R180"/>
-<element name="D62" library="detali" package="SOD80C" value="LL4148" x="62.70625" y="61.595"/>
-<element name="D63" library="detali" package="SOD80C" value="LL4148" x="63.34125" y="80.645" rot="R270"/>
-<element name="D64" library="detali" package="SOD80C" value="LL4148" x="75.08875" y="79.6925" rot="R315"/>
-<element name="D65" library="detali" package="SOD80C" value="LL4148" x="107.79125" y="91.1225" rot="R90"/>
-<element name="D66" library="detali" package="SOD80C" value="LL4148" x="116.04625" y="80.01"/>
-<element name="D67" library="detali" package="SOD80C" value="LL4148" x="136.04875" y="80.3275"/>
-<element name="D68" library="detali" package="SOD80C" value="LL4148" x="156.36875" y="80.3275"/>
-<element name="D69" library="detali" package="SOD80C" value="LL4148" x="170.33875" y="52.705" rot="R90"/>
-<element name="D70" library="detali" package="SOD80C" value="LL4148" x="60.16625" y="42.2275"/>
-<element name="D71" library="detali" package="SOD80C" value="LL4148" x="69.05625" y="66.675" rot="R270"/>
-<element name="D72" library="detali" package="SOD80C" value="LL4148" x="79.21625" y="61.2775" rot="R270"/>
-<element name="D73" library="detali" package="SOD80C" value="LL4148" x="108.42625" y="73.025" rot="R90"/>
-<element name="D74" library="detali" package="SOD80C" value="LL4148" x="111.60125" y="60.96" rot="R270"/>
-<element name="D75" library="detali" package="SOD80C" value="LL4148" x="130.33375" y="62.865" rot="R315"/>
-<element name="D76" library="detali" package="SOD80C" value="LL4148" x="143.98625" y="72.7075" rot="R180"/>
-<element name="D77" library="detali" package="SOD80C" value="LL4148" x="44.92625" y="43.18" rot="R90"/>
-<element name="D78" library="detali" package="SOD80C" value="LL4148" x="64.29375" y="43.18" rot="R270"/>
-<element name="D79" library="detali" package="SOD80C" value="LL4148" x="78.105" y="37.1475" rot="R270"/>
-<element name="D80" library="detali" package="SOD80C" value="LL4148" x="94.13875" y="41.91" rot="R180"/>
-<element name="D81" library="detali" package="SOD80C" value="LL4148" x="118.11" y="41.275" rot="R270"/>
-<element name="D82" library="detali" package="SOD80C" value="LL4148" x="139.22375" y="44.7675"/>
-<element name="D83" library="detali" package="SOD80C" value="LL4148" x="149.225" y="53.81625" rot="R90"/>
-<element name="D84" library="detali" package="SOD80C" value="LL4148" x="63.65875" y="25.7175"/>
-<element name="D85" library="detali" package="SOD80C" value="LL4148" x="98.90125" y="27.6225" rot="R180"/>
-<element name="D86" library="detali" package="SOD80C" value="LL4148" x="122.71375" y="27.305" rot="R270"/>
-<element name="D87" library="detali" package="SOD80C" value="LL4148" x="147.47875" y="27.305" rot="R180"/>
-<element name="D88" library="detali" package="SOD80C" value="LL4148" x="183.99125" y="25.7175"/>
-<element name="JA48" library="detali" package="SJ" value="" x="50.00625" y="135.5725" rot="R270"/>
-<element name="JA49" library="detali" package="SJ" value="" x="79.85125" y="131.7625"/>
-<element name="JA50" library="detali" package="SJ" value="" x="112.87125" y="132.08" rot="R180"/>
-<element name="JA51" library="detali" package="SJ" value="" x="117.95125" y="129.54"/>
-<element name="JA52" library="detali" package="SJ" value="" x="144.62125" y="128.905" rot="R180"/>
-<element name="JA53" library="detali" package="SJ" value="" x="34.13125" y="102.87"/>
-<element name="JA54" library="detali" package="SJ" value="" x="53.6575" y="105.0925"/>
-<element name="JA55" library="detali" package="SJ" value="" x="79.85125" y="102.235" rot="R180"/>
-<element name="JA56" library="detali" package="SJ" value="" x="91.28125" y="105.0925"/>
-<element name="JA57" library="detali" package="SJ" value="" x="124.30125" y="105.41" rot="R180"/>
-<element name="JA58" library="detali" package="SJ" value="" x="137.00125" y="102.87" rot="R90"/>
-<element name="JA59" library="detali" package="SJ" value="" x="171.1325" y="102.71125" rot="R180"/>
-<element name="JA60" library="detali" package="SJ" value="" x="34.13125" y="83.82"/>
-<element name="JA61" library="detali" package="SJ" value="" x="53.0225" y="86.0425"/>
-<element name="JA62" library="detali" package="SJ" value="" x="86.20125" y="86.36" rot="R180"/>
-<element name="JA63" library="detali" package="SJ" value="" x="91.28125" y="85.725"/>
-<element name="JA64" library="detali" package="SJ" value="" x="124.30125" y="86.36" rot="R180"/>
-<element name="JA65" library="detali" package="SJ" value="" x="144.30375" y="87.3125" rot="R180"/>
-<element name="JA66" library="detali" package="SJ" value="" x="149.06625" y="86.36"/>
-<element name="JA67" library="detali" package="SJ" value="" x="180.34" y="45.085" rot="R90"/>
-<element name="JA68" library="detali" package="SJ" value="" x="34.13125" y="64.77"/>
-<element name="JA69" library="detali" package="SJ" value="" x="53.18125" y="66.675"/>
-<element name="JA70" library="detali" package="SJ" value="" x="72.54875" y="66.675"/>
-<element name="JA71" library="detali" package="SJ" value="" x="91.28125" y="66.675"/>
-<element name="JA72" library="detali" package="SJ" value="" x="124.30125" y="67.31" rot="R180"/>
-<element name="JA73" library="detali" package="SJ" value="" x="143.35125" y="67.31" rot="R180"/>
-<element name="JA74" library="detali" package="SJ" value="" x="161.13125" y="63.1825" rot="R90"/>
-<element name="JA75" library="detali" package="SJ" value="" x="34.13125" y="45.72"/>
-<element name="JA76" library="detali" package="SJ" value="" x="67.15125" y="47.9425" rot="R180"/>
-<element name="JA77" library="detali" package="SJ" value="" x="71.91375" y="47.9425"/>
-<element name="JA78" library="detali" package="SJ" value="" x="100.80625" y="44.45" rot="R90"/>
-<element name="JA79" library="detali" package="SJ" value="" x="124.61875" y="48.26" rot="R180"/>
-<element name="JA80" library="detali" package="SJ" value="" x="143.51" y="49.8475" rot="R270"/>
-<element name="JA81" library="detali" package="SJ" value="" x="161.6075" y="44.29125" rot="R90"/>
-<element name="JA82" library="detali" package="SJ" value="" x="45.24375" y="26.67"/>
-<element name="JA83" library="detali" package="SJ" value="" x="119.22125" y="29.21" rot="R180"/>
-<element name="JA84" library="detali" package="SJ" value="" x="140.81125" y="29.21" rot="R180"/>
-<element name="JA85" library="detali" package="SJ" value="" x="166.52875" y="29.21" rot="R180"/>
-<element name="JA86" library="detali" package="SJ" value="" x="172.87875" y="28.575"/>
+<element name="JB47" library="detali" package="SJ" value="" x="41.43375" y="128.5875" smashed="yes" rot="R270">
+<attribute name="NAME" x="42.57675" y="126.9365" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="41.43375" y="128.9876" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JA47" library="detali" package="SJ" value="" x="34.13125" y="129.54" smashed="yes">
+<attribute name="NAME" x="35.78225" y="130.683" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="33.73115" y="129.54" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="D49" library="detali" package="SOD80C" value="LL4148" x="51.27625" y="93.345" smashed="yes">
+<attribute name="NAME" x="53.43525" y="94.488" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="54.07025" y="90.932" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="JB48" library="detali" package="SJ" value="" x="67.46875" y="136.525" smashed="yes" rot="R90">
+<attribute name="NAME" x="65.8495" y="140.081" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="67.46875" y="136.1249" size="0.02" layer="28" rot="MR270"/>
+</element>
+<element name="JB49" library="detali" package="SJ" value="" x="92.55125" y="129.54" smashed="yes">
+<attribute name="NAME" x="91.5035" y="126.873" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="92.15115" y="129.54" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JB50" library="detali" package="SJ" value="" x="99.53625" y="131.445" smashed="yes" rot="R180">
+<attribute name="NAME" x="96.139" y="130.14325" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="99.93635" y="131.445" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB51" library="detali" package="SJ" value="" x="126.20625" y="128.905" smashed="yes" rot="R270">
+<attribute name="NAME" x="131.66725" y="128.4605" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="126.20625" y="129.3051" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB52" library="detali" package="SJ" value="" x="151.28875" y="134.3025" smashed="yes" rot="R90">
+<attribute name="NAME" x="151.892" y="132.1435" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="151.28875" y="133.9024" size="0.02" layer="28" rot="MR270"/>
+</element>
+<element name="JB53" library="detali" package="SJ" value="" x="43.18" y="101.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="44.323" y="99.949" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="43.18" y="102.0001" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB54" library="detali" package="SJ" value="" x="63.02375" y="102.235" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.3415" y="102.83825" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="63.42385" y="102.235" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB55" library="detali" package="SJ" value="" x="87.15375" y="108.585" smashed="yes">
+<attribute name="NAME" x="88.3285" y="110.20425" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="86.75365" y="108.585" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JB56" library="detali" package="SJ" value="" x="105.56875" y="105.41" smashed="yes">
+<attribute name="NAME" x="107.21975" y="106.553" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="105.16865" y="105.41" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JB57" library="detali" package="SJ" value="" x="110.96625" y="105.25125" smashed="yes" rot="R180">
+<attribute name="NAME" x="109.31525" y="104.10825" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="111.36635" y="105.25125" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB58" library="detali" package="SJ" value="" x="129.38125" y="104.775" smashed="yes" rot="R180">
+<attribute name="NAME" x="127.73025" y="103.632" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="129.78135" y="104.775" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB59" library="detali" package="SJ" value="" x="157.95625" y="101.2825" smashed="yes" rot="R180">
+<attribute name="NAME" x="156.30525" y="100.1395" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="158.35635" y="101.2825" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB60" library="detali" package="SJ" value="" x="44.29125" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="45.43425" y="80.899" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="44.29125" y="82.9501" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB61" library="detali" package="SJ" value="" x="61.11875" y="83.185" smashed="yes" rot="R270">
+<attribute name="NAME" x="60.198" y="77.24775" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="61.11875" y="83.5851" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB62" library="detali" package="SJ" value="" x="72.23125" y="83.5025" smashed="yes" rot="R270">
+<attribute name="NAME" x="73.37425" y="81.8515" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="72.23125" y="83.9026" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB63" library="detali" package="SJ" value="" x="105.25125" y="86.36" smashed="yes">
+<attribute name="NAME" x="106.90225" y="87.503" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="104.85115" y="86.36" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JB64" library="detali" package="SJ" value="" x="110.33125" y="85.725" smashed="yes" rot="R180">
+<attribute name="NAME" x="108.68025" y="84.582" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="110.73135" y="85.725" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB65" library="detali" package="SJ" value="" x="129.38125" y="85.725" smashed="yes" rot="R180">
+<attribute name="NAME" x="127.73025" y="84.582" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="129.78135" y="85.725" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB66" library="detali" package="SJ" value="" x="156.36875" y="82.8675" smashed="yes" rot="R180">
+<attribute name="NAME" x="154.71775" y="81.7245" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="156.76885" y="82.8675" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB67" library="detali" package="SJ" value="" x="172.87875" y="47.78375" smashed="yes" rot="R180">
+<attribute name="NAME" x="171.22775" y="46.64075" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="173.27885" y="47.78375" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB68" library="detali" package="SJ" value="" x="44.29125" y="63.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="45.43425" y="61.849" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="44.29125" y="63.9001" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB69" library="detali" package="SJ" value="" x="68.42125" y="70.485" smashed="yes">
+<attribute name="NAME" x="69.11975" y="71.78675" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="68.02115" y="70.485" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JB70" library="detali" package="SJ" value="" x="82.07375" y="63.8175" smashed="yes" rot="R180">
+<attribute name="NAME" x="84.3915" y="65.37325" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="82.47385" y="63.8175" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB71" library="detali" package="SJ" value="" x="105.25125" y="67.31" smashed="yes">
+<attribute name="NAME" x="106.90225" y="68.453" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="104.85115" y="67.31" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JB72" library="detali" package="SJ" value="" x="110.33125" y="65.7225" smashed="yes" rot="R270">
+<attribute name="NAME" x="111.47425" y="64.0715" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="110.33125" y="66.1226" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB73" library="detali" package="SJ" value="" x="129.38125" y="67.31" smashed="yes" rot="R180">
+<attribute name="NAME" x="127.73025" y="66.167" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="129.78135" y="67.31" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB74" library="detali" package="SJ" value="" x="168.43375" y="63.8175" smashed="yes" rot="R270">
+<attribute name="NAME" x="169.57675" y="62.1665" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="168.43375" y="64.2176" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB75" library="detali" package="SJ" value="" x="42.06875" y="44.45" smashed="yes" rot="R270">
+<attribute name="NAME" x="40.54475" y="41.783" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="42.06875" y="44.8501" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB76" library="detali" package="SJ" value="" x="61.11875" y="44.7675" smashed="yes">
+<attribute name="NAME" x="62.76975" y="45.9105" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="60.71865" y="44.7675" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JB77" library="detali" package="SJ" value="" x="79.53375" y="45.72" smashed="yes" rot="R270">
+<attribute name="NAME" x="80.67675" y="44.069" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="79.53375" y="46.1201" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB78" library="detali" package="SJ" value="" x="97.94875" y="42.545" smashed="yes" rot="R270">
+<attribute name="NAME" x="98.806" y="39.243" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="97.94875" y="42.9451" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB79" library="detali" package="SJ" value="" x="117.7925" y="45.24375" smashed="yes">
+<attribute name="NAME" x="119.4435" y="46.38675" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="117.3924" y="45.24375" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JB80" library="detali" package="SJ" value="" x="135.41375" y="42.8625" smashed="yes">
+<attribute name="NAME" x="137.06475" y="44.0055" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="135.01365" y="42.8625" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JB81" library="detali" package="SJ" value="" x="151.28875" y="47.9425" smashed="yes" rot="R180">
+<attribute name="NAME" x="149.63775" y="46.7995" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="151.68885" y="47.9425" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB82" library="detali" package="SJ" value="" x="58.26125" y="25.7175" smashed="yes">
+<attribute name="NAME" x="59.91225" y="26.8605" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="57.86115" y="25.7175" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JB83" library="detali" package="SJ" value="" x="103.02875" y="28.8925" smashed="yes" rot="R180">
+<attribute name="NAME" x="101.37775" y="27.7495" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="103.42885" y="28.8925" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB84" library="detali" package="SJ" value="" x="127.15875" y="28.8925" smashed="yes" rot="R180">
+<attribute name="NAME" x="125.50775" y="27.7495" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="127.55885" y="28.8925" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB85" library="detali" package="SJ" value="" x="151.60625" y="27.305" smashed="yes" rot="R180">
+<attribute name="NAME" x="149.95525" y="26.162" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="152.00635" y="27.305" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JB86" library="detali" package="SJ" value="" x="180.18125" y="26.035" smashed="yes" rot="R270">
+<attribute name="NAME" x="181.32425" y="24.384" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="180.18125" y="26.4351" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="D50" library="detali" package="SOD80C" value="LL4148" x="67.15125" y="140.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="65.151" y="145.38325" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="69.56425" y="143.764" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="D51" library="detali" package="SOD80C" value="LL4148" x="94.13875" y="137.4775" smashed="yes">
+<attribute name="NAME" x="95.8215" y="140.04925" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="96.93275" y="135.0645" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D52" library="detali" package="SOD80C" value="LL4148" x="98.26625" y="138.43" smashed="yes" rot="R90">
+<attribute name="NAME" x="96.901" y="142.6845" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="100.67925" y="141.224" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="D53" library="detali" package="SOD80C" value="LL4148" x="127.47625" y="125.73" smashed="yes">
+<attribute name="NAME" x="129.4765" y="123.3805" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="130.27025" y="123.317" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D54" library="detali" package="SOD80C" value="LL4148" x="150.01875" y="139.065" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.95475" y="137.287" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="152.43175" y="141.859" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="D55" library="detali" package="SOD80C" value="LL4148" x="56.67375" y="79.6925" smashed="yes">
+<attribute name="NAME" x="57.56275" y="77.343" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="59.46775" y="77.2795" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D56" library="detali" package="SOD80C" value="LL4148" x="60.16625" y="99.3775" smashed="yes" rot="R270">
+<attribute name="NAME" x="58.19775" y="98.298" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="57.75325" y="96.5835" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D57" library="detali" package="SOD80C" value="LL4148" x="88.42375" y="105.0925" smashed="yes" rot="R270">
+<attribute name="NAME" x="89.408" y="107.85475" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="86.01075" y="102.2985" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D58" library="detali" package="SOD80C" value="LL4148" x="105.88625" y="110.1725" smashed="yes" rot="R90">
+<attribute name="NAME" x="104.74325" y="112.3315" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="108.29925" y="112.9665" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="D59" library="detali" package="SOD80C" value="LL4148" x="113.50625" y="99.06" smashed="yes">
+<attribute name="NAME" x="119.15775" y="97.028" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="116.30025" y="96.647" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D60" library="detali" package="SOD80C" value="LL4148" x="127.47625" y="108.2675" smashed="yes" rot="R90">
+<attribute name="NAME" x="126.33325" y="110.4265" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="129.88925" y="111.0615" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="D61" library="detali" package="SOD80C" value="LL4148" x="144.4625" y="110.49" smashed="yes" rot="R180">
+<attribute name="NAME" x="141.82725" y="113.157" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="141.6685" y="112.903" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="D62" library="detali" package="SOD80C" value="LL4148" x="62.70625" y="61.595" smashed="yes">
+<attribute name="NAME" x="64.86525" y="62.738" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="65.50025" y="59.182" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D63" library="detali" package="SOD80C" value="LL4148" x="63.34125" y="80.645" smashed="yes" rot="R270">
+<attribute name="NAME" x="67.72275" y="82.58175" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="60.92825" y="77.851" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D64" library="detali" package="SOD80C" value="LL4148" x="75.08875" y="79.6925" smashed="yes" rot="R315">
+<attribute name="NAME" x="77.423615625" y="78.974078125" size="1.27" layer="26" rot="MR45"/>
+<attribute name="VALUE" x="75.35815625" y="76.01059375" size="1.27" layer="28" rot="MR45"/>
+</element>
+<element name="D65" library="detali" package="SOD80C" value="LL4148" x="107.79125" y="91.1225" smashed="yes" rot="R90">
+<attribute name="NAME" x="106.64825" y="93.2815" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="110.20425" y="93.9165" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="D66" library="detali" package="SOD80C" value="LL4148" x="116.04625" y="80.01" smashed="yes">
+<attribute name="NAME" x="118.20525" y="81.153" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="118.84025" y="77.597" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D67" library="detali" package="SOD80C" value="LL4148" x="136.04875" y="80.3275" smashed="yes">
+<attribute name="NAME" x="138.20775" y="81.4705" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="138.84275" y="77.9145" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D68" library="detali" package="SOD80C" value="LL4148" x="156.36875" y="80.3275" smashed="yes">
+<attribute name="NAME" x="158.52775" y="81.4705" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="159.16275" y="77.9145" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D69" library="detali" package="SOD80C" value="LL4148" x="170.33875" y="52.705" smashed="yes" rot="R90">
+<attribute name="NAME" x="169.19575" y="54.864" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="172.75175" y="55.499" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="D70" library="detali" package="SOD80C" value="LL4148" x="60.16625" y="42.2275" smashed="yes">
+<attribute name="NAME" x="60.73775" y="39.71925" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="62.96025" y="39.8145" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D71" library="detali" package="SOD80C" value="LL4148" x="69.05625" y="66.675" smashed="yes" rot="R270">
+<attribute name="NAME" x="73.12025" y="72.42175" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="66.64325" y="63.881" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D72" library="detali" package="SOD80C" value="LL4148" x="79.21625" y="61.2775" smashed="yes" rot="R270">
+<attribute name="NAME" x="77.24775" y="59.08675" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="76.80325" y="58.4835" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D73" library="detali" package="SOD80C" value="LL4148" x="108.42625" y="73.025" smashed="yes" rot="R90">
+<attribute name="NAME" x="107.28325" y="75.184" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="110.83925" y="75.819" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="D74" library="detali" package="SOD80C" value="LL4148" x="111.60125" y="60.96" smashed="yes" rot="R270">
+<attribute name="NAME" x="112.74425" y="58.801" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="109.18825" y="58.166" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D75" library="detali" package="SOD80C" value="LL4148" x="130.33375" y="62.865" smashed="yes" rot="R315">
+<attribute name="NAME" x="135.049865625" y="59.606578125" size="1.27" layer="26" rot="MR45"/>
+<attribute name="VALUE" x="130.60315625" y="59.18309375" size="1.27" layer="28" rot="MR45"/>
+</element>
+<element name="D76" library="detali" package="SOD80C" value="LL4148" x="143.98625" y="72.7075" smashed="yes" rot="R180">
+<attribute name="NAME" x="141.82725" y="71.5645" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="141.19225" y="75.1205" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="D77" library="detali" package="SOD80C" value="LL4148" x="44.92625" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.736" y="46.482" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="47.33925" y="45.974" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="D78" library="detali" package="SOD80C" value="LL4148" x="64.29375" y="43.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="66.294" y="38.13175" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="61.88075" y="40.386" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D79" library="detali" package="SOD80C" value="LL4148" x="78.105" y="37.1475" smashed="yes" rot="R270">
+<attribute name="NAME" x="76.61275" y="38.13175" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="75.692" y="34.3535" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D80" library="detali" package="SOD80C" value="LL4148" x="94.13875" y="41.91" smashed="yes" rot="R180">
+<attribute name="NAME" x="90.83675" y="43.71975" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="91.34475" y="44.323" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="D81" library="detali" package="SOD80C" value="LL4148" x="118.11" y="41.275" smashed="yes" rot="R270">
+<attribute name="NAME" x="119.253" y="39.116" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="115.697" y="38.481" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D82" library="detali" package="SOD80C" value="LL4148" x="139.22375" y="44.7675" smashed="yes">
+<attribute name="NAME" x="141.38275" y="45.9105" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="142.01775" y="42.3545" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D83" library="detali" package="SOD80C" value="LL4148" x="149.225" y="53.81625" smashed="yes" rot="R90">
+<attribute name="NAME" x="144.526" y="55.84825" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="151.638" y="56.61025" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="D84" library="detali" package="SOD80C" value="LL4148" x="63.65875" y="25.7175" smashed="yes">
+<attribute name="NAME" x="65.81775" y="26.8605" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="66.45275" y="23.3045" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D85" library="detali" package="SOD80C" value="LL4148" x="98.90125" y="27.6225" smashed="yes" rot="R180">
+<attribute name="NAME" x="95.78975" y="25.527" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="96.10725" y="30.0355" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="D86" library="detali" package="SOD80C" value="LL4148" x="122.71375" y="27.305" smashed="yes" rot="R270">
+<attribute name="NAME" x="123.85675" y="25.146" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="120.30075" y="24.511" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D87" library="detali" package="SOD80C" value="LL4148" x="147.47875" y="27.305" smashed="yes" rot="R180">
+<attribute name="NAME" x="145.31975" y="26.162" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="144.68475" y="29.718" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="D88" library="detali" package="SOD80C" value="LL4148" x="183.99125" y="25.7175" smashed="yes">
+<attribute name="NAME" x="186.15025" y="26.8605" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="186.78525" y="23.3045" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="JA48" library="detali" package="SJ" value="" x="50.00625" y="135.5725" smashed="yes" rot="R270">
+<attribute name="NAME" x="51.14925" y="133.9215" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="50.00625" y="135.9726" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JA49" library="detali" package="SJ" value="" x="79.85125" y="131.7625" smashed="yes">
+<attribute name="NAME" x="81.24825" y="130.39725" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="79.45115" y="131.7625" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA50" library="detali" package="SJ" value="" x="112.87125" y="132.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="109.31525" y="130.14325" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="113.27135" y="132.08" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA51" library="detali" package="SJ" value="" x="117.95125" y="129.54" smashed="yes">
+<attribute name="NAME" x="116.967" y="135.15975" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="117.55115" y="129.54" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA52" library="detali" package="SJ" value="" x="144.62125" y="128.905" smashed="yes" rot="R180">
+<attribute name="NAME" x="146.46275" y="129.3495" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="145.02135" y="128.905" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA53" library="detali" package="SJ" value="" x="34.13125" y="102.87" smashed="yes">
+<attribute name="NAME" x="35.78225" y="104.013" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="33.73115" y="102.87" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA54" library="detali" package="SJ" value="" x="53.6575" y="105.0925" smashed="yes">
+<attribute name="NAME" x="51.816" y="104.648" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="53.2574" y="105.0925" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA55" library="detali" package="SJ" value="" x="79.85125" y="102.235" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.32775" y="102.83825" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="80.25135" y="102.235" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA56" library="detali" package="SJ" value="" x="91.28125" y="105.0925" smashed="yes">
+<attribute name="NAME" x="92.93225" y="101.63175" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="90.88115" y="105.0925" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA57" library="detali" package="SJ" value="" x="124.30125" y="105.41" smashed="yes" rot="R180">
+<attribute name="NAME" x="122.65025" y="104.267" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="124.70135" y="105.41" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA58" library="detali" package="SJ" value="" x="137.00125" y="102.87" smashed="yes" rot="R90">
+<attribute name="NAME" x="135.85825" y="104.521" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="137.00125" y="102.4699" size="0.02" layer="28" rot="MR270"/>
+</element>
+<element name="JA59" library="detali" package="SJ" value="" x="171.1325" y="102.71125" smashed="yes" rot="R180">
+<attribute name="NAME" x="169.4815" y="101.56825" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="171.5326" y="102.71125" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA60" library="detali" package="SJ" value="" x="34.13125" y="83.82" smashed="yes">
+<attribute name="NAME" x="35.78225" y="84.963" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="33.73115" y="83.82" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA61" library="detali" package="SJ" value="" x="53.0225" y="86.0425" smashed="yes">
+<attribute name="NAME" x="54.6735" y="87.1855" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="52.6224" y="86.0425" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA62" library="detali" package="SJ" value="" x="86.20125" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="84.55025" y="85.217" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="86.60135" y="86.36" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA63" library="detali" package="SJ" value="" x="91.28125" y="85.725" smashed="yes">
+<attribute name="NAME" x="92.93225" y="86.868" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="90.88115" y="85.725" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA64" library="detali" package="SJ" value="" x="124.30125" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="122.65025" y="85.217" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="124.70135" y="86.36" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA65" library="detali" package="SJ" value="" x="144.30375" y="87.3125" smashed="yes" rot="R180">
+<attribute name="NAME" x="142.65275" y="90.297" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="144.70385" y="87.3125" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA66" library="detali" package="SJ" value="" x="149.06625" y="86.36" smashed="yes">
+<attribute name="NAME" x="150.71725" y="87.503" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="148.66615" y="86.36" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA67" library="detali" package="SJ" value="" x="180.34" y="45.085" smashed="yes" rot="R90">
+<attribute name="NAME" x="179.197" y="46.736" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="180.34" y="44.6849" size="0.02" layer="28" rot="MR270"/>
+</element>
+<element name="JA68" library="detali" package="SJ" value="" x="34.13125" y="64.77" smashed="yes">
+<attribute name="NAME" x="35.78225" y="65.913" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="33.73115" y="64.77" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA69" library="detali" package="SJ" value="" x="53.18125" y="66.675" smashed="yes">
+<attribute name="NAME" x="54.83225" y="67.818" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="52.78115" y="66.675" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA70" library="detali" package="SJ" value="" x="72.54875" y="66.675" smashed="yes">
+<attribute name="NAME" x="73.88225" y="62.89675" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="72.14865" y="66.675" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA71" library="detali" package="SJ" value="" x="91.28125" y="66.675" smashed="yes">
+<attribute name="NAME" x="89.5985" y="68.29425" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="90.88115" y="66.675" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA72" library="detali" package="SJ" value="" x="124.30125" y="67.31" smashed="yes" rot="R180">
+<attribute name="NAME" x="122.65025" y="66.167" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="124.70135" y="67.31" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA73" library="detali" package="SJ" value="" x="143.35125" y="67.31" smashed="yes" rot="R180">
+<attribute name="NAME" x="141.70025" y="66.167" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="143.75135" y="67.31" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA74" library="detali" package="SJ" value="" x="161.13125" y="63.1825" smashed="yes" rot="R90">
+<attribute name="NAME" x="159.98825" y="64.8335" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="161.13125" y="62.7824" size="0.02" layer="28" rot="MR270"/>
+</element>
+<element name="JA75" library="detali" package="SJ" value="" x="34.13125" y="45.72" smashed="yes">
+<attribute name="NAME" x="35.78225" y="46.863" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="33.73115" y="45.72" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA76" library="detali" package="SJ" value="" x="67.15125" y="47.9425" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.50025" y="46.7995" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="67.55135" y="47.9425" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA77" library="detali" package="SJ" value="" x="71.91375" y="47.9425" smashed="yes">
+<attribute name="NAME" x="73.56475" y="49.0855" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="71.51365" y="47.9425" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA78" library="detali" package="SJ" value="" x="100.80625" y="44.45" smashed="yes" rot="R90">
+<attribute name="NAME" x="103.9495" y="46.101" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="100.80625" y="44.0499" size="0.02" layer="28" rot="MR270"/>
+</element>
+<element name="JA79" library="detali" package="SJ" value="" x="124.61875" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="122.96775" y="47.117" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="125.01885" y="48.26" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA80" library="detali" package="SJ" value="" x="143.51" y="49.8475" smashed="yes" rot="R270">
+<attribute name="NAME" x="144.653" y="48.1965" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="143.51" y="50.2476" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JA81" library="detali" package="SJ" value="" x="161.6075" y="44.29125" smashed="yes" rot="R90">
+<attribute name="NAME" x="160.4645" y="45.94225" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="161.6075" y="43.89115" size="0.02" layer="28" rot="MR270"/>
+</element>
+<element name="JA82" library="detali" package="SJ" value="" x="45.24375" y="26.67" smashed="yes">
+<attribute name="NAME" x="46.89475" y="27.813" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="44.84365" y="26.67" size="0.02" layer="28" rot="MR0"/>
+</element>
+<element name="JA83" library="detali" package="SJ" value="" x="119.22125" y="29.21" smashed="yes" rot="R180">
+<attribute name="NAME" x="117.57025" y="28.067" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="119.62135" y="29.21" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA84" library="detali" package="SJ" value="" x="140.81125" y="29.21" smashed="yes" rot="R180">
+<attribute name="NAME" x="139.16025" y="28.067" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="141.21135" y="29.21" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA85" library="detali" package="SJ" value="" x="166.52875" y="29.21" smashed="yes" rot="R180">
+<attribute name="NAME" x="164.87775" y="28.067" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="166.92885" y="29.21" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA86" library="detali" package="SJ" value="" x="172.87875" y="28.575" smashed="yes">
+<attribute name="NAME" x="174.52975" y="29.718" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="172.47865" y="28.575" size="0.02" layer="28" rot="MR0"/>
+</element>
 <element name="S74" library="cherrymx" package="CHERRY-MX-4P" value="Del" x="178.91125" y="134.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="176.05375" y="137.16" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="179.54625" y="132.715" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="JB74B" library="detali" package="SJ" value="" x="172.24375" y="131.445" rot="R180"/>
-<element name="JA74B" library="detali" package="SJ" value="" x="182.72125" y="128.27" rot="R90"/>
-<element name="D64B" library="detali" package="SOD80C" value="LL4148" x="171.29125" y="138.1125" rot="R180"/>
+<element name="JB74B" library="detali" package="SJ" value="" x="172.24375" y="131.445" smashed="yes" rot="R180">
+<attribute name="NAME" x="169.00525" y="129.9845" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="172.64385" y="131.445" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="JA74B" library="detali" package="SJ" value="" x="182.72125" y="128.27" smashed="yes" rot="R90">
+<attribute name="NAME" x="180.94325" y="130.39725" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="182.72125" y="127.8699" size="0.02" layer="28" rot="MR270"/>
+</element>
+<element name="D64B" library="detali" package="SOD80C" value="LL4148" x="171.29125" y="138.1125" smashed="yes" rot="R180">
+<attribute name="NAME" x="169.13225" y="141.097" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="168.49725" y="140.5255" size="1.27" layer="28" rot="MR180"/>
+</element>
 <element name="S67C" library="cherrymx" package="CHERRY-MX-4P" value="|u" x="173.83125" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="172.24375" y="91.44" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="174.46625" y="86.6775" size="1.27" layer="27" rot="R180"/>
@@ -2290,9 +2662,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="170.91025" y="123.2535" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="170.78325" y="121.285" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="JA67B" library="detali" package="SJ" value="" x="177.165" y="82.55" rot="R90"/>
-<element name="U$94" library="kbmx" package="18X42" value="" x="166.84625" y="69.85"/>
-<element name="U$95" library="kbmx" package="18X18" value="" x="110.33125" y="33.02"/>
+<element name="JA67B" library="detali" package="SJ" value="" x="177.165" y="82.55" smashed="yes" rot="R90">
+<attribute name="NAME" x="176.022" y="84.201" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="177.165" y="82.1499" size="0.02" layer="28" rot="MR270"/>
+</element>
+<element name="U$94" library="kbmx" package="18X42" value="" x="166.84625" y="69.85" smashed="yes"/>
+<element name="U$95" library="kbmx" package="18X18" value="" x="110.33125" y="33.02" smashed="yes"/>
 <element name="S87" library="cherrymx" package="CHERRY-MX-4P" value="FN2" x="90.01125" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="96.99625" y="34.29" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="84.61375" y="35.56" size="1.27" layer="27" rot="R180"/>
@@ -2309,100 +2684,280 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32.79775" y="119.38" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="34.51225" y="116.5225" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="JB67B" library="detali" package="SJ" value="" x="167.79875" y="86.20125" rot="R180"/>
-<element name="D67B" library="detali" package="SOD80C" value="LL4148" x="164.30625" y="88.265" rot="R180"/>
-<element name="JA87" library="detali" package="SJ" value="" x="97.94875" y="31.115" rot="R270"/>
-<element name="JB87" library="detali" package="SJ" value="" x="81.43875" y="28.575" rot="R180"/>
-<element name="D89" library="detali" package="SOD80C" value="LL4148" x="78.89875" y="26.19375" rot="R180"/>
-<element name="J46" library="detali2" package="R1206W" value="" x="144.93875" y="126.6825"/>
-<element name="J48" library="detali2" package="R1206W" value="" x="120.17375" y="100.0125"/>
-<element name="J49" library="detali2" package="R1206W" value="" x="138.90625" y="99.06"/>
-<element name="J50" library="detali2" package="R1206W" value="" x="124.93625" y="73.66"/>
-<element name="J51" library="detali2" package="R1206W" value="" x="125.4125" y="52.705"/>
-<element name="J52" library="detali2" package="R1206W" value="" x="101.44125" y="37.465"/>
+<element name="JB67B" library="detali" package="SJ" value="" x="167.79875" y="86.20125" smashed="yes" rot="R180">
+<attribute name="NAME" x="166.14775" y="85.05825" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="168.19885" y="86.20125" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="D67B" library="detali" package="SOD80C" value="LL4148" x="164.30625" y="88.265" smashed="yes" rot="R180">
+<attribute name="NAME" x="162.14725" y="87.122" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="161.51225" y="90.678" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="JA87" library="detali" package="SJ" value="" x="97.94875" y="31.115" smashed="yes" rot="R270">
+<attribute name="NAME" x="99.09175" y="29.464" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="97.94875" y="31.5151" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="JB87" library="detali" package="SJ" value="" x="81.43875" y="28.575" smashed="yes" rot="R180">
+<attribute name="NAME" x="83.28025" y="30.13075" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="81.83885" y="28.575" size="0.02" layer="28" rot="MR180"/>
+</element>
+<element name="D89" library="detali" package="SOD80C" value="LL4148" x="78.89875" y="26.19375" smashed="yes" rot="R180">
+<attribute name="NAME" x="80.0735" y="24.73325" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="76.10475" y="28.60675" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J46" library="detali2" package="R1206W" value="" x="144.93875" y="126.6825" smashed="yes">
+<attribute name="NAME" x="150.33625" y="126.0475" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="146.84375" y="124.1425" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J48" library="detali2" package="R1206W" value="" x="120.17375" y="100.0125" smashed="yes">
+<attribute name="NAME" x="122.07875" y="101.2825" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="122.07875" y="97.4725" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J49" library="detali2" package="R1206W" value="" x="138.90625" y="99.06" smashed="yes">
+<attribute name="NAME" x="140.81125" y="100.33" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="140.81125" y="96.52" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J50" library="detali2" package="R1206W" value="" x="124.93625" y="73.66" smashed="yes">
+<attribute name="NAME" x="126.6825" y="70.64375" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="126.84125" y="71.12" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J51" library="detali2" package="R1206W" value="" x="125.4125" y="52.705" smashed="yes">
+<attribute name="NAME" x="127.3175" y="53.975" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="127.3175" y="50.165" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J52" library="detali2" package="R1206W" value="" x="101.44125" y="37.465" smashed="yes">
+<attribute name="NAME" x="99.06" y="36.5125" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="103.34625" y="34.925" size="1.27" layer="28" rot="MR0"/>
+</element>
 <element name="R16" library="rcl" package="R1206W" value="1k" x="163.195" y="124.7775" smashed="yes" rot="MR0">
-<attribute name="NAME" x="161.29" y="125.4125" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="161.76625" y="123.66625" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="163.83" y="122.2375" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="2C2" library="rcl" package="C1206K" value="100n" x="163.195" y="127.3175" rot="MR0"/>
-<element name="J53" library="detali2" package="R1206W" value="" x="124.93625" y="112.0775" rot="R180"/>
-<element name="J54" library="detali2" package="R1206W" value="" x="82.39125" y="81.28" rot="R180"/>
-<element name="J55" library="detali2" package="R1206W" value="" x="113.82375" y="41.75125" rot="R135"/>
-<element name="J56" library="detali2" package="R1206W" value="" x="77.31125" y="41.91" rot="R180"/>
+<element name="2C2" library="rcl" package="C1206K" value="100n" x="163.195" y="127.3175" smashed="yes" rot="MR0">
+<attribute name="NAME" x="164.63625" y="128.57625" size="1.016" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="164.795" y="125.2175" size="1.016" layer="28" rot="MR0"/>
+</element>
+<element name="J53" library="detali2" package="R1206W" value="" x="124.93625" y="112.0775" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.80875" y="110.8075" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="123.03125" y="114.6175" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J54" library="detali2" package="R1206W" value="" x="82.39125" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.21625" y="83.82" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="80.48625" y="83.82" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J55" library="detali2" package="R1206W" value="" x="113.82375" y="41.75125" smashed="yes" rot="R135">
+<attribute name="NAME" x="112.4222375" y="39.823684375" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="114.2727625" y="44.8943375" size="1.27" layer="28" rot="MR225"/>
+</element>
+<element name="J56" library="detali2" package="R1206W" value="" x="77.31125" y="41.91" smashed="yes" rot="R180">
+<attribute name="NAME" x="80.48625" y="42.38625" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="75.40625" y="44.45" size="1.27" layer="28" rot="MR180"/>
+</element>
 <element name="2C1" library="rcl" package="C1206" value="100n" x="66.19875" y="121.285" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.42125" y="119.0625" size="1.27" layer="25"/>
 <attribute name="VALUE" x="72.39" y="119.0625" size="1.27" layer="27"/>
 </element>
-<element name="J57" library="detali2" package="R1206W" value="" x="88.10625" y="92.075" rot="R90"/>
-<element name="J58" library="detali2" package="R1206W" value="" x="80.48625" y="100.0125" rot="R180"/>
-<element name="J59" library="detali2" package="R1206W" value="" x="154.78125" y="142.875" rot="R180"/>
-<element name="J60" library="detali2" package="R1206W" value="" x="70.32625" y="139.7" rot="R270"/>
-<element name="J61" library="detali2" package="R1206W" value="" x="75.40625" y="138.58875" rot="R270"/>
-<element name="J62" library="detali2" package="R1206W" value="" x="152.55875" y="139.065" rot="R90"/>
-<element name="J63" library="detali2" package="R1206W" value="" x="66.83375" y="113.3475" rot="R90"/>
-<element name="J64" library="detali2" package="R1206W" value="" x="70.32625" y="127.635" rot="R180"/>
-<element name="J65" library="detali2" package="R1206W" value="" x="70.32625" y="129.54" rot="R180"/>
-<element name="J66" library="detali2" package="R1206W" value="" x="76.04125" y="127.635" rot="R180"/>
-<element name="J67" library="detali2" package="R1206W" value="" x="70.32625" y="131.445" rot="R180"/>
-<element name="J68" library="detali2" package="R1206W" value="" x="75.40625" y="131.445" rot="R180"/>
-<element name="J69" library="detali2" package="R1206W" value="" x="78.89875" y="137.16" rot="R180"/>
-<element name="J70" library="detali2" package="R1206W" value="" x="101.12375" y="119.6975"/>
+<element name="J57" library="detali2" package="R1206W" value="" x="88.10625" y="92.075" smashed="yes" rot="R90">
+<attribute name="NAME" x="86.83625" y="93.98" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="90.64625" y="93.98" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="J58" library="detali2" package="R1206W" value="" x="80.48625" y="100.0125" smashed="yes" rot="R180">
+<attribute name="NAME" x="83.34375" y="100.80625" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="78.58125" y="102.5525" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J59" library="detali2" package="R1206W" value="" x="154.78125" y="142.875" smashed="yes" rot="R180">
+<attribute name="NAME" x="153.19375" y="145.415" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="152.87625" y="145.415" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J60" library="detali2" package="R1206W" value="" x="70.32625" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="71.755" y="142.24" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="67.78625" y="137.795" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="J61" library="detali2" package="R1206W" value="" x="75.40625" y="138.58875" smashed="yes" rot="R270">
+<attribute name="NAME" x="77.1525" y="141.44625" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="72.86625" y="136.68375" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="J62" library="detali2" package="R1206W" value="" x="152.55875" y="139.065" smashed="yes" rot="R90">
+<attribute name="NAME" x="154.305" y="136.68375" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="155.09875" y="140.97" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="J63" library="detali2" package="R1206W" value="" x="66.83375" y="113.3475" smashed="yes" rot="R90">
+<attribute name="NAME" x="68.8975" y="115.8875" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="69.37375" y="115.2525" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="J64" library="detali2" package="R1206W" value="" x="70.32625" y="127.635" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.405" y="128.11125" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="68.42125" y="130.175" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J65" library="detali2" package="R1206W" value="" x="70.32625" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.405" y="129.69875" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="68.42125" y="132.08" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J66" library="detali2" package="R1206W" value="" x="76.04125" y="127.635" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.67625" y="129.8575" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="74.13625" y="130.175" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J67" library="detali2" package="R1206W" value="" x="70.32625" y="131.445" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.24625" y="131.28625" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="68.42125" y="133.985" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J68" library="detali2" package="R1206W" value="" x="75.40625" y="131.445" smashed="yes" rot="R180">
+<attribute name="NAME" x="73.3425" y="130.175" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="73.50125" y="133.985" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J69" library="detali2" package="R1206W" value="" x="78.89875" y="137.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.62875" y="139.7" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="76.99375" y="139.7" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J70" library="detali2" package="R1206W" value="" x="101.12375" y="119.6975" smashed="yes">
+<attribute name="NAME" x="98.58375" y="118.90375" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="103.02875" y="117.1575" size="1.27" layer="28" rot="MR0"/>
+</element>
 <element name="D92" library="detali" package="SOD80C" value="LL4148" x="65.405" y="124.93625" smashed="yes" rot="R45">
-<attribute name="NAME" x="63.47446875" y="127.938025" size="1.27" layer="26" rot="MR315"/>
+<attribute name="NAME" x="65.06196875" y="126.826775" size="1.27" layer="26" rot="MR315"/>
 <attribute name="VALUE" x="66.01424375" y="128.002071875" size="1.27" layer="28" rot="MR315"/>
 </element>
 <element name="D93" library="detali" package="SOD80C" value="LL4148" x="64.61125" y="120.80875" smashed="yes" rot="R60">
-<attribute name="NAME" x="63.853190625" y="117.824403125" size="1.27" layer="26" rot="MR300"/>
+<attribute name="NAME" x="60.130559375" y="118.395596875" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="67.7804625" y="121.386915625" size="1.27" layer="28" rot="MR300"/>
 </element>
-<element name="J71" library="detali2" package="R1206W" value="" x="101.44125" y="121.92"/>
-<element name="J72" library="detali2" package="R1206W" value="" x="101.75875" y="124.1425"/>
-<element name="J73" library="detali2" package="R1206W" value="" x="121.12625" y="119.6975"/>
-<element name="J74" library="detali2" package="R1206W" value="" x="121.12625" y="121.92"/>
-<element name="J75" library="detali2" package="R1206W" value="" x="121.12625" y="124.1425"/>
-<element name="J76" library="detali2" package="R1206W" value="" x="101.12375" y="117.475" rot="R180"/>
-<element name="J77" library="detali2" package="R1206W" value="" x="140.17625" y="119.6975"/>
-<element name="J78" library="detali2" package="R1206W" value="" x="140.17625" y="121.92"/>
-<element name="J79" library="detali2" package="R1206W" value="" x="140.17625" y="124.1425"/>
-<element name="J80" library="detali2" package="R1206W" value="" x="144.93875" y="124.46"/>
-<element name="J81" library="detali2" package="R1206W" value="" x="144.93875" y="120.015"/>
-<element name="J82" library="detali2" package="R1206W" value="" x="144.93875" y="122.2375"/>
-<element name="J87" library="detali2" package="R1206W" value="" x="167.79875" y="25.4" rot="R270"/>
-<element name="J89" library="detali2" package="R1206W" value="" x="139.54125" y="62.23" rot="R180"/>
-<element name="J90" library="detali2" package="R1206W" value="" x="177.64125" y="99.695" rot="R180"/>
-<element name="J91" library="detali2" package="R1206W" value="" x="145.0975" y="84.7725" rot="R180"/>
-<element name="J92" library="detali2" package="R1206W" value="" x="168.5925" y="60.325" rot="R180"/>
-<element name="J93" library="detali2" package="R1206W" value="" x="168.75125" y="34.29" rot="R180"/>
-<element name="J94" library="detali2" package="R1206W" value="" x="146.685" y="47.14875" rot="R180"/>
-<element name="J95" library="detali2" package="R1206W" value="" x="154.78125" y="139.3825" rot="R90"/>
-<element name="2R1" library="rcl" package="R0805" value="10k" x="72.54875" y="138.7475" rot="MR90"/>
-<element name="2R2" library="rcl" package="R0805" value="10k" x="68.10375" y="108.585" rot="MR0"/>
-<element name="2R3" library="rcl" package="R0805" value="10k" x="69.69125" y="110.49" rot="MR180"/>
-<element name="2R4" library="rcl" package="R1206W" value="10k" x="70.64375" y="112.395" rot="MR180"/>
-<element name="2R5" library="rcl" package="R0805" value="10k" x="75.08875" y="135.255" rot="MR180"/>
-<element name="2R6" library="rcl" package="R0805" value="10k" x="72.86625" y="133.35" rot="MR0"/>
-<element name="U$105" library="kbmx" package="18X42" value="" x="56.67375" y="31.75" rot="R180"/>
+<element name="J71" library="detali2" package="R1206W" value="" x="101.44125" y="121.92" smashed="yes">
+<attribute name="NAME" x="107.15625" y="121.76125" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="103.34625" y="119.38" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J72" library="detali2" package="R1206W" value="" x="101.75875" y="124.1425" smashed="yes">
+<attribute name="NAME" x="107.15625" y="123.66625" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="103.66375" y="121.6025" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J73" library="detali2" package="R1206W" value="" x="121.12625" y="119.6975" smashed="yes">
+<attribute name="NAME" x="118.26875" y="120.17375" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="123.03125" y="117.1575" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J74" library="detali2" package="R1206W" value="" x="121.12625" y="121.92" smashed="yes">
+<attribute name="NAME" x="122.71375" y="125.4125" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="123.03125" y="119.38" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J75" library="detali2" package="R1206W" value="" x="121.12625" y="124.1425" smashed="yes">
+<attribute name="NAME" x="118.26875" y="121.76125" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="123.03125" y="121.6025" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J76" library="detali2" package="R1206W" value="" x="101.12375" y="117.475" smashed="yes" rot="R180">
+<attribute name="NAME" x="98.58375" y="116.84" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="99.21875" y="120.015" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J77" library="detali2" package="R1206W" value="" x="140.17625" y="119.6975" smashed="yes">
+<attribute name="NAME" x="137.795" y="119.0625" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="142.08125" y="117.1575" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J78" library="detali2" package="R1206W" value="" x="140.17625" y="121.92" smashed="yes">
+<attribute name="NAME" x="137.63625" y="121.285" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="142.08125" y="119.38" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J79" library="detali2" package="R1206W" value="" x="140.17625" y="124.1425" smashed="yes">
+<attribute name="NAME" x="141.44625" y="125.57125" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="142.08125" y="121.6025" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J80" library="detali2" package="R1206W" value="" x="144.93875" y="124.46" smashed="yes">
+<attribute name="NAME" x="150.01875" y="123.825" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="146.84375" y="121.92" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J81" library="detali2" package="R1206W" value="" x="144.93875" y="120.015" smashed="yes">
+<attribute name="NAME" x="150.01875" y="119.38" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="146.84375" y="117.475" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J82" library="detali2" package="R1206W" value="" x="144.93875" y="122.2375" smashed="yes">
+<attribute name="NAME" x="150.1775" y="121.6025" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="146.84375" y="119.6975" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="J87" library="detali2" package="R1206W" value="" x="167.79875" y="25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="165.57625" y="23.01875" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="165.25875" y="23.495" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="J89" library="detali2" package="R1206W" value="" x="139.54125" y="62.23" smashed="yes" rot="R180">
+<attribute name="NAME" x="137.63625" y="60.96" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="137.63625" y="64.77" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J90" library="detali2" package="R1206W" value="" x="177.64125" y="99.695" smashed="yes" rot="R180">
+<attribute name="NAME" x="175.73625" y="98.425" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="175.73625" y="102.235" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J91" library="detali2" package="R1206W" value="" x="145.0975" y="84.7725" smashed="yes" rot="R180">
+<attribute name="NAME" x="146.3675" y="83.5025" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="143.1925" y="87.3125" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J92" library="detali2" package="R1206W" value="" x="168.5925" y="60.325" smashed="yes" rot="R180">
+<attribute name="NAME" x="164.7825" y="58.89625" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="166.6875" y="62.865" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J93" library="detali2" package="R1206W" value="" x="168.75125" y="34.29" smashed="yes" rot="R180">
+<attribute name="NAME" x="165.4175" y="32.7025" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="166.84625" y="36.83" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J94" library="detali2" package="R1206W" value="" x="146.685" y="47.14875" smashed="yes" rot="R180">
+<attribute name="NAME" x="145.415" y="45.56125" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="144.78" y="49.68875" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J95" library="detali2" package="R1206W" value="" x="154.78125" y="139.3825" smashed="yes" rot="R90">
+<attribute name="NAME" x="157.32125" y="140.81125" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="157.32125" y="141.2875" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="2R1" library="rcl" package="R0805" value="10k" x="72.54875" y="138.7475" smashed="yes" rot="MR90">
+<attribute name="NAME" x="74.295" y="140.6525" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="70.00875" y="138.1125" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="2R2" library="rcl" package="R0805" value="10k" x="68.10375" y="108.585" smashed="yes" rot="MR0">
+<attribute name="NAME" x="66.04" y="109.5375" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="68.73875" y="106.045" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="2R3" library="rcl" package="R0805" value="10k" x="69.69125" y="110.49" smashed="yes" rot="MR180">
+<attribute name="NAME" x="71.59625" y="110.64875" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="69.05625" y="113.03" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="2R4" library="rcl" package="R1206W" value="10k" x="70.64375" y="112.395" smashed="yes" rot="MR180">
+<attribute name="NAME" x="69.85" y="114.45875" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="68.73875" y="114.935" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="2R5" library="rcl" package="R0805" value="10k" x="75.08875" y="135.255" smashed="yes" rot="MR180">
+<attribute name="NAME" x="74.6125" y="134.14375" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="74.45375" y="137.795" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="2R6" library="rcl" package="R0805" value="10k" x="72.86625" y="133.35" smashed="yes" rot="MR0">
+<attribute name="NAME" x="70.64375" y="132.87375" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="73.50125" y="130.81" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="U$105" library="kbmx" package="18X42" value="" x="56.67375" y="31.75" smashed="yes" rot="R180"/>
 <element name="S82A" library="cherrymx" package="CHERRY-MX" value="space" x="56.67375" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.65875" y="38.1" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="63.97625" y="36.83" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U$81" library="kbmx" package="18X18" value="" x="177.64125" y="135.89"/>
-<element name="J83" library="detali2" package="R1206W" value="" x="146.20875" y="106.3625" rot="R180"/>
-<element name="J84" library="detali2" package="R1206W" value="" x="163.35375" y="140.0175" rot="R270"/>
-<element name="J85" library="detali2" package="R1206W" value="" x="163.03625" y="134.9375" rot="R270"/>
-<element name="J86" library="detali2" package="R1206W" value="" x="164.94125" y="134.9375" rot="R270"/>
+<element name="U$81" library="kbmx" package="18X18" value="" x="177.64125" y="135.89" smashed="yes"/>
+<element name="J83" library="detali2" package="R1206W" value="" x="146.20875" y="106.3625" smashed="yes" rot="R180">
+<attribute name="NAME" x="145.57375" y="104.775" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="144.30375" y="108.9025" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="J84" library="detali2" package="R1206W" value="" x="163.35375" y="140.0175" smashed="yes" rot="R270">
+<attribute name="NAME" x="161.925" y="139.85875" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="160.81375" y="138.1125" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="J85" library="detali2" package="R1206W" value="" x="163.03625" y="134.9375" smashed="yes" rot="R270">
+<attribute name="NAME" x="162.2425" y="129.8575" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="160.49625" y="133.0325" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="J86" library="detali2" package="R1206W" value="" x="164.94125" y="134.9375" smashed="yes" rot="R270">
+<attribute name="NAME" x="164.30625" y="129.8575" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="162.40125" y="133.0325" size="1.27" layer="28" rot="MR90"/>
+</element>
 <element name="S83B" library="cherrymx" package="CHERRY-MX" value="" x="108.9025" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="106.3625" y="34.925" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="110.1725" y="35.56" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U$1" library="kbmx" package="18X23" value="" x="88.74125" y="33.02"/>
+<element name="U$1" library="kbmx" package="18X23" value="" x="88.74125" y="33.02" smashed="yes"/>
 <element name="S87B" library="cherrymx" package="CHERRY-MX" value="" x="87.63" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="84.455" y="39.37" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="88.9" y="35.56" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U$4" library="kbmx" package="18X23" value="" x="156.05125" y="52.07"/>
-<element name="U$2" library="kbmx" package="18X18" value="" x="172.56125" y="90.17"/>
-<element name="U$5" library="kbmx" package="18X37" value="" x="164.30625" y="107.95"/>
+<element name="U$4" library="kbmx" package="18X23" value="" x="156.05125" y="52.07" smashed="yes"/>
+<element name="U$2" library="kbmx" package="18X18" value="" x="172.56125" y="90.17" smashed="yes"/>
+<element name="U$5" library="kbmx" package="18X37" value="" x="164.30625" y="107.95" smashed="yes"/>
 </elements>
 <signals>
 <signal name="N$107">
