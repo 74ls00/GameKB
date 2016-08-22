@@ -1,0 +1,16 @@
+key
+
+f12	m
+=	j
+I	f10
+o	f9
+[	u
+'"	7
+?/	h
+|d	prt
+rctr	n
+rwin	y
+
+
+
+

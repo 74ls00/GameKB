@@ -22,8 +22,13 @@
 # A0 = 20 = PD2 - 3,4,5   != 3D2_6  = 16 kbn3
 # A1 = 21 = PD3 - 9,10,11 != 3D2_8  = 15 kbn2
 # A2 = 19 = PD1 - 1,2,13  != 3D2_12 = 14 kbn1
-#
-#
+# D7                                     kbb1
+# D6                                     kbb2
+# D5   31   PC6                        1 kbb3
+# D4   25   PD4                        7 kbb4    (x,7)
+# D3                                     kbb5
+# D2   19   PD1                          kbb6
+#                                      
 # keyBoard B (PCB_B) ** исправлено
 # порт в коде               0      4      2      6      3     5      1     7
 # pin | signal  |col_kbb|  15  |  14  |  13  |  12  |  9* |  10  |  11* |  7
@@ -34,9 +39,9 @@
 # 5   !1>2        kbb4     0      9      M      ,<      U     J      K      8
 # 6   !3>4        kbb5                                  L     Ii            Oo
 # 7   !5>6        kbb6     F10    F11    .>     FN2     P     ;:     `~     -_
-# 8  d3
-# 9  d2
-# 10 d1
+# 8  d1 miso
+# 9  d2 mosi
+# 7  d3 sck
 # 11 vcc
 
 # NumPad
@@ -46,7 +51,7 @@
 # 3  i8  9.10.11  kbn2  P_Enter   P+     P-     P*     P/     PF     P9     PC
 # 4     led_num
 # 5  i6  3.4.5    kbn3     P.     P3     P6     P2     P5     PE     P8     PB
-# 6     d3
-# 7     d2
-# 8     d1
+# 6     d3   sck
+# 7     d2   mosi
+# 8     d1   miso
 # 9 vcc

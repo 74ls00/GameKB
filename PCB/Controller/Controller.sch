@@ -39684,9 +39684,9 @@ Based on the following sources:
 <text x="447.04" y="33.02" size="1.778" layer="91">kbn1</text>
 <text x="447.04" y="35.56" size="1.778" layer="91">kbn2</text>
 <text x="447.04" y="40.64" size="1.778" layer="91">kbn3</text>
-<text x="894.08" y="60.96" size="1.778" layer="91">d3</text>
+<text x="894.08" y="55.88" size="1.778" layer="91">d3</text>
 <text x="894.08" y="58.42" size="1.778" layer="91">d2</text>
-<text x="894.08" y="55.88" size="1.778" layer="91">d1</text>
+<text x="894.08" y="60.96" size="1.778" layer="91">d1</text>
 <text x="876.3" y="20.32" size="1.778" layer="91">kbn2</text>
 <text x="876.3" y="17.78" size="1.778" layer="91">kbn3</text>
 <text x="876.3" y="15.24" size="1.778" layer="91">kbn1</text>
@@ -39697,9 +39697,9 @@ Based on the following sources:
 <text x="482.6" y="40.64" size="1.778" layer="91">kbb4</text>
 <text x="482.6" y="43.18" size="1.778" layer="91">kbb5</text>
 <text x="482.6" y="45.72" size="1.778" layer="91">kbb6</text>
-<text x="482.6" y="48.26" size="1.778" layer="91">d3</text>
+<text x="482.6" y="53.34" size="1.778" layer="91">d3</text>
 <text x="482.6" y="50.8" size="1.778" layer="91">d2</text>
-<text x="482.6" y="53.34" size="1.778" layer="91">d1</text>
+<text x="482.6" y="48.26" size="1.778" layer="91">d1</text>
 <text x="447.04" y="43.18" size="1.778" layer="91">d3</text>
 <text x="447.04" y="45.72" size="1.778" layer="91">d2</text>
 <text x="447.04" y="48.26" size="1.778" layer="91">d1</text>
@@ -40613,11 +40613,6 @@ Based on the following sources:
 </net>
 <net name="CD3" class="0">
 <segment>
-<pinref part="SV6" gate="G$1" pin="8"/>
-<wire x1="472.44" y1="48.26" x2="462.28" y2="48.26" width="0.1524" layer="91"/>
-<label x="464.82" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV5" gate="G$1" pin="6"/>
 <wire x1="436.88" y1="43.18" x2="424.18" y2="43.18" width="0.1524" layer="91"/>
 <label x="424.18" y="43.18" size="1.778" layer="95"/>
@@ -40636,11 +40631,6 @@ Based on the following sources:
 </segment>
 </net>
 <net name="CD1" class="0">
-<segment>
-<pinref part="SV6" gate="G$1" pin="10"/>
-<wire x1="472.44" y1="53.34" x2="462.28" y2="53.34" width="0.1524" layer="91"/>
-<label x="464.82" y="53.34" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="SV5" gate="G$1" pin="8"/>
 <wire x1="436.88" y1="48.26" x2="424.18" y2="48.26" width="0.1524" layer="91"/>
@@ -40742,22 +40732,12 @@ Based on the following sources:
 <label x="825.5" y="83.82" size="1.778" layer="95"/>
 <pinref part="ICSP1" gate="A" pin="3"/>
 </segment>
-<segment>
-<pinref part="DD3" gate="G$1" pin="(SCLK/PCINT1)PB1"/>
-<wire x1="873.76" y1="55.88" x2="883.92" y2="55.88" width="0.1524" layer="91"/>
-<label x="876.3" y="55.88" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MISO(D3)" class="0">
 <segment>
 <wire x1="843.28" y1="86.36" x2="830.58" y2="86.36" width="0.1524" layer="91"/>
 <label x="825.5" y="86.36" size="1.778" layer="95"/>
 <pinref part="ICSP1" gate="A" pin="1"/>
-</segment>
-<segment>
-<pinref part="DD3" gate="G$1" pin="(PD0/MISO/PCINT3)PB3"/>
-<wire x1="873.76" y1="60.96" x2="883.92" y2="60.96" width="0.1524" layer="91"/>
-<label x="876.3" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI(D2)" class="0">
@@ -41662,6 +41642,20 @@ Based on the following sources:
 <segment>
 <pinref part="3D1" gate="1" pin="PB2(SS/OC1B/PCINT2)"/>
 <wire x1="782.32" y1="261.62" x2="789.94" y2="261.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCK(D3)" class="0">
+<segment>
+<pinref part="DD3" gate="G$1" pin="(SCLK/PCINT1)PB1"/>
+<wire x1="873.76" y1="55.88" x2="883.92" y2="55.88" width="0.1524" layer="91"/>
+<label x="876.3" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MISO(D1)" class="0">
+<segment>
+<pinref part="DD3" gate="G$1" pin="(PD0/MISO/PCINT3)PB3"/>
+<wire x1="873.76" y1="60.96" x2="883.92" y2="60.96" width="0.1524" layer="91"/>
+<label x="876.3" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

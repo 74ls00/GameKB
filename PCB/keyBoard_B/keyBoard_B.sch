@@ -7259,9 +7259,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="190.5" y="233.68" size="1.778" layer="91">kbb1</text>
 <text x="190.5" y="231.14" size="1.778" layer="91">gnd</text>
 <text x="190.5" y="256.54" size="1.778" layer="91">vcc</text>
-<text x="190.5" y="254" size="1.778" layer="91">d1</text>
+<text x="190.5" y="248.92" size="1.778" layer="91">d1</text>
 <text x="190.5" y="251.46" size="1.778" layer="91">d2</text>
-<text x="190.5" y="248.92" size="1.778" layer="91">d3</text>
+<text x="190.5" y="254" size="1.778" layer="91">d3</text>
 </plain>
 <instances>
 <instance part="S47" gate="G$1" x="48.26" y="165.1"/>
@@ -9187,7 +9187,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="J59" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="BD1" class="0">
+<net name="BD3" class="0">
 <segment>
 <label x="12.7" y="215.9" size="1.778" layer="95"/>
 <pinref part="J70" gate="G$1" pin="P$2"/>
@@ -9211,7 +9211,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SV4" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="BD3" class="0">
+<net name="BD1" class="0">
 <segment>
 <label x="12.7" y="220.98" size="1.778" layer="95"/>
 <pinref part="J72" gate="G$1" pin="P$2"/>

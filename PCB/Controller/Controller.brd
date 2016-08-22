@@ -4086,9 +4086,7 @@ Based on the following sources:
 <contactref element="SV5" pad="5"/>
 </signal>
 <signal name="CD3">
-<contactref element="SV6" pad="8"/>
 <contactref element="SV5" pad="6"/>
-<wire x1="115.2525" y1="67.6275" x2="113.665" y2="75.8825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CD2">
 <contactref element="SV5" pad="7"/>
@@ -4096,9 +4094,7 @@ Based on the following sources:
 <wire x1="117.7925" y1="67.6275" x2="116.205" y2="75.8825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CD1">
-<contactref element="SV6" pad="10"/>
 <contactref element="SV5" pad="8"/>
-<wire x1="120.3325" y1="67.6275" x2="118.745" y2="75.8825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KBN2">
 <contactref element="SV5" pad="3"/>
@@ -4139,8 +4135,6 @@ Based on the following sources:
 </signal>
 <signal name="MISO(D3)">
 <contactref element="ICSP1" pad="1"/>
-<contactref element="DD3" pad="11"/>
-<wire x1="43.9" y1="18.9225" x2="51.435" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI(D2)">
 <contactref element="ICSP1" pad="4"/>
@@ -4149,8 +4143,6 @@ Based on the following sources:
 </signal>
 <signal name="SCK(D1)">
 <contactref element="ICSP1" pad="3"/>
-<contactref element="DD3" pad="9"/>
-<wire x1="43.9" y1="17.3225" x2="53.975" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="1X1" pad="1"/>
@@ -4693,6 +4685,12 @@ Based on the following sources:
 </signal>
 <signal name="N$26">
 <contactref element="3D1" pad="14"/>
+</signal>
+<signal name="SCK(D3)">
+<contactref element="DD3" pad="9"/>
+</signal>
+<signal name="MISO(D1)">
+<contactref element="DD3" pad="11"/>
 </signal>
 </signals>
 </board>

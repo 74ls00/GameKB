@@ -119,81 +119,118 @@ KMAC_key = None
 # A0 = 20 = PD2 - 3,4,5   != 3D2_6  = 16
 # A1 = 21 = PD3 - 9,10,11 != 3D2_8  = 15
 # A2 = 19 = PD1 - 1,2,13  != 3D2_12 = 14
-#
+# D4                                 (x,7)
 # номер порта дешифратора | выход дешифратора | номер порта в коде
-# Y0 = 15 = 0
-# Y1 = 14 = 4
+#      numpad  
+# Y0 = 15 = 0  
+# Y1 = 14 = 4  
 # Y2 = 13 = 2
 # Y3 = 12 = 6
 # Y4 = 11 = 1
 # Y5 = 10 = 5
 # Y6 = 9  = 3
-# Y7 = 7  = 7
+# Y7 = 7  = 7 
 
 # (горизонталь кнопки, вертикаль кнопки), (?выходы дешифратора, входы контролера)  
 keyboard_definition = [
     [
 	(1, None, '0'),
-((4, 4), (6, 0), 'HID_KEYBOARD_SC_F7'),
-     ((4, 4), (7, 0), 'HID_KEYBOARD_SC_F8'),
+((4, 4), (1, 3), 'HID_KEYBOARD_SC_F7'),
+((4, 4), (4, 3), 'HID_KEYBOARD_SC_F8'),                       
      (2, None, '0'),
-     ((4, 4), (7, 3), 'HID_KEYBOARD_SC_F9'),
-     ((4, 4), (5, 3), 'HID_KEYBOARD_SC_F10'),
-     ((4, 4), (1, 3), 'HID_KEYBOARD_SC_F11'),
-     ((4, 4), (2, 3), 'HID_KEYBOARD_SC_F12'),
-	 (3, None, '0'),
-	 ((4, 4), (7, 15), 'HID_KEYBOARD_SC_DELETE')
+     ((4, 4), (3, 2), 'HID_KEYBOARD_SC_F9'),
+     ((4, 4), (3, 3), 'HID_KEYBOARD_SC_F10'),
+     ((4, 4), (7, 5), 'HID_KEYBOARD_SC_F11'),
+     ((4, 4), (2, 7), 'HID_KEYBOARD_SC_F12'),
+#                            10 4 11 '6 
+(3, None, '0'),
+((4, 4), (0, 1), 'HID_KEYBOARD_SC_DELETE'),                    #OK
+(1, None, '0'),
+((4, 4), (5, 14), 'HID_KEYBOARD_SC_NUM_LOCK'),                 #OK
+((4, 4), (7, 14), 'HID_KEYBOARD_SC_D'),	                       #OK
+((4, 4), (5, 16), 'HID_KEYBOARD_SC_E'),                        #OK
+((4, 4), (5, 15), 'HID_KEYBOARD_SC_F'),                        #OK
+((4, 4), (1, 15), 'HID_KEYBOARD_SC_KEYPAD_SLASH')              #OK
+
      ],
      #2,
      [
+
+	 
    (1, None, '0'),
 ((4, 4), (5, 10), 'HID_KEYBOARD_SC_7_AND_AND_AMPERSAND'),
-     ((4, 4), (5, 11), 'HID_KEYBOARD_SC_8_AND_ASTERISK'),
-     ((4, 4), (5, 0), 'HID_KEYBOARD_SC_9_AND_OPENING_PARENTHESIS'),
-     ((4, 4), (5, 2), 'HID_KEYBOARD_SC_0_AND_CLOSING_PARENTHESIS'),
+((4, 4), (7, 7), 'HID_KEYBOARD_SC_8_AND_ASTERISK'),               #OK
+((4, 4), (4, 7), 'HID_KEYBOARD_SC_9_AND_OPENING_PARENTHESIS'),    #OK
+((4, 4), (0, 7), 'HID_KEYBOARD_SC_0_AND_CLOSING_PARENTHESIS'),    #OK
      ((4, 4), (7, 2), 'HID_KEYBOARD_SC_MINUS_AND_UNDERSCORE'),
      ((4, 4), (7, 11), 'HID_KEYBOARD_SC_EQUAL_AND_PLUS'),
-     ((8, 4), (6, 3), 'HID_KEYBOARD_SC_BACKSPACE')
+((8, 4), (4, 1), 'HID_KEYBOARD_SC_BACKSPACE'),                 #OK
+(6, None, '0'),	
+((4, 4), (3, 14), 'HID_KEYBOARD_SC_A'),                        #OK
+((4, 4), (7, 16), 'HID_KEYBOARD_SC_B'),	                       #OK
+((4, 4), (7, 15), 'HID_KEYBOARD_SC_C'),                        #OK
+((4, 4), (6, 15), 'HID_KEYBOARD_SC_KEYPAD_ASTERISK')	       #OK
      ],[
 (1, None, '0'),
 ((4, 4), (6, 10), 'HID_KEYBOARD_SC_Y'),
-     ((4, 4), (3, 10), 'HID_KEYBOARD_SC_U'),
+((4, 4), (3, 7), 'HID_KEYBOARD_SC_U'),                         #OK
      ((4, 4), (3, 11), 'HID_KEYBOARD_SC_I'),
      ((4, 4), (3, 0), 'HID_KEYBOARD_SC_O'),
      ((4, 4), (3, 2), 'HID_KEYBOARD_SC_P'),
      ((4, 4), (6, 2), 'HID_KEYBOARD_SC_OPENING_BRACKET_AND_OPENING_BRACE'),
      ((4, 4), (6, 11), 'HID_KEYBOARD_SC_CLOSING_BRACKET_AND_CLOSING_BRACE'),
-     ((4, 4), (4, 3), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE')# x ? ? ?	           #OK
+     ((4, 4), (7, 1), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE'),   #OK   |u
+	 
+(6, None, '0'),		 
+((4, 4), (1, 14), 'HID_KEYBOARD_SC_KEYPAD_7_AND_HOME'),        #OK
+((4, 4), (3, 16), 'HID_KEYBOARD_SC_KEYPAD_8_AND_UP_ARROW'),    #OK
+((4, 4), (3, 15), 'HID_KEYBOARD_SC_KEYPAD_9_AND_PAGE_UP'),	   #OK
+((4, 4), (2, 15), 'HID_KEYBOARD_SC_KEYPAD_MINUS')	           #OK
      ],[
 (1, None, '0'),
 ((4, 4), (1, 10), 'HID_KEYBOARD_SC_H'),
-     ((4, 4), (4, 10), 'HID_KEYBOARD_SC_J'),
-     ((4, 4), (4, 11), 'HID_KEYBOARD_SC_K'),
+((4, 4), (5, 7), 'HID_KEYBOARD_SC_J'),                         #OK
+((4, 4), (1, 7), 'HID_KEYBOARD_SC_K'),                         #OK
      ((4, 4), (4, 0), 'HID_KEYBOARD_SC_L'),
      ((4, 4), (4, 2), 'HID_KEYBOARD_SC_SEMICOLON_AND_COLON'),
 	 ((4, 4), (1, 2), 'HID_KEYBOARD_SC_APOSTROPHE_AND_QUOTE'),
-	 ((9, 4), (0, 3), 'HID_KEYBOARD_SC_ENTER')#5,
+((9, 4), (3, 1), 'HID_KEYBOARD_SC_ENTER'),                     #OK
+(5, None, '0'),	 	 
+((4, 4), (6, 14), 'HID_KEYBOARD_SC_KEYPAD_4_AND_LEFT_ARROW'),  #OK
+((4, 4), (1, 16), 'HID_KEYBOARD_SC_KEYPAD_5'),                 #OK
+((4, 4), (2, 16), 'HID_KEYBOARD_SC_KEYPAD_6_AND_RIGHT_ARROW'), #OK
+((4, 4), (4, 15), 'HID_KEYBOARD_SC_KEYPAD_PLUS')	 #4,4,7,2  #OK
      ],[
 	 (1, None, '0'),
- ((4, 4), (2, 10), 'HID_KEYBOARD_SC_N'),
-     ((4, 4), (0, 10), 'HID_KEYBOARD_SC_M'),
-     ((4, 4), (0, 11), 'HID_KEYBOARD_SC_COMMA_AND_LESS_THAN_SIGN'),
+((4, 4), (2, 3), 'HID_KEYBOARD_SC_N'),
+((4, 4), (2, 7), 'HID_KEYBOARD_SC_M'),                         #OK 
+((4, 4), (6, 7), 'HID_KEYBOARD_SC_COMMA_AND_LESS_THAN_SIGN'),  #OK    ,<
      ((4, 4), (0, 0), 'HID_KEYBOARD_SC_DOT_AND_GREATER_THAN_SIGN'),
 	 ((4, 4), (7, 6), 'HID_KEYBOARD_SC_GRAVE_ACCENT_AND_TILDE'),
      ((4, 4), (2, 2), 'HID_KEYBOARD_SC_SLASH_AND_QUESTION_MARK'),
-	 ((5, 4), (4, 5), 'HID_KEYBOARD_SC_RIGHT_SHIFT'),#11
-     ((4, 4), (4, 3), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE')
+((5, 4), (1, 1), 'HID_KEYBOARD_SC_RIGHT_SHIFT'),               #OK
+((4, 4), (5, 1), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE'),        #OK    |d
+(5, None, '0'),
+((4, 4), (2, 14), 'HID_KEYBOARD_SC_KEYPAD_1_AND_END'),         #OK
+((4, 4), (6, 16), 'HID_KEYBOARD_SC_KEYPAD_2_AND_DOWN_ARROW'),  #OK
+((4, 4), (4, 16), 'HID_KEYBOARD_SC_KEYPAD_3_AND_PAGE_DOWN'),   #OK
+((4, 8), (0, 15), 'HID_KEYBOARD_SC_KEYPAD_ENTER')              #OK
      ],[
 
 ((11, 4), (1, 15), 'HID_KEYBOARD_SC_SPACE'),
 	  ((5, 4), (2, 0), 'HID_KEYBOARD_SC_APPLICATION'),
 	 ((4, 4), (4, 16), 'HID_KEYBOARD_SC_RIGHT_GUI'),#5,
 	
-	 ((5, 4), (2, 1), 'HID_KEYBOARD_SC_RIGHT_ALT'),
+((5, 4), (2, 10), 'HID_KEYBOARD_SC_RIGHT_ALT'),                #OK
      
      
-     ((5, 4), (0, 14), 'HID_KEYBOARD_SC_RIGHT_CONTROL'),
-	 ((4, 4), (5, 1), 'HID_KEYBOARD_SC_PRINT_SCREEN')
+((5, 4), (2, 1), 'HID_KEYBOARD_SC_RIGHT_CONTROL'),             #OK
+((4, 4), (6, 1), 'HID_KEYBOARD_SC_PRINT_SCREEN'),              #OK
+	 
+(5, None, '0'),
+((4, 4), (4, 14), 'HID_KEYBOARD_SC_KEYPAD_0_AND_INSERT'),      #OK
+((4, 4), (0, 14), 'HID_KEYBOARD_SC_KEYPAD_DOT_AND_DELETE'),    #OK
+((4, 4), (0, 16), 'HID_KEYBOARD_SC_SLASH_AND_QUESTION_MARK')   #OK
      ]
 ]
 
