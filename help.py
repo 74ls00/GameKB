@@ -24,8 +24,9 @@
 # A2 = 19 = PD1 - 1,2,13  != 3D2_12 = 14 kbn1
 #
 #
-# keyBoard B (PCB_B)
-# pin | signal  |col_kbb|  15  |  14  |  13  |  12  |  11  |  10  |  9   |  7
+# keyBoard B (PCB_B) ** исправлено
+# порт в коде               0      4      2      6      3     5      1     7
+# pin | signal  |col_kbb|  15  |  14  |  13  |  12  |  9* |  10  |  11* |  7
 # 1  gnd
 # 2   !9>8        kbb1     F9     F8     N    R_Space   7     Y      H      F7
 # 3  !11>10       kbb2     F12    =    R_ALT    FN3    [{     "'     /?     ]}

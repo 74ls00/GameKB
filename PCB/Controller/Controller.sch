@@ -39186,6 +39186,7 @@ Based on the following sources:
 <part name="1R12" library="rcl" deviceset="R-EU_" device="R0603" value="10"/>
 <part name="U_U1" library="jumper" deviceset="SJ" device=""/>
 <part name="U_U2" library="jumper" deviceset="SJ" device=""/>
+<part name="1C11" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -39715,6 +39716,75 @@ Based on the following sources:
 <text x="469.9" y="256.54" size="1.27" layer="91" ratio="6">J HW не нужен</text>
 <text x="469.9" y="254" size="1.27" layer="91" ratio="6">1R6 для J HW</text>
 <text x="421.64" y="386.08" size="5.08" layer="94">USB-HUB</text>
+<text x="800.1" y="261.62" size="1.778" layer="91">LED_TARGET</text>
+<text x="800.1" y="317.5" size="1.778" layer="91">RadioKot</text>
+<text x="800.1" y="259.08" size="1.778" layer="91">FT232_MOSI</text>
+<text x="800.1" y="256.54" size="1.778" layer="91">FT232_MISO</text>
+<text x="800.1" y="254" size="1.778" layer="91">FT232_SCK</text>
+<text x="800.1" y="312.42" size="1.778" layer="91">out 1Mhz</text>
+<text x="800.1" y="309.88" size="1.778" layer="91">out_MOSI</text>
+<text x="800.1" y="307.34" size="1.778" layer="91">rst adc</text>
+<text x="800.1" y="304.8" size="1.778" layer="91">out reset</text>
+<text x="800.1" y="302.26" size="1.778" layer="91">out sck</text>
+<text x="800.1" y="299.72" size="1.778" layer="91">out miso</text>
+<text x="800.1" y="297.18" size="1.778" layer="91">x</text>
+<text x="800.1" y="294.64" size="1.778" layer="91">x</text>
+<text x="800.1" y="281.94" size="1.778" layer="91">x</text>
+<text x="800.1" y="279.4" size="1.778" layer="91">x</text>
+<text x="800.1" y="276.86" size="1.778" layer="91">x</text>
+<text x="800.1" y="274.32" size="1.778" layer="91">x</text>
+<text x="800.1" y="271.78" size="1.778" layer="91">x</text>
+<text x="800.1" y="266.7" size="1.778" layer="91">x</text>
+<text x="800.1" y="264.16" size="1.778" layer="91">x</text>
+<text x="800.1" y="289.56" size="1.778" layer="91">ft232 tx</text>
+<text x="800.1" y="287.02" size="1.778" layer="91">ft232 rx</text>
+<text x="800.1" y="284.48" size="1.778" layer="91">x</text>
+<text x="820.42" y="284.48" size="1.778" layer="91">x</text>
+<text x="820.42" y="281.94" size="1.778" layer="91">x</text>
+<text x="820.42" y="274.32" size="1.778" layer="91">x</text>
+<text x="820.42" y="271.78" size="1.778" layer="91">x</text>
+<text x="820.42" y="297.18" size="1.778" layer="91">x</text>
+<text x="820.42" y="294.64" size="1.778" layer="91">x</text>
+<text x="820.42" y="317.5" size="1.778" layer="91">Bonio</text>
+<text x="820.42" y="266.7" size="1.778" layer="91">cp2102 suspend</text>
+<text x="820.42" y="289.56" size="1.778" layer="91">cp2102 tx</text>
+<text x="820.42" y="287.02" size="1.778" layer="91">cp2102 rx</text>
+<text x="820.42" y="299.72" size="1.778" layer="91">vcc out</text>
+<text x="820.42" y="307.34" size="1.778" layer="91">vcc a out</text>
+<text x="820.42" y="259.08" size="1.778" layer="91">out_MOSI</text>
+<text x="820.42" y="264.16" size="1.778" layer="91">out mhz</text>
+<text x="820.42" y="312.42" size="1.778" layer="91">out reset</text>
+<text x="820.42" y="254" size="1.778" layer="91">out sck</text>
+<text x="820.42" y="256.54" size="1.778" layer="91">out miso</text>
+<text x="820.42" y="276.86" size="1.778" layer="91">LED_ready</text>
+<text x="820.42" y="302.26" size="1.778" layer="91">LED_TARGET</text>
+<text x="820.42" y="261.62" size="1.778" layer="91">LED_active</text>
+<text x="820.42" y="279.4" size="1.778" layer="91">s1 boot</text>
+<text x="820.42" y="304.8" size="1.778" layer="91">x</text>
+<text x="820.42" y="322.58" size="1.778" layer="91">17 февраля 2012</text>
+<text x="800.1" y="322.58" size="1.778" layer="91">31.03.2009</text>
+<text x="843.28" y="317.5" size="1.778" layer="91">AvrUsb500v2</text>
+<text x="843.28" y="299.72" size="1.778" layer="91">x</text>
+<text x="843.28" y="302.26" size="1.778" layer="91">x</text>
+<text x="843.28" y="304.8" size="1.778" layer="91">x</text>
+<text x="843.28" y="309.88" size="1.778" layer="91">x</text>
+<text x="843.28" y="307.34" size="1.778" layer="91">x</text>
+<text x="843.28" y="312.42" size="1.778" layer="91">?out reset</text>
+<text x="843.28" y="254" size="1.778" layer="91">FT232_SCK</text>
+<text x="843.28" y="256.54" size="1.778" layer="91">FT232_MISO</text>
+<text x="843.28" y="259.08" size="1.778" layer="91">FT232_MOSI</text>
+<text x="843.28" y="261.62" size="1.778" layer="91">out mhz</text>
+<text x="843.28" y="264.16" size="1.778" layer="91">LED_TARGET</text>
+<text x="843.28" y="274.32" size="1.778" layer="91">x</text>
+<text x="843.28" y="271.78" size="1.778" layer="91">x</text>
+<text x="843.28" y="276.86" size="1.778" layer="91">x</text>
+<text x="843.28" y="279.4" size="1.778" layer="91">out_MOSI</text>
+<text x="843.28" y="281.94" size="1.778" layer="91">out miso</text>
+<text x="843.28" y="284.48" size="1.778" layer="91">out sck</text>
+<text x="843.28" y="287.02" size="1.778" layer="91">ft232 rx</text>
+<text x="843.28" y="289.56" size="1.778" layer="91">ft232 tx</text>
+<text x="843.28" y="297.18" size="1.778" layer="91">-</text>
+<text x="843.28" y="294.64" size="1.778" layer="91">-</text>
 </plain>
 <instances>
 <instance part="SV5" gate="G$1" x="444.5" y="40.64" smashed="yes" rot="MR0">
@@ -40078,6 +40148,7 @@ Based on the following sources:
 <attribute name="NAME" x="786.638" y="9.779" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="793.75" y="5.08" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="1C11" gate="G$1" x="718.82" y="269.24" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -40231,6 +40302,9 @@ Based on the following sources:
 <junction x="718.82" y="276.86"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="718.82" y1="281.94" x2="716.28" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="1C11" gate="G$1" pin="1"/>
+<wire x1="718.82" y1="274.32" x2="718.82" y2="271.78" width="0.1524" layer="91"/>
+<junction x="718.82" y="274.32"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
@@ -40520,6 +40594,9 @@ Based on the following sources:
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="718.82" y1="254" x2="718.82" y2="251.46" width="0.1524" layer="91"/>
 <junction x="718.82" y="254"/>
+<pinref part="1C11" gate="G$1" pin="2"/>
+<wire x1="718.82" y1="264.16" x2="718.82" y2="261.62" width="0.1524" layer="91"/>
+<junction x="718.82" y="261.62"/>
 </segment>
 <segment>
 <pinref part="ISP2" gate="1" pin="6"/>
@@ -41579,6 +41656,12 @@ Based on the following sources:
 <wire x1="812.8" y1="22.86" x2="782.32" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U_U1" gate="1" pin="2"/>
 <wire x1="782.32" y1="22.86" x2="782.32" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="3D1" gate="1" pin="PB2(SS/OC1B/PCINT2)"/>
+<wire x1="782.32" y1="261.62" x2="789.94" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

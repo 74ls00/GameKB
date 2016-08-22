@@ -16,6 +16,7 @@
 
 __all__ = [
 '_korbord_num',
+'_korbord_b',
 '_korbord',
 'atomic',
 'atreus',

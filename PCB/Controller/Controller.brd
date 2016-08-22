@@ -3653,6 +3653,7 @@ Based on the following sources:
 </element>
 <element name="U_U1" library="jumper" package="SJ@1" value="" x="85.725" y="93.98" rot="MR0"/>
 <element name="U_U2" library="jumper" package="SJ@1" value="" x="85.4075" y="96.52" rot="MR0"/>
+<element name="1C11" library="rcl" package="C0805" value="100n" x="1.5875" y="-36.195"/>
 </elements>
 <signals>
 <signal name="5-GND">
@@ -3816,6 +3817,7 @@ Based on the following sources:
 <wire x1="93.0275" y1="87.3125" x2="93.0275" y2="90.2725" width="0.6096" layer="1"/>
 <wire x1="38.1" y1="14.9225" x2="34.9" y2="14.9225" width="0.4064" layer="1"/>
 <wire x1="86.6775" y1="90.4875" x2="85.7225" y2="89.535" width="0.4064" layer="1"/>
+<contactref element="1C11" pad="2"/>
 <wire x1="160.655" y1="82.2325" x2="163.195" y2="82.2325" width="0" layer="19" extent="1-1"/>
 <wire x1="158.115" y1="82.2325" x2="160.655" y2="82.2325" width="0" layer="19" extent="1-1"/>
 <wire x1="155.575" y1="82.2325" x2="158.115" y2="82.2325" width="0" layer="19" extent="1-1"/>
@@ -3860,6 +3862,7 @@ Based on the following sources:
 <wire x1="18.4785" y1="26.67" x2="21.575" y2="31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="57.8485" y1="3.81" x2="57.531" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="64.1985" y1="5.08" x2="57.8485" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="2.5375" y1="-36.195" x2="24.475" y2="0.88" width="0" layer="19" extent="1-1"/>
 <wire x1="167.5892" y1="-18.7325" x2="127.3175" y2="28.575" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UGND" class="2">
@@ -3916,6 +3919,7 @@ Based on the following sources:
 <contactref element="3D1" pad="4"/>
 <contactref element="R14" pad="2"/>
 <contactref element="ISP2" pad="2"/>
+<contactref element="1C11" pad="1"/>
 <wire x1="129.67" y1="99.3775" x2="132.1685" y2="99.06" width="0" layer="19" extent="1-1"/>
 <wire x1="136.8425" y1="95.9875" x2="132.1685" y2="99.06" width="0" layer="19" extent="1-1"/>
 <wire x1="138.7475" y1="92.0725" x2="136.8425" y2="95.9875" width="0" layer="19" extent="1-1"/>
@@ -3944,6 +3948,7 @@ Based on the following sources:
 <wire x1="20.2565" y1="26.67" x2="23.2475" y2="19.9625" width="0" layer="19" extent="1-1"/>
 <wire x1="16.825" y1="24.13" x2="20.2565" y2="26.67" width="0" layer="19" extent="1-1"/>
 <wire x1="46.649" y1="44.657" x2="56.134" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="0.6375" y1="-36.195" x2="34.1" y2="9.1225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="RESET1" pad="1"/>
@@ -4685,6 +4690,9 @@ Based on the following sources:
 <contactref element="DD3" pad="3"/>
 <contactref element="U_U1" pad="2"/>
 <wire x1="43.9" y1="12.5225" x2="84.963" y2="93.98" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$26">
+<contactref element="3D1" pad="14"/>
 </signal>
 </signals>
 </board>
