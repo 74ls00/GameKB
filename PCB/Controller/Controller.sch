@@ -39796,6 +39796,24 @@ Based on the following sources:
 <text x="891.54" y="53.34" size="1.778" layer="91">x</text>
 <text x="891.54" y="66.04" size="1.778" layer="91">led_caps</text>
 <text x="891.54" y="68.58" size="1.778" layer="91">led_scroll</text>
+<text x="909.32" y="12.7" size="1.778" layer="91">1</text>
+<text x="909.32" y="15.24" size="1.778" layer="91">2</text>
+<text x="909.32" y="17.78" size="1.778" layer="91">3</text>
+<text x="909.32" y="20.32" size="1.778" layer="91">4</text>
+<text x="909.32" y="25.4" size="1.778" layer="91">5</text>
+<text x="909.32" y="22.86" size="1.778" layer="91">6</text>
+<text x="904.24" y="20.32" size="1.778" layer="91"></text>
+<text x="909.32" y="27.94" size="1.778" layer="91">7</text>
+<text x="909.32" y="30.48" size="1.778" layer="91">8</text>
+<text x="909.32" y="63.5" size="1.778" layer="91">9</text>
+<text x="909.32" y="43.18" size="1.778" layer="91">10</text>
+<text x="909.32" y="45.72" size="1.778" layer="91">11</text>
+<text x="909.32" y="7.62" size="1.778" layer="91">12</text>
+<text x="909.32" y="5.08" size="1.778" layer="91">13</text>
+<text x="909.32" y="2.54" size="1.778" layer="91">14</text>
+<text x="909.32" y="0" size="1.778" layer="91">15</text>
+<text x="909.32" y="-7.62" size="1.778" layer="91">16</text>
+<text x="909.32" y="-10.16" size="1.778" layer="91">17</text>
 </plain>
 <instances>
 <instance part="SV5" gate="G$1" x="444.5" y="40.64" smashed="yes" rot="MR0">
