@@ -39187,6 +39187,7 @@ Based on the following sources:
 <part name="U_U1" library="jumper" deviceset="SJ" device=""/>
 <part name="U_U2" library="jumper" deviceset="SJ" device=""/>
 <part name="1C11" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="1C12" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -39684,13 +39685,13 @@ Based on the following sources:
 <text x="447.04" y="33.02" size="1.778" layer="91">kbn1</text>
 <text x="447.04" y="35.56" size="1.778" layer="91">kbn2</text>
 <text x="447.04" y="40.64" size="1.778" layer="91">kbn3</text>
-<text x="894.08" y="55.88" size="1.778" layer="91">d3</text>
-<text x="894.08" y="58.42" size="1.778" layer="91">d2</text>
-<text x="894.08" y="60.96" size="1.778" layer="91">d1</text>
-<text x="876.3" y="20.32" size="1.778" layer="91">kbn2</text>
-<text x="876.3" y="17.78" size="1.778" layer="91">kbn3</text>
-<text x="876.3" y="15.24" size="1.778" layer="91">kbn1</text>
-<text x="889" y="71.12" size="1.778" layer="91">led_num</text>
+<text x="891.54" y="55.88" size="1.778" layer="91">d3</text>
+<text x="891.54" y="58.42" size="1.778" layer="91">d2</text>
+<text x="891.54" y="60.96" size="1.778" layer="91">d1</text>
+<text x="891.54" y="5.08" size="1.778" layer="91">kbn2</text>
+<text x="891.54" y="7.62" size="1.778" layer="91">kbn3</text>
+<text x="891.54" y="2.54" size="1.778" layer="91">kbn1</text>
+<text x="891.54" y="71.12" size="1.778" layer="91">led_num</text>
 <text x="482.6" y="33.02" size="1.778" layer="91">kbb1</text>
 <text x="482.6" y="35.56" size="1.778" layer="91">kbb2</text>
 <text x="482.6" y="38.1" size="1.778" layer="91">kbb3</text>
@@ -39785,6 +39786,16 @@ Based on the following sources:
 <text x="843.28" y="289.56" size="1.778" layer="91">ft232 tx</text>
 <text x="843.28" y="297.18" size="1.778" layer="91">-</text>
 <text x="843.28" y="294.64" size="1.778" layer="91">-</text>
+<text x="891.54" y="43.18" size="1.778" layer="91">kbb3</text>
+<text x="891.54" y="22.86" size="1.778" layer="91">kbb4</text>
+<text x="891.54" y="-7.62" size="1.778" layer="91">kbb1</text>
+<text x="891.54" y="30.48" size="1.778" layer="91">kbb2</text>
+<text x="891.54" y="-10.16" size="1.778" layer="91">kbb5</text>
+<text x="891.54" y="15.24" size="1.778" layer="91">kbb19</text>
+<text x="891.54" y="38.1" size="1.778" layer="91">x</text>
+<text x="891.54" y="53.34" size="1.778" layer="91">x</text>
+<text x="891.54" y="66.04" size="1.778" layer="91">led_caps</text>
+<text x="891.54" y="68.58" size="1.778" layer="91">led_scroll</text>
 </plain>
 <instances>
 <instance part="SV5" gate="G$1" x="444.5" y="40.64" smashed="yes" rot="MR0">
@@ -40148,7 +40159,8 @@ Based on the following sources:
 <attribute name="NAME" x="786.638" y="9.779" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="793.75" y="5.08" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="1C11" gate="G$1" x="718.82" y="269.24" rot="MR0"/>
+<instance part="1C11" gate="G$1" x="708.66" y="269.24" rot="MR0"/>
+<instance part="1C12" gate="G$1" x="718.82" y="269.24" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -40287,26 +40299,6 @@ Based on the following sources:
 <junction x="492.76" y="214.63"/>
 </segment>
 <segment>
-<pinref part="3D1" gate="1" pin="AREF"/>
-<wire x1="721.36" y1="274.32" x2="718.82" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="718.82" y1="274.32" x2="718.82" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="3D1" gate="1" pin="AVCC"/>
-<wire x1="718.82" y1="276.86" x2="721.36" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="718.82" y1="276.86" x2="718.82" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="3D1" gate="1" pin="VCC@2"/>
-<wire x1="718.82" y1="281.94" x2="721.36" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="718.82" y1="281.94" x2="718.82" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="3D1" gate="1" pin="VCC@1"/>
-<wire x1="718.82" y1="284.48" x2="721.36" y2="284.48" width="0.1524" layer="91"/>
-<junction x="718.82" y="281.94"/>
-<junction x="718.82" y="276.86"/>
-<pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="718.82" y1="281.94" x2="716.28" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="1C11" gate="G$1" pin="1"/>
-<wire x1="718.82" y1="274.32" x2="718.82" y2="271.78" width="0.1524" layer="91"/>
-<junction x="718.82" y="274.32"/>
-</segment>
-<segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="718.82" y1="325.12" x2="718.82" y2="327.66" width="0.1524" layer="91"/>
@@ -40317,6 +40309,24 @@ Based on the following sources:
 <label x="782.32" y="231.14" size="1.27" layer="95"/>
 <pinref part="P+9" gate="1" pin="+5V"/>
 <wire x1="787.4" y1="231.14" x2="787.4" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="3D1" gate="1" pin="VCC@1"/>
+<wire x1="718.82" y1="284.48" x2="721.36" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="3D1" gate="1" pin="VCC@2"/>
+<wire x1="718.82" y1="281.94" x2="721.36" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="718.82" y1="281.94" x2="718.82" y2="284.48" width="0.1524" layer="91"/>
+<junction x="718.82" y="281.94"/>
+<pinref part="1C11" gate="G$1" pin="1"/>
+<wire x1="708.66" y1="279.4" x2="708.66" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="708.66" y1="279.4" x2="718.82" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="718.82" y1="279.4" x2="718.82" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<wire x1="716.28" y1="281.94" x2="718.82" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="3D1" gate="1" pin="AVCC"/>
+<wire x1="721.36" y1="276.86" x2="718.82" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="718.82" y1="276.86" x2="718.82" y2="279.4" width="0.1524" layer="91"/>
+<junction x="718.82" y="279.4"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -40595,8 +40605,11 @@ Based on the following sources:
 <wire x1="718.82" y1="254" x2="718.82" y2="251.46" width="0.1524" layer="91"/>
 <junction x="718.82" y="254"/>
 <pinref part="1C11" gate="G$1" pin="2"/>
-<wire x1="718.82" y1="264.16" x2="718.82" y2="261.62" width="0.1524" layer="91"/>
 <junction x="718.82" y="261.62"/>
+<wire x1="718.82" y1="261.62" x2="708.66" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="708.66" y1="261.62" x2="708.66" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="1C12" gate="G$1" pin="2"/>
+<wire x1="718.82" y1="264.16" x2="718.82" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ISP2" gate="1" pin="6"/>
@@ -41656,6 +41669,14 @@ Based on the following sources:
 <pinref part="DD3" gate="G$1" pin="(PD0/MISO/PCINT3)PB3"/>
 <wire x1="873.76" y1="60.96" x2="883.92" y2="60.96" width="0.1524" layer="91"/>
 <label x="876.3" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="3D1" gate="1" pin="AREF"/>
+<wire x1="721.36" y1="274.32" x2="718.82" y2="274.32" width="0.1524" layer="91"/>
+<pinref part="1C12" gate="G$1" pin="1"/>
+<wire x1="718.82" y1="274.32" x2="718.82" y2="271.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
