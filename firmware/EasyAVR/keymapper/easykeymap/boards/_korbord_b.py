@@ -138,9 +138,9 @@ keyboard_definition = [
 ((4, 4), (1, 3), 'HID_KEYBOARD_SC_F7'),
 ((4, 4), (4, 3), 'HID_KEYBOARD_SC_F8'),                       
      (2, None, '0'),
-     ((4, 4), (3, 2), 'HID_KEYBOARD_SC_F9'),
-     ((4, 4), (3, 3), 'HID_KEYBOARD_SC_F10'),
-     ((4, 4), (7, 5), 'HID_KEYBOARD_SC_F11'),
+     ((4, 4), (0, 2), 'HID_KEYBOARD_SC_F9'),
+((4, 4), (0, 4), 'HID_KEYBOARD_SC_F10'),                       #OK
+((4, 4), (4, 4), 'HID_KEYBOARD_SC_F11'),                       #OK
      ((4, 4), (2, 7), 'HID_KEYBOARD_SC_F12'),
 #                            10 4 11 '6 
 (3, None, '0'),
@@ -162,8 +162,8 @@ keyboard_definition = [
 ((4, 4), (7, 7), 'HID_KEYBOARD_SC_8_AND_ASTERISK'),               #OK
 ((4, 4), (4, 7), 'HID_KEYBOARD_SC_9_AND_OPENING_PARENTHESIS'),    #OK
 ((4, 4), (0, 7), 'HID_KEYBOARD_SC_0_AND_CLOSING_PARENTHESIS'),    #OK
-     ((4, 4), (7, 2), 'HID_KEYBOARD_SC_MINUS_AND_UNDERSCORE'),
-     ((4, 4), (7, 11), 'HID_KEYBOARD_SC_EQUAL_AND_PLUS'),
+((4, 4), (7, 4), 'HID_KEYBOARD_SC_MINUS_AND_UNDERSCORE'),#-_
+((4, 4), (7, 2), 'HID_KEYBOARD_SC_EQUAL_AND_PLUS'),              #=+
 ((8, 4), (4, 1), 'HID_KEYBOARD_SC_BACKSPACE'),                 #OK
 (6, None, '0'),	
 ((4, 4), (3, 14), 'HID_KEYBOARD_SC_A'),                        #OK
@@ -172,11 +172,11 @@ keyboard_definition = [
 ((4, 4), (6, 15), 'HID_KEYBOARD_SC_KEYPAD_ASTERISK')	       #OK
      ],[
 (1, None, '0'),
-((4, 4), (6, 10), 'HID_KEYBOARD_SC_Y'),
+((4, 4), (2, 1), 'HID_KEYBOARD_SC_Y'),
 ((4, 4), (3, 7), 'HID_KEYBOARD_SC_U'),                         #OK
      ((4, 4), (3, 11), 'HID_KEYBOARD_SC_I'),
      ((4, 4), (3, 0), 'HID_KEYBOARD_SC_O'),
-     ((4, 4), (3, 2), 'HID_KEYBOARD_SC_P'),
+((4, 4), (3, 4), 'HID_KEYBOARD_SC_P'),                         #OK
      ((4, 4), (6, 2), 'HID_KEYBOARD_SC_OPENING_BRACKET_AND_OPENING_BRACE'),
      ((4, 4), (6, 11), 'HID_KEYBOARD_SC_CLOSING_BRACKET_AND_CLOSING_BRACE'),
      ((4, 4), (7, 1), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE'),   #OK   |u
@@ -192,7 +192,7 @@ keyboard_definition = [
 ((4, 4), (5, 7), 'HID_KEYBOARD_SC_J'),                         #OK
 ((4, 4), (1, 7), 'HID_KEYBOARD_SC_K'),                         #OK
      ((4, 4), (4, 0), 'HID_KEYBOARD_SC_L'),
-     ((4, 4), (4, 2), 'HID_KEYBOARD_SC_SEMICOLON_AND_COLON'),
+((4, 4), (5, 4), 'HID_KEYBOARD_SC_SEMICOLON_AND_COLON'),       #OK    ;:
 	 ((4, 4), (1, 2), 'HID_KEYBOARD_SC_APOSTROPHE_AND_QUOTE'),
 ((9, 4), (3, 1), 'HID_KEYBOARD_SC_ENTER'),                     #OK
 (5, None, '0'),	 	 
@@ -202,12 +202,12 @@ keyboard_definition = [
 ((4, 4), (4, 15), 'HID_KEYBOARD_SC_KEYPAD_PLUS')	 #4,4,7,2  #OK
      ],[
 	 (1, None, '0'),
-((4, 4), (2, 3), 'HID_KEYBOARD_SC_N'),
+((4, 4), (0, 0), 'HID_KEYBOARD_SC_N'),                         
 ((4, 4), (2, 7), 'HID_KEYBOARD_SC_M'),                         #OK 
 ((4, 4), (6, 7), 'HID_KEYBOARD_SC_COMMA_AND_LESS_THAN_SIGN'),  #OK    ,<
-     ((4, 4), (0, 0), 'HID_KEYBOARD_SC_DOT_AND_GREATER_THAN_SIGN'),
-	 ((4, 4), (7, 6), 'HID_KEYBOARD_SC_GRAVE_ACCENT_AND_TILDE'),
-     ((4, 4), (2, 2), 'HID_KEYBOARD_SC_SLASH_AND_QUESTION_MARK'),
+((4, 4), (2, 4), 'HID_KEYBOARD_SC_DOT_AND_GREATER_THAN_SIGN'), #OK    .>
+((4, 4), (1, 4), 'HID_KEYBOARD_SC_GRAVE_ACCENT_AND_TILDE'),    #OK    `~
+     ((4, 4), (2, 3), 'HID_KEYBOARD_SC_SLASH_AND_QUESTION_MARK'),
 ((5, 4), (1, 1), 'HID_KEYBOARD_SC_RIGHT_SHIFT'),               #OK
 ((4, 4), (5, 1), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE'),        #OK    |d
 (5, None, '0'),
@@ -218,13 +218,13 @@ keyboard_definition = [
      ],[
 
 ((11, 4), (1, 15), 'HID_KEYBOARD_SC_SPACE'),
-	  ((5, 4), (2, 0), 'HID_KEYBOARD_SC_APPLICATION'),
+((5, 4), (6, 4), 'HID_KEYBOARD_SC_APPLICATION'),               #OK
 	 ((4, 4), (4, 16), 'HID_KEYBOARD_SC_RIGHT_GUI'),#5,
 	
 ((5, 4), (2, 10), 'HID_KEYBOARD_SC_RIGHT_ALT'),                #OK
      
      
-((5, 4), (2, 1), 'HID_KEYBOARD_SC_RIGHT_CONTROL'),             #OK
+((5, 4), (2, 2), 'HID_KEYBOARD_SC_RIGHT_CONTROL'),             #    y
 ((4, 4), (6, 1), 'HID_KEYBOARD_SC_PRINT_SCREEN'),              #OK
 	 
 (5, None, '0'),

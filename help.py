@@ -22,12 +22,12 @@
 # A0 = 20 = PD2 - 3,4,5   != 3D2_6  = 16 kbn3
 # A1 = 21 = PD3 - 9,10,11 != 3D2_8  = 15 kbn2
 # A2 = 19 = PD1 - 1,2,13  != 3D2_12 = 14 kbn1
-# D7                                     kbb1
+# D7                                    kbb1 2
 # D6                                     kbb2
 # D5   31   PC6                        1 kbb3
 # D4   25   PD4                        7 kbb4    (x,7)
 # D3                                     kbb5
-# D2   19   PD1                          kbb6
+# D2   19   PD1                        4 kbb6
 #                                      
 # keyBoard B (PCB_B) ** исправлено
 # порт в коде               0      4      2      6      3     5      1     7
@@ -35,8 +35,8 @@
 # 1  gnd
 # 2   !9>8        kbb1     F9     F8     N    R_Space   7     Y      H      F7
 # 3  !11>10       kbb2     F12    =    R_ALT    FN3    [{     "'     /?     ]}
-# 4  !13>12       kbb3   Delete BSpace R_Ctrl PrtScr  Enter d \|  R_Shift  u \|
-# 5   !1>2        kbb4     0      9      M      ,<      U     J      K      8
+# 4  !13>12       kbb3.   Delete BSpace R_Ctrl PrtScr  Enter d \|  R_Shift  u \|
+# 5   !1>2        kbb4.     0      9      M      ,<      U     J      K      8
 # 6   !3>4        kbb5                                  L     Ii            Oo
 # 7   !5>6        kbb6     F10    F11    .>     FN2     P     ;:     `~     -_
 # 8  d1 miso
