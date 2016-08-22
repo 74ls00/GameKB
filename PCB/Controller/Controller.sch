@@ -39697,9 +39697,9 @@ Based on the following sources:
 <text x="482.6" y="40.64" size="1.778" layer="91">kbb4</text>
 <text x="482.6" y="43.18" size="1.778" layer="91">kbb5</text>
 <text x="482.6" y="45.72" size="1.778" layer="91">kbb6</text>
-<text x="482.6" y="53.34" size="1.778" layer="91">d3</text>
+<text x="482.6" y="48.26" size="1.778" layer="91">d3</text>
 <text x="482.6" y="50.8" size="1.778" layer="91">d2</text>
-<text x="482.6" y="48.26" size="1.778" layer="91">d1</text>
+<text x="482.6" y="53.34" size="1.778" layer="91">d1</text>
 <text x="447.04" y="43.18" size="1.778" layer="91">d3</text>
 <text x="447.04" y="45.72" size="1.778" layer="91">d2</text>
 <text x="447.04" y="48.26" size="1.778" layer="91">d1</text>
