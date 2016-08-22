@@ -29,7 +29,7 @@
 import easykeymap.templates.ATmega32U4_16MHz_COSTAR as firmware
 from easykeymap.ioports import *
 
-description = "Korbord только B"
+description = "Korbord B&Num"
 unique_id = "AKKBHIDB"
 cfg_name = "korbord"
 
@@ -135,15 +135,13 @@ KMAC_key = None
 keyboard_definition = [
     [
 	(1, None, '0'),
-((4, 4), (7, 1), 'HID_KEYBOARD_SC_F7'),
-((4, 4), (7, 0), 'HID_KEYBOARD_SC_F8'),       
-# 7) 9 13  12 5 2 3 
-     (2, None, '0'),
-     ((4, 4), (0, 2), 'HID_KEYBOARD_SC_F9'),
+((4, 4), (7, 12), 'HID_KEYBOARD_SC_F7'),                       #OK
+((4, 4), (4, 12), 'HID_KEYBOARD_SC_F8'),                       #OK
+(2, None, '0'),
+((4, 4), (0, 12), 'HID_KEYBOARD_SC_F9'),                       #OK
 ((4, 4), (0, 4), 'HID_KEYBOARD_SC_F10'),                       #OK
 ((4, 4), (4, 4), 'HID_KEYBOARD_SC_F11'),                       #OK
 ((4, 4), (0, 10), 'HID_KEYBOARD_SC_F12'),                      #OK
-#                    1 7 4 10? 4?     11 '6 8 
 (3, None, '0'),
 ((4, 4), (0, 1), 'HID_KEYBOARD_SC_DELETE'),                    #OK
 (1, None, '0'),
@@ -152,14 +150,13 @@ keyboard_definition = [
 ((4, 4), (5, 16), 'HID_KEYBOARD_SC_E'),                        #OK
 ((4, 4), (5, 15), 'HID_KEYBOARD_SC_F'),                        #OK
 ((4, 4), (1, 15), 'HID_KEYBOARD_SC_KEYPAD_SLASH')              #OK
-
      ],
      #2,
      [
 
 	 
    (1, None, '0'),
-((4, 4), (1, 2), 'HID_KEYBOARD_SC_7_AND_AND_AMPERSAND'),
+((4, 4), (3, 12), 'HID_KEYBOARD_SC_7_AND_AND_AMPERSAND'),      #OK
 ((4, 4), (7, 7), 'HID_KEYBOARD_SC_8_AND_ASTERISK'),            #OK
 ((4, 4), (4, 7), 'HID_KEYBOARD_SC_9_AND_OPENING_PARENTHESIS'), #OK
 ((4, 4), (0, 7), 'HID_KEYBOARD_SC_0_AND_CLOSING_PARENTHESIS'), #OK
@@ -173,15 +170,14 @@ keyboard_definition = [
 ((4, 4), (6, 15), 'HID_KEYBOARD_SC_KEYPAD_ASTERISK')	       #OK
      ],[
 (1, None, '0'),
-((4, 4), (2, 2), 'HID_KEYBOARD_SC_Y'),
+((4, 4), (5, 12), 'HID_KEYBOARD_SC_Y'),                        #OK
 ((4, 4), (3, 7), 'HID_KEYBOARD_SC_U'),                         #OK
-     ((4, 4), (3, 11), 'HID_KEYBOARD_SC_I'),
-     ((4, 4), (3, 0), 'HID_KEYBOARD_SC_O'),
+((4, 4), (5, 11), 'HID_KEYBOARD_SC_I'),                        #OK
+((4, 4), (7, 11), 'HID_KEYBOARD_SC_O'),                        #OK
 ((4, 4), (3, 4), 'HID_KEYBOARD_SC_P'),                         #OK
 ((4, 4), (3, 10), 'HID_KEYBOARD_SC_OPENING_BRACKET_AND_OPENING_BRACE'), #OK   [{
 ((4, 4), (7, 10), 'HID_KEYBOARD_SC_CLOSING_BRACKET_AND_CLOSING_BRACE'), #OK   ]}
 ((4, 4), (7, 1), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE'),        #OK   |u
-	 
 (6, None, '0'),		 
 ((4, 4), (1, 14), 'HID_KEYBOARD_SC_KEYPAD_7_AND_HOME'),        #OK
 ((4, 4), (3, 16), 'HID_KEYBOARD_SC_KEYPAD_8_AND_UP_ARROW'),    #OK
@@ -189,10 +185,10 @@ keyboard_definition = [
 ((4, 4), (2, 15), 'HID_KEYBOARD_SC_KEYPAD_MINUS')	           #OK
      ],[
 (1, None, '0'),
-((4, 4), (1, 10), 'HID_KEYBOARD_SC_H'),
+((4, 4), (1, 12), 'HID_KEYBOARD_SC_H'),                        #OK
 ((4, 4), (5, 7), 'HID_KEYBOARD_SC_J'),                         #OK
 ((4, 4), (1, 7), 'HID_KEYBOARD_SC_K'),                         #OK
-     ((4, 4), (4, 0), 'HID_KEYBOARD_SC_L'),
+((4, 4), (3, 11), 'HID_KEYBOARD_SC_L'),                        #OK
 ((4, 4), (5, 4), 'HID_KEYBOARD_SC_SEMICOLON_AND_COLON'),       #OK    ;:
 ((4, 4), (5, 10), 'HID_KEYBOARD_SC_APOSTROPHE_AND_QUOTE'),     #OK    '"
 ((9, 4), (3, 1), 'HID_KEYBOARD_SC_ENTER'),                     #OK
@@ -203,7 +199,7 @@ keyboard_definition = [
 ((4, 4), (4, 15), 'HID_KEYBOARD_SC_KEYPAD_PLUS')	 #4,4,7,2  #OK
      ],[
 	 (1, None, '0'),
-((4, 4), (0, 0), 'HID_KEYBOARD_SC_N'),                         
+((4, 4), (2, 12), 'HID_KEYBOARD_SC_N'),                        #OK
 ((4, 4), (2, 7), 'HID_KEYBOARD_SC_M'),                         #OK 
 ((4, 4), (6, 7), 'HID_KEYBOARD_SC_COMMA_AND_LESS_THAN_SIGN'),  #OK    ,<
 ((4, 4), (2, 4), 'HID_KEYBOARD_SC_DOT_AND_GREATER_THAN_SIGN'), #OK    .>
@@ -218,13 +214,10 @@ keyboard_definition = [
 ((4, 8), (0, 15), 'HID_KEYBOARD_SC_KEYPAD_ENTER')              #OK
      ],[
 
-((11, 4), (1, 15), 'HID_KEYBOARD_SC_SPACE'),
+((11, 4), (6, 12), 'HID_KEYBOARD_SC_SPACE'),                   #OK
 ((5, 4), (6, 4), 'HID_KEYBOARD_SC_APPLICATION'),               #OK
 ((4, 4), (6, 10), 'HID_KEYBOARD_SC_RIGHT_GUI'),                #OK    r win
-	
 ((5, 4), (2, 10), 'HID_KEYBOARD_SC_RIGHT_ALT'),                #OK
-     
-     
 ((5, 4), (2, 1), 'HID_KEYBOARD_SC_RIGHT_CONTROL'),             #OK
 ((4, 4), (6, 1), 'HID_KEYBOARD_SC_PRINT_SCREEN'),              #OK
 	 
