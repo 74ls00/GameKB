@@ -16,6 +16,8 @@
 #
 # You should have received a copy of the GNU General Public License along
 # with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Добавлены руские надписи клавиш.
 
 """This module contains the list of scan codes and their associations to
 bytes, ASCII characters, and Tk symbols.
