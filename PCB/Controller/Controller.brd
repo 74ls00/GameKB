@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -3569,13 +3569,13 @@ Based on the following sources:
 <attribute name="NAME" x="105.918" y="95.3135" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="102.362" y="94.361" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="2Z1" library="crystal" package="HC49/S" value="12MHz" x="108.585" y="86.36" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="unknown" x="136.525" y="93.0275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="136.525" y="93.0275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="136.525" y="93.0275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1667008" x="136.525" y="93.0275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="113.665" y="83.693" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="113.665" y="90.297" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="2Z1" library="crystal" package="HC49/S" value="12MHz" x="108.585" y="86.0425" smashed="yes" rot="MR0">
+<attribute name="OC_NEWARK" value="unknown" x="136.525" y="79.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="136.525" y="79.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="" x="136.525" y="79.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_FARNELL" value="1667008" x="136.525" y="79.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="113.665" y="88.7095" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="113.665" y="82.1055" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
 <element name="2C1" library="resistor" package="C0805" value="20" x="104.14" y="88.265" smashed="yes" rot="R270">
 <attribute name="NAME" x="101.6635" y="89.789" size="1.27" layer="25" rot="R270"/>
@@ -3618,7 +3618,7 @@ Based on the following sources:
 <element name="JR2" library="jumper" package="SJ@1" value="" x="115.2525" y="80.01" rot="R90"/>
 <element name="J1" library="jumper" package="SJ@1" value="" x="135.89" y="82.2325"/>
 <element name="J2" library="jumper" package="SJ@1" value="" x="135.255" y="78.105"/>
-<element name="RJ4" library="rcl" package="R1206" value="0" x="129.2225" y="85.725" rot="R90"/>
+<element name="RJ4" library="rcl" package="R1206" value="0" x="130.4925" y="87.9475" rot="R90"/>
 <element name="2C5" library="rcl" package="C0805" value="1mf" x="125.095" y="92.075" smashed="yes" rot="R90">
 <attribute name="NAME" x="123.825" y="90.805" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="127.635" y="90.805" size="1.27" layer="27" rot="R90"/>
@@ -4505,8 +4505,8 @@ Based on the following sources:
 <contactref element="2Z1" pad="2"/>
 <contactref element="2C1" pad="2"/>
 <wire x1="109.6915" y1="88.8025" x2="108.6145" y2="88.8025" width="0.3048" layer="1"/>
-<wire x1="108.6145" y1="88.8025" x2="106.172" y2="86.36" width="0.3048" layer="1"/>
-<wire x1="106.172" y1="86.36" x2="104.14" y2="87.415" width="0.6096" layer="1"/>
+<wire x1="106.172" y1="86.0425" x2="108.6145" y2="88.8025" width="0.3048" layer="1"/>
+<wire x1="106.172" y1="86.0425" x2="104.14" y2="87.415" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$57">
 <contactref element="2D1" pad="27"/>
@@ -4515,8 +4515,8 @@ Based on the following sources:
 <wire x1="109.6915" y1="89.4525" x2="111.2075" y2="89.4525" width="0.3048" layer="1"/>
 <wire x1="111.2075" y1="89.4525" x2="111.76" y2="88.9" width="0.3048" layer="1"/>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="87.122" width="0.3048" layer="1"/>
-<wire x1="111.76" y1="87.122" x2="110.998" y2="86.36" width="0.3048" layer="1"/>
-<wire x1="109.7525" y1="84.455" x2="110.998" y2="86.36" width="0.6096" layer="1"/>
+<wire x1="111.76" y1="87.122" x2="110.998" y2="86.0425" width="0.3048" layer="1"/>
+<wire x1="110.998" y1="86.0425" x2="109.7525" y2="84.455" width="0.6096" layer="1"/>
 </signal>
 <signal name="3VUSB2">
 <contactref element="2R4" pad="1"/>
@@ -4528,7 +4528,7 @@ Based on the following sources:
 <wire x1="109.6915" y1="95.9525" x2="110.875" y2="95.9525" width="0.3048" layer="1"/>
 <wire x1="110.875" y1="95.9525" x2="112.2925" y2="97.37" width="0.3048" layer="1"/>
 <wire x1="112.2925" y1="97.37" x2="112.2925" y2="100.33" width="0.3048" layer="1"/>
-<wire x1="112.2925" y1="97.37" x2="129.2225" y2="87.147" width="0" layer="19" extent="1-1"/>
+<wire x1="112.2925" y1="97.37" x2="130.4925" y2="89.3695" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$58">
 <contactref element="2D1" pad="6"/>
@@ -4563,7 +4563,7 @@ Based on the following sources:
 <signal name="N$64">
 <contactref element="2D1" pad="4"/>
 <contactref element="RJ4" pad="1"/>
-<wire x1="117.0035" y1="90.7525" x2="129.2225" y2="84.303" width="0" layer="19" extent="1-1"/>
+<wire x1="117.0035" y1="90.7525" x2="130.4925" y2="86.5255" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$66">
 <contactref element="2D1" pad="14"/>

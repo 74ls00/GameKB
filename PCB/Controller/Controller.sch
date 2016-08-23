@@ -39721,75 +39721,75 @@ Based on the following sources:
 <text x="469.9" y="256.54" size="1.27" layer="91" ratio="6">J HW не нужен</text>
 <text x="469.9" y="254" size="1.27" layer="91" ratio="6">1R6 для J HW</text>
 <text x="421.64" y="386.08" size="5.08" layer="94">USB-HUB</text>
-<text x="741.68" y="320.04" size="1.778" layer="91">LED_TARGET</text>
-<text x="741.68" y="375.92" size="1.778" layer="91">RadioKot</text>
-<text x="741.68" y="317.5" size="1.778" layer="91">FT232_MOSI</text>
-<text x="741.68" y="314.96" size="1.778" layer="91">FT232_MISO</text>
-<text x="741.68" y="312.42" size="1.778" layer="91">FT232_SCK</text>
-<text x="741.68" y="370.84" size="1.778" layer="91">out 1Mhz</text>
-<text x="741.68" y="368.3" size="1.778" layer="91">out_MOSI</text>
-<text x="741.68" y="365.76" size="1.778" layer="91">rst adc</text>
-<text x="741.68" y="363.22" size="1.778" layer="91">out reset</text>
-<text x="741.68" y="360.68" size="1.778" layer="91">out sck</text>
-<text x="741.68" y="358.14" size="1.778" layer="91">out miso</text>
-<text x="741.68" y="355.6" size="1.778" layer="91">x</text>
-<text x="741.68" y="353.06" size="1.778" layer="91">x</text>
-<text x="741.68" y="340.36" size="1.778" layer="91">x</text>
-<text x="741.68" y="337.82" size="1.778" layer="91">x</text>
-<text x="741.68" y="335.28" size="1.778" layer="91">x</text>
-<text x="741.68" y="332.74" size="1.778" layer="91">x</text>
-<text x="741.68" y="330.2" size="1.778" layer="91">x</text>
-<text x="741.68" y="325.12" size="1.778" layer="91">x</text>
-<text x="741.68" y="322.58" size="1.778" layer="91">x</text>
-<text x="741.68" y="347.98" size="1.778" layer="91">ft232 tx</text>
-<text x="741.68" y="345.44" size="1.778" layer="91">ft232 rx</text>
-<text x="741.68" y="342.9" size="1.778" layer="91">x</text>
-<text x="759.46" y="342.9" size="1.778" layer="91">x</text>
-<text x="759.46" y="340.36" size="1.778" layer="91">x</text>
-<text x="759.46" y="332.74" size="1.778" layer="91">x</text>
-<text x="759.46" y="330.2" size="1.778" layer="91">x</text>
-<text x="759.46" y="355.6" size="1.778" layer="91">x</text>
-<text x="759.46" y="353.06" size="1.778" layer="91">x</text>
-<text x="759.46" y="375.92" size="1.778" layer="91">Bonio</text>
-<text x="759.46" y="325.12" size="1.778" layer="91">cp2102 suspend</text>
-<text x="759.46" y="347.98" size="1.778" layer="91">cp2102 tx</text>
-<text x="759.46" y="345.44" size="1.778" layer="91">cp2102 rx</text>
-<text x="759.46" y="358.14" size="1.778" layer="91">vcc out</text>
-<text x="759.46" y="365.76" size="1.778" layer="91">vcc a out</text>
-<text x="759.46" y="317.5" size="1.778" layer="91">out_MOSI</text>
-<text x="759.46" y="322.58" size="1.778" layer="91">out mhz</text>
-<text x="759.46" y="370.84" size="1.778" layer="91">out reset</text>
-<text x="759.46" y="312.42" size="1.778" layer="91">out sck</text>
-<text x="759.46" y="314.96" size="1.778" layer="91">out miso</text>
-<text x="759.46" y="335.28" size="1.778" layer="91">LED_ready</text>
-<text x="759.46" y="360.68" size="1.778" layer="91">LED_TARGET</text>
-<text x="759.46" y="320.04" size="1.778" layer="91">LED_active</text>
-<text x="759.46" y="337.82" size="1.778" layer="91">s1 boot</text>
-<text x="759.46" y="363.22" size="1.778" layer="91">x</text>
-<text x="759.46" y="381" size="1.778" layer="91">17 февраля 2012</text>
-<text x="741.68" y="381" size="1.778" layer="91">31.03.2009</text>
-<text x="723.9" y="375.92" size="1.778" layer="91">AvrUsb500v2</text>
-<text x="723.9" y="358.14" size="1.778" layer="91">x</text>
-<text x="723.9" y="360.68" size="1.778" layer="91">x</text>
-<text x="723.9" y="363.22" size="1.778" layer="91">x</text>
-<text x="723.9" y="368.3" size="1.778" layer="91">x</text>
-<text x="723.9" y="365.76" size="1.778" layer="91">x</text>
-<text x="723.9" y="370.84" size="1.778" layer="91">?out reset</text>
-<text x="723.9" y="312.42" size="1.778" layer="91">FT232_SCK</text>
-<text x="723.9" y="314.96" size="1.778" layer="91">FT232_MISO</text>
-<text x="723.9" y="317.5" size="1.778" layer="91">FT232_MOSI</text>
-<text x="723.9" y="320.04" size="1.778" layer="91">out mhz</text>
-<text x="723.9" y="322.58" size="1.778" layer="91">LED_TARGET</text>
-<text x="723.9" y="332.74" size="1.778" layer="91">x</text>
-<text x="723.9" y="330.2" size="1.778" layer="91">x</text>
-<text x="723.9" y="335.28" size="1.778" layer="91">x</text>
-<text x="723.9" y="337.82" size="1.778" layer="91">out_MOSI</text>
-<text x="723.9" y="340.36" size="1.778" layer="91">out miso</text>
-<text x="723.9" y="342.9" size="1.778" layer="91">out sck</text>
-<text x="723.9" y="345.44" size="1.778" layer="91">ft232 rx</text>
-<text x="723.9" y="347.98" size="1.778" layer="91">ft232 tx</text>
-<text x="723.9" y="355.6" size="1.778" layer="91">-</text>
-<text x="723.9" y="353.06" size="1.778" layer="91">-</text>
+<text x="787.4" y="320.04" size="1.778" layer="91">LED_TARGET</text>
+<text x="787.4" y="375.92" size="1.778" layer="91">RadioKot</text>
+<text x="787.4" y="317.5" size="1.778" layer="91">FT232_MOSI</text>
+<text x="787.4" y="314.96" size="1.778" layer="91">FT232_MISO</text>
+<text x="787.4" y="312.42" size="1.778" layer="91">FT232_SCK</text>
+<text x="787.4" y="370.84" size="1.778" layer="91">out 1Mhz</text>
+<text x="787.4" y="368.3" size="1.778" layer="91">out_MOSI</text>
+<text x="787.4" y="365.76" size="1.778" layer="91">rst adc</text>
+<text x="787.4" y="363.22" size="1.778" layer="91">out reset</text>
+<text x="787.4" y="360.68" size="1.778" layer="91">out sck</text>
+<text x="787.4" y="358.14" size="1.778" layer="91">out miso</text>
+<text x="787.4" y="355.6" size="1.778" layer="91">x</text>
+<text x="787.4" y="353.06" size="1.778" layer="91">x</text>
+<text x="787.4" y="340.36" size="1.778" layer="91">x</text>
+<text x="787.4" y="337.82" size="1.778" layer="91">x</text>
+<text x="787.4" y="335.28" size="1.778" layer="91">x</text>
+<text x="787.4" y="332.74" size="1.778" layer="91">x</text>
+<text x="787.4" y="330.2" size="1.778" layer="91">x</text>
+<text x="787.4" y="325.12" size="1.778" layer="91">x</text>
+<text x="787.4" y="322.58" size="1.778" layer="91">x</text>
+<text x="787.4" y="347.98" size="1.778" layer="91">ft232 tx</text>
+<text x="787.4" y="345.44" size="1.778" layer="91">ft232 rx</text>
+<text x="787.4" y="342.9" size="1.778" layer="91">x</text>
+<text x="805.18" y="342.9" size="1.778" layer="91">x</text>
+<text x="805.18" y="340.36" size="1.778" layer="91">x</text>
+<text x="805.18" y="332.74" size="1.778" layer="91">x</text>
+<text x="805.18" y="330.2" size="1.778" layer="91">x</text>
+<text x="805.18" y="355.6" size="1.778" layer="91">x</text>
+<text x="805.18" y="353.06" size="1.778" layer="91">x</text>
+<text x="805.18" y="375.92" size="1.778" layer="91">Bonio</text>
+<text x="805.18" y="325.12" size="1.778" layer="91">cp2102 suspend</text>
+<text x="805.18" y="347.98" size="1.778" layer="91">cp2102 tx</text>
+<text x="805.18" y="345.44" size="1.778" layer="91">cp2102 rx</text>
+<text x="805.18" y="358.14" size="1.778" layer="91">vcc out</text>
+<text x="805.18" y="365.76" size="1.778" layer="91">vcc a out</text>
+<text x="805.18" y="317.5" size="1.778" layer="91">out_MOSI</text>
+<text x="805.18" y="322.58" size="1.778" layer="91">out mhz</text>
+<text x="805.18" y="370.84" size="1.778" layer="91">out reset</text>
+<text x="805.18" y="312.42" size="1.778" layer="91">out sck</text>
+<text x="805.18" y="314.96" size="1.778" layer="91">out miso</text>
+<text x="805.18" y="335.28" size="1.778" layer="91">LED_ready</text>
+<text x="805.18" y="360.68" size="1.778" layer="91">LED_TARGET</text>
+<text x="805.18" y="320.04" size="1.778" layer="91">LED_active</text>
+<text x="805.18" y="337.82" size="1.778" layer="91">s1 boot</text>
+<text x="805.18" y="363.22" size="1.778" layer="91">x</text>
+<text x="805.18" y="381" size="1.778" layer="91">17 февраля 2012</text>
+<text x="787.4" y="381" size="1.778" layer="91">31.03.2009</text>
+<text x="769.62" y="375.92" size="1.778" layer="91">AvrUsb500v2</text>
+<text x="769.62" y="358.14" size="1.778" layer="91">x</text>
+<text x="769.62" y="360.68" size="1.778" layer="91">x</text>
+<text x="769.62" y="363.22" size="1.778" layer="91">x</text>
+<text x="769.62" y="368.3" size="1.778" layer="91">x</text>
+<text x="769.62" y="365.76" size="1.778" layer="91">x</text>
+<text x="769.62" y="370.84" size="1.778" layer="91">?out reset</text>
+<text x="769.62" y="312.42" size="1.778" layer="91">FT232_SCK</text>
+<text x="769.62" y="314.96" size="1.778" layer="91">FT232_MISO</text>
+<text x="769.62" y="317.5" size="1.778" layer="91">FT232_MOSI</text>
+<text x="769.62" y="320.04" size="1.778" layer="91">out mhz</text>
+<text x="769.62" y="322.58" size="1.778" layer="91">LED_TARGET</text>
+<text x="769.62" y="332.74" size="1.778" layer="91">x</text>
+<text x="769.62" y="330.2" size="1.778" layer="91">x</text>
+<text x="769.62" y="335.28" size="1.778" layer="91">x</text>
+<text x="769.62" y="337.82" size="1.778" layer="91">out_MOSI</text>
+<text x="769.62" y="340.36" size="1.778" layer="91">out miso</text>
+<text x="769.62" y="342.9" size="1.778" layer="91">out sck</text>
+<text x="769.62" y="345.44" size="1.778" layer="91">ft232 rx</text>
+<text x="769.62" y="347.98" size="1.778" layer="91">ft232 tx</text>
+<text x="769.62" y="355.6" size="1.778" layer="91">-</text>
+<text x="769.62" y="353.06" size="1.778" layer="91">-</text>
 <text x="815.34" y="101.6" size="1.778" layer="91">kbb3</text>
 <text x="815.34" y="81.28" size="1.778" layer="91">kbb4</text>
 <text x="815.34" y="50.8" size="1.778" layer="91">kbb1</text>
