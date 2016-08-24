@@ -114,13 +114,6 @@ bl_modes = [
 
 KMAC_key = None
 
-
-
-# цепочка входов по схеме нумпада
-# A0 = 20 = PD2 - 3,4,5   != 3D2_6  = 16
-# A1 = 21 = PD3 - 9,10,11 != 3D2_8  = 15
-# A2 = 19 = PD1 - 1,2,13  != 3D2_12 = 14
-# D4                                 (x,7)
 # номер порта дешифратора | выход дешифратора | номер порта в коде
 # Y0 = 15 = 0  
 # Y1 = 14 = 4  
@@ -177,7 +170,7 @@ KMAC_key = None
 # (горизонталь кнопки, вертикаль кнопки), (?выходы дешифратора, входы контролера)  
 keyboard_definition = [
     [
-	(1, None, '0'),
+(1, None, '0'),
 ((4, 4), (7, 12), 'HID_KEYBOARD_SC_F7'),                       #OK
 ((4, 4), (4, 12), 'HID_KEYBOARD_SC_F8'),                       #OK
 (2, None, '0'),
@@ -198,7 +191,7 @@ keyboard_definition = [
      [
 
 	 
-   (1, None, '0'),
+(1, None, '0'),
 ((4, 4), (3, 12), 'HID_KEYBOARD_SC_7_AND_AND_AMPERSAND'),      #OK
 ((4, 4), (7, 7), 'HID_KEYBOARD_SC_8_AND_ASTERISK'),            #OK
 ((4, 4), (4, 7), 'HID_KEYBOARD_SC_9_AND_OPENING_PARENTHESIS'), #OK
@@ -241,7 +234,7 @@ keyboard_definition = [
 ((4, 4), (2, 16), 'HID_KEYBOARD_SC_KEYPAD_6_AND_RIGHT_ARROW'), #OK
 ((4, 4), (4, 15), 'HID_KEYBOARD_SC_KEYPAD_PLUS')	 #4,4,7,2  #OK
      ],[
-	 (1, None, '0'),
+(1, None, '0'),
 ((4, 4), (2, 12), 'HID_KEYBOARD_SC_N'),                        #OK
 ((4, 4), (2, 7), 'HID_KEYBOARD_SC_M'),                         #OK 
 ((4, 4), (6, 7), 'HID_KEYBOARD_SC_COMMA_AND_LESS_THAN_SIGN'),  #OK    ,<
