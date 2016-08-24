@@ -68,12 +68,13 @@ matrix_strobe = [
 ]
 
 matrix_sense = [
+# Порядок портов
 #      Port        Pin mask
     ( REF_PORTB , (1 << 4) ),
-    ( REF_PORTC , (1 << 6) ),
+    ( REF_PORTC , (1 << 6) ),    #1
     ( REF_PORTC , (1 << 7) ),
     ( REF_PORTD , (1 << 0) ),
-    ( REF_PORTD , (1 << 1) ),
+    ( REF_PORTD , (1 << 1) ),    #4
     ( REF_PORTD , (1 << 2) ),
     ( REF_PORTD , (1 << 3) ),
     ( REF_PORTD , (1 << 4) ),
@@ -150,9 +151,9 @@ KMAC_key = None
 # 5   !1>2        kbb4     0      9      M      ,<      U     J      K      8
 # 6   !3>4        kbb5                                  L     Ii            Oo
 # 7   !5>6        kbb6     F10    F11    .>     FN2     P     ;:     `~     -_
-# 8   d3    sck
+# 8   d1    miso
 # 9   d2    mosi
-# 7   d1    miso
+# 7   d3    sck
 # 11 vcc
 #
 # NumPad

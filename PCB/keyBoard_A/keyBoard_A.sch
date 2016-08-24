@@ -9006,10 +9006,10 @@ Source: www.kingbright.com</description>
 <sheet>
 <description>KB_A</description>
 <plain>
-<text x="368.3" y="322.58" size="1.778" layer="91">d1</text>
+<text x="368.3" y="317.5" size="1.778" layer="91">d1</text>
 <text x="368.3" y="325.12" size="1.778" layer="91">vcc</text>
 <text x="368.3" y="320.04" size="1.778" layer="91">d2</text>
-<text x="368.3" y="317.5" size="1.778" layer="91">d3</text>
+<text x="368.3" y="322.58" size="1.778" layer="91">d3</text>
 <text x="368.3" y="294.64" size="1.778" layer="91">gnd</text>
 <text x="40.64" y="304.8" size="5.08" layer="91">LEFT KB</text>
 </plain>
