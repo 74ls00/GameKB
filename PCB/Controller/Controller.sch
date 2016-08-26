@@ -39819,6 +39819,19 @@ Based on the following sources:
 <text x="833.12" y="50.8" size="1.778" layer="91">16</text>
 <text x="833.12" y="48.26" size="1.778" layer="91">17</text>
 <text x="411.48" y="259.08" size="5.08" layer="94">USB-TTL</text>
+<text x="840.74" y="58.42" size="1.778" layer="91">*</text>
+<text x="840.74" y="71.12" size="1.778" layer="91">*</text>
+<text x="840.74" y="76.2" size="1.778" layer="91">*</text>
+<text x="840.74" y="78.74" size="1.778" layer="91">*</text>
+<text x="840.74" y="83.82" size="1.778" layer="91">*</text>
+<text x="840.74" y="86.36" size="1.778" layer="91">*</text>
+<text x="840.74" y="96.52" size="1.778" layer="91">x</text>
+<text x="840.74" y="111.76" size="1.778" layer="91">x</text>
+<text x="840.74" y="124.46" size="1.778" layer="91">L</text>
+<text x="840.74" y="127" size="1.778" layer="91">L</text>
+<text x="840.74" y="129.54" size="1.778" layer="91">L</text>
+<text x="840.74" y="104.14" size="1.778" layer="91">*</text>
+<text x="840.74" y="121.92" size="1.778" layer="91">*</text>
 </plain>
 <instances>
 <instance part="SV5" gate="G$1" x="736.6" y="185.42" smashed="yes" rot="MR0">
