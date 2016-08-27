@@ -1,538 +1,272 @@
 Partlist
 
-Exported from keyBoard_A.brd at 2016-08-18 11:49:36
+Exported from keyBoard_A.brd at 2016-08-28 1:44:59
 
 EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
 
 Assembly variant: 
 
-Part     Value              Package             Library           Position (mil)        Orientation
+Part     Value          Package      Library     Position (mil)        Orientation
 
-1D1      74HC138N           DIL16               detali_main       (5850 -10250)         R0
-1D2      ATMEGA32U4         SMARTPRJ_TQFP44-PAD detali_main       (3075 -17437.5)       R0
-2D1      74HC138N           DIL16               detali2           (12662.5 -9962.5)     R270
-2D2      74HC04N            DIL14               detali2           (9237.5 -10250)       R0
-C3       100n               C0603-ROUND         SmartPrj          (6837.5 -17887.5)     R90
-C4       100n               C0603-ROUND         SmartPrj          (6262.5 -18562.5)     R180
-C5       1uF                C0603-ROUND         SmartPrj          (6987.5 -17887.5)     R270
-C6       100n               C0603-ROUND         SmartPrj          (6987.5 -18562.5)     R270
-C7       1uF                C0603-ROUND         SmartPrj          (6987.5 -18287.5)     R0
-C8       10u                SMC_B               rcl               (5237.5 -17812.5)     R180
-C9       100n               C0603-ROUND         SmartPrj          (6987.5 -18227.5)     R180
-C10      10u                SMC_B               rcl               (3287.5 -15687.5)     R270
-C11      1u                 C0603-ROUND         SmartPrj          (5712.5 -18162.5)     R180
-C12      10u                SMC_B               rcl               (5737.5 -18637.5)     R270
-C13      100n               C0603-ROUND         SmartPrj          (5637.5 -17737.5)     R0
-C14      1u                 C0603-ROUND         SmartPrj          (5712.5 -18362.5)     R0
-C15      22p                C0603-ROUND         SmartPrj          (6762.5 -17887.5)     R90
-C16      22p                C0603-ROUND         SmartPrj          (6637.5 -17687.5)     R0
-C17      100n               C0805               rcl               (1275 -15787.5)       R0
-C18      100n               C0805               rcl               (675 -13312.5)        MR90
-C19      100n               C1206K              rcl               (12650 -10012.5)      MR0
-C20      100n               C1206               rcl               (8837.5 -10250)       R270
-C21      22p                C0603-ROUND         SmartPrj          (3050 -18937.5)       R0
-C22      100n               C0603-ROUND         SmartPrj          (5637.5 -17437.5)     R180
-C23      22p                C0603-ROUND         SmartPrj          (3225 -18937.5)       R0
-CAPS                        LED5MM              detali_main       (2325 -9837.5)        R180
-D1       LL4148             SOD80C              detali            (925 -10050)          R270
-D2       LL4148             SOD80C              detali            (1850 -9975)          R270
-D3       LL4148             SOD80C              detali            (1125 -10325)         R90
-D4       LL4148             SOD80C              detali            (1850 -10675)         R90
-D5       LL4148             SOD80C              detali            (1125 -11075)         R90
-D6       LL4148             SOD80C              detali            (1875 -11050)         R90
-D7       LL4148             SOD80C              detali            (1125 -11825)         R90
-D8       LL4148             SOD80C              detali            (1875 -11825)         R90
-D9       LL4148             SOD80C              detali            (1675 -12687.5)       R90
-D10      LL4148             SOD80C              detali            (375 -12850)          R0
-D11      LL4148             SOD80C              detali            (1925 -12687.5)       R90
-D12      LL4148             SOD80C              detali            (2725 -13400)         R90
-D13      LL4148             SOD80C              detali            (3650 -10150)         R270
-D14      LL4148             SOD80C              detali            (3900 -10031.375)     R270
-D15      LL4148             SOD80C              detali            (4650 -10025)         R270
-D16      LL4148             SOD80C              detali            (5350 -10000)         R225
-D17      LL4148             SOD80C              detali            (6425 -10100)         R270
-D18      LL4148             SOD80C              detali            (7275 -10100)         R0
-D19      LL4148             SOD80C              detali            (3650 -10625)         R90
-D20      LL4148             SOD80C              detali            (4375 -10600)         R90
-D21      LL4148             SOD80C              detali            (5137.5 -10662.5)     R0
-D22      LL4148             SOD80C              detali            (5825 -10575)         R90
-D23      LL4148             SOD80C              detali            (6625 -10650)         R90
-D24      LL4148             SOD80C              detali            (7275 -11150)         R0
-D25      LL4148             SOD80C              detali            (3450 -11400)         R90
-D26      LL4148             SOD80C              detali            (4375 -11400)         R90
-D27      LL4148             SOD80C              detali            (5125 -11400)         R90
-D28      LL4148             SOD80C              detali            (5875 -11400)         R90
-D29      LL4148             SOD80C              detali            (6625 -11375)         R90
-D30      LL4148             SOD80C              detali            (7275 -11900)         R0
-D31      LL4148             SOD80C              detali            (3350 -12125)         R90
-D32      LL4148             SOD80C              detali            (4375 -12150)         R90
-D33      LL4148             SOD80C              detali            (5125 -12150)         R90
-D34      LL4148             SOD80C              detali            (5875 -12150)         R90
-D35      LL4148             SOD80C              detali            (6625 -12125)         R90
-D36      LL4148             SOD80C              detali            (7275 -12650)         R0
-D37      LL4148             SOD80C              detali            (3375 -12812.5)       R90
-D38      LL4148             SOD80C              detali            (4375 -12900)         R90
-D39      LL4148             SOD80C              detali            (5125 -12900)         R90
-D40      LL4148             SOD80C              detali            (5850 -12900)         R90
-D41      LL4148             SOD80C              detali            (6650 -12925)         R0
-D42      LL4148             SOD80C              detali            (7050 -13412.5)       R270
-D43      LL4148             SOD80C              detali            (4200 -13325)         R90
-D44      LL4148             SOD80C              detali            (5725 -13325)         R90
-D45      LL4148             SOD80C              detali            (6325 -13350)         R90
-D46      LL4148             SOD80C              detali            (6900 -13500)         R0
-D47      LL4148             SOD80C              detali            (425 -13237.5)        R0
-D48      LL4148             SOD80C              detali            (112.5 -13100)        R0
-D49      LL4148             SOD80C              detali            (8250 -11350)         R0
-D50      LL4148             SOD80C              detali            (8875 -9475)          R90
-D51      LL4148             SOD80C              detali            (9937.5 -9612.5)      R0
-D52      LL4148             SOD80C              detali            (10100 -9575)         R90
-D53      LL4148             SOD80C              detali            (11250 -10075)        R0
-D54      LL4148             SOD80C              detali            (12137.5 -9550)       R90
-D55      LL4148             SOD80C              detali            (8462.5 -11887.5)     R0
-D56      LL4148             SOD80C              detali            (8600 -11112.5)       R270
-D57      LL4148             SOD80C              detali            (9712.5 -10887.5)     R270
-D58      LL4148             SOD80C              detali            (10400 -10675)        R90
-D59      LL4148             SOD80C              detali            (10700 -11125)        R0
-D60      LL4148             SOD80C              detali            (11250 -10762.5)      R90
-D61      LL4148             SOD80C              detali            (11918.75 -10675)     R180
-D62      LL4148             SOD80C              detali            (8700 -12600)         R0
-D63      LL4148             SOD80C              detali            (8725 -11850)         R270
-D64      LL4148             SOD80C              detali            (9187.5 -11887.5)     R315
-D64B     LL4148             SOD80C              detali            (12975 -9587.5)       R180
-D65      LL4148             SOD80C              detali            (10475 -11437.5)      R90
-D66      LL4148             SOD80C              detali            (10800 -11875)        R0
-D67      LL4148             SOD80C              detali            (11587.5 -11862.5)    R0
-D67B     LL4148             SOD80C              detali            (12000 -10862.5)      R180
-D68      LL4148             SOD80C              detali            (12387.5 -11862.5)    R0
-D69      LL4148             SOD80C              detali            (13162.5 -11875)      R270
-D70      LL4148             SOD80C              detali            (8600 -13362.5)       R0
-D71      LL4148             SOD80C              detali            (8950 -12400)         R270
-D72      LL4148             SOD80C              detali            (9350 -12612.5)       R270
-D73      LL4148             SOD80C              detali            (10500 -12150)        R90
-D74      LL4148             SOD80C              detali            (10625 -12625)        R270
-D75      LL4148             SOD80C              detali            (11362.5 -12550)      R315
-D76      LL4148             SOD80C              detali            (11925 -12175)        R180
-D77      LL4148             SOD80C              detali            (8000 -13325)         R90
-D78      LL4148             SOD80C              detali            (8762.5 -13325)       R270
-D79      LL4148             SOD80C              detali            (9150 -13587.5)       R270
-D80      LL4148             SOD80C              detali            (9937.5 -13375)       R180
-D81      LL4148             SOD80C              detali            (10881.25 -13400)     R270
-D82      LL4148             SOD80C              detali            (11712.5 -13262.5)    R0
-D83      LL4148             SOD80C              detali            (12387.5 -13275)      R180
-D84      LL4148             SOD80C              detali            (8737.5 -14012.5)     R0
-D85      LL4148             SOD80C              detali            (10237.5 -13862.5)    R270
-D86      LL4148             SOD80C              detali            (11062.5 -13950)      R270
-D87      LL4148             SOD80C              detali            (12037.5 -13950)      R180
-D88      LL4148             SOD80C              detali            (13475 -14012.5)      R0
-D89      LL4148             SOD80C              detali            (10050 -14012.5)      R0
-D90      M7                 SMB                 diode             (5587.5 -18637.5)     R270
-D91      CD1206-S01575      MINIMELF            diode             (7057.5 -17887.5)     R270
-D92      LL4148             SOD80C              detali            (8806.25 -10106.25)   R45
-D93      LL4148             SOD80C              detali            (8775 -10268.75)      R60
-F1       MF-MSMF050-2 500mA L1812               rcl               (5237.5 -17212.5)     R180
-IC1      74HC04N            DIL14               detali_main       (725 -12950)          R90
-IC2      LMV358IDGKR        MSOP08              linear            (5562.5 -17587.5)     R0
-ICSP     ICSP               2X03                SmartPrj          (7792.5 -17812.5)     R270
-J1       J                  R1206W              detali_main       (6400 -11075)         R90
-J2       J                  R1206W              detali_main       (6450 -11850)         R90
-J3       J                  R1206W              detali_main       (6475 -12575)         R270
-J4       J                  R1206W              detali_main       (5700 -11075)         R270
-J5       J                  R1206W              detali_main       (5700 -11850)         R90
-J6       J                  R1206W              detali_main       (5725 -12575)         R270
-J7       J                  R1206W              detali_main       (4950 -11075)         R270
-J8       J                  R1206W              detali_main       (4950 -11850)         R90
-J9       J                  R1206W              detali_main       (4975 -12575)         R90
-J10      J                  R1206W              detali_main       (4225 -11075)         R270
-J11      J                  R1206W              detali_main       (4225 -11850)         R90
-J12      J                  R1206W              detali_main       (4225 -12575)         R90
-J13      J                  R1206W              detali_main       (3475 -11075)         R270
-J14      J                  R1206W              detali_main       (3400 -11850)         R90
-J15      J                  R1206W              detali_main       (3375 -12575)         R90
-J16      J                  R1206W              detali_main       (1950 -10825)         R270
-J17      J                  R1206W              detali_main       (1775 -11525)         R90
-J18      J                  R1206W              detali_main       (1675 -12300)         R90
-J19      J                  R1206W              detali_main       (950 -10775)          R270
-J20      J                  R1206W              detali_main       (950 -11550)          R90
-J21      J                  R1206W              detali_main       (575 -11625)          R0
-J22      J                  R1206W              detali_main       (5100 -10487.5)       R0
-J23      J                  R1206W              detali_main       (6425 -10250)         R0
-J24      J                  R1206W              detali_main       (5287.5 -10125)       R180
-J25      J                  R1206W              detali_main       (5112.5 -10162.5)     R225
-J26      J                  R1206W              detali_main       (5775 -9675)          R90
-J27      J                  R1206W              detali_main       (5350 -10387.5)       R0
-J28      J                  R1206W              detali_main       (5337.5 -10312.5)     R0
-J29      J                  R1206W              detali_main       (5287.5 -10212.5)     R0
-J30      J                  R1206W              detali_main       (5087.5 -10400)       R0
-J31      J                  R1206W              detali_main       (5087.5 -10312.5)     R0
-J32      J                  R1206W              detali_main       (1187.5 -9875)        R270
-J33      J                  R1206W              detali_main       (1950 -9975)          R270
-J34      J                  R1206W              detali_main       (2650 -9900)          R270
-J35      J                  R1206W              detali_main       (4375 -10437.5)       R0
-J36      J                  R1206W              detali_main       (4375 -10350)         R0
-J37      J                  R1206W              detali_main       (4375 -10262.5)       R0
-J38      J                  R1206W              detali_main       (3650 -10462.5)       R0
-J39      J                  R1206W              detali_main       (3650 -10375)         R0
-J40      J                  R1206W              detali_main       (3650 -10287.5)       R0
-J41      J                  R1206W              detali_main       (5887.5 -9675)        R90
-J42      J                  R1206W              detali_main       (612.5 -10862.5)      R180
-J43      J                  R1206W              detali_main       (5662.5 -9675)        R90
-J44      J                  R1206W              detali_main       (425 -13150)          R0
-J45      J                  R1206W              detali_main       (575 -11537.5)        R180
-J46                         R1206W              detali2           (11937.5 -10037.5)    R0
-J47      USB MICRO          CON2_USB_MICRO_B_AT SmartPrj          (4794.5 -17437.5)     R270
-J48                         R1206W              detali2           (10962.5 -11087.5)    R0
-J49                         R1206W              detali2           (11700 -11125)        R0
-J50                         R1206W              detali2           (11150 -12125)        R0
-J51                         R1206W              detali2           (11168.75 -12950)     R0
-J52                         R1206W              detali2           (10225 -13550)        R0
-J53                         R1206W              detali2           (11150 -10612.5)      R180
-J54                         R1206W              detali2           (9475 -11825)         R180
-J55                         R1206W              detali2           (10712.5 -13381.25)   R135
-J56                         R1206W              detali2           (9275 -13375)         R180
-J57                         R1206W              detali2           (9700 -11400)         R90
-J58                         R1206W              detali2           (9400 -11087.5)       R180
-J59                         R1206W              detali2           (12325 -9400)         R180
-J60                         R1206W              detali2           (9000 -9525)          R270
-J61                         R1206W              detali2           (9200 -9568.75)       R270
-J62                         R1206W              detali2           (12237.5 -9550)       R90
-J63                         R1206W              detali2           (8862.5 -10562.5)     R90
-J64                         R1206W              detali2           (9000 -10000)         R180
-J65                         R1206W              detali2           (9000 -9925)          R180
-J66                         R1206W              detali2           (9225 -10000)         R180
-J67                         R1206W              detali2           (9000 -9850)          R180
-J68                         R1206W              detali2           (9200 -9850)          R180
-J69                         R1206W              detali2           (9337.5 -9625)        R180
-J70                         R1206W              detali2           (10212.5 -10312.5)    R0
-J71                         R1206W              detali2           (10225 -10225)        R0
-J72                         R1206W              detali2           (10237.5 -10137.5)    R0
-J73                         R1206W              detali2           (11000 -10312.5)      R0
-J74                         R1206W              detali2           (11000 -10225)        R0
-J75                         R1206W              detali2           (11000 -10137.5)      R0
-J76                         R1206W              detali2           (10212.5 -10400)      R180
-J77                         R1206W              detali2           (11750 -10312.5)      R0
-J78                         R1206W              detali2           (11750 -10225)        R0
-J79                         R1206W              detali2           (11750 -10137.5)      R0
-J80                         R1206W              detali2           (11937.5 -10125)      R0
-J81                         R1206W              detali2           (11937.5 -10300)      R0
-J82                         R1206W              detali2           (11937.5 -10212.5)    R0
-J83                         R1206W              detali2           (12775 -10675)        R270
-J84                         R1206W              detali2           (12662.5 -9512.5)     R270
-J85                         R1206W              detali2           (12650 -9712.5)       R270
-J86                         R1206W              detali2           (12725 -9712.5)       R270
-J87                         R1206W              detali2           (12887.5 -14025)      R270
-J88                         R1206W              detali2           (12775 -10875)        R270
-J89                         R1206W              detali2           (11725 -12575)        R180
-J90                         R1206W              detali2           (13375 -11100)        R180
-J91                         R1206W              detali2           (11943.75 -11687.5)   R180
-J92                         R1206W              detali2           (13143.75 -12487.5)   R180
-J93                         R1206W              detali2           (12875 -13300)        R180
-J94                         R1206W              detali2           (12162.5 -13287.5)    R180
-J95                         R1206W              detali2           (12325 -9537.5)       R90
-JA1                         SJ                  detali_main       (575 -10025)          R90
-JA2                         SJ                  detali_main       (1575 -9975)          R90
-JA3                         SJ                  detali_main       (825 -10750)          R90
-JA4                         SJ                  detali_main       (1550 -10800)         R90
-JA5                         SJ                  detali_main       (800 -11525)          R90
-JA6                         SJ                  detali_main       (1575 -11500)         R90
-JA7                         SJ                  detali_main       (825 -12250)          R90
-JA8                         SJ                  detali_main       (1550 -12275)         R90
-JA9                         SJ                  detali_main       (1375 -13300)         R90
-JA10                        SJ                  detali_main       (837.5 -14050)        R90
-JA11                        SJ                  detali_main       (1575 -14050)         R90
-JA12                        SJ                  detali_main       (2325 -14050)         R90
-JA13                        SJ                  detali            (3025 -10000)         R90
-JA14                        SJ                  detali            (3775 -10000)         R90
-JA15                        SJ                  detali            (4525 -10000)         R90
-JA16                        SJ                  detali            (4975 -9900)          R0
-JA17                        SJ                  detali            (6025 -9875)          R0
-JA18                        SJ                  detali            (6800 -9850)          R0
-JA19                        SJ                  detali            (3325 -11050)         R90
-JA20                        SJ                  detali            (4075 -11050)         R90
-JA21                        SJ                  detali            (4825 -11050)         R90
-JA22                        SJ                  detali            (5550 -11100)         R90
-JA23                        SJ                  detali            (6050 -10925)         R0
-JA24                        SJ                  detali            (6825 -10950)         R0
-JA25                        SJ                  detali            (3125 -11825)         R90
-JA26                        SJ                  detali            (4075 -11825)         R90
-JA27                        SJ                  detali            (4800 -11825)         R90
-JA28                        SJ                  detali            (5550 -11825)         R90
-JA29                        SJ                  detali            (6325 -11825)         R90
-JA30                        SJ                  detali            (6800 -11725)         R0
-JA31                        SJ                  detali            (3025 -12550)         R90
-JA32                        SJ                  detali            (4075 -12550)         R90
-JA33                        SJ                  detali            (4825 -12550)         R90
-JA34                        SJ                  detali            (5575 -12550)         R90
-JA35                        SJ                  detali            (6325 -12550)         R90
-JA36                        SJ                  detali            (6800 -12450)         R0
-JA37                        SJ                  detali            (2675 -13225)         R0
-JA38                        SJ                  detali            (4075 -13300)         R90
-JA39                        SJ                  detali            (4825 -13300)         R90
-JA40                        SJ                  detali            (5575 -13325)         R180
-JA41                        SJ                  detali            (6075 -13150)         R0
-JA42                        SJ                  detali            (6800 -13225)         R0
-JA43                        SJ                  detali_main       (3087.5 -14050)       R90
-JA44                        SJ                  detali            (3475 -14050)         R90
-JA45                        SJ                  detali            (4700 -14037.5)       R90
-JA46                        SJ                  detali            (6150 -14037.5)       R90
-JA47                        SJ                  detali            (7575 -9925)          R0
-JA48                        SJ                  detali            (8200 -9687.5)        R270
-JA49                        SJ                  detali            (9375 -9837.5)        R0
-JA50                        SJ                  detali            (10675 -9825)         R180
-JA51                        SJ                  detali            (10875 -9925)         R0
-JA52                        SJ                  detali            (11925 -9950)         R180
-JA53                        SJ                  detali            (7575 -10975)         R0
-JA54                        SJ                  detali            (8343.75 -10887.5)    R0
-JA55                        SJ                  detali            (9375 -11000)         R180
-JA56                        SJ                  detali            (9825 -10887.5)       R0
-JA57                        SJ                  detali            (11125 -10875)        R180
-JA58                        SJ                  detali            (11625 -10975)        R90
-JA59                        SJ                  detali            (13350 -11000)        R180
-JA60                        SJ                  detali            (7575 -11725)         R0
-JA61                        SJ                  detali            (8318.75 -11637.5)    R0
-JA62                        SJ                  detali            (9625 -11625)         R180
-JA63                        SJ                  detali            (9825 -11650)         R0
-JA64                        SJ                  detali            (11125 -11625)        R180
-JA65                        SJ                  detali            (11912.5 -11587.5)    R180
-JA66                        SJ                  detali            (12100 -11625)        R0
-JA67                        SJ                  detali            (13262.5 -11775)      R90
-JA67B                       SJ                  detali            (12662.5 -10787.5)    R225
-JA67B1                      SJ                  detali            (14537.5 -11912.5)    R0
-JA68                        SJ                  detali            (7575 -12475)         R0
-JA69                        SJ                  detali            (8325 -12400)         R0
-JA70                        SJ                  detali            (9087.5 -12400)       R0
-JA71                        SJ                  detali            (9825 -12400)         R0
-JA72                        SJ                  detali            (11125 -12375)        R180
-JA73                        SJ                  detali            (11875 -12375)        R180
-JA74                        SJ                  detali            (12550 -12525)        R90
-JA74B                       SJ                  detali            (13425 -9975)         R90
-JA75                        SJ                  detali            (7575 -13225)         R0
-JA76                        SJ                  detali            (8875 -13137.5)       R180
-JA77                        SJ                  detali            (9062.5 -13137.5)     R0
-JA78                        SJ                  detali            (10200 -13275)        R90
-JA79                        SJ                  detali            (11137.5 -13125)      R180
-JA80                        SJ                  detali            (11900 -13087.5)      R180
-JA81                        SJ                  detali            (13087.5 -13150)      R90
-JA82                        SJ                  detali            (8012.5 -13975)       R0
-JA83                        SJ                  detali            (10925 -13875)        R180
-JA84                        SJ                  detali            (11775 -13875)        R180
-JA85                        SJ                  detali            (12787.5 -13875)      R180
-JA86                        SJ                  detali            (13037.5 -13900)      R0
-JA87                        SJ                  detali            (10087.5 -13800)      R270
-JB1                         SJ                  detali            (850 -9950)           R270
-JB2                         SJ                  jumper            (1850 -9825)          MR0
-JB3                         SJ                  detali            (1125 -10500)         R90
-JB4                         SJ                  detali_main       (1700 -10725)         R270
-JB5                         SJ                  jumper            (1125 -11250)         MR270
-JB6                         SJ                  detali_main       (1875 -11275)         R90
-JB7                         SJ                  detali_main       (1125 -12000)         R90
-JB8                         SJ                  detali_main       (1875 -12050)         R90
-JB9                         SJ                  detali_main       (1650 -13125)         R0
-JB10                        SJ                  detali_main       (1100 -13875)         R0
-JB11                        SJ                  detali_main       (1850 -13875)         R0
-JB12                        SJ                  detali_main       (2600 -13875)         R0
-JB13                        SJ                  detali_main       (3300 -9825)          R0
-JB14                        SJ                  jumper            (4050 -9800)          MR0
-JB15                        SJ                  jumper            (4800 -9825)          MR0
-JB16                        SJ                  detali_main       (5500 -9925)          R270
-JB17                        SJ                  detali_main       (6350 -9950)          R270
-JB18                        SJ                  detali            (7200 -9975)          R270
-JB19                        SJ                  detali            (3625 -10800)         R90
-JB20                        SJ                  detali            (4375 -10775)         R90
-JB21                        SJ                  detali            (5125 -10800)         R90
-JB22                        SJ                  detali            (5875 -10750)         R90
-JB23                        SJ                  detali            (6625 -10850)         R90
-JB24                        SJ                  detali            (7200 -11025)         R270
-JB25                        SJ                  detali            (3450 -11600)         R90
-JB26                        SJ                  detali            (4375 -11575)         R90
-JB27                        SJ                  detali            (5125 -11575)         R90
-JB28                        SJ                  detali            (5875 -11575)         R90
-JB29                        SJ                  detali            (6625 -11550)         R90
-JB30                        SJ                  detali            (7200 -11775)         R270
-JB31                        SJ                  detali            (3350 -12300)         R90
-JB32                        SJ                  detali            (4375 -12325)         R90
-JB33                        SJ                  detali            (5125 -12325)         R90
-JB34                        SJ                  detali            (5875 -12325)         R90
-JB35                        SJ                  detali            (6625 -12300)         R90
-JB36                        SJ                  detali            (7200 -12525)         R270
-JB37                        SJ                  detali            (3225 -13125)         R0
-JB38                        SJ                  detali            (4375 -13075)         R90
-JB39                        SJ                  detali            (5125 -13075)         R90
-JB40                        SJ                  detali            (5850 -13050)         R90
-JB41                        SJ                  detali            (6625 -13075)         R90
-JB42                        SJ                  detali            (7100 -13250)         R270
-JB43                        SJ                  detali            (3362.5 -13875)       R0
-JB44                        SJ                  detali            (4200 -13875)         R0
-JB45                        SJ                  detali            (4975 -13875)         R0
-JB46                        SJ                  detali            (6675 -13850)         R0
-JB47                        SJ                  detali            (7862.5 -9962.5)      R270
-JB48                        SJ                  detali            (8887.5 -9650)        R90
-JB49                        SJ                  detali            (9875 -9925)          R0
-JB50                        SJ                  detali            (10150 -9850)         R180
-JB51                        SJ                  detali            (11200 -9950)         R270
-JB52                        SJ                  detali            (12187.5 -9737.5)     R90
-JB53                        SJ                  detali            (7931.25 -11025)      R270
-JB54                        SJ                  detali            (8712.5 -11000)       R180
-JB55                        SJ                  detali            (9662.5 -10750)       R0
-JB56                        SJ                  detali            (10387.5 -10875)      R0
-JB57                        SJ                  detali            (10600 -10881.25)     R180
-JB58                        SJ                  detali            (11325 -10900)        R180
-JB59                        SJ                  detali            (12925 -10875)        R180
-JB60                        SJ                  detali            (7975 -11775)         R270
-JB61                        SJ                  detali            (8637.5 -11750)       R270
-JB62                        SJ                  detali            (9075 -11737.5)       R270
-JB63                        SJ                  detali            (10375 -11625)        R0
-JB64                        SJ                  detali            (10575 -11650)        R180
-JB65                        SJ                  detali            (11325 -11650)        R180
-JB66                        SJ                  detali            (12387.5 -11762.5)    R180
-JB67                        SJ                  detali            (13125 -11737.5)      R0
-JB67B                       SJ                  detali            (12162.5 -10862.5)    R180
-JB68                        SJ                  detali            (7975 -12525)         R270
-JB69                        SJ                  detali            (8925 -12250)         R0
-JB70                        SJ                  detali            (9462.5 -12512.5)     R180
-JB71                        SJ                  detali            (10375 -12375)        R0
-JB72                        SJ                  detali            (10575 -12437.5)      R270
-JB73                        SJ                  detali            (11325 -12375)        R180
-JB74                        SJ                  detali            (13112.5 -12375)      R0
-JB74B                       SJ                  detali            (13012.5 -9850)       R180
-JB75                        SJ                  detali            (7887.5 -13275)       R270
-JB76                        SJ                  detali            (8637.5 -13262.5)     R0
-JB77                        SJ                  detali            (9362.5 -13225)       R270
-JB78                        SJ                  detali            (10087.5 -13350)      R270
-JB79                        SJ                  detali            (10875 -13243.75)     R0
-JB80                        SJ                  detali            (11562.5 -13337.5)    R0
-JB81                        SJ                  detali            (12550 -13225)        R180
-JB82                        SJ                  detali            (8525 -14012.5)       R0
-JB83                        SJ                  detali            (10412.5 -13875)      R180
-JB84                        SJ                  detali            (11237.5 -13887.5)    R180
-JB85                        SJ                  detali            (12200 -13950)        R180
-JB86                        SJ                  detali            (13325 -14000)        R270
-JB87                        SJ                  detali            (9825 -14012.5)       R0
-L1       MH2029-300Y        0805                wuerth-elektronik (6912.5 -17887.5)     R270
-L2       MH2029-300Y        0805                wuerth-elektronik (5237.5 -17662.5)     R0
-R3                          R1206W              rcl               (2575 -9900)          MR270
-R4       1M                 R0603-ROUND         SmartPrj          (6637.5 -17937.5)     R0
-R5       NM                 R0402               SmartPrj          (6937.5 -18373.5)     MR90
-R6       NM                 R0402               SmartPrj          (6937.5 -18348.5)     MR90
-R8                          R1206W              rcl               (6000 -10250)         MR270
-R9                          R1206W              rcl               (2500 -9900)          MR270
-R10                         M0805               rcl               (650 -12500)          MR90
-R11                         M0805               rcl               (775 -12450)          MR90
-R12                         M0805               rcl               (100 -12675)          MR0
-R13                         M0805               rcl               (225 -12725)          MR180
-R14                         M0805               rcl               (175 -13225)          MR180
-R15                         M0805               rcl               (162.5 -13725)        MR270
-R16      1k                 R1206W              rcl               (12650 -10112.5)      MR0
-R17      10k                R0805               rcl               (9087.5 -9562.5)      MR90
-R18      10k                R0805               rcl               (8912.5 -10750)       MR0
-R19      10k                R0805               rcl               (8975 -10675)         MR180
-R20      10k                R1206W              rcl               (9012.5 -10600)       MR180
-R21      10k                R0805               rcl               (9187.5 -9700)        MR180
-R22      10k                R0805               rcl               (9100 -9775)          MR0
-R23                         M0805               rcl               (3425 -18962.5)       R0
-R24      1M                 R0603-ROUND         SmartPrj          (2875 -18950)         R0
-R25                         M0805               rcl               (3612.5 -18962.5)     R0
-RESET    TS42               TS42                SmartPrj          (4987.5 -16992.5)     R180
-RN1      10K                CAY16               resistor-dil      (5937.5 -18212.5)     R270
-RN3      22R                CAY16               resistor-dil      (5237.5 -17462.5)     R90
-S1       Scroll Lock        CHERRY-MX-4P        cherrymx          (800 -9725)           R180
-S2       ESC                CHERRY-MX-4P        cherrymx          (1550 -9725)          R180
-S3       Ins                CHERRY-MX-4P        cherrymx          (800 -10475)          R180
-S4       Pause              CHERRY-MX-4P        cherrymx          (1550 -10475)         R180
-S5       Home               CHERRY-MX-4P        cherrymx          (800 -11225)          R180
-S6       PageUp             CHERRY-MX-4P        cherrymx          (1550 -11225)         R180
-S7       End                CHERRY-MX-4P        cherrymx          (800 -11975)          R180
-S8       PageDown           CHERRY-MX-4P        cherrymx          (1550 -11975)         R180
-S9       Up                 CHERRY-MX-4P        cherrymx          (1550 -13025)         R180
-S10      Left               CHERRY-MX-4P        cherrymx          (800 -13775)          R180
-S11      Down               CHERRY-MX-4P        cherrymx          (1550 -13775)         R180
-S12      Right              CHERRY-MX-4P        cherrymx          (2300 -13775)         R180
-S13      F1                 CHERRY-MX-4P        cherrymx          (3000 -9725)          R180
-S14      F2                 CHERRY-MX-4P        cherrymx          (3750 -9725)          R180
-S15      F3                 CHERRY-MX-4P        cherrymx          (4500 -9725)          R180
-S16      F4                 CHERRY-MX-4P        cherrymx          (5250 -9725)          R180
-S17      F5                 CHERRY-MX-4P        cherrymx          (6300 -9725)          R180
-S18      F6                 CHERRY-MX-4P        cherrymx          (7050 -9725)          R180
-S19      1                  CHERRY-MX-4P        cherrymx          (3300 -10775)         R180
-S20      2                  CHERRY-MX-4P        cherrymx          (4050 -10775)         R180
-S21      3                  CHERRY-MX-4P        cherrymx          (4800 -10775)         R180
-S22      4                  CHERRY-MX-4P        cherrymx          (5550 -10775)         R180
-S23      5                  CHERRY-MX-4P        cherrymx          (6300 -10775)         R180
-S24      6                  CHERRY-MX-4P        cherrymx          (7050 -10775)         R180
-S25      TAB                CHERRY-MX-4P        cherrymx          (3100 -11525)         R180
-S26      Q                  CHERRY-MX-4P        cherrymx          (4050 -11525)         R180
-S27      W                  CHERRY-MX-4P        cherrymx          (4800 -11525)         R180
-S28      E                  CHERRY-MX-4P        cherrymx          (5550 -11525)         R180
-S29      R                  CHERRY-MX-4P        cherrymx          (6300 -11525)         R180
-S30      T                  CHERRY-MX-4P        cherrymx          (7050 -11525)         R180
-S31      LCtrl              CHERRY-MX-4P        cherrymx          (3000 -12275)         R180
-S32      A                  CHERRY-MX-4P        cherrymx          (4050 -12275)         R180
-S33      S                  CHERRY-MX-4P        cherrymx          (4800 -12275)         R180
-S34      D                  CHERRY-MX-4P        cherrymx          (5550 -12275)         R180
-S35      F                  CHERRY-MX-4P        cherrymx          (6300 -12275)         R180
-S36      G                  CHERRY-MX-4P        cherrymx          (7050 -12275)         R180
-S37      L Shift            CHERRY-MX-4P        cherrymx          (2925 -13025)         R180
-S38      Z                  CHERRY-MX-4P        cherrymx          (4050 -13025)         R180
-S39      X                  CHERRY-MX-4P        cherrymx          (4800 -13025)         R180
-S40      C                  CHERRY-MX-4P        cherrymx          (5550 -13025)         R180
-S41      V                  CHERRY-MX-4P        cherrymx          (6300 -13025)         R180
-S42      B                  CHERRY-MX-4P        cherrymx          (7050 -13025)         R180
-S43      Caps Lock          CHERRY-MX-4P        cherrymx          (3062.5 -13775)       R180
-S44      FN1                CHERRY-MX-4P        cherrymx          (3825 -13775)         R180
-S44A     Fn1                CHERRY-MX           cherrymx          (3712.5 -13775)       R180
-S45      L_Alt              CHERRY-MX-4P        cherrymx          (4662.5 -13775)       R180
-S46      Space              CHERRY-MX-4P        cherrymx          (6375 -13750)         R180
-S47      F7                 CHERRY-MX-4P        cherrymx          (7825 -9725)          R180
-S48      F8                 CHERRY-MX-4P        cherrymx          (8575 -9725)          R180
-S49      F9                 CHERRY-MX-4P        cherrymx          (9625 -9725)          R180
-S50      F10                CHERRY-MX-4P        cherrymx          (10375 -9725)         R180
-S51      F11                CHERRY-MX-4P        cherrymx          (11125 -9725)         R180
-S52      F12                CHERRY-MX-4P        cherrymx          (11875 -9725)         R180
-S53      7                  CHERRY-MX-4P        cherrymx          (7825 -10775)         R180
-S54      8                  CHERRY-MX-4P        cherrymx          (8575 -10775)         R180
-S55      9                  CHERRY-MX-4P        cherrymx          (9325 -10775)         R180
-S56      0                  CHERRY-MX-4P        cherrymx          (10075 -10775)        R180
-S57      -                  CHERRY-MX-4P        cherrymx          (10825 -10775)        R180
-S58      =                  CHERRY-MX-4P        cherrymx          (11575 -10775)        R180
-S59      BS                 CHERRY-MX-4P        cherrymx          (13175 -10775)        R180
-S60      Y                  CHERRY-MX-4P        cherrymx          (7825 -11525)         R180
-S61      U                  CHERRY-MX-4P        cherrymx          (8575 -11525)         R180
-S62      I                  CHERRY-MX-4P        cherrymx          (9325 -11525)         R180
-S63      O                  CHERRY-MX-4P        cherrymx          (10075 -11525)        R180
-S64      P                  CHERRY-MX-4P        cherrymx          (10825 -11525)        R180
-S65      [                  CHERRY-MX-4P        cherrymx          (11575 -11525)        R180
-S66      ]                  CHERRY-MX-4P        cherrymx          (12325 -11525)        R180
-S67      |d                 CHERRY-MX-4P        cherrymx          (13075 -11525)        R180
-S67B     |u                 CHERRY-MX           cherrymx          (15437.5 -11662.5)    R180
-S67C     |u                 CHERRY-MX-4P        cherrymx          (12325 -10775)        R180
-S68      H                  CHERRY-MX-4P        cherrymx          (7825 -12275)         R180
-S69      J                  CHERRY-MX-4P        cherrymx          (8575 -12275)         R180
-S70      K                  CHERRY-MX-4P        cherrymx          (9325 -12275)         R180
-S71      L                  CHERRY-MX-4P        cherrymx          (10075 -12275)        R180
-S72      :                  CHERRY-MX-4P        cherrymx          (10825 -12275)        R180
-S73      "                  CHERRY-MX-4P        cherrymx          (11575 -12275)        R180
-S74      Del                CHERRY-MX-4P        cherrymx          (13275 -9725)         R180
-S74A     Enter              CHERRY-MX-4P        cherrymx          (12800 -12275)        R180
-S75      N                  CHERRY-MX-4P        cherrymx          (7825 -13025)         R180
-S76      M                  CHERRY-MX-4P        cherrymx          (8575 -13025)         R180
-S77      <                  CHERRY-MX-4P        cherrymx          (9325 -13025)         R180
-S78      >                  CHERRY-MX-4P        cherrymx          (10075 -13025)        R180
-S79      ~                  CHERRY-MX-4P        cherrymx          (10825 -13025)        R180
-S80      ?                  CHERRY-MX-4P        cherrymx          (11575 -13025)        R180
-S81      R Shift            CHERRY-MX-4P        cherrymx          (12800 -13025)        R180
-S82      Space              CHERRY-MX-4P        cherrymx          (8262.5 -13775)       R180
-S82A     space              CHERRY-MX           cherrymx          (8462.5 -13775)       R180
-S83      FN3                CHERRY-MX-4P        cherrymx          (10625 -13775)        R180
-S84      R_Alt              CHERRY-MX-4P        cherrymx          (11475 -13775)        R180
-S85      RCtrl              CHERRY-MX-4P        cherrymx          (12475 -13800)        R180
-S86      PrtScr             CHERRY-MX-4P        cherrymx          (13275 -13775)        R180
-S87      FN2                CHERRY-MX-4P        cherrymx          (9775 -13775)         R180
-SCROLL                      LED5MM              detali_main       (2325 -9562.5)        R180
-SV3                         FE13                detali_main       (2275 -10675)         R90
-SV4      CON_KB_B           FE12                detali2           (8212.5 -10287.5)     R0
-SV5      CON_KB_N           FE09                detali_main       (3275 -18225)         R0
-SV6                         FE12                detali_main       (3412.5 -18750)       R0
-U$102    FE1.1S             FE1.1S_SSOP-28      imcom             (3125 -17950)         R0
-Y1       16MHz KX-7         CRYSTAL-3.2-2.5     SmartPrj          (6662.5 -17812.5)     R270
-Y3       16MHz KX-7         CRYSTAL-3.2-2.5     SmartPrj          (2900 -18500)         R0
-Z1       CG0603MLC-05E      CT/CN0603           varistor          (5237.5 -17587.5)     R0
-Z2       CG0603MLC-05E      CT/CN0603           varistor          (5237.5 -17337.5)     R0
+1D1      74HC138N       DIL16        detali_main (6600 5150)           R0
+1D2      74HC04N        DIL14        detali_main (1650 2450)           R90
+C17      100n           C0805        rcl         (6650 5112.5)         MR90
+C18      100n           C0805        rcl         (1600 2162.5)         MR270
+D1       LL4148         SOD80C       detali      (1675 5350)           R270
+D2       LL4148         SOD80C       detali      (2600 5425)           R270
+D3       LL4148         SOD80C       detali      (1287.5 5087.5)       R90
+D4       LL4148         SOD80C       detali      (1987.5 5050)         R0
+D5       LL4148         SOD80C       detali      (1825 4325)           R90
+D6       LL4148         SOD80C       detali      (2400 3875)           R0
+D7       LL4148         SOD80C       detali      (1875 3550)           R90
+D8       LL4148         SOD80C       detali      (2625 3575)           R90
+D9       LL4148         SOD80C       detali      (2725 2650)           R90
+D10      LL4148         SOD80C       detali      (1287.5 2350)         R90
+D11      LL4148         SOD80C       detali      (2787.5 2362.5)       R0
+D12      LL4148         SOD80C       detali      (4400 2175)           R0
+D13      LL4148         SOD80C       detali      (4387.5 5250)         R270
+D14      LL4148         SOD80C       detali      (4650 5368.625)       R270
+D15      LL4148         SOD80C       detali      (5387.5 5375)         R270
+D16      LL4148         SOD80C       detali      (6100 5400)           R225
+D17      LL4148         SOD80C       detali      (7175 5337.5)         R270
+D18      LL4148         SOD80C       detali      (7687.5 5275)         R180
+D19      LL4148         SOD80C       detali      (4387.5 4800)         R90
+D20      LL4148         SOD80C       detali      (5112.5 4787.5)       R90
+D21      LL4148         SOD80C       detali      (5950 4750)           R0
+D22      LL4148         SOD80C       detali      (6725 4762.5)         R0
+D23      LL4148         SOD80C       detali      (7312.5 4762.5)       R90
+D24      LL4148         SOD80C       detali      (7487.5 4762.5)       R180
+D25      LL4148         SOD80C       detali      (4200 4037.5)         R90
+D26      LL4148         SOD80C       detali      (5125 4000)           R90
+D27      LL4148         SOD80C       detali      (5875 4000)           R90
+D28      LL4148         SOD80C       detali      (6625 4000)           R90
+D29      LL4148         SOD80C       detali      (7375 4025)           R90
+D30      LL4148         SOD80C       detali      (7912.5 3500)         R0
+D31      LL4148         SOD80C       detali      (4100 3275)           R90
+D32      LL4148         SOD80C       detali      (5125 3250)           R90
+D33      LL4148         SOD80C       detali      (5875 3250)           R90
+D34      LL4148         SOD80C       detali      (6625 3250)           R90
+D35      LL4148         SOD80C       detali      (7375 3275)           R90
+D36      LL4148         SOD80C       detali      (7912.5 2750)         R0
+D37      LL4148         SOD80C       detali      (3100 2743.75)        R90
+D38      LL4148         SOD80C       detali      (4412.5 2450)         R180
+D39      LL4148         SOD80C       detali      (5150 2500)           R180
+D40      LL4148         SOD80C       detali      (5962.5 2500)         R90
+D41      LL4148         SOD80C       detali      (6725 2500)           R90
+D42      LL4148         SOD80C       detali      (7412.5 2275)         R180
+D43      LL4148         SOD80C       detali      (5150 2262.5)         R90
+D44      LL4148         SOD80C       detali      (6443.75 2050)        R90
+D45      LL4148         SOD80C       detali      (7200 2050)           R90
+D46      LL4148         SOD80C       detali      (7237.5 1675)         R90
+D47      LL4148         SOD80C       detali      (1337.5 2062.5)       R0
+D48      LL4148         SOD80C       detali      (1337.5 2150)         R180
+D88      LL4148         SOD80C       detali      (3662.5 4787.5)       R0
+J1       J              R1206W       detali_main (7687.5 5150)         R90
+J2       J              R1206W       detali_main (7200 3550)           R90
+J3       J              R1206W       detali_main (7225 2825)           R270
+J4       J              R1206W       detali_main (6450 4325)           R270
+J5       J              R1206W       detali_main (6437.5 3550)         R90
+J6       J              R1206W       detali_main (6462.5 2825)         R270
+J7       J              R1206W       detali_main (5212.5 4512.5)       R270
+J8       J              R1206W       detali_main (5700 3550)           R90
+J9       J              R1206W       detali_main (5725 2825)           R90
+J10      J              R1206W       detali_main (4187.5 4325)         R270
+J11      J              R1206W       detali_main (4950 3550)           R90
+J12      J              R1206W       detali_main (4975 2825)           R90
+J13      J              R1206W       detali_main (3787.5 4325)         R270
+J14      J              R1206W       detali_main (4100 3550)           R90
+J15      J              R1206W       detali_main (4125 2825)           R90
+J16      J              R1206W       detali_main (2325 4575)           R270
+J17      J              R1206W       detali_main (2562.5 3775)         R90
+J18      J              R1206W       detali_main (1562.5 3037.5)       R90
+J19      J              R1206W       detali_main (1612.5 4587.5)       R315
+J20      J              R1206W       detali_main (1687.5 3850)         R90
+J21      J              R1206W       detali_main (1325 3775)           R0
+J22      J              R1206W       detali_main (5200 4937.5)         R0
+J23      J              R1206W       detali_main (2475 3150)           R0
+J24      J              R1206W       detali_main (6037.5 5275)         R180
+J25      J              R1206W       detali_main (5200 5237.5)         R180
+J26      J              R1206W       detali_main (6525 5725)           R90
+J27      J              R1206W       detali_main (6100 5012.5)         R0
+J28      J              R1206W       detali_main (6087.5 5087.5)       R0
+J29      J              R1206W       detali_main (6037.5 5187.5)       R0
+J30      J              R1206W       detali_main (5200 5037.5)         R0
+J31      J              R1206W       detali_main (5200 5137.5)         R0
+J32      J              R1206W       detali_main (1937.5 5550)         R270
+J33      J              R1206W       detali_main (2700 5425)           R270
+J34      J              R1206W       detali_main (3362.5 5875)         R270
+J35      J              R1206W       detali_main (4562.5 4962.5)       R0
+J36      J              R1206W       detali_main (4562.5 5050)         R0
+J37      J              R1206W       detali_main (4562.5 5137.5)       R0
+J38      J              R1206W       detali_main (3812.5 4987.5)       R0
+J39      J              R1206W       detali_main (3812.5 5087.5)       R0
+J40      J              R1206W       detali_main (3812.5 5187.5)       R0
+J41      J              R1206W       detali_main (6637.5 5725)         R90
+J42      J              R1206W       detali_main (1262.5 4037.5)       R180
+J43      J              R1206W       detali_main (6412.5 5725)         R90
+J44      J              R1206W       detali_main (1337.5 1975)         R0
+J45      J              R1206W       detali_main (1325 3862.5)         R180
+J46      J              R1206W       detali_main (2725 3212.5)         R0
+J47      J              R1206W       detali_main (3675 4325)           R90
+J48      J              R1206W       detali_main (2512.5 5325)         R135
+J49      J              R1206W       detali_main (1900 4787.5)         R270
+J50      J              R1206W       detali_main (2475 3062.5)         R0
+J51      J              R1206W       detali_main (2725 3112.5)         R0
+J52      J              R1206W       detali_main (2475 2975)           R0
+J53      J              R1206W       detali_main (2725 3012.5)         R0
+J54      J              R1206W       detali_main (2475 2887.5)         R0
+J55      J              R1206W       detali_main (2725 2912.5)         R0
+J56      J              R1206W       detali_main (2475 2800)           R0
+J57      J              R1206W       detali_main (2725 2812.5)         R0
+JA1                     SJ           detali_main (1337.5 5375)         R90
+JA2                     SJ           detali_main (2325 5425)           R90
+JA3                     SJ           detali_main (1700 4675)           R90
+JA4                     SJ           detali_main (2450 4675)           R90
+JA5                     SJ           detali_main (1550 3875)           R90
+JA6                     SJ           detali_main (2075 4062.5)         R0
+JA7                     SJ           detali_main (1462.5 3075)         R90
+JA8                     SJ           detali_main (2050 3275)           R0
+JA9                     SJ           detali_main (2062.5 2250)         R0
+JA10                    SJ           detali_main (1825 1350)           R90
+JA11                    SJ           detali_main (2325 1350)           R90
+JA12                    SJ           detali_main (3075 1350)           R90
+JA13                    SJ           detali      (3775 5400)           R90
+JA14                    SJ           detali      (4525 5400)           R90
+JA15                    SJ           detali      (5000 5550)           R0
+JA16                    SJ           detali      (5725 5500)           R0
+JA17                    SJ           detali      (6775 5525)           R0
+JA18                    SJ           detali      (7550 5550)           R0
+JA19                    SJ           detali      (4075 4350)           R90
+JA20                    SJ           detali      (4825 4350)           R90
+JA21                    SJ           detali      (5575 4350)           R90
+JA22                    SJ           detali      (6300 4300)           R90
+JA23                    SJ           detali      (6800 4475)           R0
+JA24                    SJ           detali      (7950 4362.5)         R90
+JA25                    SJ           detali      (3875 3575)           R90
+JA26                    SJ           detali      (4825 3575)           R90
+JA27                    SJ           detali      (5550 3575)           R90
+JA28                    SJ           detali      (6300 3575)           R90
+JA29                    SJ           detali      (7075 3575)           R90
+JA30                    SJ           detali      (7650 3500)           R90
+JA31                    SJ           detali      (3775 2850)           R90
+JA32                    SJ           detali      (4825 2850)           R90
+JA33                    SJ           detali      (5575 2850)           R90
+JA34                    SJ           detali      (6325 2850)           R90
+JA35                    SJ           detali      (7075 2850)           R90
+JA36                    SJ           detali      (7637.5 2775)         R90
+JA37                    SJ           detali      (3825 2137.5)         R90
+JA38                    SJ           detali      (4850 2162.5)         R90
+JA39                    SJ           detali      (5662.5 2100)         R90
+JA40                    SJ           detali      (6350 2162.5)         R90
+JA41                    SJ           detali      (7100 2162.5)         R90
+JA42                    SJ           detali      (7850 2150)           R45
+JA43                    SJ           detali_main (3837.5 1350)         R90
+JA44                    SJ           detali      (4225 1350)           R90
+JA45                    SJ           detali      (5450 1362.5)         R90
+JA46                    SJ           detali      (6687.5 1362.5)       R90
+JA88                    SJ           detali      (3337.5 4350)         R90
+JB1                     SJ           detali      (1600 5450)           R270
+JB2                     SJ           jumper      (2600 5600)           MR0
+JB3                     SJ           detali      (1312.5 4812.5)       R180
+JB4                     SJ           detali_main (2062.5 4812.5)       R135
+JB5                     SJ           jumper      (1875 4150)           MR270
+JB6                     SJ           detali_main (2362.5 3962.5)       R180
+JB7                     SJ           detali_main (1875 3387.5)         R90
+JB8                     SJ           detali_main (2625 3362.5)         R90
+JB9                     SJ           detali_main (2625 2350)           R90
+JB10                    SJ           detali_main (1312.5 1512.5)       R180
+JB11                    SJ           detali_main (2600 1525)           R0
+JB12                    SJ           detali_main (3350 1525)           R0
+JB13                    SJ           detali_main (4050 5575)           R0
+JB14                    SJ           jumper      (4800 5600)           MR0
+JB15                    SJ           jumper      (5550 5575)           MR0
+JB16                    SJ           detali_main (6250 5475)           R270
+JB17                    SJ           detali_main (7100 5450)           R270
+JB18                    SJ           detali      (7875 5437.5)         R270
+JB19                    SJ           detali      (4375 4600)           R90
+JB20                    SJ           detali      (5112.5 4612.5)       R90
+JB21                    SJ           detali      (5875 4600)           R90
+JB22                    SJ           detali      (6625 4650)           R90
+JB23                    SJ           detali      (7362.5 4562.5)       R90
+JB24                    SJ           detali      (7562.5 4462.5)       R90
+JB25                    SJ           detali      (4200 3825)           R90
+JB26                    SJ           detali      (5125 3825)           R90
+JB27                    SJ           detali      (5875 3825)           R90
+JB28                    SJ           detali      (6625 3825)           R90
+JB29                    SJ           detali      (7375 3850)           R90
+JB30                    SJ           detali      (7862.5 3650)         R270
+JB31                    SJ           detali      (4100 3100)           R90
+JB32                    SJ           detali      (5125 3075)           R90
+JB33                    SJ           detali      (5875 3075)           R90
+JB34                    SJ           detali      (6625 3075)           R90
+JB35                    SJ           detali      (7375 3100)           R90
+JB36                    SJ           detali      (7862.5 2887.5)       R270
+JB37                    SJ           detali      (3437.5 2112.5)       R180
+JB38                    SJ           detali      (4562.5 2262.5)       R180
+JB39                    SJ           detali      (5312.5 2262.5)       R180
+JB40                    SJ           detali      (5962.5 2312.5)       R90
+JB41                    SJ           detali      (6725 2325)           R90
+JB42                    SJ           detali      (7575 2237.5)         R90
+JB43                    SJ           detali      (4112.5 1525)         R0
+JB44                    SJ           detali      (4875 1525)           R0
+JB45                    SJ           detali      (5725 1525)           R0
+JB46                    SJ           detali      (7237.5 1512.5)       R90
+JB88                    SJ           detali      (3600 4525)           R0
+R1                      R1206W       rcl         (6950 5112.5)         MR0
+R2       10k            R1206W       rcl         (2737.5 5112.5)       MR270
+R3       10k            0603R        rd          (1912.5 2550)         R90
+R4       10k            R0805        rcl         (1687.5 2137.5)       MR90
+R5       10k            R1206W       rcl         (1887.5 2050)         MR180
+R10      10k            0603R        rd          (1400 2450)           R90
+R100     10k            0603R        rd          (1400 2650)           R0
+S1       Scroll Lock    CHERRY-MX-4P cherrymx    (1550 5675)           R180
+S2       ESC            CHERRY-MX-4P cherrymx    (2300 5675)           R180
+S3       Ins            CHERRY-MX-4P cherrymx    (1550 4925)           R180
+S4       Pause          CHERRY-MX-4P cherrymx    (2300 4925)           R180
+S5       Home           CHERRY-MX-4P cherrymx    (1550 4175)           R180
+S6       PageUp         CHERRY-MX-4P cherrymx    (2300 4175)           R180
+S7       End            CHERRY-MX-4P cherrymx    (1550 3425)           R180
+S8       PageDown       CHERRY-MX-4P cherrymx    (2300 3425)           R180
+S9       Up             CHERRY-MX-4P cherrymx    (2300 2375)           R180
+S10      Left           CHERRY-MX-4P cherrymx    (1550 1625)           R180
+S11      Down           CHERRY-MX-4P cherrymx    (2300 1625)           R180
+S12      Right          CHERRY-MX-4P cherrymx    (3050 1625)           R180
+S13      F1             CHERRY-MX-4P cherrymx    (3750 5675)           R180
+S14      F2             CHERRY-MX-4P cherrymx    (4500 5675)           R180
+S15      F3             CHERRY-MX-4P cherrymx    (5250 5675)           R180
+S16      F4             CHERRY-MX-4P cherrymx    (6000 5675)           R180
+S17      F5             CHERRY-MX-4P cherrymx    (7050 5675)           R180
+S18      F6             CHERRY-MX-4P cherrymx    (7800 5675)           R180
+S19      1              CHERRY-MX-4P cherrymx    (4050 4625)           R180
+S20      2              CHERRY-MX-4P cherrymx    (4800 4625)           R180
+S21      3              CHERRY-MX-4P cherrymx    (5550 4625)           R180
+S22      4              CHERRY-MX-4P cherrymx    (6300 4625)           R180
+S23      5              CHERRY-MX-4P cherrymx    (7050 4625)           R180
+S24      6              CHERRY-MX-4P cherrymx    (7800 4625)           R180
+S25      TAB            CHERRY-MX-4P cherrymx    (3850 3875)           R180
+S26      Q              CHERRY-MX-4P cherrymx    (4800 3875)           R180
+S27      W              CHERRY-MX-4P cherrymx    (5550 3875)           R180
+S28      E              CHERRY-MX-4P cherrymx    (6300 3875)           R180
+S29      R              CHERRY-MX-4P cherrymx    (7050 3875)           R180
+S30      T              CHERRY-MX-4P cherrymx    (7800 3875)           R180
+S31      LCtrl          CHERRY-MX-4P cherrymx    (3750 3125)           R180
+S32      A              CHERRY-MX-4P cherrymx    (4800 3125)           R180
+S33      S              CHERRY-MX-4P cherrymx    (5550 3125)           R180
+S34      D              CHERRY-MX-4P cherrymx    (6300 3125)           R180
+S35      F              CHERRY-MX-4P cherrymx    (7050 3125)           R180
+S36      G              CHERRY-MX-4P cherrymx    (7800 3125)           R180
+S37      L Shift        CHERRY-MX-4P cherrymx    (3675 2375)           R180
+S38      Z              CHERRY-MX-4P cherrymx    (4800 2375)           R180
+S39      X              CHERRY-MX-4P cherrymx    (5550 2375)           R180
+S40      C              CHERRY-MX-4P cherrymx    (6300 2375)           R180
+S41      V              CHERRY-MX-4P cherrymx    (7050 2375)           R180
+S42      B              CHERRY-MX-4P cherrymx    (7800 2375)           R180
+S43      Caps Lock      CHERRY-MX-4P cherrymx    (3812.5 1625)         R180
+S44      FN1            CHERRY-MX-4P cherrymx    (4575 1625)           R180
+S44A     Fn1            CHERRY-MX    cherrymx    (4462.5 1625)         R180
+S45      L_Alt          CHERRY-MX-4P cherrymx    (5412.5 1625)         R180
+S46      Space          CHERRY-MX-4P cherrymx    (6925 1625)           R180
+S88      ~?             CHERRY-MX-4P cherrymx    (3300 4625)           R180
+SV1                     FE03-1       detali_main (3418.75 5131.25)     R90
+SV2                     FE03-1       detali_main (262.5 825)           R0
+SV3                     FE08         detali_main (2918.75 4681.25)     R90

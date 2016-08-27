@@ -7531,12 +7531,6 @@ wave soldering</description>
 <part name="J48" library="detali_main" deviceset="J" device=""/>
 <part name="J49" library="detali_main" deviceset="J" device=""/>
 <part name="R10" library="rd" deviceset="RD" device="" value="10k"/>
-<part name="SV2" library="detali_main" deviceset="FE03-1" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="J18" library="detali_main" deviceset="J" device=""/>
 <part name="R100" library="rd" deviceset="RD" device="" value="10k"/>
 <part name="R3" library="rd" deviceset="RD" device="" value="10k"/>
@@ -7559,10 +7553,10 @@ wave soldering</description>
 <sheet>
 <description>KB_A</description>
 <plain>
-<text x="398.78" y="317.5" size="1.778" layer="91">d1</text>
+<text x="322.58" y="228.6" size="1.778" layer="91">d1</text>
 <text x="378.46" y="312.42" size="1.778" layer="91">vcc</text>
-<text x="398.78" y="320.04" size="1.778" layer="91">d2</text>
-<text x="398.78" y="322.58" size="1.778" layer="91">d3</text>
+<text x="322.58" y="231.14" size="1.778" layer="91">d2</text>
+<text x="322.58" y="233.68" size="1.778" layer="91">d3</text>
 <text x="378.46" y="294.64" size="1.778" layer="91">gnd</text>
 <text x="40.64" y="304.8" size="5.08" layer="91">LEFT KB</text>
 </plain>
@@ -7891,7 +7885,7 @@ wave soldering</description>
 <instance part="JA88" gate="1" x="139.7" y="269.24"/>
 <instance part="JB88" gate="1" x="114.3" y="269.24"/>
 <instance part="D88" gate="G$1" x="104.14" y="269.24"/>
-<instance part="SV1" gate="G$1" x="396.24" y="322.58" rot="MR0"/>
+<instance part="SV1" gate="G$1" x="320.04" y="233.68" rot="MR0"/>
 <instance part="SV3" gate="G$1" x="370.84" y="302.26" rot="MR0"/>
 <instance part="J47" gate="G$1" x="45.72" y="104.14"/>
 <instance part="J48" gate="G$1" x="58.42" y="104.14"/>
@@ -7900,7 +7894,6 @@ wave soldering</description>
 <attribute name="NAME" x="250.19" y="336.55" size="1.778" layer="95"/>
 <attribute name="VALUE" x="252.73" y="327.66" size="1.778" layer="95"/>
 </instance>
-<instance part="SV2" gate="G$1" x="419.1" y="322.58" rot="MR0"/>
 <instance part="J18" gate="G$1" x="320.04" y="297.18" smashed="yes">
 <attribute name="NAME" x="322.58" y="297.18" size="1.27" layer="95"/>
 </instance>
@@ -8857,8 +8850,8 @@ wave soldering</description>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="388.62" y1="322.58" x2="381" y2="322.58" width="0.1524" layer="91"/>
-<label x="383.54" y="322.58" size="1.778" layer="95"/>
+<wire x1="312.42" y1="233.68" x2="304.8" y2="233.68" width="0.1524" layer="91"/>
+<label x="307.34" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -8869,8 +8862,8 @@ wave soldering</description>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="381" y1="320.04" x2="388.62" y2="320.04" width="0.1524" layer="91"/>
-<label x="383.54" y="320.04" size="1.778" layer="95"/>
+<wire x1="304.8" y1="231.14" x2="312.42" y2="231.14" width="0.1524" layer="91"/>
+<label x="307.34" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -8881,8 +8874,8 @@ wave soldering</description>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
-<wire x1="388.62" y1="317.5" x2="381" y2="317.5" width="0.1524" layer="91"/>
-<label x="383.54" y="317.5" size="1.778" layer="95"/>
+<wire x1="312.42" y1="228.6" x2="304.8" y2="228.6" width="0.1524" layer="91"/>
+<label x="307.34" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$390" class="0">

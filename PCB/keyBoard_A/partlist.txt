@@ -1,6 +1,6 @@
 Partlist
 
-Exported from keyBoard_A.sch at 2016-08-27 0:40:52
+Exported from keyBoard_A.sch at 2016-08-28 1:46:36
 
 EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
 
@@ -9,9 +9,9 @@ Assembly variant:
 Part     Value          Device       Package      Library     Sheet
 
 1D1      74HC138N       74HC138N     DIL16        detali_main 1
+1D2      74HC04N        74ACT04N     DIL14        detali_main 1
 C17      100n           C-EUC0805    C0805        rcl         1
 C18      100n           C-EUC0805    C0805        rcl         1
-CAPS                    LED5MM       LED5MM       detali_main 1
 D1       LL4148         LL4148       SOD80C       detali      1
 D2       LL4148         LL4148       SOD80C       detali      1
 D3       LL4148         LL4148       SOD80C       detali      1
@@ -61,7 +61,6 @@ D46      LL4148         LL4148       SOD80C       detali      1
 D47      LL4148         LL4148       SOD80C       detali      1
 D48      LL4148         LL4148       SOD80C       detali      1
 D88      LL4148         LL4148       SOD80C       detali      1
-IC1      74HC04N        74ACT04N     DIL14        detali_main 1
 J1       J              J            R1206W       detali_main 1
 J2       J              J            R1206W       detali_main 1
 J3       J              J            R1206W       detali_main 1
@@ -107,9 +106,18 @@ J42      J              J            R1206W       detali_main 1
 J43      J              J            R1206W       detali_main 1
 J44      J              J            R1206W       detali_main 1
 J45      J              J            R1206W       detali_main 1
+J46      J              J            R1206W       detali_main 1
 J47      J              J            R1206W       detali_main 1
 J48      J              J            R1206W       detali_main 1
 J49      J              J            R1206W       detali_main 1
+J50      J              J            R1206W       detali_main 1
+J51      J              J            R1206W       detali_main 1
+J52      J              J            R1206W       detali_main 1
+J53      J              J            R1206W       detali_main 1
+J54      J              J            R1206W       detali_main 1
+J55      J              J            R1206W       detali_main 1
+J56      J              J            R1206W       detali_main 1
+J57      J              J            R1206W       detali_main 1
 JA1                     SJ           SJ           detali_main 1
 JA2                     SJ           SJ           detali_main 1
 JA3                     SJ           SJ           detali_main 1
@@ -204,15 +212,13 @@ JB44                    SJ           SJ           detali      1
 JB45                    SJ           SJ           detali      1
 JB46                    SJ           SJ           detali      1
 JB88                    SJ           SJ           detali      1
-R3                      R-EU_R1206W  R1206W       rcl         1
-R8                      R-EU_R1206W  R1206W       rcl         1
-R9                      R-EU_R1206W  R1206W       rcl         1
-R10                     R-EU_M0805   M0805        rcl         1
-R11                     R-EU_M0805   M0805        rcl         1
-R12                     R-EU_M0805   M0805        rcl         1
-R13                     R-EU_M0805   M0805        rcl         1
-R14                     R-EU_M0805   M0805        rcl         1
-R15                     R-EU_M0805   M0805        rcl         1
+R1                      R-EU_R1206W  R1206W       rcl         1
+R2       10k            R-EU_R1206W  R1206W       rcl         1
+R3       10k            RD           0603R        rd          1
+R4       10k            R-EU_R0805   R0805        rcl         1
+R5       10k            R-EU_R1206W  R1206W       rcl         1
+R10      10k            RD           0603R        rd          1
+R100     10k            RD           0603R        rd          1
 S1       Scroll Lock    CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
 S2       ESC            CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
 S3       Ins            CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
@@ -261,7 +267,6 @@ S44A     Fn1            CHERRY-MX    CHERRY-MX    cherrymx    1
 S45      L_Alt          CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
 S46      Space          CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
 S88      ~?             CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-SCROLL                  LED5MM       LED5MM       detali_main 1
-SCROLL1                 LED5MM       LED5MM       detali_main 1
 SV1                     FE03-1       FE03-1       detali_main 1
+SV2                     FE03-1       FE03-1       detali_main 1
 SV3                     FE08-1       FE08         detali_main 1
