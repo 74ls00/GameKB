@@ -5,17 +5,17 @@ http://we.easyelectronics.ru/Papandopala/kak-zapustit-makefile-pod-windows.html
 Atmel AVR Toolchain
 
 http://www.atmel.com/ru/ru/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx
-ссылка на скачивание придёт на почту.
+СЃСЃС‹Р»РєР° РЅР° СЃРєР°С‡РёРІР°РЅРёРµ РїСЂРёРґС‘С‚ РЅР° РїРѕС‡С‚Сѓ.
 
-avr8-gnu-toolchain-installer-3.5.3.90-win32.any.x86.exe самораспаковывающийся архив 7z содержит папку avr8-gnu-toolchain
+avr8-gnu-toolchain-installer-3.5.3.90-win32.any.x86.exe СЃР°РјРѕСЂР°СЃРїР°РєРѕРІС‹РІР°СЋС‰РёР№СЃСЏ Р°СЂС…РёРІ 7z СЃРѕРґРµСЂР¶РёС‚ РїР°РїРєСѓ avr8-gnu-toolchain
 
-путь
+РїСѓС‚СЊ
 C:\avr8-gnu-toolchain\bin
 -----------------------------------------------------------------------------------------------
 MinGW
 
 http://sourceforge.net/projects/mingw/?source=dlp
 
-путь
+РїСѓС‚СЊ
 C:\MinGW\msys\1.0\bin
 -----------------------------------------------------------------------------------------------
