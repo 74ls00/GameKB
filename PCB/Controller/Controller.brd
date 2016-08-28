@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -154,7 +154,7 @@
 <board>
 <plain>
 <wire x1="20.32" y1="112.395" x2="170.18" y2="112.395" width="0.3048" layer="20"/>
-<dimension x1="57.15" y1="112.395" x2="173.0375" y2="61.595" x3="44.45" y3="86.995" layer="20" dtype="vertical"/>
+<dimension x1="181.61" y1="118.745" x2="181.2925" y2="65.7225" x3="44.45" y3="92.23375" layer="20" dtype="vertical"/>
 <wire x1="20.32" y1="112.395" x2="20.32" y2="61.595" width="0.3048" layer="20"/>
 <wire x1="170.18" y1="112.395" x2="170.18" y2="61.595" width="0.3048" layer="20"/>
 <wire x1="170.18" y1="61.595" x2="20.32" y2="61.595" width="0.3048" layer="20"/>
@@ -3430,11 +3430,11 @@ Based on the following sources:
 <attribute name="MF" value="" x="124.7775" y="16.8275" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="124.7775" y="16.8275" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SV1" library="detali_controller" package="FE13" value="" x="61.9125" y="86.995" rot="R90">
-<attribute name="OC_NEWARK" value="unknown" x="107.6325" y="132.715" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="107.6325" y="132.715" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="107.6325" y="132.715" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="107.6325" y="132.715" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="SV1" library="detali_controller" package="FE13" value="" x="62.865" y="82.2325" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="108.585" y="127.9525" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="108.585" y="127.9525" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="108.585" y="127.9525" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="108.585" y="127.9525" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="ICSP1" library="SmartPrj" package="2X03" value="ICSP" x="53.975" y="21.59"/>
 <element name="C1" library="SmartPrj" package="C0603-ROUND" value="100n" x="25.7175" y="27.305" rot="R180"/>
