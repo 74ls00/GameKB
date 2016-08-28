@@ -1,272 +1,272 @@
 Partlist
 
-Exported from keyBoard_A.sch at 2016-08-28 1:46:36
+Exported from keyBoard_A.brd at 2016-08-28 15:22:43
 
 EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
 
 Assembly variant: 
 
-Part     Value          Device       Package      Library     Sheet
+Part     Value          Package      Library     Position (mil)        Orientation
 
-1D1      74HC138N       74HC138N     DIL16        detali_main 1
-1D2      74HC04N        74ACT04N     DIL14        detali_main 1
-C17      100n           C-EUC0805    C0805        rcl         1
-C18      100n           C-EUC0805    C0805        rcl         1
-D1       LL4148         LL4148       SOD80C       detali      1
-D2       LL4148         LL4148       SOD80C       detali      1
-D3       LL4148         LL4148       SOD80C       detali      1
-D4       LL4148         LL4148       SOD80C       detali      1
-D5       LL4148         LL4148       SOD80C       detali      1
-D6       LL4148         LL4148       SOD80C       detali      1
-D7       LL4148         LL4148       SOD80C       detali      1
-D8       LL4148         LL4148       SOD80C       detali      1
-D9       LL4148         LL4148       SOD80C       detali      1
-D10      LL4148         LL4148       SOD80C       detali      1
-D11      LL4148         LL4148       SOD80C       detali      1
-D12      LL4148         LL4148       SOD80C       detali      1
-D13      LL4148         LL4148       SOD80C       detali      1
-D14      LL4148         LL4148       SOD80C       detali      1
-D15      LL4148         LL4148       SOD80C       detali      1
-D16      LL4148         LL4148       SOD80C       detali      1
-D17      LL4148         LL4148       SOD80C       detali      1
-D18      LL4148         LL4148       SOD80C       detali      1
-D19      LL4148         LL4148       SOD80C       detali      1
-D20      LL4148         LL4148       SOD80C       detali      1
-D21      LL4148         LL4148       SOD80C       detali      1
-D22      LL4148         LL4148       SOD80C       detali      1
-D23      LL4148         LL4148       SOD80C       detali      1
-D24      LL4148         LL4148       SOD80C       detali      1
-D25      LL4148         LL4148       SOD80C       detali      1
-D26      LL4148         LL4148       SOD80C       detali      1
-D27      LL4148         LL4148       SOD80C       detali      1
-D28      LL4148         LL4148       SOD80C       detali      1
-D29      LL4148         LL4148       SOD80C       detali      1
-D30      LL4148         LL4148       SOD80C       detali      1
-D31      LL4148         LL4148       SOD80C       detali      1
-D32      LL4148         LL4148       SOD80C       detali      1
-D33      LL4148         LL4148       SOD80C       detali      1
-D34      LL4148         LL4148       SOD80C       detali      1
-D35      LL4148         LL4148       SOD80C       detali      1
-D36      LL4148         LL4148       SOD80C       detali      1
-D37      LL4148         LL4148       SOD80C       detali      1
-D38      LL4148         LL4148       SOD80C       detali      1
-D39      LL4148         LL4148       SOD80C       detali      1
-D40      LL4148         LL4148       SOD80C       detali      1
-D41      LL4148         LL4148       SOD80C       detali      1
-D42      LL4148         LL4148       SOD80C       detali      1
-D43      LL4148         LL4148       SOD80C       detali      1
-D44      LL4148         LL4148       SOD80C       detali      1
-D45      LL4148         LL4148       SOD80C       detali      1
-D46      LL4148         LL4148       SOD80C       detali      1
-D47      LL4148         LL4148       SOD80C       detali      1
-D48      LL4148         LL4148       SOD80C       detali      1
-D88      LL4148         LL4148       SOD80C       detali      1
-J1       J              J            R1206W       detali_main 1
-J2       J              J            R1206W       detali_main 1
-J3       J              J            R1206W       detali_main 1
-J4       J              J            R1206W       detali_main 1
-J5       J              J            R1206W       detali_main 1
-J6       J              J            R1206W       detali_main 1
-J7       J              J            R1206W       detali_main 1
-J8       J              J            R1206W       detali_main 1
-J9       J              J            R1206W       detali_main 1
-J10      J              J            R1206W       detali_main 1
-J11      J              J            R1206W       detali_main 1
-J12      J              J            R1206W       detali_main 1
-J13      J              J            R1206W       detali_main 1
-J14      J              J            R1206W       detali_main 1
-J15      J              J            R1206W       detali_main 1
-J16      J              J            R1206W       detali_main 1
-J17      J              J            R1206W       detali_main 1
-J18      J              J            R1206W       detali_main 1
-J19      J              J            R1206W       detali_main 1
-J20      J              J            R1206W       detali_main 1
-J21      J              J            R1206W       detali_main 1
-J22      J              J            R1206W       detali_main 1
-J23      J              J            R1206W       detali_main 1
-J24      J              J            R1206W       detali_main 1
-J25      J              J            R1206W       detali_main 1
-J26      J              J            R1206W       detali_main 1
-J27      J              J            R1206W       detali_main 1
-J28      J              J            R1206W       detali_main 1
-J29      J              J            R1206W       detali_main 1
-J30      J              J            R1206W       detali_main 1
-J31      J              J            R1206W       detali_main 1
-J32      J              J            R1206W       detali_main 1
-J33      J              J            R1206W       detali_main 1
-J34      J              J            R1206W       detali_main 1
-J35      J              J            R1206W       detali_main 1
-J36      J              J            R1206W       detali_main 1
-J37      J              J            R1206W       detali_main 1
-J38      J              J            R1206W       detali_main 1
-J39      J              J            R1206W       detali_main 1
-J40      J              J            R1206W       detali_main 1
-J41      J              J            R1206W       detali_main 1
-J42      J              J            R1206W       detali_main 1
-J43      J              J            R1206W       detali_main 1
-J44      J              J            R1206W       detali_main 1
-J45      J              J            R1206W       detali_main 1
-J46      J              J            R1206W       detali_main 1
-J47      J              J            R1206W       detali_main 1
-J48      J              J            R1206W       detali_main 1
-J49      J              J            R1206W       detali_main 1
-J50      J              J            R1206W       detali_main 1
-J51      J              J            R1206W       detali_main 1
-J52      J              J            R1206W       detali_main 1
-J53      J              J            R1206W       detali_main 1
-J54      J              J            R1206W       detali_main 1
-J55      J              J            R1206W       detali_main 1
-J56      J              J            R1206W       detali_main 1
-J57      J              J            R1206W       detali_main 1
-JA1                     SJ           SJ           detali_main 1
-JA2                     SJ           SJ           detali_main 1
-JA3                     SJ           SJ           detali_main 1
-JA4                     SJ           SJ           detali_main 1
-JA5                     SJ           SJ           detali_main 1
-JA6                     SJ           SJ           detali_main 1
-JA7                     SJ           SJ           detali_main 1
-JA8                     SJ           SJ           detali_main 1
-JA9                     SJ           SJ           detali_main 1
-JA10                    SJ           SJ           detali_main 1
-JA11                    SJ           SJ           detali_main 1
-JA12                    SJ           SJ           detali_main 1
-JA13                    SJ           SJ           detali      1
-JA14                    SJ           SJ           detali      1
-JA15                    SJ           SJ           detali      1
-JA16                    SJ           SJ           detali      1
-JA17                    SJ           SJ           detali      1
-JA18                    SJ           SJ           detali      1
-JA19                    SJ           SJ           detali      1
-JA20                    SJ           SJ           detali      1
-JA21                    SJ           SJ           detali      1
-JA22                    SJ           SJ           detali      1
-JA23                    SJ           SJ           detali      1
-JA24                    SJ           SJ           detali      1
-JA25                    SJ           SJ           detali      1
-JA26                    SJ           SJ           detali      1
-JA27                    SJ           SJ           detali      1
-JA28                    SJ           SJ           detali      1
-JA29                    SJ           SJ           detali      1
-JA30                    SJ           SJ           detali      1
-JA31                    SJ           SJ           detali      1
-JA32                    SJ           SJ           detali      1
-JA33                    SJ           SJ           detali      1
-JA34                    SJ           SJ           detali      1
-JA35                    SJ           SJ           detali      1
-JA36                    SJ           SJ           detali      1
-JA37                    SJ           SJ           detali      1
-JA38                    SJ           SJ           detali      1
-JA39                    SJ           SJ           detali      1
-JA40                    SJ           SJ           detali      1
-JA41                    SJ           SJ           detali      1
-JA42                    SJ           SJ           detali      1
-JA43                    SJ           SJ           detali_main 1
-JA44                    SJ           SJ           detali      1
-JA45                    SJ           SJ           detali      1
-JA46                    SJ           SJ           detali      1
-JA88                    SJ           SJ           detali      1
-JB1                     SJ           SJ           detali      1
-JB2                     SJ           SJ@1         jumper      1
-JB3                     SJ           SJ           detali      1
-JB4                     SJ           SJ           detali_main 1
-JB5                     SJ           SJ@1         jumper      1
-JB6                     SJ           SJ           detali_main 1
-JB7                     SJ           SJ           detali_main 1
-JB8                     SJ           SJ           detali_main 1
-JB9                     SJ           SJ           detali_main 1
-JB10                    SJ           SJ           detali_main 1
-JB11                    SJ           SJ           detali_main 1
-JB12                    SJ           SJ           detali_main 1
-JB13                    SJ           SJ           detali_main 1
-JB14                    SJ           SJ@1         jumper      1
-JB15                    SJ           SJ@1         jumper      1
-JB16                    SJ           SJ           detali_main 1
-JB17                    SJ           SJ           detali_main 1
-JB18                    SJ           SJ           detali      1
-JB19                    SJ           SJ           detali      1
-JB20                    SJ           SJ           detali      1
-JB21                    SJ           SJ           detali      1
-JB22                    SJ           SJ           detali      1
-JB23                    SJ           SJ           detali      1
-JB24                    SJ           SJ           detali      1
-JB25                    SJ           SJ           detali      1
-JB26                    SJ           SJ           detali      1
-JB27                    SJ           SJ           detali      1
-JB28                    SJ           SJ           detali      1
-JB29                    SJ           SJ           detali      1
-JB30                    SJ           SJ           detali      1
-JB31                    SJ           SJ           detali      1
-JB32                    SJ           SJ           detali      1
-JB33                    SJ           SJ           detali      1
-JB34                    SJ           SJ           detali      1
-JB35                    SJ           SJ           detali      1
-JB36                    SJ           SJ           detali      1
-JB37                    SJ           SJ           detali      1
-JB38                    SJ           SJ           detali      1
-JB39                    SJ           SJ           detali      1
-JB40                    SJ           SJ           detali      1
-JB41                    SJ           SJ           detali      1
-JB42                    SJ           SJ           detali      1
-JB43                    SJ           SJ           detali      1
-JB44                    SJ           SJ           detali      1
-JB45                    SJ           SJ           detali      1
-JB46                    SJ           SJ           detali      1
-JB88                    SJ           SJ           detali      1
-R1                      R-EU_R1206W  R1206W       rcl         1
-R2       10k            R-EU_R1206W  R1206W       rcl         1
-R3       10k            RD           0603R        rd          1
-R4       10k            R-EU_R0805   R0805        rcl         1
-R5       10k            R-EU_R1206W  R1206W       rcl         1
-R10      10k            RD           0603R        rd          1
-R100     10k            RD           0603R        rd          1
-S1       Scroll Lock    CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S2       ESC            CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S3       Ins            CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S4       Pause          CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S5       Home           CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S6       PageUp         CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S7       End            CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S8       PageDown       CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S9       Up             CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S10      Left           CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S11      Down           CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S12      Right          CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S13      F1             CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S14      F2             CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S15      F3             CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S16      F4             CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S17      F5             CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S18      F6             CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S19      1              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S20      2              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S21      3              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S22      4              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S23      5              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S24      6              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S25      TAB            CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S26      Q              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S27      W              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S28      E              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S29      R              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S30      T              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S31      LCtrl          CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S32      A              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S33      S              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S34      D              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S35      F              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S36      G              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S37      L Shift        CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S38      Z              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S39      X              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S40      C              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S41      V              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S42      B              CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S43      Caps Lock      CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S44      FN1            CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S44A     Fn1            CHERRY-MX    CHERRY-MX    cherrymx    1
-S45      L_Alt          CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S46      Space          CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-S88      ~?             CHERRY-MX-4P CHERRY-MX-4P cherrymx    1
-SV1                     FE03-1       FE03-1       detali_main 1
-SV2                     FE03-1       FE03-1       detali_main 1
-SV3                     FE08-1       FE08         detali_main 1
+1D1      74HC138N       DIL16        detali_main (6725 4350)           R0
+1D2      74HC04N        DIL14        detali_main (1775 1650)           R90
+C17      100n           C0805        rcl         (6775 4312.5)         MR90
+C18      100n           C0805        rcl         (1725 1362.5)         MR270
+D1       LL4148         SOD80C       detali      (1800 4550)           R270
+D2       LL4148         SOD80C       detali      (2725 4625)           R270
+D3       LL4148         SOD80C       detali      (1412.5 4287.5)       R90
+D4       LL4148         SOD80C       detali      (2112.5 4250)         R0
+D5       LL4148         SOD80C       detali      (1950 3525)           R90
+D6       LL4148         SOD80C       detali      (2525 3075)           R0
+D7       LL4148         SOD80C       detali      (2000 2750)           R90
+D8       LL4148         SOD80C       detali      (2750 2775)           R90
+D9       LL4148         SOD80C       detali      (2850 1850)           R90
+D10      LL4148         SOD80C       detali      (1437.5 1462.5)       R90
+D11      LL4148         SOD80C       detali      (2912.5 1562.5)       R0
+D12      LL4148         SOD80C       detali      (4525 1375)           R0
+D13      LL4148         SOD80C       detali      (4512.5 4450)         R270
+D14      LL4148         SOD80C       detali      (4775 4568.625)       R270
+D15      LL4148         SOD80C       detali      (5512.5 4575)         R270
+D16      LL4148         SOD80C       detali      (6225 4600)           R225
+D17      LL4148         SOD80C       detali      (7300 4537.5)         R270
+D18      LL4148         SOD80C       detali      (7812.5 4487.5)       R180
+D19      LL4148         SOD80C       detali      (4512.5 4000)         R90
+D20      LL4148         SOD80C       detali      (5237.5 3987.5)       R90
+D21      LL4148         SOD80C       detali      (6075 3950)           R0
+D22      LL4148         SOD80C       detali      (6850 3962.5)         R0
+D23      LL4148         SOD80C       detali      (7443.75 3987.5)      R90
+D24      LL4148         SOD80C       detali      (7612.5 3962.5)       R180
+D25      LL4148         SOD80C       detali      (4325 3237.5)         R90
+D26      LL4148         SOD80C       detali      (5250 3200)           R90
+D27      LL4148         SOD80C       detali      (6000 3200)           R90
+D28      LL4148         SOD80C       detali      (6750 3200)           R90
+D29      LL4148         SOD80C       detali      (7500 3225)           R90
+D30      LL4148         SOD80C       detali      (8037.5 2700)         R0
+D31      LL4148         SOD80C       detali      (4225 2475)           R90
+D32      LL4148         SOD80C       detali      (5250 2450)           R90
+D33      LL4148         SOD80C       detali      (6000 2450)           R90
+D34      LL4148         SOD80C       detali      (6750 2450)           R90
+D35      LL4148         SOD80C       detali      (7500 2475)           R90
+D36      LL4148         SOD80C       detali      (8037.5 1950)         R0
+D37      LL4148         SOD80C       detali      (3225 1943.75)        R90
+D38      LL4148         SOD80C       detali      (4537.5 1650)         R180
+D39      LL4148         SOD80C       detali      (5275 1700)           R180
+D40      LL4148         SOD80C       detali      (6087.5 1700)         R90
+D41      LL4148         SOD80C       detali      (6850 1700)           R90
+D42      LL4148         SOD80C       detali      (7537.5 1475)         R180
+D43      LL4148         SOD80C       detali      (5275 1462.5)         R90
+D44      LL4148         SOD80C       detali      (6568.75 1250)        R90
+D45      LL4148         SOD80C       detali      (7325 1250)           R90
+D46      LL4148         SOD80C       detali      (7362.5 906.25)       R90
+D47      LL4148         SOD80C       detali      (1800 1225)           R0
+D48      LL4148         SOD80C       detali      (1587.5 1206.25)      R0
+D88      LL4148         SOD80C       detali      (3787.5 3987.5)       R0
+J1       J              R1206W       detali_main (7812.5 4350)         R90
+J2       J              R1206W       detali_main (7325 2750)           R90
+J3       J              R1206W       detali_main (7350 2025)           R270
+J4       J              R1206W       detali_main (6575 3525)           R270
+J5       J              R1206W       detali_main (6562.5 2750)         R90
+J6       J              R1206W       detali_main (6587.5 2025)         R270
+J7       J              R1206W       detali_main (5337.5 3712.5)       R270
+J8       J              R1206W       detali_main (5825 2750)           R90
+J9       J              R1206W       detali_main (5850 2025)           R90
+J10      J              R1206W       detali_main (4312.5 3525)         R270
+J11      J              R1206W       detali_main (5075 2750)           R90
+J12      J              R1206W       detali_main (5100 2025)           R90
+J13      J              R1206W       detali_main (3912.5 3525)         R270
+J14      J              R1206W       detali_main (4225 2750)           R90
+J15      J              R1206W       detali_main (4250 2025)           R90
+J16      J              R1206W       detali_main (2450 3775)           R270
+J17      J              R1206W       detali_main (2687.5 2975)         R90
+J18      J              R1206W       detali_main (1687.5 2237.5)       R90
+J19      J              R1206W       detali_main (1737.5 3787.5)       R315
+J20      J              R1206W       detali_main (1812.5 3050)         R90
+J21      J              R1206W       detali_main (1450 2975)           R0
+J22      J              R1206W       detali_main (5325 4137.5)         R0
+J23      J              R1206W       detali_main (2600 2350)           R0
+J24      J              R1206W       detali_main (6162.5 4475)         R180
+J25      J              R1206W       detali_main (5325 4437.5)         R180
+J26      J              R1206W       detali_main (6650 4925)           R90
+J27      J              R1206W       detali_main (6212.5 4200)         R0
+J28      J              R1206W       detali_main (6212.5 4287.5)       R0
+J29      J              R1206W       detali_main (6162.5 4387.5)       R0
+J30      J              R1206W       detali_main (5325 4237.5)         R0
+J31      J              R1206W       detali_main (5325 4337.5)         R0
+J32      J              R1206W       detali_main (2062.5 4750)         R270
+J33      J              R1206W       detali_main (2825 4625)           R270
+J34      J              R1206W       detali_main (3487.5 5075)         R270
+J35      J              R1206W       detali_main (4687.5 4162.5)       R0
+J36      J              R1206W       detali_main (4687.5 4250)         R0
+J37      J              R1206W       detali_main (4687.5 4337.5)       R0
+J38      J              R1206W       detali_main (3937.5 4187.5)       R0
+J39      J              R1206W       detali_main (3937.5 4287.5)       R0
+J40      J              R1206W       detali_main (3937.5 4387.5)       R0
+J41      J              R1206W       detali_main (6762.5 4925)         R90
+J42      J              R1206W       detali_main (1387.5 3237.5)       R180
+J43      J              R1206W       detali_main (6537.5 4925)         R90
+J44      J              R1206W       detali_main (2037.5 900)          R90
+J45      J              R1206W       detali_main (1450 3062.5)         R180
+J46      J              R1206W       detali_main (2850 2412.5)         R0
+J47      J              R1206W       detali_main (3800 3525)           R90
+J48      J              R1206W       detali_main (2637.5 4525)         R135
+J49      J              R1206W       detali_main (2025 3987.5)         R270
+J50      J              R1206W       detali_main (2600 2262.5)         R0
+J51      J              R1206W       detali_main (2850 2312.5)         R0
+J52      J              R1206W       detali_main (2600 2175)           R0
+J53      J              R1206W       detali_main (2850 2212.5)         R0
+J54      J              R1206W       detali_main (2600 2087.5)         R0
+J55      J              R1206W       detali_main (2850 2112.5)         R0
+J56      J              R1206W       detali_main (2600 2000)           R0
+J57      J              R1206W       detali_main (2850 2012.5)         R0
+JA1                     SJ           detali_main (1462.5 4575)         R90
+JA2                     SJ           detali_main (2450 4625)           R90
+JA3                     SJ           detali_main (1825 3875)           R90
+JA4                     SJ           detali_main (2575 3875)           R90
+JA5                     SJ           detali_main (1675 3075)           R90
+JA6                     SJ           detali_main (2200 3262.5)         R0
+JA7                     SJ           detali_main (1587.5 2275)         R90
+JA8                     SJ           detali_main (2175 2475)           R0
+JA9                     SJ           detali_main (2187.5 1450)         R0
+JA10                    SJ           detali_main (1912.5 600)          R180
+JA11                    SJ           detali_main (2450 550)            R90
+JA12                    SJ           detali_main (3200 550)            R90
+JA13                    SJ           detali      (3900 4600)           R90
+JA14                    SJ           detali      (4650 4600)           R90
+JA15                    SJ           detali      (5125 4750)           R0
+JA16                    SJ           detali      (5850 4700)           R0
+JA17                    SJ           detali      (6900 4725)           R0
+JA18                    SJ           detali      (7675 4750)           R0
+JA19                    SJ           detali      (4200 3550)           R90
+JA20                    SJ           detali      (4950 3550)           R90
+JA21                    SJ           detali      (5700 3550)           R90
+JA22                    SJ           detali      (6425 3500)           R90
+JA23                    SJ           detali      (6925 3675)           R0
+JA24                    SJ           detali      (8075 3562.5)         R90
+JA25                    SJ           detali      (4000 2775)           R90
+JA26                    SJ           detali      (4950 2775)           R90
+JA27                    SJ           detali      (5675 2775)           R90
+JA28                    SJ           detali      (6425 2775)           R90
+JA29                    SJ           detali      (7200 2775)           R90
+JA30                    SJ           detali      (7775 2700)           R90
+JA31                    SJ           detali      (3900 2050)           R90
+JA32                    SJ           detali      (4950 2050)           R90
+JA33                    SJ           detali      (5700 2050)           R90
+JA34                    SJ           detali      (6450 2050)           R90
+JA35                    SJ           detali      (7200 2050)           R90
+JA36                    SJ           detali      (7762.5 1975)         R90
+JA37                    SJ           detali      (3950 1337.5)         R90
+JA38                    SJ           detali      (4975 1362.5)         R90
+JA39                    SJ           detali      (5787.5 1300)         R90
+JA40                    SJ           detali      (6475 1362.5)         R90
+JA41                    SJ           detali      (7225 1362.5)         R90
+JA42                    SJ           detali      (7975 1350)           R45
+JA43                    SJ           detali_main (3962.5 550)          R90
+JA44                    SJ           detali      (4350 543.75)         R90
+JA45                    SJ           detali      (5575 543.75)         R90
+JA46                    SJ           detali      (6812.5 562.5)        R90
+JA88                    SJ           detali      (3362.5 3475)         R90
+JB1                     SJ           detali      (1725 4650)           R270
+JB2                     SJ           jumper      (2725 4800)           MR0
+JB3                     SJ           detali      (1437.5 4012.5)       R180
+JB4                     SJ           detali_main (2187.5 4012.5)       R135
+JB5                     SJ           jumper      (2000 3350)           MR270
+JB6                     SJ           detali_main (2487.5 3162.5)       R180
+JB7                     SJ           detali_main (2000 2587.5)         R90
+JB8                     SJ           detali_main (2750 2562.5)         R90
+JB9                     SJ           detali_main (2750 1550)           R90
+JB10                    SJ           detali_main (1437.5 712.5)        R180
+JB11                    SJ           detali_main (2725 725)            R0
+JB12                    SJ           detali_main (3475 725)            R0
+JB13                    SJ           detali_main (4175 4775)           R0
+JB14                    SJ           jumper      (4925 4800)           MR0
+JB15                    SJ           jumper      (5675 4775)           MR0
+JB16                    SJ           detali_main (6375 4675)           R270
+JB17                    SJ           detali_main (7225 4650)           R270
+JB18                    SJ           detali      (8000 4637.5)         R270
+JB19                    SJ           detali      (4500 3800)           R90
+JB20                    SJ           detali      (5237.5 3812.5)       R90
+JB21                    SJ           detali      (6000 3800)           R90
+JB22                    SJ           detali      (6750 3850)           R90
+JB23                    SJ           detali      (7487.5 3762.5)       R90
+JB24                    SJ           detali      (7687.5 3662.5)       R90
+JB25                    SJ           detali      (4325 3025)           R90
+JB26                    SJ           detali      (5250 3025)           R90
+JB27                    SJ           detali      (6000 3025)           R90
+JB28                    SJ           detali      (6750 3025)           R90
+JB29                    SJ           detali      (7500 3050)           R90
+JB30                    SJ           detali      (7987.5 2850)         R270
+JB31                    SJ           detali      (4225 2300)           R90
+JB32                    SJ           detali      (5250 2275)           R90
+JB33                    SJ           detali      (6000 2275)           R90
+JB34                    SJ           detali      (6750 2275)           R90
+JB35                    SJ           detali      (7500 2300)           R90
+JB36                    SJ           detali      (7987.5 2087.5)       R270
+JB37                    SJ           detali      (3537.5 1287.5)       R180
+JB38                    SJ           detali      (4687.5 1462.5)       R180
+JB39                    SJ           detali      (5437.5 1462.5)       R180
+JB40                    SJ           detali      (6087.5 1512.5)       R90
+JB41                    SJ           detali      (6850 1525)           R90
+JB42                    SJ           detali      (7700 1437.5)         R90
+JB43                    SJ           detali      (4237.5 725)          R0
+JB44                    SJ           detali      (5000 725)            R0
+JB45                    SJ           detali      (5850 725)            R0
+JB46                    SJ           detali      (7362.5 737.5)        R90
+JB88                    SJ           detali      (3725 3725)           R0
+R1                      R1206W       rcl         (7075 4312.5)         MR0
+R2       10k            R1206W       rcl         (2862.5 4312.5)       MR270
+R3       10k            R1206W       rcl         (2050 1350)           MR90
+R4       10k            R0805        rcl         (1812.5 1337.5)       MR90
+R5       10k            R1206W       rcl         (2037.5 1112.5)       MR225
+R6       10k            R1206W       rcl         (2050 1550)           MR90
+R7       10k            R1206W       rcl         (1525 1450)           MR90
+R8       10k            R0805        rcl         (3331.25 2150)        MR90
+S1       Scroll Lock    CHERRY-MX-4P cherrymx    (1675 4875)           R180
+S2       ESC            CHERRY-MX-4P cherrymx    (2425 4875)           R180
+S3       Ins            CHERRY-MX-4P cherrymx    (1675 4125)           R180
+S4       Pause          CHERRY-MX-4P cherrymx    (2425 4125)           R180
+S5       Home           CHERRY-MX-4P cherrymx    (1675 3375)           R180
+S6       PageUp         CHERRY-MX-4P cherrymx    (2425 3375)           R180
+S7       End            CHERRY-MX-4P cherrymx    (1675 2625)           R180
+S8       PageDown       CHERRY-MX-4P cherrymx    (2425 2625)           R180
+S9       Up             CHERRY-MX-4P cherrymx    (2425 1575)           R180
+S10      Left           CHERRY-MX-4P cherrymx    (1675 825)            R180
+S11      Down           CHERRY-MX-4P cherrymx    (2425 825)            R180
+S12      Right          CHERRY-MX-4P cherrymx    (3175 825)            R180
+S13      F1             CHERRY-MX-4P cherrymx    (3875 4875)           R180
+S14      F2             CHERRY-MX-4P cherrymx    (4625 4875)           R180
+S15      F3             CHERRY-MX-4P cherrymx    (5375 4875)           R180
+S16      F4             CHERRY-MX-4P cherrymx    (6125 4875)           R180
+S17      F5             CHERRY-MX-4P cherrymx    (7175 4875)           R180
+S18      F6             CHERRY-MX-4P cherrymx    (7925 4875)           R180
+S19      1              CHERRY-MX-4P cherrymx    (4175 3825)           R180
+S20      2              CHERRY-MX-4P cherrymx    (4925 3825)           R180
+S21      3              CHERRY-MX-4P cherrymx    (5675 3825)           R180
+S22      4              CHERRY-MX-4P cherrymx    (6425 3825)           R180
+S23      5              CHERRY-MX-4P cherrymx    (7175 3825)           R180
+S24      6              CHERRY-MX-4P cherrymx    (7925 3825)           R180
+S25      TAB            CHERRY-MX-4P cherrymx    (3975 3075)           R180
+S26      Q              CHERRY-MX-4P cherrymx    (4925 3075)           R180
+S27      W              CHERRY-MX-4P cherrymx    (5675 3075)           R180
+S28      E              CHERRY-MX-4P cherrymx    (6425 3075)           R180
+S29      R              CHERRY-MX-4P cherrymx    (7175 3075)           R180
+S30      T              CHERRY-MX-4P cherrymx    (7925 3075)           R180
+S31      LCtrl          CHERRY-MX-4P cherrymx    (3875 2325)           R180
+S32      A              CHERRY-MX-4P cherrymx    (4925 2325)           R180
+S33      S              CHERRY-MX-4P cherrymx    (5675 2325)           R180
+S34      D              CHERRY-MX-4P cherrymx    (6425 2325)           R180
+S35      F              CHERRY-MX-4P cherrymx    (7175 2325)           R180
+S36      G              CHERRY-MX-4P cherrymx    (7925 2325)           R180
+S37      L Shift        CHERRY-MX-4P cherrymx    (3800 1575)           R180
+S38      Z              CHERRY-MX-4P cherrymx    (4925 1575)           R180
+S39      X              CHERRY-MX-4P cherrymx    (5675 1575)           R180
+S40      C              CHERRY-MX-4P cherrymx    (6425 1575)           R180
+S41      V              CHERRY-MX-4P cherrymx    (7175 1575)           R180
+S42      B              CHERRY-MX-4P cherrymx    (7925 1575)           R180
+S43      Caps Lock      CHERRY-MX-4P cherrymx    (3937.5 825)          R180
+S44      FN1            CHERRY-MX-4P cherrymx    (4700 825)            R180
+S44A     Fn1            CHERRY-MX    cherrymx    (4587.5 825)          R180
+S45      L_Alt          CHERRY-MX-4P cherrymx    (5537.5 825)          R180
+S46      Space          CHERRY-MX-4P cherrymx    (7050 825)            R180
+S88      ~?             CHERRY-MX-4P cherrymx    (3425 3825)           R180
+SV1                     FE03-1       detali_main (3543.75 4331.25)     R90
+SV3                     FE08         detali_main (3043.75 3881.25)     R90
