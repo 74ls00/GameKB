@@ -1,4 +1,4 @@
-@echo off
+rem @echo off
 set avrdude=avrdude
 set dir=leonardo
 set port=com9
