@@ -158,7 +158,7 @@
 <wire x1="207.645" y1="139.7" x2="29.68625" y2="139.7" width="0.2" layer="20"/>
 <wire x1="202.08875" y1="5.08" x2="29.68625" y2="5.08" width="0.2" layer="20"/>
 <wire x1="210.82" y1="136.525" x2="207.645" y2="139.7" width="0.2" layer="20" curve="90"/>
-<text x="90.17" y="85.09" size="2.286" layer="16" font="vector" ratio="15" rot="MR270">1178-16</text>
+<text x="83.34375" y="71.27875" size="2.286" layer="16" font="vector" ratio="15" rot="MR90">1178-16</text>
 <circle x="191.77" y="49.53" radius="1.5" width="0.254" layer="20"/>
 <circle x="191.77" y="30.48" radius="1.5" width="0.254" layer="20"/>
 <circle x="172.72" y="31.75" radius="2.5" width="0.254" layer="20"/>
