@@ -3246,7 +3246,6 @@ design rules under a new name.</description>
 <wire x1="44.45" y1="38.4175" x2="43.815" y2="35.5575" width="0.6096" layer="16"/>
 <wire x1="179.705" y1="108.585" x2="102.87" y2="108.585" width="0.6096" layer="1"/>
 <wire x1="102.87" y1="108.585" x2="102.5525" y2="108.585" width="0.6096" layer="1"/>
-<wire x1="179.705" y1="108.585" x2="179.705" y2="106.68" width="0.6096" layer="1"/>
 <contactref element="SV3" pad="1"/>
 <wire x1="172.085" y1="108.5875" x2="172.085" y2="106.68" width="0.6096" layer="16"/>
 <wire x1="172.085" y1="108.5875" x2="173.19875" y2="109.06375" width="0.6096" layer="16"/>
@@ -3265,6 +3264,10 @@ design rules under a new name.</description>
 <wire x1="77.31125" y1="89.69375" x2="86.0425" y2="83.34375" width="0.6096" layer="1"/>
 <wire x1="86.0425" y1="83.34375" x2="88.5825" y2="91.44" width="0.6096" layer="1"/>
 <wire x1="88.5825" y1="91.44" x2="98.1075" y2="91.44" width="0.6096" layer="1"/>
+<wire x1="179.705" y1="106.68" x2="182.40375" y2="106.68" width="1.016" layer="16"/>
+<via x="182.40375" y="106.68" extent="1-16" drill="0.8" diameter="2.3" shape="square"/>
+<wire x1="182.40375" y1="106.68" x2="182.40375" y2="108.585" width="1.016" layer="1"/>
+<wire x1="182.40375" y1="108.585" x2="179.705" y2="108.585" width="1.016" layer="1"/>
 </signal>
 <signal name="N$71">
 <via x="202.08875" y="8.255" extent="1-16" drill="3" diameter="5"/>
