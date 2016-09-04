@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # Easy AVR USB Keyboard Firmware Keymapper
 # Copyright (C) 2013-2016 David Howland
 #
@@ -59,17 +58,6 @@ import easykeymap.cfgparse as cfgparse
 import easykeymap.templates as templates
 import easykeymap.boards as boards
 import easykeymap.programming as programming
-
-import gettext
-#gettext.install('eavrkbfk', './locale', unicode=True)
-gettext.install('eavrkbfk')
-
-#bindir = os.path.realpath(sys.argv[0])
-#for localedir in bindir,None,".":
-#    localefile = gettext.find('eavrkbfk',localedir)
-#	if localefile : break
-#https://youtu.be/fRiBV4_bbBQ?t=52m21s
-#gettext.install('eavrkbfk',".")
 
 ABOUT = """Easy AVR USB Keyboard Firmware Keymapper  (Version %s)
 
@@ -243,7 +231,6 @@ class GUI(object):
     def creategui(self):
         # top level window
         self.root.title(_("Easy AVR USB Keyboard Firmware Keymapper"))
-        #self.root.title("Easy AVR USB Keyboard Firmware Keymapper")
         self.root.option_add('*tearOff', FALSE)
         self.root.resizable(0, 0)
         iconpath = self.get_pkg_path('icons/keyboard.ico')

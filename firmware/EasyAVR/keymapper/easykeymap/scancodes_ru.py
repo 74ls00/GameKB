@@ -56,7 +56,7 @@ scancodes = {
     "HID_KEYBOARD_SC_Z": ("Z \n      Я", 0x1D, "Z"),
     "HID_KEYBOARD_SC_1_AND_EXCLAMATION": ("!\n1", 0x1E, "1!"),
     "HID_KEYBOARD_SC_2_AND_AT": ("@    \"\n2    ", 0x1F, "2@"),
-    "HID_KEYBOARD_SC_3_AND_HASHMARK": ("#   №\n3    ", 0x20, "3#"),
+    "HID_KEYBOARD_SC_3_AND_HASHMARK": ("#    №\n3    ", 0x20, "3#"),
     "HID_KEYBOARD_SC_4_AND_DOLLAR": ("$    ;\n4    ", 0x21, "4$"),
     "HID_KEYBOARD_SC_5_AND_PERCENTAGE": ("%\n5", 0x22, "5%"),
     "HID_KEYBOARD_SC_6_AND_CARET": ("^    :\n6    ", 0x23, "6^"),
