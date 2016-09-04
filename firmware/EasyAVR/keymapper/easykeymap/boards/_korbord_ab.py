@@ -73,17 +73,17 @@ matrix_sense = [
     ( REF_PORTB , (1 << 4) ),
     ( REF_PORTC , (1 << 6) ),    #1
     ( REF_PORTC , (1 << 7) ),
-    ( REF_PORTD , (1 << 0) ),
+    ( REF_PORTD , (1 << 0) ),    #a2 3
     ( REF_PORTD , (1 << 1) ),    #4
-    ( REF_PORTD , (1 << 2) ),
-    ( REF_PORTD , (1 << 3) ),
+    ( REF_PORTD , (1 << 2) ),    #a3 5
+    ( REF_PORTD , (1 << 3) ),    #a4 6
     ( REF_PORTD , (1 << 4) ),
-    ( REF_PORTD , (1 << 5) ),
-    ( REF_PORTD , (1 << 6) ),
+    ( REF_PORTD , (1 << 5) ),    #a5 8
+    ( REF_PORTD , (1 << 6) ),    #a6 9
     ( REF_PORTD , (1 << 7) ),
     ( REF_PORTF , (1 << 0) ),
     ( REF_PORTF , (1 << 1) ),
-    ( REF_PORTF , (1 << 4) ),
+    ( REF_PORTF , (1 << 4) ),    # a1 13
     ( REF_PORTF , (1 << 5) ),
     ( REF_PORTF , (1 << 6) ),
     ( REF_PORTF , (1 << 7) )
@@ -144,14 +144,14 @@ KMAC_key = None
 
 # keyBoard A (PCB_A) 
 # порт в коде               0      4      2      6      1      5     3     7
-# pin | signal  |col_kba|  15  |  14  |  13  |  12  |  11  |  10  |  9  |  7
+# pin | signal  |col_kba|  15  |  14  |  13  |  12  |  11  |  10  |  9  |  7    fw port
 # 1     gnd
-# 2      L5      kba1      Z      C      X   L_Shift          B      G     V
-# 3      L6      kba2    Down    Caps  Right    Up    Left  L_Alt L_Space  FN1
-# 4      L2      kba3     ~Ё      2      1    Pause    Ins    4      5     3
-# 5      L3      kba4     Tab     W      Q     PgUp   Home    R      6     E
-# 6      L1      kba5     F1      F3     F2    Esc   Scroll   F5     F6    F4
-# 7      L4      kba6    L_Ctrl   S      A     PgDn    End    F      T     D
+# 2      L5      kba1      Z      C      X   L_Shift          B      G     V    13
+# 3      L6      kba2    Down    Caps  Right    Up    Left  L_Alt L_Space  FN1  3
+# 4      L2      kba3     ~Ё      2      1    Pause    Ins    4      5     3    5
+# 5      L3      kba4     Tab     W      Q     PgUp   Home    R      6     E    6
+# 6      L1      kba5     F1      F3     F2    Esc   Scroll   F5     F6    F4   8
+# 7      L4      kba6    L_Ctrl   S      A     PgDn    End    F      T     D    9
 # 8     vcc
 # 
 # 1 D1   miso
@@ -185,24 +185,23 @@ KMAC_key = None
 # 8   d1    miso
 # 9 vcc
 #
-# (горизонталь кнопки, вертикаль кнопки), (?выходы дешифратора, входы контролера)  
+# (горизонталь кнопки, вертикаль кнопки), (?выходы дешифратора, входы контролера)
+#                                                               fw port
 keyboard_definition = [
 [
 (72, None, '0'),
 ((4, 4), (5, 14), 'HID_KEYBOARD_SC_NUM_LOCK')                 #OK
-],
-    [
-	 ((4, 4), (3, 1), 'HID_KEYBOARD_SC_SCROLL_LOCK'),
-	 ((4, 4), (1, 6), 'HID_KEYBOARD_SC_ESCAPE'),
+],[
+((4, 4), (1, 8), 'HID_KEYBOARD_SC_SCROLL_LOCK'),
+((4, 4), (6, 8), 'HID_KEYBOARD_SC_ESCAPE'),
 (3, None, '0'),
-     ((4, 4), (7, 7), 'HID_KEYBOARD_SC_F1'),
-     ((4, 4), (7, 9), 'HID_KEYBOARD_SC_F2'),
-     ((4, 4), (6, 9), 'HID_KEYBOARD_SC_F3'),
-     ((4, 4), (1, 9), 'HID_KEYBOARD_SC_F4'),
-     (2, None, '0'),
-     ((4, 4), (5, 14), 'HID_KEYBOARD_SC_F5'),
-     ((4, 4), (1, 11), 'HID_KEYBOARD_SC_F6'),
-
+((4, 4), (0, 8), 'HID_KEYBOARD_SC_F1'),
+((4, 4), (2, 8), 'HID_KEYBOARD_SC_F2'),
+((4, 4), (4, 8), 'HID_KEYBOARD_SC_F3'),
+((4, 4), (7, 8), 'HID_KEYBOARD_SC_F4'),
+(2, None, '0'),
+((4, 4), (5, 8), 'HID_KEYBOARD_SC_F5'),
+((4, 4), (3, 8), 'HID_KEYBOARD_SC_F6'),
 
 (1, None, '0'),
 ((4, 4), (7, 12), 'HID_KEYBOARD_SC_F7'),                       #OK
@@ -220,20 +219,17 @@ keyboard_definition = [
 ((4, 4), (5, 16), 'HID_KEYBOARD_SC_E'),                        #OK
 ((4, 4), (5, 15), 'HID_KEYBOARD_SC_F'),                        #OK
 ((4, 4), (1, 15), 'HID_KEYBOARD_SC_KEYPAD_SLASH')              #OK
-     ],
-     #2,
-     [
-((4, 4), (7, 16), 'HID_KEYBOARD_SC_INSERT'),
-	 ((4, 4), (3, 14), 'HID_KEYBOARD_SC_PAUSE'),
+],[
+((4, 4), (1, 5), 'HID_KEYBOARD_SC_INSERT'),
+((4, 4), (6, 5), 'HID_KEYBOARD_SC_PAUSE'),
 (1, None, '0'),	 
-((4, 4), (1, 4), 'HID_KEYBOARD_SC_GRAVE_ACCENT_AND_TILDE'),
-
-	 ((4, 4), (5, 6), 'HID_KEYBOARD_SC_1_AND_EXCLAMATION'),
-     ((4, 4), (5, 7), 'HID_KEYBOARD_SC_2_AND_AT'),
-     ((4, 4), (5, 9), 'HID_KEYBOARD_SC_3_AND_HASHMARK'),
-     ((4, 4), (5, 8), 'HID_KEYBOARD_SC_4_AND_DOLLAR'),
-     ((4, 4), (7, 8), 'HID_KEYBOARD_SC_5_AND_PERCENTAGE'),
-     ((4, 4), (7, 10), 'HID_KEYBOARD_SC_6_AND_CARET'),
+((4, 4), (0, 5), 'HID_KEYBOARD_SC_GRAVE_ACCENT_AND_TILDE'),
+((4, 4), (2, 5), 'HID_KEYBOARD_SC_1_AND_EXCLAMATION'),
+((4, 4), (4, 5), 'HID_KEYBOARD_SC_2_AND_AT'),
+((4, 4), (7, 5), 'HID_KEYBOARD_SC_3_AND_HASHMARK'),
+((4, 4), (5, 5), 'HID_KEYBOARD_SC_4_AND_DOLLAR'),
+((4, 4), (3, 5), 'HID_KEYBOARD_SC_5_AND_PERCENTAGE'),
+((4, 4), (3, 6), 'HID_KEYBOARD_SC_6_AND_CARET'),
 	 
 (1, None, '0'),
 ((4, 4), (3, 12), 'HID_KEYBOARD_SC_7_AND_AND_AMPERSAND'),      #OK
@@ -248,16 +244,16 @@ keyboard_definition = [
 ((4, 4), (7, 16), 'HID_KEYBOARD_SC_B'),	                       #OK
 ((4, 4), (7, 15), 'HID_KEYBOARD_SC_C'),                        #OK
 ((4, 4), (6, 15), 'HID_KEYBOARD_SC_KEYPAD_ASTERISK')	       #OK
-     ],[
-	 ((4, 4), (7, 13), 'HID_KEYBOARD_SC_HOME'),
-	 ((4, 4), (7, 12), 'HID_KEYBOARD_SC_PAGE_UP'),
+],[
+((4, 4), (1, 6), 'HID_KEYBOARD_SC_HOME'),
+((4, 4), (6, 6), 'HID_KEYBOARD_SC_PAGE_UP'),
 (3, None, '0'), 
-	 ((6, 4), (6, 6), 'HID_KEYBOARD_SC_TAB'),
-	 ((4, 4), (3, 6), 'HID_KEYBOARD_SC_Q'),
-     ((4, 4), (3, 7), 'HID_KEYBOARD_SC_W'),
-     ((4, 4), (3, 9), 'HID_KEYBOARD_SC_E'),
-     ((4, 4), (3, 8), 'HID_KEYBOARD_SC_R'),
-     ((4, 4), (6, 8), 'HID_KEYBOARD_SC_T'),
+((6, 4), (0, 6), 'HID_KEYBOARD_SC_TAB'),
+((4, 4), (2, 6), 'HID_KEYBOARD_SC_Q'),
+((4, 4), (4, 6), 'HID_KEYBOARD_SC_W'),
+((4, 4), (7, 6), 'HID_KEYBOARD_SC_E'),
+((4, 4), (5, 6), 'HID_KEYBOARD_SC_R'),
+((4, 4), (3, 9), 'HID_KEYBOARD_SC_T'),
 	 
 (1, None, '0'),
 ((4, 4), (5, 12), 'HID_KEYBOARD_SC_Y'),                        #OK
@@ -273,16 +269,16 @@ keyboard_definition = [
 ((4, 4), (3, 16), 'HID_KEYBOARD_SC_KEYPAD_8_AND_UP_ARROW'),    #OK
 ((4, 4), (3, 15), 'HID_KEYBOARD_SC_KEYPAD_9_AND_PAGE_UP'),	   #OK
 ((4, 4), (2, 15), 'HID_KEYBOARD_SC_KEYPAD_MINUS')	           #OK
-     ],[
-	 ((4, 4), (5, 13), 'HID_KEYBOARD_SC_END'),
-     ((4, 4), (5, 12), 'HID_KEYBOARD_SC_PAGE_DOWN'),
+],[
+((4, 4), (1, 9), 'HID_KEYBOARD_SC_END'),
+((4, 4), (6, 9), 'HID_KEYBOARD_SC_PAGE_DOWN'),
 (2, None, '0'),	 
-	 ((7, 4), (7, 14), 'HID_KEYBOARD_SC_LEFT_CONTROL'),
-	 ((4, 4), (4, 6), 'HID_KEYBOARD_SC_A'),
-     ((4, 4), (4, 7), 'HID_KEYBOARD_SC_S'),
-     ((4, 4), (4, 9), 'HID_KEYBOARD_SC_D'),
-     ((4, 4), (4, 8), 'HID_KEYBOARD_SC_F'),
-     ((4, 4), (1, 8), 'HID_KEYBOARD_SC_G'),
+((7, 4), (0, 9), 'HID_KEYBOARD_SC_LEFT_CONTROL'),
+((4, 4), (2, 9), 'HID_KEYBOARD_SC_A'),
+((4, 4), (4, 9), 'HID_KEYBOARD_SC_S'),
+((4, 4), (7, 9), 'HID_KEYBOARD_SC_D'),
+((4, 4), (5, 9), 'HID_KEYBOARD_SC_F'),
+((4, 4), (3, 13), 'HID_KEYBOARD_SC_G'),
 	 
 (1, None, '0'),
 ((4, 4), (1, 12), 'HID_KEYBOARD_SC_H'),                        #OK
@@ -297,16 +293,16 @@ keyboard_definition = [
 ((4, 4), (1, 16), 'HID_KEYBOARD_SC_KEYPAD_5'),                 #OK
 ((4, 4), (2, 16), 'HID_KEYBOARD_SC_KEYPAD_6_AND_RIGHT_ARROW'), #OK
 ((4, 4), (4, 15), 'HID_KEYBOARD_SC_KEYPAD_PLUS')	 #4,4,7,2  #OK
-     ],[
-	 (4, None, '0'),
-	 ((4, 4), (1, 13), 'HID_KEYBOARD_SC_UP_ARROW'),
-	 (1, None, '0'),
-	 ((8, 4), (6, 5), 'HID_KEYBOARD_SC_LEFT_SHIFT'),
-	 ((4, 4), (0, 6), 'HID_KEYBOARD_SC_Z'),
-     ((4, 4), (0, 7), 'HID_KEYBOARD_SC_X'),
-     ((4, 4), (0, 9), 'HID_KEYBOARD_SC_C'),
-     ((4, 4), (0, 8), 'HID_KEYBOARD_SC_V'),
-     ((4, 4), (2, 8), 'HID_KEYBOARD_SC_B'),
+],[
+(4, None, '0'),
+((4, 4), (6, 3), 'HID_KEYBOARD_SC_UP_ARROW'),
+(1, None, '0'),
+((8, 4), (6, 13), 'HID_KEYBOARD_SC_LEFT_SHIFT'),
+((4, 4), (0, 13), 'HID_KEYBOARD_SC_Z'),
+((4, 4), (2, 13), 'HID_KEYBOARD_SC_X'),
+((4, 4), (4, 13), 'HID_KEYBOARD_SC_C'),
+((4, 4), (7, 13), 'HID_KEYBOARD_SC_V'),
+((4, 4), (5, 13), 'HID_KEYBOARD_SC_B'),
 	 
 (1, None, '0'),
 ((4, 4), (2, 12), 'HID_KEYBOARD_SC_N'),                        #OK
@@ -322,17 +318,14 @@ keyboard_definition = [
 ((4, 4), (6, 16), 'HID_KEYBOARD_SC_KEYPAD_2_AND_DOWN_ARROW'),  #OK
 ((4, 4), (4, 16), 'HID_KEYBOARD_SC_KEYPAD_3_AND_PAGE_DOWN'),   #OK
 ((4, 8), (0, 15), 'HID_KEYBOARD_SC_KEYPAD_ENTER')              #OK
-     ],[
-	 
-	 
-	 ((4, 4), (2, 13), 'HID_KEYBOARD_SC_LEFT_ARROW'),
-     ((4, 4), (2, 15), 'HID_KEYBOARD_SC_DOWN_ARROW'),
-     ((4, 4), (2, 16), 'HID_KEYBOARD_SC_RIGHT_ARROW'),
-	
-	 ((3, 4), (6, 7), 'HID_KEYBOARD_SC_CAPS_LOCK'),#7,
-	 ((5, 4), (6, 4), 'HID_KEYBOARD_SC_LEFT_GUI'),
-     ((5, 4), (1, 1), 'HID_KEYBOARD_SC_LEFT_ALT'),
-	 ((11, 4), (1, 15), 'HID_KEYBOARD_SC_SPACE'),#25,
+],[
+((4, 4), (1, 3), 'HID_KEYBOARD_SC_LEFT_ARROW'),
+((4, 4), (0, 3), 'HID_KEYBOARD_SC_DOWN_ARROW'),
+((4, 4), (2, 3), 'HID_KEYBOARD_SC_RIGHT_ARROW'),
+((3, 4), (4, 3), 'HID_KEYBOARD_SC_CAPS_LOCK'),
+((5, 4), (7, 3), 'HID_KEYBOARD_SC_LEFT_GUI'),
+((5, 4), (5, 3), 'HID_KEYBOARD_SC_LEFT_ALT'),
+((11, 4), (3, 3), 'HID_KEYBOARD_SC_SPACE'),
 (1, None, '0'),
 ((11, 4), (6, 12), 'HID_KEYBOARD_SC_SPACE'),                   #OK
 ((5, 4), (6, 4), 'HID_KEYBOARD_SC_APPLICATION'),               #OK

@@ -6012,24 +6012,6 @@ chip 0805</description>
 <contactref element="IC1" pad="31"/>
 <wire x1="-2.235" y1="-36.11" x2="-3.035" y2="-36.11" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$37">
-<contactref element="3D2" pad="20"/>
-</signal>
-<signal name="N$41">
-<contactref element="3D2" pad="8"/>
-</signal>
-<signal name="N$42">
-<contactref element="3D2" pad="7"/>
-</signal>
-<signal name="N$43">
-<contactref element="3D2" pad="29"/>
-</signal>
-<signal name="N$44">
-<contactref element="3D2" pad="30"/>
-</signal>
-<signal name="N$50">
-<contactref element="3D2" pad="31"/>
-</signal>
 <signal name="N$286">
 <via x="164.465" y="283.21" extent="1-16" drill="3" diameter="5"/>
 </signal>
