@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -243,6 +243,7 @@
 <dimension x1="-0.79375" y1="296.2275" x2="7.3025" y2="219.23375" x3="3.254375" y3="300.355" layer="21" dtype="horizontal"/>
 <dimension x1="175.41875" y1="224.79" x2="183.515" y2="295.5925" x3="179.466875" y3="299.72" layer="21" dtype="horizontal"/>
 <dimension x1="7.3025" y1="218.28125" x2="175.26" y2="223.99625" x3="91.28125" y3="215.9" layer="21" dtype="horizontal"/>
+<dimension x1="131.28625" y1="294.9575" x2="174.625" y2="305.59375" x3="152.955625" y3="312.1025" layer="21" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="SmartPrj">

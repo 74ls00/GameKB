@@ -52221,7 +52221,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="599.44" y="563.88" size="5.08" layer="94">HVPP JP</text>
 <text x="594.36" y="403.86" size="1.778" layer="91">upe6</text>
 <text x="594.36" y="426.72" size="1.778" layer="91">upb0</text>
-<text x="970.28" y="406.4" size="1.778" layer="91">green</text>
+<text x="975.36" y="403.86" size="1.778" layer="91">green</text>
 <text x="970.28" y="370.84" size="1.778" layer="91">ano</text>
 <text x="970.28" y="332.74" size="1.778" layer="91">blue</text>
 <text x="970.28" y="304.8" size="1.778" layer="91">red</text>
@@ -52999,7 +52999,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="GND34" gate="1" x="929.64" y="350.52"/>
 <instance part="GND41" gate="1" x="929.64" y="309.88"/>
 <instance part="GND42" gate="1" x="929.64" y="269.24"/>
-<instance part="IOL7" gate="A" x="985.52" y="408.94" rot="MR180"/>
+<instance part="IOL7" gate="A" x="993.14" y="408.94" rot="MR180"/>
 <instance part="IOL8" gate="A" x="988.06" y="365.76" rot="MR180"/>
 <instance part="IOL9" gate="A" x="988.06" y="330.2" rot="MR180"/>
 <instance part="IOL10" gate="A" x="995.68" y="287.02" rot="MR180"/>
