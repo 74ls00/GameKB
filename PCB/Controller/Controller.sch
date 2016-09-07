@@ -49869,11 +49869,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R100" library="rcl" deviceset="C-EU" device="C0805" value="1M"/>
 <part name="U$1" library="MyPOW" deviceset="+5V" device=""/>
 <part name="U$2" library="MyPOW" deviceset="VUSB" device=""/>
-<part name="C2" library="SmartPrj" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="U$4" library="MyPOW" deviceset="+5V" device=""/>
 <part name="L3" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
 <part name="C17" library="SmartPrj" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C18" library="SmartPrj" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C19" library="SmartPrj" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="RESET1" library="SmartPrj" deviceset="TS42" device=""/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="22p"/>
