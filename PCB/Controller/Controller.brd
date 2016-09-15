@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4666,7 +4666,7 @@ Based on the following sources:
 <element name="P_RESET" library="jumper" package="JP1" value="" x="-113.3475" y="261.3025"/>
 <element name="T_RESET" library="jumper" package="JP1" value="" x="-33.9725" y="193.83375"/>
 <element name="RESET2" library="SmartPrj" package="TS42" value="TS42" x="-140.81125" y="188.11875"/>
-<element name="5D6" library="74xx-eu" package="SO20W" value="74HC244DW" x="114.3" y="205.89875"/>
+<element name="5D6" library="74xx-eu" package="SO20W" value="74HC244DW" x="116.36375" y="197.00875"/>
 </elements>
 <signals>
 <signal name="5-GND">
@@ -4955,8 +4955,8 @@ Based on the following sources:
 <wire x1="78.57875" y1="169.70375" x2="78.74" y2="172.87875" width="0" layer="19" extent="1-1"/>
 <wire x1="78.89625" y1="178.59375" x2="78.74" y2="175.41875" width="0" layer="19" extent="1-1"/>
 <wire x1="89.535" y1="163.83" x2="78.57875" y2="169.70375" width="0" layer="19" extent="1-1"/>
-<wire x1="120.015" y1="200.86955" x2="78.89625" y2="178.59375" width="0" layer="19" extent="1-1"/>
-<wire x1="146.52625" y1="243.46535" x2="120.015" y2="200.86955" width="0" layer="19" extent="1-16"/>
+<wire x1="122.07875" y1="191.97955" x2="78.89625" y2="178.59375" width="0" layer="19" extent="1-1"/>
+<wire x1="146.52625" y1="243.46535" x2="122.07875" y2="191.97955" width="0" layer="19" extent="1-16"/>
 <wire x1="151.60625" y1="249.61215" x2="146.52625" y2="243.46535" width="0" layer="19" extent="16-16"/>
 <wire x1="155.6766" y1="251.30125" x2="151.60625" y2="249.61215" width="0" layer="19" extent="16-16"/>
 <wire x1="161.8234" y1="246.22125" x2="155.6766" y2="251.30125" width="0" layer="19" extent="16-16"/>
@@ -5156,8 +5156,8 @@ Based on the following sources:
 <contactref element="5D5" pad="14"/>
 <contactref element="5D6" pad="20"/>
 <wire x1="73.66" y1="172.87875" x2="73.66" y2="175.41875" width="0" layer="19" extent="1-1"/>
-<wire x1="108.585" y1="210.92795" x2="73.66" y2="175.41875" width="0" layer="19" extent="1-1"/>
-<wire x1="99.3775" y1="240.50625" x2="108.585" y2="210.92795" width="0" layer="19" extent="1-1"/>
+<wire x1="110.64875" y1="202.03795" x2="73.66" y2="175.41875" width="0" layer="19" extent="1-1"/>
+<wire x1="99.3775" y1="240.50625" x2="110.64875" y2="202.03795" width="0" layer="19" extent="1-1"/>
 <wire x1="95.25" y1="246.85625" x2="99.3775" y2="240.50625" width="0" layer="19" extent="1-1"/>
 <wire x1="111.76" y1="261.90875" x2="95.25" y2="246.85625" width="0" layer="19" extent="1-1"/>
 <wire x1="130.175" y1="259.97625" x2="126.5285" y2="260.51625" width="0" layer="19" extent="1-1"/>
@@ -5572,8 +5572,8 @@ Based on the following sources:
 <contactref element="5D6" pad="4"/>
 <wire x1="131.953" y1="249.71375" x2="126.5285" y2="255.96625" width="0" layer="19" extent="1-1"/>
 <wire x1="124.7775" y1="246.41175" x2="131.953" y2="249.71375" width="0" layer="19" extent="1-1"/>
-<wire x1="112.395" y1="210.92795" x2="124.7775" y2="246.41175" width="0" layer="19" extent="1-1"/>
-<wire x1="112.395" y1="200.86955" x2="112.395" y2="210.92795" width="0" layer="19" extent="1-1"/>
+<wire x1="114.45875" y1="202.03795" x2="124.7775" y2="246.41175" width="0" layer="19" extent="1-1"/>
+<wire x1="114.45875" y1="191.97955" x2="114.45875" y2="202.03795" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX_USB">
 <contactref element="2D1" pad="5"/>
@@ -5581,8 +5581,8 @@ Based on the following sources:
 <contactref element="5D6" pad="12"/>
 <contactref element="5D6" pad="9"/>
 <wire x1="126.5285" y1="258.56625" x2="133.858" y2="253.20625" width="0" layer="19" extent="1-1"/>
-<wire x1="118.745" y1="210.92795" x2="133.858" y2="253.20625" width="0" layer="19" extent="1-1"/>
-<wire x1="118.745" y1="200.86955" x2="118.745" y2="210.92795" width="0" layer="19" extent="1-1"/>
+<wire x1="120.80875" y1="202.03795" x2="133.858" y2="253.20625" width="0" layer="19" extent="1-1"/>
+<wire x1="120.80875" y1="191.97955" x2="120.80875" y2="202.03795" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RXP">
 <contactref element="3D1" pad="30"/>
@@ -6729,8 +6729,8 @@ Based on the following sources:
 <contactref element="5D5" pad="13"/>
 <contactref element="5D5" pad="12"/>
 <wire x1="-59.4741" y1="224.79" x2="-59.4741" y2="226.06" width="0" layer="19" extent="16-16"/>
-<wire x1="108.585" y1="200.86955" x2="-59.4741" y2="224.79" width="0" layer="19" extent="1-16"/>
-<wire x1="89.535" y1="173.99" x2="108.585" y2="200.86955" width="0" layer="19" extent="1-1"/>
+<wire x1="110.64875" y1="191.97955" x2="-59.4741" y2="224.79" width="0" layer="19" extent="1-16"/>
+<wire x1="89.535" y1="173.99" x2="110.64875" y2="191.97955" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!OE741">
 <contactref element="5D4" pad="1"/>
@@ -6779,7 +6779,7 @@ Based on the following sources:
 <signal name="N$2">
 <contactref element="5D6" pad="19"/>
 <contactref element="5D5" pad="11"/>
-<wire x1="109.855" y1="210.92795" x2="-59.4741" y2="227.33" width="0" layer="19" extent="1-16"/>
+<wire x1="111.91875" y1="202.03795" x2="-59.4741" y2="227.33" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="TX_STK500">
 <contactref element="5D6" pad="16"/>
