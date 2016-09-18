@@ -18,3 +18,4 @@
 
 http://we.easyelectronics.ru/AVR/obzor-programmatora-avrisp-mkii.html
 
+- https://youtu.be/76-kZ4FOqck
