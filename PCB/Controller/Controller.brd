@@ -4781,11 +4781,6 @@ Based on the following sources:
 <contactref element="3C8" pad="+"/>
 <contactref element="1R41" pad="2"/>
 <contactref element="1C23" pad="2"/>
-<contactref element="5D1" pad="17"/>
-<contactref element="5D1" pad="38"/>
-<contactref element="5D1" pad="5"/>
-<contactref element="5D1" pad="29"/>
-<contactref element="5D1" pad="27"/>
 <contactref element="4VT5" pad="2"/>
 <contactref element="4R6" pad="1"/>
 <contactref element="JV1" pad="1"/>
@@ -4813,6 +4808,11 @@ Based on the following sources:
 <contactref element="5D5" pad="14"/>
 <contactref element="5D5" pad="12"/>
 <contactref element="5D5" pad="13"/>
+<contactref element="5D1" pad="17"/>
+<contactref element="5D1" pad="38"/>
+<contactref element="5D1" pad="5"/>
+<contactref element="5D1" pad="29"/>
+<contactref element="5D1" pad="27"/>
 <wire x1="78.42" y1="180.34" x2="78.42" y2="168.91" width="0" layer="19" extent="1-1"/>
 <wire x1="105.3084" y1="198.12" x2="78.42" y2="180.34" width="0" layer="19" extent="1-1"/>
 <wire x1="105.3084" y1="199.39" x2="105.3084" y2="198.12" width="0" layer="19" extent="1-1"/>
