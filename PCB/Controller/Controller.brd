@@ -5188,8 +5188,6 @@ Based on the following sources:
 <contactref element="JR2" pad="1"/>
 <contactref element="5D6" pad="17"/>
 <contactref element="5D6" pad="4"/>
-<contactref element="JR" pad="2"/>
-<wire x1="126.5285" y1="255.96625" x2="135.382" y2="253.20625" width="0" layer="19" extent="1-1"/>
 <wire x1="124.7775" y1="246.41175" x2="126.5285" y2="255.96625" width="0" layer="19" extent="1-1"/>
 <wire x1="114.45875" y1="202.03795" x2="124.7775" y2="246.41175" width="0" layer="19" extent="1-1"/>
 <wire x1="114.45875" y1="191.97955" x2="114.45875" y2="202.03795" width="0" layer="19" extent="1-1"/>
@@ -6205,10 +6203,12 @@ Based on the following sources:
 <contactref element="5D6" pad="1"/>
 <contactref element="5D5" pad="9"/>
 <contactref element="5D5" pad="8"/>
+<contactref element="5D6" pad="2"/>
 <wire x1="80.44" y1="177.4825" x2="80.44" y2="171.45" width="0" layer="19" extent="16-16"/>
 <wire x1="105.3084" y1="193.04" x2="80.44" y2="177.4825" width="0" layer="19" extent="1-16"/>
 <wire x1="105.3084" y1="194.31" x2="105.3084" y2="193.04" width="0" layer="19" extent="1-1"/>
 <wire x1="110.64875" y1="191.97955" x2="105.3084" y2="193.04" width="0" layer="19" extent="1-1"/>
+<wire x1="111.91875" y1="191.97955" x2="110.64875" y2="191.97955" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!OE741">
 <contactref element="5D4" pad="1"/>
@@ -6294,10 +6294,24 @@ Based on the following sources:
 <contactref element="5D1" pad="10"/>
 <wire x1="133.858" y1="253.20625" x2="-22.67625" y2="209.3175" width="0" layer="19" extent="1-16"/>
 </signal>
+<signal name="N$24">
+<contactref element="JR" pad="2"/>
+<contactref element="5D6" pad="8"/>
+<wire x1="119.53875" y1="191.97955" x2="135.382" y2="253.20625" width="0" layer="19" extent="1-1"/>
+</signal>
 <signal name="N$22">
+<contactref element="5D6" pad="15"/>
+<contactref element="5D6" pad="13"/>
 <contactref element="5D6" pad="16"/>
 <contactref element="JT" pad="1"/>
-<wire x1="115.72875" y1="202.03795" x2="131.953" y2="249.71375" width="0" layer="19" extent="1-1"/>
+<wire x1="119.53875" y1="202.03795" x2="131.953" y2="249.71375" width="0" layer="19" extent="1-1"/>
+<wire x1="116.99875" y1="202.03795" x2="119.53875" y2="202.03795" width="0" layer="19" extent="1-1"/>
+<wire x1="115.72875" y1="202.03795" x2="116.99875" y2="202.03795" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="5D6" pad="7"/>
+<contactref element="5D6" pad="6"/>
+<wire x1="116.99875" y1="191.97955" x2="118.26875" y2="191.97955" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
