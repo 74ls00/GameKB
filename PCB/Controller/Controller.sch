@@ -46001,7 +46001,7 @@ Based on the following sources:
 <part name="JR" library="jumper" deviceset="SJ" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="JRX" library="jumper" deviceset="SJ" device=""/>
-<part name="JT" library="jumper" deviceset="SJ" device=""/>
+<part name="JTX" library="jumper" deviceset="SJ" device=""/>
 <part name="2C5" library="rcl" deviceset="C-EU" device="C0805" value="1mf"/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="2R8" library="resistor" deviceset="R-EU_" device="R0603" value="100"/>
@@ -46179,7 +46179,7 @@ Based on the following sources:
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="P+26" library="supply1" deviceset="+5V" device=""/>
 <part name="5D6" library="74xx-eu" deviceset="74*244" device="DW" technology="HC"/>
-<part name="JP2" library="jumper" deviceset="JP2E" device=""/>
+<part name="JP" library="jumper" deviceset="JP2E" device=""/>
 <part name="1R15" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="1R16" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="5D5" library="40xx" deviceset="4011" device="D"/>
@@ -46569,7 +46569,7 @@ ISP   ON    HVPP</text>
 <attribute name="NAME" x="332.359" y="135.89" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="327.66" y="128.27" size="1.778" layer="96"/>
 </instance>
-<instance part="JT" gate="1" x="383.54" y="137.16" smashed="yes">
+<instance part="JTX" gate="1" x="383.54" y="137.16" smashed="yes">
 <attribute name="NAME" x="385.699" y="140.97" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="381" y="133.35" size="1.778" layer="96"/>
 </instance>
@@ -47027,7 +47027,7 @@ ISP   ON    HVPP</text>
 <attribute name="VALUE" x="353.06" y="96.52" size="1.778" layer="96"/>
 </instance>
 <instance part="5D6" gate="P" x="251.46" y="116.84"/>
-<instance part="JP2" gate="1" x="297.18" y="114.3" smashed="yes">
+<instance part="JP" gate="1" x="297.18" y="114.3" smashed="yes">
 <attribute name="NAME" x="294.64" y="118.11" size="1.778" layer="95"/>
 <attribute name="VALUE" x="302.895" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -47863,7 +47863,7 @@ ISP   ON    HVPP</text>
 <pinref part="5D5" gate="P" pin="VSS"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="1" pin="2"/>
+<pinref part="JP" gate="1" pin="2"/>
 <pinref part="GND44" gate="1" pin="GND"/>
 <wire x1="297.18" y1="111.76" x2="297.18" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -50030,7 +50030,7 @@ ISP   ON    HVPP</text>
 <segment>
 <label x="317.5" y="109.22" size="1.778" layer="95" rot="MR0"/>
 <wire x1="304.8" y1="109.22" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="1" pin="3"/>
+<pinref part="JP" gate="1" pin="3"/>
 <wire x1="309.88" y1="109.22" x2="317.5" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="109.22" x2="299.72" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="109.22" x2="299.72" y2="111.76" width="0.1524" layer="91"/>
@@ -50079,7 +50079,7 @@ ISP   ON    HVPP</text>
 <segment>
 <label x="279.4" y="109.22" size="1.778" layer="95"/>
 <wire x1="289.56" y1="109.22" x2="279.4" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="1" pin="1"/>
+<pinref part="JP" gate="1" pin="1"/>
 <wire x1="294.64" y1="111.76" x2="294.64" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="109.22" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="1R15" gate="G$1" pin="1"/>
@@ -50173,7 +50173,7 @@ ISP   ON    HVPP</text>
 </net>
 <net name="TX_STK500" class="0">
 <segment>
-<pinref part="JT" gate="1" pin="2"/>
+<pinref part="JTX" gate="1" pin="2"/>
 <wire x1="388.62" y1="137.16" x2="411.48" y2="137.16" width="0.1524" layer="91"/>
 <label x="396.24" y="137.16" size="1.778" layer="95"/>
 </segment>
@@ -50203,7 +50203,7 @@ ISP   ON    HVPP</text>
 <wire x1="375.92" y1="119.38" x2="375.92" y2="137.16" width="0.1524" layer="91"/>
 <junction x="345.44" y="111.76"/>
 <pinref part="5D6" gate="A" pin="Y2"/>
-<pinref part="JT" gate="1" pin="1"/>
+<pinref part="JTX" gate="1" pin="1"/>
 <wire x1="373.38" y1="137.16" x2="375.92" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="137.16" x2="378.46" y2="137.16" width="0.1524" layer="91"/>
 <junction x="375.92" y="137.16"/>

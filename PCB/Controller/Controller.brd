@@ -4157,7 +4157,7 @@ Based on the following sources:
 <element name="JO" library="jumper" package="SJ" value="" x="129.2225" y="248.12625" rot="R90"/>
 <element name="JR" library="jumper" package="SJ" value="" x="124.7775" y="247.17375" rot="R90"/>
 <element name="JRX" library="jumper" package="SJ" value="" x="134.62" y="253.20625"/>
-<element name="JT" library="jumper" package="SJ" value="" x="132.715" y="249.71375"/>
+<element name="JTX" library="jumper" package="SJ" value="" x="132.715" y="249.71375"/>
 <element name="2C5" library="rcl" package="C0805" value="1mf" x="134.62" y="259.23875" smashed="yes" rot="R90">
 <attribute name="NAME" x="133.35" y="257.96875" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="137.16" y="257.96875" size="1.27" layer="27" rot="R90"/>
@@ -4421,7 +4421,7 @@ Based on the following sources:
 <element name="P_RESET" library="jumper" package="JP1" value="" x="-113.3475" y="261.3025"/>
 <element name="T_RESET" library="jumper" package="JP1" value="" x="-33.9725" y="193.83375"/>
 <element name="5D6" library="74xx-eu" package="SO20W" value="74HC244DW" x="116.36375" y="202.08875"/>
-<element name="JP2" library="jumper" package="JP2" value="" x="73.66" y="174.625" rot="R90"/>
+<element name="JP" library="jumper" package="JP2" value="" x="73.66" y="174.625" rot="R90"/>
 <element name="1R15" library="rcl" package="M0805" value="10k" x="78.105" y="169.545" rot="MR180"/>
 <element name="1R16" library="rcl" package="M0805" value="10k" x="78.105" y="179.705" rot="MR180"/>
 <element name="5D5" library="40xx" package="SO14" value="4011D" x="102.87" y="202.565" rot="R270"/>
@@ -4677,7 +4677,7 @@ Based on the following sources:
 <contactref element="5D4" pad="10"/>
 <contactref element="5D6" pad="10"/>
 <contactref element="5D6" pad="10"/>
-<contactref element="JP2" pad="2"/>
+<contactref element="JP" pad="2"/>
 <contactref element="1R14" pad="1"/>
 <contactref element="1R17" pad="1"/>
 <contactref element="5D5" pad="7"/>
@@ -6265,7 +6265,7 @@ Based on the following sources:
 <wire x1="-68.05295" y1="234.79125" x2="60.96" y2="176.325" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="!HVPP_EN">
-<contactref element="JP2" pad="3"/>
+<contactref element="JP" pad="3"/>
 <contactref element="1R16" pad="1"/>
 <contactref element="D9" pad="A"/>
 <contactref element="5D5" pad="2"/>
@@ -6287,7 +6287,7 @@ Based on the following sources:
 <wire x1="-57.99455" y1="236.06125" x2="67.945" y2="182.56" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="!ISP_EN">
-<contactref element="JP2" pad="1"/>
+<contactref element="JP" pad="1"/>
 <contactref element="1R15" pad="1"/>
 <contactref element="D6" pad="A"/>
 <contactref element="5D5" pad="1"/>
@@ -6325,7 +6325,7 @@ Based on the following sources:
 <wire x1="99.7966" y1="202.565" x2="66.88" y2="149.86" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="TX_STK500">
-<contactref element="JT" pad="2"/>
+<contactref element="JTX" pad="2"/>
 <contactref element="5D1" pad="9"/>
 <wire x1="133.477" y1="249.71375" x2="-23.47625" y2="209.3175" width="0" layer="19" extent="1-16"/>
 </signal>
@@ -6343,7 +6343,7 @@ Based on the following sources:
 <contactref element="5D6" pad="15"/>
 <contactref element="5D6" pad="13"/>
 <contactref element="5D6" pad="16"/>
-<contactref element="JT" pad="1"/>
+<contactref element="JTX" pad="1"/>
 <wire x1="119.53875" y1="207.11795" x2="131.953" y2="249.71375" width="0" layer="19" extent="1-1"/>
 <wire x1="116.99875" y1="207.11795" x2="119.53875" y2="207.11795" width="0" layer="19" extent="1-1"/>
 <wire x1="115.72875" y1="207.11795" x2="116.99875" y2="207.11795" width="0" layer="19" extent="1-1"/>
