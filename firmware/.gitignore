@@ -2,3 +2,4 @@
 dfu_write_eavr_tmp.bat
 dfu_write_tmk.bat
 run-port.bat
+avrdude_boot_32u4write.bat
