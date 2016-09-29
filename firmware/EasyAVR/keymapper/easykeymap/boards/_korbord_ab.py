@@ -74,7 +74,7 @@ matrix_sense = [
     ( REF_PORTC , (1 << 6) ),    #1
     ( REF_PORTC , (1 << 7) ),
     ( REF_PORTD , (1 << 0) ),    #a2 3
-    ( REF_PORTD , (1 << 1) ),    #4
+    ( REF_PORTD , (1 << 1) ),
     ( REF_PORTD , (1 << 2) ),    #a3 5
     ( REF_PORTD , (1 << 3) ),    #a4 6
     ( REF_PORTD , (1 << 4) ),
@@ -141,6 +141,12 @@ KMAC_key = None
 # D2   19   PD1                        4 kbb6
 # D3(18) D7(1)  ? не нашёлся                                    
 #
+# D3    18  PD0                        3 kba2
+# D0    20  PD2                        5 kba3
+# D1    21  PD3                        6 kba4
+# TxLED 22  PD5                        8 kba5
+# D12   26  PD6                        9 kba6
+# A3    39  PF4                       13 kba1
 
 # keyBoard A (PCB_A) 
 # порт в коде               0      4      2      6      1      5     3     7
@@ -153,7 +159,7 @@ KMAC_key = None
 # 6      L1      kba5     F1      F3     F2    Esc   Scroll   F5     F6    F4   8
 # 7      L4      kba6    L_Ctrl   S      A     PgDn    End    F      T     D    9
 # 8     vcc
-# 
+# z dn  lcrtl tab ~ f1 
 # 1 D1   miso
 # 2 D2   mosi
 # 3 D3   sck
