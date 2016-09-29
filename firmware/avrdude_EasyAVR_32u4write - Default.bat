@@ -1,9 +1,9 @@
+chcp 1251
 set avrdude=avrdude
 set dir=leonardo
-set port=com20
+set port=com9
 rem flash=
-set fw=G:\home\Documents\Projects\EAGLE\Keyboard\firmware\EasyAVR\EasyAVR_Num+B_def_fw_c.hex
-
+set fw=G:\home\Documents\Projects\EAGLE\Keyboard\firmware\EasyAVR\keymapper\korbord_v0.1.hex
 rem avrdude.exe -P %port% -c stk500v2 -p m32u4 -v F
 %avrdude%\avrdude.exe -P %port% -c stk500v2 -p m32u4 -U flash:w:%fw%:a
 

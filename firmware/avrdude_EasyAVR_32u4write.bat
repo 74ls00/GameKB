@@ -1,4 +1,5 @@
 rem @echo off
+chcp 1251
 set avrdude=avrdude
 set dir=leonardo
 set port=com9
