@@ -1,12 +1,8 @@
 EasyAVR прошивка и графический конфигурфтор клавиш.
 
-Сделана прошивка для нумпада и правой стороны.
-
-![](https://raw.githubusercontent.com/74ls00/GameKB/master/firmware/EasyAVR/eavrbk.png)
-
-Нарисована полная версия, но использовать её нельзя.
-
 Easy AVR USB Keyboard Firmware Keymapper
+
+Полная версия клавиатуры.
   
 ![](https://raw.githubusercontent.com/74ls00/GameKB/master/firmware/EasyAVR/eavrkfk.png)
 ------------------------------------------------------------------------------------
