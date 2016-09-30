@@ -30,8 +30,8 @@
 import easykeymap.templates.ATmega32U4_16MHz_COSTAR as firmware
 from easykeymap.ioports import *
 
-description = "Korbord AB"
-unique_id = "AKKBHIDA"
+description = "KorbordM"
+unique_id = "AKKBHIDM"
 cfg_name = "korbord"
 
 teensy = False
@@ -196,153 +196,153 @@ KMAC_key = None
 keyboard_definition = [
 [
 (72, None, '0'),
-((4, 4), (5, 14), 'HID_KEYBOARD_SC_NUM_LOCK')                 #OK
+((3, 3), (5, 14), 'HID_KEYBOARD_SC_NUM_LOCK')                 #OK
 ],[
-((4, 4), (1, 8), 'HID_KEYBOARD_SC_SCROLL_LOCK'),
-((4, 4), (6, 8), 'HID_KEYBOARD_SC_ESCAPE'),
+((3, 3), (1, 8), 'HID_KEYBOARD_SC_SCROLL_LOCK'),
+((3, 3), (6, 8), 'HID_KEYBOARD_SC_ESCAPE'),
 (3, None, '0'),
-((4, 4), (0, 8), 'HID_KEYBOARD_SC_F1'),
-((4, 4), (2, 8), 'HID_KEYBOARD_SC_F2'),
-((4, 4), (4, 8), 'HID_KEYBOARD_SC_F3'),
-((4, 4), (7, 8), 'HID_KEYBOARD_SC_F4'),
+((3, 3), (0, 8), 'HID_KEYBOARD_SC_F1'),
+((3, 3), (2, 8), 'HID_KEYBOARD_SC_F2'),
+((3, 3), (4, 8), 'HID_KEYBOARD_SC_F3'),
+((3, 3), (7, 8), 'HID_KEYBOARD_SC_F4'),
 (2, None, '0'),
-((4, 4), (5, 8), 'HID_KEYBOARD_SC_F5'),
-((4, 4), (3, 8), 'HID_KEYBOARD_SC_F6'),
+((3, 3), (5, 8), 'HID_KEYBOARD_SC_F5'),
+((3, 3), (3, 8), 'HID_KEYBOARD_SC_F6'),
 
 (1, None, '0'),
-((4, 4), (7, 12), 'HID_KEYBOARD_SC_F7'),                       #OK
-((4, 4), (4, 12), 'HID_KEYBOARD_SC_F8'),                       #OK
+((3, 3), (7, 12), 'HID_KEYBOARD_SC_F7'),                       #OK
+((3, 3), (4, 12), 'HID_KEYBOARD_SC_F8'),                       #OK
 (2, None, '0'),
-((4, 4), (0, 12), 'HID_KEYBOARD_SC_F9'),                       #OK
-((4, 4), (0, 4), 'HID_KEYBOARD_SC_F10'),                       #OK
-((4, 4), (4, 4), 'HID_KEYBOARD_SC_F11'),                       #OK
-((4, 4), (0, 10), 'HID_KEYBOARD_SC_F12'),                      #OK
+((3, 3), (0, 12), 'HID_KEYBOARD_SC_F9'),                       #OK
+((3, 3), (0, 4), 'HID_KEYBOARD_SC_F10'),                       #OK
+((3, 3), (3, 3), 'HID_KEYBOARD_SC_F11'),                       #OK
+((3, 3), (0, 10), 'HID_KEYBOARD_SC_F12'),                      #OK
 (3, None, '0'),
-((4, 4), (0, 1), 'HID_KEYBOARD_SC_DELETE'),                    #OK
+((3, 3), (0, 1), 'HID_KEYBOARD_SC_DELETE'),                    #OK
 (1, None, '0'),
 
-((4, 4), (7, 14), 'HID_KEYBOARD_SC_D'),	                       #OK
-((4, 4), (5, 16), 'HID_KEYBOARD_SC_E'),                        #OK
-((4, 4), (5, 15), 'HID_KEYBOARD_SC_F'),                        #OK
-((4, 4), (1, 15), 'HID_KEYBOARD_SC_KEYPAD_SLASH')              #OK
+((3, 3), (7, 14), 'HID_KEYBOARD_SC_D'),	                       #OK
+((3, 3), (5, 16), 'HID_KEYBOARD_SC_E'),                        #OK
+((3, 3), (5, 15), 'HID_KEYBOARD_SC_F'),                        #OK
+((3, 3), (1, 15), 'HID_KEYBOARD_SC_KEYPAD_SLASH')              #OK
 ],[
-((4, 4), (1, 5), 'HID_KEYBOARD_SC_INSERT'),
-((4, 4), (6, 5), 'HID_KEYBOARD_SC_PAUSE'),
+((3, 3), (1, 5), 'HID_KEYBOARD_SC_INSERT'),
+((3, 3), (6, 5), 'HID_KEYBOARD_SC_PAUSE'),
 (1, None, '0'),	 
-((4, 4), (0, 5), 'HID_KEYBOARD_SC_GRAVE_ACCENT_AND_TILDE'),
-((4, 4), (2, 5), 'HID_KEYBOARD_SC_1_AND_EXCLAMATION'),
-((4, 4), (4, 5), 'HID_KEYBOARD_SC_2_AND_AT'),
-((4, 4), (7, 5), 'HID_KEYBOARD_SC_3_AND_HASHMARK'),
-((4, 4), (5, 5), 'HID_KEYBOARD_SC_4_AND_DOLLAR'),
-((4, 4), (3, 5), 'HID_KEYBOARD_SC_5_AND_PERCENTAGE'),
-((4, 4), (3, 6), 'HID_KEYBOARD_SC_6_AND_CARET'),
+((3, 3), (0, 5), 'HID_KEYBOARD_SC_GRAVE_ACCENT_AND_TILDE'),
+((3, 3), (2, 5), 'HID_KEYBOARD_SC_1_AND_EXCLAMATION'),
+((3, 3), (4, 5), 'HID_KEYBOARD_SC_2_AND_AT'),
+((3, 3), (7, 5), 'HID_KEYBOARD_SC_3_AND_HASHMARK'),
+((3, 3), (5, 5), 'HID_KEYBOARD_SC_4_AND_DOLLAR'),
+((3, 3), (3, 5), 'HID_KEYBOARD_SC_5_AND_PERCENTAGE'),
+((3, 3), (3, 6), 'HID_KEYBOARD_SC_6_AND_CARET'),
 	 
 (1, None, '0'),
-((4, 4), (3, 12), 'HID_KEYBOARD_SC_7_AND_AND_AMPERSAND'),      #OK
-((4, 4), (7, 7), 'HID_KEYBOARD_SC_8_AND_ASTERISK'),            #OK
-((4, 4), (4, 7), 'HID_KEYBOARD_SC_9_AND_OPENING_PARENTHESIS'), #OK
-((4, 4), (0, 7), 'HID_KEYBOARD_SC_0_AND_CLOSING_PARENTHESIS'), #OK
-((4, 4), (7, 4), 'HID_KEYBOARD_SC_MINUS_AND_UNDERSCORE'),      #OK    -_
-((4, 4), (4, 10), 'HID_KEYBOARD_SC_EQUAL_AND_PLUS'),           #OK    =+
-((8, 4), (4, 1), 'HID_KEYBOARD_SC_BACKSPACE'),                 #OK
+((3, 3), (3, 12), 'HID_KEYBOARD_SC_7_AND_AND_AMPERSAND'),      #OK
+((3, 3), (7, 7), 'HID_KEYBOARD_SC_8_AND_ASTERISK'),            #OK
+((3, 3), (4, 7), 'HID_KEYBOARD_SC_9_AND_OPENING_PARENTHESIS'), #OK
+((3, 3), (0, 7), 'HID_KEYBOARD_SC_0_AND_CLOSING_PARENTHESIS'), #OK
+((3, 3), (7, 4), 'HID_KEYBOARD_SC_MINUS_AND_UNDERSCORE'),      #OK    -_
+((3, 3), (4, 10), 'HID_KEYBOARD_SC_EQUAL_AND_PLUS'),           #OK    =+
+((7, 3), (4, 1), 'HID_KEYBOARD_SC_BACKSPACE'),                 #OK
 (2, None, '0'),	
-((4, 4), (3, 14), 'HID_KEYBOARD_SC_A'),                        #OK
-((4, 4), (7, 16), 'HID_KEYBOARD_SC_B'),	                       #OK
-((4, 4), (7, 15), 'HID_KEYBOARD_SC_C'),                        #OK
-((4, 4), (6, 15), 'HID_KEYBOARD_SC_KEYPAD_ASTERISK')	       #OK
+((3, 3), (3, 14), 'HID_KEYBOARD_SC_A'),                        #OK
+((3, 3), (7, 16), 'HID_KEYBOARD_SC_B'),	                       #OK
+((3, 3), (7, 15), 'HID_KEYBOARD_SC_C'),                        #OK
+((3, 3), (6, 15), 'HID_KEYBOARD_SC_KEYPAD_ASTERISK')	       #OK
 ],[
-((4, 4), (1, 6), 'HID_KEYBOARD_SC_HOME'),
-((4, 4), (6, 6), 'HID_KEYBOARD_SC_PAGE_UP'),
+((3, 3), (1, 6), 'HID_KEYBOARD_SC_HOME'),
+((3, 3), (6, 6), 'HID_KEYBOARD_SC_PAGE_UP'),
 (3, None, '0'), 
-((6, 4), (0, 6), 'HID_KEYBOARD_SC_TAB'),
-((4, 4), (2, 6), 'HID_KEYBOARD_SC_Q'),
-((4, 4), (4, 6), 'HID_KEYBOARD_SC_W'),
-((4, 4), (7, 6), 'HID_KEYBOARD_SC_E'),
-((4, 4), (5, 6), 'HID_KEYBOARD_SC_R'),
-((4, 4), (3, 9), 'HID_KEYBOARD_SC_T'),
+((5, 3), (0, 6), 'HID_KEYBOARD_SC_TAB'),
+((3, 3), (2, 6), 'HID_KEYBOARD_SC_Q'),
+((3, 3), (4, 6), 'HID_KEYBOARD_SC_W'),
+((3, 3), (7, 6), 'HID_KEYBOARD_SC_E'),
+((3, 3), (5, 6), 'HID_KEYBOARD_SC_R'),
+((3, 3), (3, 9), 'HID_KEYBOARD_SC_T'),
 	 
 (1, None, '0'),
-((4, 4), (5, 12), 'HID_KEYBOARD_SC_Y'),                        #OK
-((4, 4), (3, 7), 'HID_KEYBOARD_SC_U'),                         #OK
-((4, 4), (5, 11), 'HID_KEYBOARD_SC_I'),                        #OK
-((4, 4), (7, 11), 'HID_KEYBOARD_SC_O'),                        #OK
-((4, 4), (3, 4), 'HID_KEYBOARD_SC_P'),                         #OK
-((4, 4), (3, 10), 'HID_KEYBOARD_SC_OPENING_BRACKET_AND_OPENING_BRACE'), #OK   [{
-((4, 4), (7, 10), 'HID_KEYBOARD_SC_CLOSING_BRACKET_AND_CLOSING_BRACE'), #OK   ]}
-((4, 4), (7, 1), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE'),        #OK   |u
+((3, 3), (5, 12), 'HID_KEYBOARD_SC_Y'),                        #OK
+((3, 3), (3, 7), 'HID_KEYBOARD_SC_U'),                         #OK
+((3, 3), (5, 11), 'HID_KEYBOARD_SC_I'),                        #OK
+((3, 3), (7, 11), 'HID_KEYBOARD_SC_O'),                        #OK
+((3, 3), (3, 4), 'HID_KEYBOARD_SC_P'),                         #OK
+((3, 3), (3, 10), 'HID_KEYBOARD_SC_OPENING_BRACKET_AND_OPENING_BRACE'), #OK   [{
+((3, 3), (7, 10), 'HID_KEYBOARD_SC_CLOSING_BRACKET_AND_CLOSING_BRACE'), #OK   ]}
+((3, 3), (7, 1), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE'),        #OK   |u
 (2, None, '0'),		 
-((4, 4), (1, 14), 'HID_KEYBOARD_SC_KEYPAD_7_AND_HOME'),        #OK
-((4, 4), (3, 16), 'HID_KEYBOARD_SC_KEYPAD_8_AND_UP_ARROW'),    #OK
-((4, 4), (3, 15), 'HID_KEYBOARD_SC_KEYPAD_9_AND_PAGE_UP'),	   #OK
-((4, 4), (2, 15), 'HID_KEYBOARD_SC_KEYPAD_MINUS')	           #OK
+((3, 3), (1, 14), 'HID_KEYBOARD_SC_KEYPAD_7_AND_HOME'),        #OK
+((3, 3), (3, 16), 'HID_KEYBOARD_SC_KEYPAD_8_AND_UP_ARROW'),    #OK
+((3, 3), (3, 15), 'HID_KEYBOARD_SC_KEYPAD_9_AND_PAGE_UP'),	   #OK
+((3, 3), (2, 15), 'HID_KEYBOARD_SC_KEYPAD_MINUS')	           #OK
 ],[
-((4, 4), (1, 9), 'HID_KEYBOARD_SC_END'),
-((4, 4), (6, 9), 'HID_KEYBOARD_SC_PAGE_DOWN'),
+((3, 3), (1, 9), 'HID_KEYBOARD_SC_END'),
+((3, 3), (6, 9), 'HID_KEYBOARD_SC_PAGE_DOWN'),
 (2, None, '0'),	 
-((7, 4), (0, 9), 'HID_KEYBOARD_SC_LEFT_CONTROL'),
-((4, 4), (2, 9), 'HID_KEYBOARD_SC_A'),
-((4, 4), (4, 9), 'HID_KEYBOARD_SC_S'),
-((4, 4), (7, 9), 'HID_KEYBOARD_SC_D'),
-((4, 4), (5, 9), 'HID_KEYBOARD_SC_F'),
-((4, 4), (3, 13), 'HID_KEYBOARD_SC_G'),
+((6, 3), (0, 9), 'HID_KEYBOARD_SC_LEFT_CONTROL'),
+((3, 3), (2, 9), 'HID_KEYBOARD_SC_A'),
+((3, 3), (4, 9), 'HID_KEYBOARD_SC_S'),
+((3, 3), (7, 9), 'HID_KEYBOARD_SC_D'),
+((3, 3), (5, 9), 'HID_KEYBOARD_SC_F'),
+((3, 3), (3, 13), 'HID_KEYBOARD_SC_G'),
 	 
 (1, None, '0'),
-((4, 4), (1, 12), 'HID_KEYBOARD_SC_H'),                        #OK
-((4, 4), (5, 7), 'HID_KEYBOARD_SC_J'),                         #OK
-((4, 4), (1, 7), 'HID_KEYBOARD_SC_K'),                         #OK
-((4, 4), (3, 11), 'HID_KEYBOARD_SC_L'),                        #OK
-((4, 4), (5, 4), 'HID_KEYBOARD_SC_SEMICOLON_AND_COLON'),       #OK    ;:
-((4, 4), (5, 10), 'HID_KEYBOARD_SC_APOSTROPHE_AND_QUOTE'),     #OK    '"
-((9, 4), (3, 1), 'HID_KEYBOARD_SC_ENTER'),                     #OK
+((3, 3), (1, 12), 'HID_KEYBOARD_SC_H'),                        #OK
+((3, 3), (5, 7), 'HID_KEYBOARD_SC_J'),                         #OK
+((3, 3), (1, 7), 'HID_KEYBOARD_SC_K'),                         #OK
+((3, 3), (3, 11), 'HID_KEYBOARD_SC_L'),                        #OK
+((3, 3), (5, 4), 'HID_KEYBOARD_SC_SEMICOLON_AND_COLON'),       #OK    ;:
+((3, 3), (5, 10), 'HID_KEYBOARD_SC_APOSTROPHE_AND_QUOTE'),     #OK    '"
+((8, 3), (3, 1), 'HID_KEYBOARD_SC_ENTER'),                     #OK
 (1, None, '0'),
-((4, 4), (6, 14), 'HID_KEYBOARD_SC_KEYPAD_4_AND_LEFT_ARROW'),  #OK
-((4, 4), (1, 16), 'HID_KEYBOARD_SC_KEYPAD_5'),                 #OK
-((4, 4), (2, 16), 'HID_KEYBOARD_SC_KEYPAD_6_AND_RIGHT_ARROW'), #OK
-((4, 4), (4, 15), 'HID_KEYBOARD_SC_KEYPAD_PLUS')	 #4,4,7,2  #OK
+((3, 3), (6, 14), 'HID_KEYBOARD_SC_KEYPAD_4_AND_LEFT_ARROW'),  #OK
+((3, 3), (1, 16), 'HID_KEYBOARD_SC_KEYPAD_5'),                 #OK
+((3, 3), (2, 16), 'HID_KEYBOARD_SC_KEYPAD_6_AND_RIGHT_ARROW'), #OK
+((3, 3), (4, 15), 'HID_KEYBOARD_SC_KEYPAD_PLUS')	 #4,4,7,2  #OK
 ],[
 (4, None, '0'),
-((4, 4), (6, 3), 'HID_KEYBOARD_SC_UP_ARROW'),
+((3, 3), (6, 3), 'HID_KEYBOARD_SC_UP_ARROW'),
 (1, None, '0'),
-((8, 4), (6, 13), 'HID_KEYBOARD_SC_LEFT_SHIFT'),
-((4, 4), (0, 13), 'HID_KEYBOARD_SC_Z'),
-((4, 4), (2, 13), 'HID_KEYBOARD_SC_X'),
-((4, 4), (4, 13), 'HID_KEYBOARD_SC_C'),
-((4, 4), (7, 13), 'HID_KEYBOARD_SC_V'),
-((4, 4), (5, 13), 'HID_KEYBOARD_SC_B'),
+((7, 3), (6, 13), 'HID_KEYBOARD_SC_LEFT_SHIFT'),
+((3, 3), (0, 13), 'HID_KEYBOARD_SC_Z'),
+((3, 3), (2, 13), 'HID_KEYBOARD_SC_X'),
+((3, 3), (4, 13), 'HID_KEYBOARD_SC_C'),
+((3, 3), (7, 13), 'HID_KEYBOARD_SC_V'),
+((3, 3), (5, 13), 'HID_KEYBOARD_SC_B'),
 	 
 (1, None, '0'),
-((4, 4), (2, 12), 'HID_KEYBOARD_SC_N'),                        #OK
-((4, 4), (2, 7), 'HID_KEYBOARD_SC_M'),                         #OK 
-((4, 4), (6, 7), 'HID_KEYBOARD_SC_COMMA_AND_LESS_THAN_SIGN'),  #OK    ,<
-((4, 4), (2, 4), 'HID_KEYBOARD_SC_DOT_AND_GREATER_THAN_SIGN'), #OK    .>
-((4, 4), (1, 4), 'HID_KEYBOARD_SC_GRAVE_ACCENT_AND_TILDE'),    #OK    `~
-((4, 4), (1, 10), 'HID_KEYBOARD_SC_SLASH_AND_QUESTION_MARK'),  #OK    /?
-((5, 4), (1, 1), 'HID_KEYBOARD_SC_RIGHT_SHIFT'),               #OK
-((4, 4), (5, 1), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE'),        #OK    |d
+((3, 3), (2, 12), 'HID_KEYBOARD_SC_N'),                        #OK
+((3, 3), (2, 7), 'HID_KEYBOARD_SC_M'),                         #OK 
+((3, 3), (6, 7), 'HID_KEYBOARD_SC_COMMA_AND_LESS_THAN_SIGN'),  #OK    ,<
+((3, 3), (2, 4), 'HID_KEYBOARD_SC_DOT_AND_GREATER_THAN_SIGN'), #OK    .>
+((3, 3), (1, 4), 'HID_KEYBOARD_SC_GRAVE_ACCENT_AND_TILDE'),    #OK    `~
+((3, 3), (1, 10), 'HID_KEYBOARD_SC_SLASH_AND_QUESTION_MARK'),  #OK    /?
+((4, 3), (1, 1), 'HID_KEYBOARD_SC_RIGHT_SHIFT'),               #OK
+((3, 3), (5, 1), 'HID_KEYBOARD_SC_BACKSLASH_AND_PIPE'),        #OK    |d
 (1, None, '0'),
-((4, 4), (2, 14), 'HID_KEYBOARD_SC_KEYPAD_1_AND_END'),         #OK
-((4, 4), (6, 16), 'HID_KEYBOARD_SC_KEYPAD_2_AND_DOWN_ARROW'),  #OK
-((4, 4), (4, 16), 'HID_KEYBOARD_SC_KEYPAD_3_AND_PAGE_DOWN'),   #OK
+((3, 3), (2, 14), 'HID_KEYBOARD_SC_KEYPAD_1_AND_END'),         #OK
+((3, 3), (6, 16), 'HID_KEYBOARD_SC_KEYPAD_2_AND_DOWN_ARROW'),  #OK
+((3, 3), (4, 16), 'HID_KEYBOARD_SC_KEYPAD_3_AND_PAGE_DOWN'),   #OK
 ((4, 8), (0, 15), 'HID_KEYBOARD_SC_KEYPAD_ENTER')              #OK
 ],[
-((4, 4), (1, 3), 'HID_KEYBOARD_SC_LEFT_ARROW'),
-((4, 4), (0, 3), 'HID_KEYBOARD_SC_DOWN_ARROW'),
-((4, 4), (2, 3), 'HID_KEYBOARD_SC_RIGHT_ARROW'),
-((3, 4), (4, 3), 'HID_KEYBOARD_SC_CAPS_LOCK'),
-((5, 4), (7, 3), 'HID_KEYBOARD_SC_LEFT_GUI'),
-((5, 4), (5, 3), 'HID_KEYBOARD_SC_LEFT_ALT'),
-((11, 4), (3, 3), 'HID_KEYBOARD_SC_SPACE'),
+((3, 3), (1, 3), 'HID_KEYBOARD_SC_LEFT_ARROW'),
+((3, 3), (0, 3), 'HID_KEYBOARD_SC_DOWN_ARROW'),
+((3, 3), (2, 3), 'HID_KEYBOARD_SC_RIGHT_ARROW'),
+((2, 3), (4, 3), 'HID_KEYBOARD_SC_CAPS_LOCK'),
+((4, 3), (7, 3), 'HID_KEYBOARD_SC_LEFT_GUI'),
+((4, 3), (5, 3), 'HID_KEYBOARD_SC_LEFT_ALT'),
+((10, 3), (3, 3), 'HID_KEYBOARD_SC_SPACE'),
 (1, None, '0'),
-((11, 4), (6, 12), 'HID_KEYBOARD_SC_SPACE'),                   #OK
-((5, 4), (6, 4), 'HID_KEYBOARD_SC_APPLICATION'),               #OK
-((4, 4), (6, 10), 'HID_KEYBOARD_SC_RIGHT_GUI'),                #OK    r win
-((5, 4), (2, 10), 'HID_KEYBOARD_SC_RIGHT_ALT'),                #OK
-((5, 4), (2, 1), 'HID_KEYBOARD_SC_RIGHT_CONTROL'),             #OK
-((4, 4), (6, 1), 'HID_KEYBOARD_SC_PRINT_SCREEN'),              #OK
+((10, 3), (6, 12), 'HID_KEYBOARD_SC_SPACE'),                   #OK
+((4, 3), (6, 4), 'HID_KEYBOARD_SC_APPLICATION'),               #OK
+((3, 3), (6, 10), 'HID_KEYBOARD_SC_RIGHT_GUI'),                #OK    r win
+((4, 3), (2, 10), 'HID_KEYBOARD_SC_RIGHT_ALT'),                #OK
+((4, 3), (2, 1), 'HID_KEYBOARD_SC_RIGHT_CONTROL'),             #OK
+((3, 3), (6, 1), 'HID_KEYBOARD_SC_PRINT_SCREEN'),              #OK
 (1, None, '0'),
-((4, 4), (4, 14), 'HID_KEYBOARD_SC_KEYPAD_0_AND_INSERT'),      #OK
-((4, 4), (0, 14), 'HID_KEYBOARD_SC_KEYPAD_DOT_AND_DELETE'),    #OK
-((4, 4), (0, 16), 'HID_KEYBOARD_SC_SLASH_AND_QUESTION_MARK')   #OK
+((3, 3), (4, 14), 'HID_KEYBOARD_SC_KEYPAD_0_AND_INSERT'),      #OK
+((3, 3), (0, 14), 'HID_KEYBOARD_SC_KEYPAD_DOT_AND_DELETE'),    #OK
+((3, 3), (0, 16), 'HID_KEYBOARD_SC_SLASH_AND_QUESTION_MARK')   #OK
      ]
 ]
 
