@@ -46199,6 +46199,12 @@ Based on the following sources:
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="JWP" library="jumper" deviceset="SJ" device=""/>
 <part name="1R13" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="SV1" library="detali_main" deviceset="FE12-1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -47098,6 +47104,7 @@ ISP   ON    HVPP</text>
 <attribute name="NAME" x="309.88" y="123.4186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="121.158" size="1.778" layer="96"/>
 </instance>
+<instance part="SV1" gate="G$1" x="472.44" y="393.7" rot="MR0"/>
 </instances>
 <busses>
 </busses>

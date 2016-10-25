@@ -215,6 +215,7 @@
 <circle x="89.8525" y="30.7975" radius="2.5" width="0.254" layer="20"/>
 <wire x1="208.43875" y1="30.7975" x2="205.26375" y2="27.6225" width="0.2" layer="20" curve="90"/>
 <wire x1="207.645" y1="30.7975" x2="210.82" y2="33.9725" width="0.2" layer="20" curve="90"/>
+<dimension x1="26.51125" y1="6.19125" x2="205.26375" y2="4.7625" x3="115.8875" y3="-2.54" layer="21" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="cherrymx">

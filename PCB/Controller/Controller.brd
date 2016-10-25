@@ -153,10 +153,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="7.3025" y1="279.55875" x2="175.26" y2="279.55875" width="0.3048" layer="20"/>
+<wire x1="7.3025" y1="279.55875" x2="161.29" y2="279.55875" width="0.3048" layer="20"/>
+<wire x1="161.29" y1="279.55875" x2="175.26" y2="279.55875" width="0.3048" layer="20"/>
 <wire x1="7.3025" y1="279.55875" x2="7.3025" y2="228.75875" width="0.3048" layer="20"/>
 <wire x1="175.26" y1="279.55875" x2="175.26" y2="228.75875" width="0.3048" layer="20"/>
-<wire x1="175.26" y1="228.75875" x2="7.3025" y2="228.75875" width="0.3048" layer="20"/>
+<wire x1="175.26" y1="228.75875" x2="161.29" y2="228.75875" width="0.3048" layer="20"/>
+<wire x1="161.29" y1="228.75875" x2="7.3025" y2="228.75875" width="0.3048" layer="20"/>
 <wire x1="180.34" y1="286.385" x2="2.38125" y2="286.385" width="0.2" layer="20"/>
 <wire x1="183.515" y1="283.21" x2="180.34" y2="286.385" width="0.2" layer="20" curve="90"/>
 <text x="17.145" y="121.92" size="2.286" layer="16" font="vector" ratio="15" rot="MR180">1179-16</text>
@@ -184,7 +186,7 @@
 <circle x="64.4525" y="234.315" radius="2.5" width="0.254" layer="20"/>
 <wire x1="50.00625" y1="254.15875" x2="50.00625" y2="236.37875" width="0.4064" layer="21"/>
 <wire x1="47.625" y1="236.37875" x2="52.3875" y2="236.37875" width="0.4064" layer="21"/>
-<wire x1="47.625" y1="254.15875" x2="52.3875" y2="254.15875" width="0.4064" layer="21"/>
+<wire x1="47.625" y1="254.15875" x2="203.5175" y2="254.15875" width="0.4064" layer="21"/>
 <wire x1="47.625" y1="251.61875" x2="52.3875" y2="251.61875" width="0.4064" layer="21"/>
 <wire x1="47.625" y1="249.07875" x2="52.3875" y2="249.07875" width="0.4064" layer="21"/>
 <wire x1="47.625" y1="246.53875" x2="52.3875" y2="246.53875" width="0.4064" layer="21"/>
@@ -246,6 +248,8 @@
 <dimension x1="131.28625" y1="294.9575" x2="174.625" y2="305.59375" x3="152.955625" y3="312.1025" layer="21" dtype="horizontal"/>
 <dimension x1="-0.79375" y1="305.1175" x2="48.895" y2="296.70375" x3="24.050625" y3="313.3725" layer="21" dtype="horizontal"/>
 <dimension x1="-89.69375" y1="292.4175" x2="-40.005" y2="284.00375" x3="-64.849375" y3="300.6725" layer="21" dtype="horizontal"/>
+<wire x1="65.0875" y1="259.23875" x2="217.4875" y2="259.23875" width="0.4064" layer="21"/>
+<wire x1="161.29" y1="279.55875" x2="161.29" y2="228.75875" width="0.3048" layer="20"/>
 </plain>
 <libraries>
 <library name="SmartPrj">
@@ -4440,6 +4444,12 @@ Based on the following sources:
 <attribute name="VALUE" x="130.175" y="273.2849" size="0.02" layer="28" rot="MR270"/>
 </element>
 <element name="1R13" library="rcl" package="M0805" value="10k" x="104.775" y="193.675" rot="R180"/>
+<element name="SV1" library="detali_main" package="FE12" value="" x="72.86625" y="270.66875" rot="R270">
+<attribute name="OC_NEWARK" value="unknown" x="72.86625" y="270.66875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="72.86625" y="270.66875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="72.86625" y="270.66875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="72.86625" y="270.66875" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="AREF" class="4">
