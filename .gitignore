@@ -28,7 +28,8 @@ hex2bin.exe
 
 b.bat
 
-PythonPortable
+
+PortablePythonFull
 
 dfu-programmer
 
