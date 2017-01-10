@@ -2,7 +2,7 @@ rem @echo off
 chcp 1251
 set avrdude=avrdude
 set dir=leonardo
-set port=com9
+set port=com7
 rem flash=
 set fw=EasyAVR\keymapper\def.hex
 
