@@ -9,6 +9,8 @@ Easy AVR USB Keyboard Firmware Keymapper
 
 tmk_keyboard \keyboard\korbord прошивка контролера 6KRO, готов только нумпад.
 
+перенесено https://github.com/74ls00/GameKB_tmk
+
 ![](https://raw.githubusercontent.com/74ls00/GameKB/master/firmware/tmk_keyboard/keyboard/tmk.png)
 ------------------------------------------------------------------------------------
   

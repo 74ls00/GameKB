@@ -1,4 +1,7 @@
 ﻿git.txt
+desktop.ini
+
+
 
 def.hex
 tnp.hex
@@ -7,8 +10,11 @@ NewLay2.dat
 NewLay3.dat
 run-port.bat
  
+tmk_keyboard.7z
+GameKB_tmk
 
-desktop.ini
+
+
 
 key-size.ods
 
