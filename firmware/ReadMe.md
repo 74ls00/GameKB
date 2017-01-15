@@ -11,6 +11,6 @@ tmk_keyboard \keyboard\korbord прошивка контролера 6KRO, го�
 
 перенесено https://github.com/74ls00/GameKB_tmk
 
-![](https://raw.githubusercontent.com/74ls00/GameKB/master/firmware/tmk_keyboard/keyboard/tmk.png)
+![](https://raw.githubusercontent.com/74ls00/GameKB_tmk/master/keyboard/tmk.png)
 ------------------------------------------------------------------------------------
   
