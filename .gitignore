@@ -1,22 +1,6 @@
 ﻿git.txt
 desktop.ini
 
-boot
-
-def.hex
-tnp.hex
-NumPad_lay.dat
-NewLay2.dat
-NewLay3.dat
-run-port.bat
- 
-tmk_keyboard.7z
-GameKB_tmk
-
-
-
-
-key-size.ods
 
 3d
 backup/
@@ -24,27 +8,46 @@ local/
 old/
 wiki/
 GameKB.wiki
+GameKB
+~GameKB
 
+
+#firmware
+tmk_keyboard.7z
+GameKB_tmk
+boot
+run-port.bat
 AvrUSB500_by_Petka_HEX_SRC_v8_uni
+hex2bin.exe
+b.bat
+dfu-programmer
+dfu-programmer-win-0.7.2
+PortablePythonFull
+
+
+#firmware\EasyAVR\keymapper
+1.bin
+def.hex
+tmp.hex
+NumPad_lay.dat
+NewLay2.dat
+NewLay3.dat
+easykeymap.egg-info
+
+
+
+
+Model
+key-size.ods
+
+
+
+
 Autoit
 
 leonardo
 
-hex2bin.exe
 
-b.bat
-
-
-PortablePythonFull
-
-dfu-programmer
-
-dfu-programmer-win-0.7.2
-
-boot
-
-GameKB
-~GameKB
 
 ~bad
 ~std
