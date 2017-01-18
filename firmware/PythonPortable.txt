@@ -1,0 +1,10 @@
+
+PortablePython_2.7.6.1.exe MD5 5B480C1BBBC06B779A7D150C26F2147D
+
+минимальная установка
+
+modules
+pil 1.1.7
+
+
+http://portablepython.com/wiki/PortablePython2.7.6.1/

@@ -46,6 +46,8 @@ import importlib
 from glob import glob
 import traceback
 
+from PIL import Image, ImageTk
+
 if not hasattr(sys, 'frozen'):
     import pkg_resources
 
@@ -145,6 +147,8 @@ class GUI(object):
 
     """
 
+#    def __init__(self, parent):
+#        self.parent = parent
     def __init__(self):
         self.root = Tk()
         self.layers = []
@@ -261,7 +265,9 @@ class GUI(object):
                               command=self.openfile)
         menu_file.add_command(label='Save Layout As...', command=self.savefile)
         menu_file.add_command(label='Build Firmware...', command=self.build)
-        menu_file.add_command(label='Build and Reprogram...', command=self.buildandupload)
+#        menu_file.add_separator()		
+#        menu_file.add_command(label='Build and Reprogram...', command=self.buildandupload)
+#        menu_file.add_separator()
         menu_file.add_command(label='Exit', command=self.checksave)
         menubar.add_cascade(menu=menu_file, label='File')
         menu_edit = Menu(menubar)
@@ -290,6 +296,28 @@ class GUI(object):
                               command=self.about)
         menubar.add_cascade(menu=menu_help, label='Help')
         self.root['menu'] = menubar
+		
+
+        # toolbar
+        toolbar = Frame(self.root)
+		
+        imageopen = self.get_pkg_path('icons/document-open.png')
+		
+		
+        self.img = Image.open(imageopen)
+        eimg = ImageTk.PhotoImage(self.img)		
+		
+        openButton = Button(toolbar, image=eimg,
+            command=self.openfile)
+        openButton.image = eimg
+        openButton.pack(side=LEFT, padx=2, pady=2)		
+
+        toolbar.pack(side=TOP, fill=X)
+
+        Separator(self.root, orient=HORIZONTAL).pack(fill=X, pady=2)
+
+
+		
         # frame to hold info labels
         infoframe = Frame(self.root)
         Label(infoframe, text="Hardware: ").pack(side=LEFT)
@@ -310,6 +338,7 @@ class GUI(object):
               width=2).pack(side=LEFT)
         infoframe.pack()
         Separator(self.root, orient=HORIZONTAL).pack(fill=X, pady=2)
+		
         # frame to hold the editing controls
         modframe = Frame(self.root)
         Label(modframe, text="Set: ").pack(side=LEFT)
