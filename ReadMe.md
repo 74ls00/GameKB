@@ -1,5 +1,22 @@
 [Форум проекта](http://forum.geekboards.ru/index.php?topic=13140)
 
-![](https://raw.githubusercontent.com/74ls00/GameKB/master/firmware/EasyAVR/bandicam 2016-09-03 02-52-22-501.png)
+------------------------------------------------------------------------------------
 
+EasyAVR прошивка и графический конфигурфтор клавиш.
 
+Easy AVR USB Keyboard Firmware Keymapper
+
+Полная версия клавиатуры.
+  
+![](https://raw.githubusercontent.com/74ls00/GameKB_fw/master/EasyAVR/eavrkfk.png)
+
+EasyAVR https://github.com/74ls00/GameKB_fw
+
+------------------------------------------------------------------------------------
+
+tmk_keyboard \keyboard\korbord прошивка контролера 6KRO, готов только нумпад.
+
+перенесено https://github.com/74ls00/GameKB_tmk
+
+![](https://raw.githubusercontent.com/74ls00/GameKB_tmk/master/keyboard/tmk.png)
+------------------------------------------------------------------------------------
