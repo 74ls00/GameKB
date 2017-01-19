@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
+#
 # Easy AVR USB Keyboard Firmware Keymapper
 # Copyright (C) 2013-2016 David Howland
 #
@@ -326,7 +328,10 @@ class GUI(object):
         pickerButton.image = eimgpicker
         pickerButton.pack(side=LEFT, padx=2, pady=2)			
 		
-	
+        eimgbuildandupload = ImageTk.PhotoImage(Image.open(self.get_pkg_path('icons/media-flash.png')))		
+        buildanduploadButton = Button(toolbar, image=eimgbuildandupload, command=self.buildandupload)
+        buildanduploadButton.image = eimgbuildandupload
+        buildanduploadButton.pack(side=LEFT, padx=2, pady=2)	
 		
         toolbar.pack(side=TOP, fill=X)
 
@@ -1677,7 +1682,8 @@ class TextWindow(simpledialog.Dialog):
     def body(self, master):
         master.rowconfigure(0, weight=1)
         master.columnconfigure(0, weight=1)
-        self.text = Text(master, height=40, width=80, wrap='none')
+#!                                было  40                         добавлен размер
+        self.text = Text(master, height=30, width=80, wrap='none', font = (10))
         self.text.grid(row=0, column=0, sticky=(N, E, W, S))
         scroll = Scrollbar(master, orient=VERTICAL, command=self.text.yview)
         scroll.grid(row=0, column=1, sticky=(N, S))

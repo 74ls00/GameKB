@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+#
 # Easy AVR USB Keyboard Firmware Keymapper
 # Copyright (C) 2013-2016 David Howland
 #
@@ -45,7 +48,9 @@ except ImportError:
     from tkinter import simpledialog
     from tkinter import messagebox
 
-
+#import tkMessageBox
+	
+	
 def popup(root, filename, config):
     info = ProgrammingInfo()
     info.filename = os.path.normpath(filename)
@@ -299,8 +304,9 @@ class ProgrammingWindow(simpledialog.Dialog):
         if self.besttask is not None:
             self.taskvar.set(self.besttask.description)
             self.taskselect(None)
-        
-        self.text = Text(master, width=90, height=20, wrap=WORD)
+
+#                                                                 добавлено			
+        self.text = Text(master, width=90, height=20, wrap=WORD , font = (10))
         self.text.grid(column=0, row=3, columnspan=3, sticky=(N, W, E, S))
         self.scroll = Scrollbar(master, orient=VERTICAL, command=self.text.yview)
         self.scroll.grid(column=3, row=3, sticky=(N, W, E, S))
@@ -345,14 +351,14 @@ class ProgrammingWindow(simpledialog.Dialog):
             self.runningtask.run()
         except ProgrammingException as err:
             msg = str(err)
-            messagebox.showerror(title="Can't complete programming",
-                                 message='Error: ' + msg,
-                                 parent=self.parent)
+#!
+#            messagebox.showerror(title="Can't complete programming", message='Error: ' + msg, parent=self.parent)
+#print(msg)
+#            tkMessageBox.askyesno(title="Can't complete programming", message='Error: ' + msg, parent=self.parent)
         except Exception as err:
             msg = traceback.format_exc()
-            messagebox.showerror(title="Process Error",
-                                 message='Error: ' + msg,
-                                 parent=self.parent)
+            messagebox.showerror(title="Process Error", message='Error: ' + msg, parent=self.parent)
+#            tkMessageBox.askyesno(title="Process Error", message='Error: ' + msg, parent=self.parent)
 
     def waitprocess(self):
         if self.runthread and self.runthread.isAlive():
