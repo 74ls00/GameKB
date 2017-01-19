@@ -4,6 +4,7 @@
 
 Easy AVR USB Keyboard Firmware Keymapper 
 прошивка и графический конфигурфтор клавиш.
+
 https://github.com/74ls00/GameKB_fw
 
 Полная версия клавиатуры.
@@ -13,6 +14,7 @@ https://github.com/74ls00/GameKB_fw
 ------------------------------------------------------------------------------------
 
 tmk_keyboard \keyboard\korbord прошивка контролера 6KRO, готов только нумпад.
+
 https://github.com/74ls00/GameKB_tmk
 
 ![](https://raw.githubusercontent.com/74ls00/GameKB_tmk/master/keyboard/tmk.png)
