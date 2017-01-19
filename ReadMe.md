@@ -2,15 +2,16 @@
 
 ------------------------------------------------------------------------------------
 
-EasyAVR прошивка и графический конфигурфтор клавиш.
+Easy AVR USB Keyboard Firmware Keymapper 
+прошивка и графический конфигурфтор клавиш.
 
-Easy AVR USB Keyboard Firmware Keymapper
+EasyAVR https://github.com/74ls00/GameKB_fw
 
 Полная версия клавиатуры.
   
 ![](https://raw.githubusercontent.com/74ls00/GameKB_fw/master/EasyAVR/eavrkfk.png)
 
-EasyAVR https://github.com/74ls00/GameKB_fw
+
 
 ------------------------------------------------------------------------------------
 
