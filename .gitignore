@@ -16,6 +16,7 @@ GameKB
 tmk_keyboard.7z
 GameKB_tmk
 boot
+~boot
 run-port.bat
 AvrUSB500_by_Petka_HEX_SRC_v8_uni
 hex2bin.exe
@@ -23,6 +24,8 @@ b.bat
 dfu-programmer
 dfu-programmer-win-0.7.2
 PortablePythonFull
+
+
 
 
 #firmware\EasyAVR\keymapper
@@ -35,6 +38,11 @@ NewLay3.dat
 easykeymap.egg-info
 
 mint.txt
+
+
+#firmware\EasyAVR\keymapper\easykeymap
+PIL
+PIL.pth
 
 
 Model

@@ -22,9 +22,16 @@ various keyboards supported by the Easy AVR USB Keyboard Firmware.  User
 keymaps can be compiled directly into functional HEX files for programming.
 """
 
+
+
+
+
 from __future__ import print_function
 
 import sys
+
+#sys.path.append(G:\\home\\Documents\\Projects\\EAGLE\\Keyboard\\firmware\\PortablePython\\App\\Lib\\site-packages\\PIL)
+
 
 try:
     from Tkinter import *
@@ -50,6 +57,7 @@ import traceback
 
 from PIL import Image, ImageTk
 #import Image, ImageTk
+#import get_pkg_path('PIL/Image.py')
 
 if not hasattr(sys, 'frozen'):
     import pkg_resources
@@ -64,6 +72,9 @@ import easykeymap.cfgparse as cfgparse
 import easykeymap.templates as templates
 import easykeymap.boards as boards
 import easykeymap.programming as programming
+
+
+import subprocess
 
 import gettext
 #gettext.install('eavrkbfk', './locale', unicode=True)
@@ -268,9 +279,11 @@ class GUI(object):
                               command=self.openfile)
         menu_file.add_command(label='Save Layout As...', command=self.savefile)
         menu_file.add_command(label='Build Firmware...', command=self.build)
-        menu_file.add_separator()		
-        menu_file.add_command(label='Build and Reprogram...', command=self.buildandupload)
-        menu_file.add_separator()
+#        menu_file.add_separator()		
+#        menu_file.add_command(label='Build and Reprogram...', command=self.buildandupload)
+#        menu_file.add_separator()
+        menu_file.add_command(label='Configure Avrdude.', command=self.avrdudeconf)
+
         menu_file.add_command(label='Exit', command=self.checksave)
         menubar.add_cascade(menu=menu_file, label='File')
         menu_edit = Menu(menubar)
@@ -329,7 +342,7 @@ class GUI(object):
         pickerButton.pack(side=LEFT, padx=2, pady=2)			
 		
         eimgbuildandupload = ImageTk.PhotoImage(Image.open(self.get_pkg_path('icons/media-flash.png')))		
-        buildanduploadButton = Button(toolbar, image=eimgbuildandupload, command=self.buildandupload)
+        buildanduploadButton = Button(toolbar, image=eimgbuildandupload, command=self.fprogram)
         buildanduploadButton.image = eimgbuildandupload
         buildanduploadButton.pack(side=LEFT, padx=2, pady=2)	
 		
@@ -436,6 +449,16 @@ class GUI(object):
         style = Style()
         style.configure("Gold.TButton", background="Gold")
 
+    def avrdudeconf(self):
+        subprocess.Popen('notepad.exe'+' '+self.get_pkg_path('..//..//..//avrdude//avrdude.bat'))
+
+		
+#   запуск програматора
+    def fprogram(self):
+        subprocess.Popen(self.get_pkg_path('..//..//..//avrdude//avrdude.bat'))
+        
+		
+		
     def showpicker(self):
         self.pickerwindow.show()
 
