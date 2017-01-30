@@ -46180,8 +46180,8 @@ Based on the following sources:
 <part name="P+26" library="supply1" deviceset="+5V" device=""/>
 <part name="5D6" library="74xx-eu" deviceset="74*244" device="DW" technology="HC"/>
 <part name="JP" library="jumper" deviceset="JP2E" device=""/>
-<part name="1R15" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
-<part name="1R16" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="1R15" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="1R16" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="5D5" library="40xx" deviceset="4011" device="D"/>
 <part name="D6" library="detali_controller" deviceset="LL4148" device=""/>
 <part name="D7" library="detali_controller" deviceset="LL4148" device=""/>
