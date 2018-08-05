@@ -103,6 +103,7 @@
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="Frame" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
@@ -7210,6 +7211,66 @@ wave soldering</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="kbmxco">
+<packages>
+<package name="ZEALIOS-PCB_2U">
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<wire x1="-6.35" y1="-5.08" x2="6.35" y2="-5.08" width="0" layer="48"/>
+<wire x1="-5.8" y1="7.8" x2="-6.8" y2="7.8" width="0.15" layer="21"/>
+<wire x1="-6.8" y1="7.8" x2="-7.8" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="-7.8" y1="6.8" x2="-7.8" y2="5.8" width="0.15" layer="21"/>
+<wire x1="5.8" y1="7.8" x2="6.8" y2="7.8" width="0.15" layer="21"/>
+<wire x1="6.8" y1="7.8" x2="7.8" y2="6.8" width="0.15" layer="21" curve="-90"/>
+<wire x1="7.8" y1="6.8" x2="7.8" y2="5.8" width="0.15" layer="21"/>
+<wire x1="5.8" y1="-7.8" x2="6.8" y2="-7.8" width="0.15" layer="21"/>
+<wire x1="6.8" y1="-7.8" x2="7.8" y2="-6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="7.8" y1="-6.8" x2="7.8" y2="-5.8" width="0.15" layer="21"/>
+<wire x1="-5.8" y1="-7.8" x2="-6.8" y2="-7.8" width="0.15" layer="21"/>
+<wire x1="-6.8" y1="-7.8" x2="-7.8" y2="-6.8" width="0.15" layer="21" curve="-90"/>
+<wire x1="-7.8" y1="-6.8" x2="-7.8" y2="-5.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<wire x1="-3.81" y1="-4.318" x2="-3.81" y2="-5.842" width="0" layer="48"/>
+<wire x1="-1.27" y1="-4.318" x2="-1.27" y2="-5.842" width="0" layer="48"/>
+<wire x1="1.27" y1="-4.318" x2="1.27" y2="-5.842" width="0" layer="48"/>
+<wire x1="3.81" y1="-4.318" x2="3.81" y2="-5.842" width="0" layer="48"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="1.27" width="0" layer="48"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0" layer="48"/>
+<wire x1="1.27" y1="5.08" x2="3.81" y2="5.08" width="0" layer="48"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="3.81" width="0" layer="48"/>
+<pad name="P$1" x="-11.90625" y="6.985" drill="0.9" diameter="3"/>
+<pad name="P$2" x="11.90625" y="6.985" drill="0.9" diameter="3"/>
+<pad name="P$3" x="11.90625" y="-8.255" drill="0.9" diameter="4"/>
+<pad name="P$4" x="-11.90625" y="-8.255" drill="0.9" diameter="4"/>
+</package>
+</packages>
+<symbols>
+<symbol name="STAB">
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STAB">
+<gates>
+<gate name="STAB" symbol="STAB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ZEALIOS-PCB_2U">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7505,6 +7566,8 @@ wave soldering</description>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R1206W" value="10k"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="S44A1" library="cherrymx" deviceset="CHERRY-MX" device="" value="Caps Lock"/>
+<part name="STAB_LSP" library="kbmxco" deviceset="STAB" device=""/>
+<part name="STAB_LSH" library="kbmxco" deviceset="STAB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7896,7 +7959,9 @@ wave soldering</description>
 <instance part="R6" gate="G$1" x="264.16" y="177.8"/>
 <instance part="R7" gate="G$1" x="261.62" y="228.6"/>
 <instance part="R8" gate="G$1" x="261.62" y="241.3" rot="R180"/>
-<instance part="S44A1" gate="G$1" x="223.52" y="76.2"/>
+<instance part="S44A1" gate="G$1" x="279.4" y="104.14"/>
+<instance part="STAB_LSP" gate="STAB" x="304.8" y="106.68"/>
+<instance part="STAB_LSH" gate="STAB" x="320.04" y="106.68"/>
 </instances>
 <busses>
 <bus name="L[1..6],L3J,1,2,3,4,5,6,7,8,1J,2J,3J,4J,5J,6J,7J,1J2,1J3,2J2,2J3,3J2,3J3,4J2,4J3,5J2,5J3,6J2,6J3,7J2,7J3,7J4">
@@ -8192,8 +8257,8 @@ wave soldering</description>
 </segment>
 <segment>
 <pinref part="S44A1" gate="G$1" pin="PIN-1"/>
-<wire x1="218.44" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
-<label x="213.36" y="76.2" size="1.778" layer="95"/>
+<wire x1="274.32" y1="104.14" x2="269.24" y2="104.14" width="0.1524" layer="91"/>
+<label x="269.24" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -8442,8 +8507,8 @@ wave soldering</description>
 </segment>
 <segment>
 <pinref part="S44A1" gate="G$1" pin="PIN-2"/>
-<wire x1="228.6" y1="76.2" x2="233.68" y2="76.2" width="0.1524" layer="91"/>
-<label x="228.6" y="76.2" size="1.778" layer="95"/>
+<wire x1="284.48" y1="104.14" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
+<label x="284.48" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$114" class="0">

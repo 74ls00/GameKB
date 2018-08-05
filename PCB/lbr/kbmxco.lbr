@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -59,9 +59,10 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -105,10 +106,62 @@
 <wire x1="-1" y1="-68" x2="1" y2="-68" width="0.3" layer="16"/>
 <text x="-4" y="40" size="3" layer="16" font="vector" ratio="14" distance="63" rot="MR90">132MM</text>
 </package>
+<package name="ZEALIOS-PCB_2U">
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<wire x1="-6.35" y1="-5.08" x2="6.35" y2="-5.08" width="0" layer="48"/>
+<wire x1="-5.8" y1="7.8" x2="-6.8" y2="7.8" width="0.15" layer="21"/>
+<wire x1="-6.8" y1="7.8" x2="-7.8" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="-7.8" y1="6.8" x2="-7.8" y2="5.8" width="0.15" layer="21"/>
+<wire x1="5.8" y1="7.8" x2="6.8" y2="7.8" width="0.15" layer="21"/>
+<wire x1="6.8" y1="7.8" x2="7.8" y2="6.8" width="0.15" layer="21" curve="-90"/>
+<wire x1="7.8" y1="6.8" x2="7.8" y2="5.8" width="0.15" layer="21"/>
+<wire x1="5.8" y1="-7.8" x2="6.8" y2="-7.8" width="0.15" layer="21"/>
+<wire x1="6.8" y1="-7.8" x2="7.8" y2="-6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="7.8" y1="-6.8" x2="7.8" y2="-5.8" width="0.15" layer="21"/>
+<wire x1="-5.8" y1="-7.8" x2="-6.8" y2="-7.8" width="0.15" layer="21"/>
+<wire x1="-6.8" y1="-7.8" x2="-7.8" y2="-6.8" width="0.15" layer="21" curve="-90"/>
+<wire x1="-7.8" y1="-6.8" x2="-7.8" y2="-5.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<wire x1="-3.81" y1="-4.318" x2="-3.81" y2="-5.842" width="0" layer="48"/>
+<wire x1="-1.27" y1="-4.318" x2="-1.27" y2="-5.842" width="0" layer="48"/>
+<wire x1="1.27" y1="-4.318" x2="1.27" y2="-5.842" width="0" layer="48"/>
+<wire x1="3.81" y1="-4.318" x2="3.81" y2="-5.842" width="0" layer="48"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="1.27" width="0" layer="48"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0" layer="48"/>
+<wire x1="1.27" y1="5.08" x2="3.81" y2="5.08" width="0" layer="48"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="3.81" width="0" layer="48"/>
+<pad name="P$1" x="-11.90625" y="6.985" drill="0.9" diameter="3"/>
+<pad name="P$2" x="11.90625" y="6.985" drill="0.9" diameter="3"/>
+<pad name="P$3" x="11.90625" y="-8.255" drill="0.9" diameter="4"/>
+<pad name="P$4" x="-11.90625" y="-8.255" drill="0.9" diameter="4"/>
+</package>
 </packages>
 <symbols>
+<symbol name="STAB">
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="STAB">
+<gates>
+<gate name="STAB" symbol="STAB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ZEALIOS-PCB_2U">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
