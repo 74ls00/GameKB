@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -107,8 +107,6 @@
 <text x="-4" y="40" size="3" layer="16" font="vector" ratio="14" distance="63" rot="MR90">132MM</text>
 </package>
 <package name="ZEALIOS-PCB_2U">
-<hole x="-5.08" y="0" drill="1.7"/>
-<hole x="5.08" y="0" drill="1.7"/>
 <wire x1="-6.35" y1="-5.08" x2="6.35" y2="-5.08" width="0" layer="48"/>
 <wire x1="-5.8" y1="7.8" x2="-6.8" y2="7.8" width="0.15" layer="21"/>
 <wire x1="-6.8" y1="7.8" x2="-7.8" y2="6.8" width="0.15" layer="21" curve="90"/>
@@ -122,7 +120,6 @@
 <wire x1="-5.8" y1="-7.8" x2="-6.8" y2="-7.8" width="0.15" layer="21"/>
 <wire x1="-6.8" y1="-7.8" x2="-7.8" y2="-6.8" width="0.15" layer="21" curve="-90"/>
 <wire x1="-7.8" y1="-6.8" x2="-7.8" y2="-5.8" width="0.15" layer="21"/>
-<hole x="0" y="0" drill="4"/>
 <hole x="-11.9" y="7" drill="3.05"/>
 <hole x="11.9" y="7" drill="3.05"/>
 <hole x="11.9" y="-8.24" drill="4"/>
@@ -139,6 +136,22 @@
 <pad name="P$2" x="11.90625" y="6.985" drill="0.9" diameter="3"/>
 <pad name="P$3" x="11.90625" y="-8.255" drill="0.9" diameter="4"/>
 <pad name="P$4" x="-11.90625" y="-8.255" drill="0.9" diameter="4"/>
+<wire x1="-2" y1="-0.7" x2="-2" y2="0.7" width="0.127" layer="48"/>
+<wire x1="2" y1="0.7" x2="2" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="2" x2="0.7" y2="2" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="-2" x2="0.7" y2="-2" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="2" x2="-0.7" y2="0.7" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="0.7" x2="-2" y2="0.7" width="0.127" layer="48"/>
+<wire x1="0.7" y1="-2" x2="0.7" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="0.7" y1="-0.7" x2="2" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="-2" y1="-0.7" x2="-0.7" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="-0.7" x2="-0.7" y2="-2" width="0.127" layer="48"/>
+<wire x1="2" y1="0.7" x2="0.7" y2="0.7" width="0.127" layer="48"/>
+<wire x1="0.7" y1="0.7" x2="0.7" y2="2" width="0.127" layer="48"/>
+<wire x1="-5.08" y1="1.11125" x2="-5.08" y2="-1.11125" width="0" layer="48"/>
+<wire x1="-6.19125" y1="0" x2="-3.96875" y2="0" width="0" layer="48"/>
+<wire x1="3.96875" y1="0" x2="6.19125" y2="0" width="0" layer="48"/>
+<wire x1="5.08" y1="1.11125" x2="5.08" y2="-1.11125" width="0" layer="48"/>
 </package>
 </packages>
 <symbols>
