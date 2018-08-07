@@ -7322,6 +7322,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="S87B" library="cherrymx" deviceset="CHERRY-MX" device="" value=""/>
 <part name="STAB_EN" library="kbmxco" deviceset="STAB" device=""/>
 <part name="STAB_BS" library="kbmxco" deviceset="STAB" device=""/>
+<part name="STAB_RSP" library="kbmxco" deviceset="STAB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7694,6 +7695,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="S87B" gate="G$1" x="96.52" y="101.6" rot="MR0"/>
 <instance part="STAB_EN" gate="STAB" x="22.86" y="259.08"/>
 <instance part="STAB_BS" gate="STAB" x="38.1" y="259.08"/>
+<instance part="STAB_RSP" gate="STAB" x="53.34" y="259.08"/>
 </instances>
 <busses>
 <bus name="B[1..8],B3J,B4J,B5J,B6J,B7J,8J,B4J2,B5J2,B5J5,B6J2,B6J3,B6J4,B8J2,2I,B2J,G[1..6],GG5,PG[3..6],BD[1..3]">
