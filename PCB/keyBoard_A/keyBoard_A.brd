@@ -2370,7 +2370,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="85.3249" y="21.59" size="0.02" layer="28" rot="MR0"/>
 </element>
 <element name="JB44" library="detali" package="SJ" value="" x="104.14" y="24.765"/>
-<element name="JB45" library="detali" package="SJ" value="" x="125.73" y="24.765"/>
+<element name="JB45" library="detali" package="SJ" value="" x="125.73" y="24.765" smashed="yes">
+<attribute name="NAME" x="128.651" y="25.908" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="125.3299" y="24.765" size="0.02" layer="28" rot="MR0"/>
+</element>
 <element name="JB46" library="detali" package="SJ" value="" x="164.1475" y="25.0825" smashed="yes" rot="R90">
 <attribute name="NAME" x="162.814" y="22.987" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="164.1475" y="24.6824" size="0.02" layer="28" rot="MR270"/>
@@ -2410,8 +2413,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="65.024" y="22.0345" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="70.1675" y="19.6024" size="0.02" layer="28" rot="MR270"/>
 </element>
-<element name="JA44" library="detali" package="SJ" value="" x="97.4725" y="20.16125" rot="R90"/>
-<element name="JA45" library="detali" package="SJ" value="" x="118.745" y="20.16125" rot="R90"/>
+<element name="JA44" library="detali" package="SJ" value="" x="97.4725" y="20.16125" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.1395" y="21.81225" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="97.4725" y="19.76115" size="0.02" layer="28" rot="MR270"/>
+</element>
+<element name="JA45" library="detali" package="SJ" value="" x="118.745" y="20.16125" smashed="yes" rot="R90">
+<attribute name="NAME" x="121.412" y="21.81225" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="118.745" y="19.76115" size="0.02" layer="28" rot="MR270"/>
+</element>
 <element name="JA46" library="detali" package="SJ" value="" x="150.1775" y="20.6375" smashed="yes" rot="R90">
 <attribute name="NAME" x="152.3365" y="19.4945" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="150.1775" y="20.2374" size="0.02" layer="28" rot="MR270"/>
@@ -3261,10 +3270,10 @@ design rules under a new name.</description>
 <contactref element="D45" pad="A"/>
 <wire x1="152.9225" y1="36.0825" x2="163.195" y2="36.4" width="1.016" layer="16"/>
 <wire x1="149.86" y1="33.655" x2="152.9225" y2="36.0825" width="0.6096" layer="16"/>
-<wire x1="129.8575" y1="29.845" x2="126.8095" y2="28.702" width="0.6096" layer="16"/>
-<wire x1="126.8095" y1="28.702" x2="126.492" y2="24.765" width="0.6096" layer="16"/>
 <wire x1="129.8575" y1="29.845" x2="146.685" y2="29.845" width="0.6096" layer="16"/>
 <wire x1="146.685" y1="29.845" x2="149.86" y2="33.655" width="0.6096" layer="16"/>
+<wire x1="126.492" y1="24.765" x2="126.492" y2="26.4795" width="0.6096" layer="16"/>
+<wire x1="126.492" y1="26.4795" x2="129.8575" y2="29.845" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$149">
 <contactref element="JB46" pad="1"/>
