@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -168,10 +168,10 @@
 <circle x="62.5475" y="115.57" radius="3" width="0.254" layer="20"/>
 <circle x="43.4975" y="115.57" radius="3" width="0.254" layer="20"/>
 <circle x="62.5475" y="77.47" radius="3" width="0.254" layer="20"/>
-<dimension x1="18.0975" y1="156.36875" x2="106.9975" y2="154.94" x3="62.5475" y3="159.86125" layer="130" dtype="horizontal"/>
-<dimension x1="107.6325" y1="156.845" x2="106.68" y2="13.97" x3="117.7925" y3="85.4075" layer="130" dtype="vertical"/>
+<dimension x1="18.0975" y1="156.36875" x2="106.9975" y2="154.94" x3="62.5475" y3="159.86125" textsize="3.5" layer="130" dtype="horizontal"/>
+<dimension x1="107.6325" y1="156.845" x2="106.68" y2="13.97" x3="117.7925" y3="85.4075" textsize="3.5" layer="130" dtype="vertical"/>
 <wire x1="103.8225" y1="156.845" x2="21.2725" y2="156.845" width="0.2" layer="20"/>
-<dimension x1="108.74375" y1="115.57" x2="108.42625" y2="96.52" x3="113.82375" y3="106.045" layer="130" dtype="vertical"/>
+<dimension x1="108.74375" y1="115.57" x2="108.42625" y2="96.52" x3="113.82375" y3="106.045" textsize="3.5" layer="130" dtype="vertical"/>
 <wire x1="106.9975" y1="153.67" x2="106.9975" y2="17.145" width="0.2" layer="20"/>
 <wire x1="106.9975" y1="17.145" x2="103.8225" y2="13.97" width="0.2" layer="20" curve="-90"/>
 <wire x1="21.2725" y1="13.97" x2="18.0975" y2="17.145" width="0.2" layer="20" curve="-90"/>
@@ -1748,6 +1748,53 @@ wave soldering</description>
 <wire x1="-1" y1="-68" x2="1" y2="-68" width="0.3" layer="16"/>
 <text x="-4" y="40" size="3" layer="16" font="vector" ratio="14" distance="63" rot="MR90">132MM</text>
 </package>
+<package name="ZEALIOS-PCB_2U">
+<wire x1="-6.35" y1="-5.08" x2="6.35" y2="-5.08" width="0" layer="48"/>
+<wire x1="-5.8" y1="7.8" x2="-6.8" y2="7.8" width="0.15" layer="21"/>
+<wire x1="-6.8" y1="7.8" x2="-7.8" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="-7.8" y1="6.8" x2="-7.8" y2="5.8" width="0.15" layer="21"/>
+<wire x1="5.8" y1="7.8" x2="6.8" y2="7.8" width="0.15" layer="21"/>
+<wire x1="6.8" y1="7.8" x2="7.8" y2="6.8" width="0.15" layer="21" curve="-90"/>
+<wire x1="7.8" y1="6.8" x2="7.8" y2="5.8" width="0.15" layer="21"/>
+<wire x1="5.8" y1="-7.8" x2="6.8" y2="-7.8" width="0.15" layer="21"/>
+<wire x1="6.8" y1="-7.8" x2="7.8" y2="-6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="7.8" y1="-6.8" x2="7.8" y2="-5.8" width="0.15" layer="21"/>
+<wire x1="-5.8" y1="-7.8" x2="-6.8" y2="-7.8" width="0.15" layer="21"/>
+<wire x1="-6.8" y1="-7.8" x2="-7.8" y2="-6.8" width="0.15" layer="21" curve="-90"/>
+<wire x1="-7.8" y1="-6.8" x2="-7.8" y2="-5.8" width="0.15" layer="21"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<wire x1="-3.81" y1="-4.318" x2="-3.81" y2="-5.842" width="0" layer="48"/>
+<wire x1="-1.27" y1="-4.318" x2="-1.27" y2="-5.842" width="0" layer="48"/>
+<wire x1="1.27" y1="-4.318" x2="1.27" y2="-5.842" width="0" layer="48"/>
+<wire x1="3.81" y1="-4.318" x2="3.81" y2="-5.842" width="0" layer="48"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="1.27" width="0" layer="48"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0" layer="48"/>
+<wire x1="1.27" y1="5.08" x2="3.81" y2="5.08" width="0" layer="48"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="3.81" width="0" layer="48"/>
+<pad name="P$1" x="-11.90625" y="6.985" drill="0.9" diameter="3"/>
+<pad name="P$2" x="11.90625" y="6.985" drill="0.9" diameter="3"/>
+<pad name="P$3" x="11.90625" y="-8.255" drill="0.9" diameter="4"/>
+<pad name="P$4" x="-11.90625" y="-8.255" drill="0.9" diameter="4"/>
+<wire x1="-2" y1="-0.7" x2="-2" y2="0.7" width="0.127" layer="48"/>
+<wire x1="2" y1="0.7" x2="2" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="2" x2="0.7" y2="2" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="-2" x2="0.7" y2="-2" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="2" x2="-0.7" y2="0.7" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="0.7" x2="-2" y2="0.7" width="0.127" layer="48"/>
+<wire x1="0.7" y1="-2" x2="0.7" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="0.7" y1="-0.7" x2="2" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="-2" y1="-0.7" x2="-0.7" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="-0.7" x2="-0.7" y2="-2" width="0.127" layer="48"/>
+<wire x1="2" y1="0.7" x2="0.7" y2="0.7" width="0.127" layer="48"/>
+<wire x1="0.7" y1="0.7" x2="0.7" y2="2" width="0.127" layer="48"/>
+<wire x1="-5.08" y1="1.11125" x2="-5.08" y2="-1.11125" width="0" layer="48"/>
+<wire x1="-6.19125" y1="0" x2="-3.96875" y2="0" width="0" layer="48"/>
+<wire x1="3.96875" y1="0" x2="6.19125" y2="0" width="0" layer="48"/>
+<wire x1="5.08" y1="1.11125" x2="5.08" y2="-1.11125" width="0" layer="48"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -2259,6 +2306,7 @@ design rules under a new name.</description>
 <element name="U$23" library="kbmxco" package="KEY" value="" x="55.5625" y="125.095"/>
 <element name="U$24" library="kbmxco" package="KEY" value="" x="36.5125" y="125.095"/>
 <element name="U$26" library="kbmxco" package="SIZE132" value="" x="13.0175" y="88.5825"/>
+<element name="STAB_NEN" library="kbmxco" package="ZEALIOS-PCB_2U" value="STAB" x="119.6975" y="38.735" rot="R270"/>
 </elements>
 <signals>
 <signal name="N$268">

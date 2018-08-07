@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -103,6 +103,7 @@
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="Frame" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
@@ -8481,6 +8482,79 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="kbmxco">
+<packages>
+<package name="ZEALIOS-PCB_2U">
+<wire x1="-6.35" y1="-5.08" x2="6.35" y2="-5.08" width="0" layer="48"/>
+<wire x1="-5.8" y1="7.8" x2="-6.8" y2="7.8" width="0.15" layer="21"/>
+<wire x1="-6.8" y1="7.8" x2="-7.8" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="-7.8" y1="6.8" x2="-7.8" y2="5.8" width="0.15" layer="21"/>
+<wire x1="5.8" y1="7.8" x2="6.8" y2="7.8" width="0.15" layer="21"/>
+<wire x1="6.8" y1="7.8" x2="7.8" y2="6.8" width="0.15" layer="21" curve="-90"/>
+<wire x1="7.8" y1="6.8" x2="7.8" y2="5.8" width="0.15" layer="21"/>
+<wire x1="5.8" y1="-7.8" x2="6.8" y2="-7.8" width="0.15" layer="21"/>
+<wire x1="6.8" y1="-7.8" x2="7.8" y2="-6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="7.8" y1="-6.8" x2="7.8" y2="-5.8" width="0.15" layer="21"/>
+<wire x1="-5.8" y1="-7.8" x2="-6.8" y2="-7.8" width="0.15" layer="21"/>
+<wire x1="-6.8" y1="-7.8" x2="-7.8" y2="-6.8" width="0.15" layer="21" curve="-90"/>
+<wire x1="-7.8" y1="-6.8" x2="-7.8" y2="-5.8" width="0.15" layer="21"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<wire x1="-3.81" y1="-4.318" x2="-3.81" y2="-5.842" width="0" layer="48"/>
+<wire x1="-1.27" y1="-4.318" x2="-1.27" y2="-5.842" width="0" layer="48"/>
+<wire x1="1.27" y1="-4.318" x2="1.27" y2="-5.842" width="0" layer="48"/>
+<wire x1="3.81" y1="-4.318" x2="3.81" y2="-5.842" width="0" layer="48"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="1.27" width="0" layer="48"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0" layer="48"/>
+<wire x1="1.27" y1="5.08" x2="3.81" y2="5.08" width="0" layer="48"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="3.81" width="0" layer="48"/>
+<pad name="P$1" x="-11.90625" y="6.985" drill="0.9" diameter="3"/>
+<pad name="P$2" x="11.90625" y="6.985" drill="0.9" diameter="3"/>
+<pad name="P$3" x="11.90625" y="-8.255" drill="0.9" diameter="4"/>
+<pad name="P$4" x="-11.90625" y="-8.255" drill="0.9" diameter="4"/>
+<wire x1="-2" y1="-0.7" x2="-2" y2="0.7" width="0.127" layer="48"/>
+<wire x1="2" y1="0.7" x2="2" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="2" x2="0.7" y2="2" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="-2" x2="0.7" y2="-2" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="2" x2="-0.7" y2="0.7" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="0.7" x2="-2" y2="0.7" width="0.127" layer="48"/>
+<wire x1="0.7" y1="-2" x2="0.7" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="0.7" y1="-0.7" x2="2" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="-2" y1="-0.7" x2="-0.7" y2="-0.7" width="0.127" layer="48"/>
+<wire x1="-0.7" y1="-0.7" x2="-0.7" y2="-2" width="0.127" layer="48"/>
+<wire x1="2" y1="0.7" x2="0.7" y2="0.7" width="0.127" layer="48"/>
+<wire x1="0.7" y1="0.7" x2="0.7" y2="2" width="0.127" layer="48"/>
+<wire x1="-5.08" y1="1.11125" x2="-5.08" y2="-1.11125" width="0" layer="48"/>
+<wire x1="-6.19125" y1="0" x2="-3.96875" y2="0" width="0" layer="48"/>
+<wire x1="3.96875" y1="0" x2="6.19125" y2="0" width="0" layer="48"/>
+<wire x1="5.08" y1="1.11125" x2="5.08" y2="-1.11125" width="0" layer="48"/>
+</package>
+</packages>
+<symbols>
+<symbol name="STAB">
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STAB">
+<gates>
+<gate name="STAB" symbol="STAB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ZEALIOS-PCB_2U">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8624,6 +8698,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="D2" library="detali" deviceset="LL4148" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C1206"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
+<part name="STAB_NEN" library="kbmxco" deviceset="STAB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8829,6 +8904,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C2" gate="G$1" x="96.52" y="45.72"/>
 <instance part="P+4" gate="1" x="38.1" y="119.38" smashed="yes">
 <attribute name="VALUE" x="40.64" y="121.92" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="STAB_NEN" gate="STAB" x="30.48" y="73.66" smashed="yes">
+<attribute name="NAME" x="25.4" y="76.2" size="1.27" layer="95"/>
 </instance>
 </instances>
 <busses>
