@@ -176,7 +176,7 @@
 <circle x="88.10625" y="60.325" radius="2.5" width="0.254" layer="20"/>
 <circle x="106.9975" y="61.595" radius="2.5" width="0.254" layer="20"/>
 <circle x="126.20625" y="60.325" radius="2.5" width="0.254" layer="20"/>
-<circle x="69.05625" y="41.275" radius="2.5" width="0.254" layer="20"/>
+<circle x="69.05625" y="40.64" radius="2.5" width="0.254" layer="20"/>
 <circle x="87.47125" y="41.91" radius="2.5" width="0.254" layer="20"/>
 <circle x="127.15875" y="41.275" radius="2.5" width="0.254" layer="20"/>
 <circle x="106.52125" y="41.5925" radius="2.5" width="0.254" layer="20"/>
@@ -3684,7 +3684,7 @@ design rules under a new name.</description>
 <via x="50.00625" y="41.275" extent="1-16" drill="1" diameter="2"/>
 </signal>
 <signal name="N$439">
-<via x="69.05625" y="41.275" extent="1-16" drill="1" diameter="2"/>
+<via x="69.05625" y="40.64" extent="1-16" drill="1" diameter="2"/>
 </signal>
 <signal name="N$440">
 <via x="87.47125" y="41.91" extent="1-16" drill="1" diameter="2"/>
