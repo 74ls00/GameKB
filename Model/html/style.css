@@ -110,6 +110,17 @@ background-color:#000;
 margin:2px;/*внешний отступ*/
 float:left;
 }
+
+.key1x625 {
+width:250px;
+height:40px;
+color:#fff;
+font-size:0.9em;
+background-color:#000;
+margin:2px;/*внешний отступ*/
+float:left;
+}
+
 /*end keys size*/
 .key1x1 div , .key1x15 div
 {
