@@ -7306,8 +7306,8 @@ wave soldering</description>
 </class>
 </classes>
 <parts>
-<part name="S1" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="Scroll Lock"/>
-<part name="S2" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="ESC"/>
+<part name="S1" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="ESC"/>
+<part name="S2" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="Scroll Lock"/>
 <part name="S3" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="Ins"/>
 <part name="S4" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="Pause"/>
 <part name="S5" library="cherrymx" deviceset="CHERRY-MX-4P" device="" value="Home"/>
