@@ -1,4 +1,4 @@
-[Форум проекта](http://forum.geekboards.ru/index.php?topic=13140)
+[Форум проекта](https://forum.geekboards.ru/viewtopic.php?t=13140)
 
 ------------------------------------------------------------------------------------
 
