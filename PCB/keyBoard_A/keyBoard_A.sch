@@ -7574,7 +7574,7 @@ wave soldering</description>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R1206W" value="10k"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206W" value="10k"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206W" value="0"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R1206W" value="10k"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R1206W" value="10k"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>

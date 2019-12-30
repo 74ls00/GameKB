@@ -9,7 +9,7 @@ https://github.com/74ls00/GameKB_fw
 
 Полная версия клавиатуры.
   
-![](https://raw.githubusercontent.com/74ls00/GameKB_fw/master/EasyAVR/eavrkfk.png)
+![](https://raw.githubusercontent.com/74ls00/GameKB_fw/master/eavrkfk.png)
 
 ------------------------------------------------------------------------------------
 
