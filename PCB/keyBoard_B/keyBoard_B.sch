@@ -9691,7 +9691,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="91.44" y1="205.74" x2="88.9" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$393" class="0">
+<net name="G6C" class="0">
 <segment>
 <pinref part="JA67" gate="1" pin="2"/>
 <wire x1="200.66" y1="71.12" x2="203.2" y2="71.12" width="0.1524" layer="91"/>
@@ -9723,7 +9723,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="203.2" y="81.28"/>
 </segment>
 </net>
-<net name="N$394" class="0">
+<net name="G6B" class="0">
 <segment>
 <pinref part="J84" gate="G$1" pin="P$1"/>
 <pinref part="J85" gate="G$1" pin="P$2"/>
