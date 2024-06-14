@@ -1,5 +1,8 @@
 body{ background-color:#fff; margin:30px 0 0 30px ;}
 *{margin:0px;padding:0px;}
+
+// div{font-family:Arial;}
+
 #keyboard{
 //border:1px solid #00CEFF;
 width:1170px;
@@ -10,9 +13,9 @@ height: 460px;
 #keyboard table{padding:35px;border:none;} /*рамка по блокам*/
 #umov{height:80px;} /*совмещение с высотой нумпада*/
 #lrsize{width:55px;}/*разделитель клавиатур*/
-#lkb {-moz-transform: rotate(15deg); /* Firefox */  }
-#rkb {-moz-transform: rotate(-15deg); /* Firefox */ }
-.lrkb{width:400px;}
+//#lkb {-moz-transform: rotate(15deg); /* Firefox */  }
+//#rkb {-moz-transform: rotate(-15deg); /* Firefox */ }
+//.lrkb{width:400px;}
 
 
 //#numkey {padding-left: 12px;}
@@ -20,8 +23,8 @@ height: 460px;
 
 .block{
 float:left;
-margin-left:1px;
-//background-color:#E2802A;
+// margin-left:1px;
+background-color:#E2802A;
 
 
 
@@ -44,6 +47,14 @@ float:left;
 .nc5{width:5px;}/*lshift- (1=45)*/
 .nc6{width:45px;}/*spice-*/
 .clear{clear:both;}
+/*32 0 26 16 6*/
+.nc1a{width:41px;}
+.nc2a{width:9px;}
+.nc3a{width:35px;}
+.nc4a{width:25px;}
+.nc5a{width:15px;}
+/*41 9 35 25 15*/
+
 
 
 /*keys size*/
@@ -135,6 +146,7 @@ text-align:center;
 .con{color:#12FEFE;}
 .koff{background:#FF5565;}
 
+.fspace {margin-left:-33px;}
 
 
 
