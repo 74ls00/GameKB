@@ -1,5 +1,8 @@
 body{ background-color:#fff; margin:30px 0 0 30px ;}
 *{margin:0px;padding:0px;}
+
+// div{font-family:Arial;}
+
 #keyboard{
 //border:1px solid #00CEFF;
 width:1170px;
@@ -44,6 +47,14 @@ float:left;
 .nc5{width:5px;}/*lshift- (1=45)*/
 .nc6{width:45px;}/*spice-*/
 .clear{clear:both;}
+
+.nc1a{width:32px;}
+.nc2a{width:0px;}
+.nc3a{width:26px;}
+.nc4a{width:16px;}
+.nc5a{width:6px;}
+
+
 
 
 /*keys size*/
@@ -135,6 +146,7 @@ text-align:center;
 .con{color:#12FEFE;}
 .koff{background:#FF5565;}
 
+.fspace {margin-left:-45px;}
 
 
 

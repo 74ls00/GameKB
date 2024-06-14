@@ -2539,10 +2539,10 @@ design rules under a new name.</description>
 </element>
 <element name="D47" library="detali" package="SOD80C" value="LL4148" x="22.86" y="37.465" smashed="yes">
 <attribute name="NAME" x="24.7015" y="34.798" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="25.654" y="35.052" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="25.654" y="33.782" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="D48" library="detali" package="SOD80C" value="LL4148" x="17.4625" y="36.98875" smashed="yes">
-<attribute name="NAME" x="18.9865" y="34.32175" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="14.5415" y="36.86175" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="20.2565" y="34.57575" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="J42" library="detali_main" package="R1206W" value="J" x="12.3825" y="88.5825" rot="R180"/>
@@ -4748,7 +4748,7 @@ design rules under a new name.</description>
 <wire x1="49.53" y1="80.3275" x2="49.53" y2="87.9475" width="0.6096" layer="16"/>
 <wire x1="49.53" y1="87.9475" x2="48.26" y2="89.2175" width="0.6096" layer="16"/>
 </signal>
-<signal name="N$150">
+<signal name="L2J1">
 <contactref element="J42" pad="1"/>
 <contactref element="J44" pad="2"/>
 <wire x1="10.795" y1="86.589" x2="10.795" y2="85.4075" width="0.6096" layer="16"/>
@@ -4791,7 +4791,7 @@ design rules under a new name.</description>
 <wire x1="12.54125" y1="61.2775" x2="12.54125" y2="56.67375" width="0.6096" layer="16"/>
 <wire x1="12.54125" y1="56.67375" x2="11.43" y2="55.5625" width="0.6096" layer="16"/>
 </signal>
-<signal name="N$194">
+<signal name="L2J3">
 <contactref element="J44" pad="1"/>
 <contactref element="1D2" pad="1"/>
 <contactref element="R4" pad="2"/>
@@ -4928,7 +4928,7 @@ design rules under a new name.</description>
 <wire x1="31.4325" y1="89.2175" x2="30.48" y2="86.995" width="0.6096" layer="16"/>
 <wire x1="32.258" y1="89.2175" x2="31.4325" y2="89.2175" width="0.6096" layer="16"/>
 </signal>
-<signal name="N$223">
+<signal name="L3J1">
 <contactref element="J47" pad="1"/>
 <contactref element="J48" pad="2"/>
 <wire x1="52.07" y1="117.1575" x2="61.9125" y2="117.1575" width="0.6096" layer="16"/>

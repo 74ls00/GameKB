@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9970,7 +9970,7 @@ wave soldering</description>
 <wire x1="314.96" y1="223.52" x2="317.5" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$150" class="0">
+<net name="L2J1" class="0">
 <segment>
 <pinref part="J42" gate="G$1" pin="P$1"/>
 <pinref part="J44" gate="G$1" pin="P$2"/>
@@ -9986,7 +9986,7 @@ wave soldering</description>
 <label x="264.16" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$194" class="0">
+<net name="L2J3" class="0">
 <segment>
 <pinref part="J44" gate="G$1" pin="P$1"/>
 <pinref part="1D2" gate="A" pin="I"/>
@@ -9996,6 +9996,7 @@ wave soldering</description>
 <wire x1="269.24" y1="203.2" x2="271.78" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="203.2" x2="271.78" y2="198.12" width="0.1524" layer="91"/>
 <junction x="271.78" y="198.12"/>
+<label x="269.24" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$195" class="0">
@@ -10144,7 +10145,7 @@ wave soldering</description>
 <label x="55.88" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$223" class="0">
+<net name="L3J1" class="0">
 <segment>
 <pinref part="J47" gate="G$1" pin="P$1"/>
 <pinref part="J48" gate="G$1" pin="P$2"/>
