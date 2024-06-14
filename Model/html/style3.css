@@ -14,8 +14,10 @@ height: 460px;
 #umov{height:80px;} /*совмещение с высотой нумпада*/
 #lrsize{width:55px;}/*разделитель клавиатур*/
 //#lkb {-moz-transform: rotate(15deg); /* Firefox */  }
-//#rkb {-moz-transform: rotate(-15deg); /* Firefox */ }
-//.lrkb{width:400px;}
+//#rkb {padding:-100px; }
+/* -moz-transform: rotate(-15deg);  Firefox */ 
+
+.lrkb{width:409px;}
 
 
 //#numkey {padding-left: 12px;}
@@ -52,7 +54,7 @@ float:left;
 .nc2a{width:9px;}
 .nc3a{width:35px;}
 .nc4a{width:25px;}
-.nc5a{width:15px;}
+.nc5a{width:17px;}
 /*41 9 35 25 15*/
 
 
@@ -146,7 +148,7 @@ text-align:center;
 .con{color:#12FEFE;}
 .koff{background:#FF5565;}
 
-.fspace {margin-left:-33px;}
+.fspace {margin-left:-30px;}
 
 
 
